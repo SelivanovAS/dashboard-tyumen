@@ -1,8 +1,7 @@
 # Тюмень: завершение подключения
 
-Снимок подготовки на 19.09.2026, перед первой публикацией кода. Публичный
-репозиторий создан, Worker опубликован. Код ещё не отправлен в репозиторий,
-Pages не включены. VPS, LLM и Telegram-доставка не подключены; SSH-доступ
+Состояние на 19.09.2026. Код опубликован в публичном репозитории, Worker
+и GitHub Pages доступны. VPS, LLM и Telegram-доставка не подключены; SSH-доступ
 к исполнителю пока не получен. Полный запуск мониторинга не завершён.
 
 ## Изолированные ресурсы
@@ -11,7 +10,7 @@ Pages не включены. VPS, LLM и Telegram-доставка не подк
 |---|---|
 | GitHub | `SelivanovAS/dashboard-tyumen`, публичный репозиторий создан |
 | Python / browser | `REGION=tyumen`, `STORAGE_NS=tyumen` |
-| Pages | `https://selivanovas.github.io/dashboard-tyumen/sberbank_dashboard.html`, ещё не включены |
+| Pages | `https://selivanovas.github.io/dashboard-tyumen/sberbank_dashboard.html`, опубликованы из `main` |
 | Worker | `court-monitor-tyumen`, опубликованная версия `4e959f8a-9fee-4246-a63e-05b83138750f` |
 | Основной API | `https://api-tyumen.delosud.ru` |
 | Резервный API | `https://court-monitor-tyumen.7selivanov-a.workers.dev` |
@@ -33,9 +32,10 @@ Pages не включены. VPS, LLM и Telegram-доставка не подк
 
 1. Добавить отсутствующий Secret Worker `GITHUB_PAT`.
    PAT должен давать Actions-доступ именно к репозиторию Тюмени.
-2. Опубликовать подготовленный код в `main`, включить GitHub Pages
-   и проверить выдачу файлов новой территории.
-3. После публикации Pages проверить связь сайта с собственным Worker,
+2. Сайт опубликован: HTML, `region_front.js` и `data/cases.json` возвращают 200;
+   в JSON `region.code=tyumen`, дел 0. Браузер показывает Тюменскую область
+   и ожидание первого наполнения, ошибок консоли нет.
+3. После подключения VPS проверить связь сайта с собственным Worker,
    синхронизацию и доступ к операторской на действующих данных территории.
 4. Сохранить опубликованный режим очистки профилей: `PROFILE_CLEANUP_ENABLED="1"`
    и `crons=["17 21 * * *"]`. `CRON_UTC` оставить пустым: парсер будет запускать VPS.
@@ -98,5 +98,5 @@ Match host ssh.github.com exec "test $(pwd) = /opt/court-monitor/dashboard-tyume
 
 Уже выполнены локальные проверки: **3009 passed, 10 skipped** (нет первого
 `digest_context`) и проверка пустой картотеки на широком и мобильном экранах
-без ошибок интерфейса. Эти результаты не подтверждают работу VPS, Pages,
+без ошибок интерфейса. Эти результаты не подтверждают работу VPS,
 чтение карточек судов или доставку уведомлений.
