@@ -15,6 +15,7 @@
 | Основной API | `https://api-tyumen.delosud.ru` |
 | Резервный API | `https://court-monitor-tyumen.7selivanov-a.workers.dev` |
 | VPS-клон | Планируемый путь `/opt/court-monitor/dashboard-tyumen`, подключение не выполнено |
+| VPS | Рег.облако (REG.RU), `Chocolate Neptunium`, ID `7910989`, IP `195.19.66.234`; подтверждено в кабинете 19.09.2026 |
 | KV | Отдельный namespace `bfde7e3ca15247adbcc8d778881a8ad7`, binding `PUSH_SUBSCRIPTIONS` |
 
 Новая VAPID-пара создана: публичный ключ установлен в `wrangler.toml` и
