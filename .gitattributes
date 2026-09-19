@@ -1,4 +1,4 @@
-# Требуется git config merge.ours.driver true (уже настроено локально).
+# В каждой рабочей копии требуется git config merge.ours.driver true.
 REGION merge=ours
 region_front.js merge=ours
 manifest.json merge=ours
@@ -11,3 +11,5 @@ ops/writ_probe/** merge=ours
 # Новые data/ops-файлы при merge требуют отдельного аудита содержимого.
 README.md merge=ours
 ops/initial_import/** merge=ours
+docs/regions/Тюмень_оператор.md merge=ours
+ops/vps-run/tyumen-* merge=ours
