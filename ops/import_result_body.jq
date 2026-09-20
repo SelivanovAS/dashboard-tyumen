@@ -62,6 +62,7 @@
   # имя суда), и дела до реформы ГПК из той же выдачи (в added не входят).
   section: (.section // ""),
   cassation_kind: (.cassation_kind // ""),
+  delo_id: (.delo_id // ""),
   skipped_old: (.skipped_old // 0),
   skipped_region: (.skipped_region // 0),
   needs_review: (.needs_review // 0),
