@@ -16,21 +16,23 @@ from court_monitor.regions import get_region
 REGION = get_region("tyumen")
 REGISTRY_PATH = Path(__file__).resolve().parents[2] / "docs/regions/tyumen_courts.json"
 REGISTRY = json.loads(REGISTRY_PATH.read_text(encoding="utf-8"))
-LOCAL_COURTS = (*REGION.first_instance_courts, *REGION.appeal_courts)
-ALL_COURTS = (*LOCAL_COURTS, REGION.cassation_court)
+SOURCE_COURTS = (*REGION.first_instance_courts, *REGION.appeal_courts, REGION.cassation_court)
+LOCAL_SECTIONS = (*REGION.first_instance_courts, *REGION.appeal_courts, *REGION.presidium_courts)
+ALL_SECTIONS = (*LOCAL_SECTIONS, REGION.cassation_court)
 
 
 def test_registry_preserves_all_source_records_and_original_urls():
     assert len(REGION.first_instance_courts) == 24
     assert len(REGION.appeal_courts) == 1
-    assert len(ALL_COURTS) == 26
-    assert len({court.domain for court in ALL_COURTS}) == 26
-    assert REGION.presidium_courts == ()
+    assert len(SOURCE_COURTS) == 26
+    assert len({court.domain for court in ALL_SECTIONS}) == 26
+    assert len(ALL_SECTIONS) == 27
+    assert len(REGION.presidium_courts) == 1
     assert REGISTRY["source"]["sha256"] == (
         "cac98f29721b2c9baf446aad186a8a8b16a923b8df6afa01f0f6742f116475de"
     )
     assert [record["source_row"] for record in REGISTRY["records"]] == list(range(1, 27))
-    for record, court in zip(REGISTRY["records"], ALL_COURTS):
+    for record, court in zip(REGISTRY["records"], SOURCE_COURTS):
         assert record["source_url"] == record["source_hyperlink"]
         assert record["runtime_domain"] == court.domain
         assert record["runtime_name"] == court.name
@@ -39,14 +41,15 @@ def test_registry_preserves_all_source_records_and_original_urls():
         assert source_host == record["source_domain"]
         assert court.domain == record["canonical_domain"] == canon_sudrf_domain(source_host)
         assert urlsplit(court.base_url).hostname == court.domain
-    assert all(court.domain.endswith("--tum.sudrf.ru") for court in LOCAL_COURTS)
+    assert all(court.domain.endswith("--tum.sudrf.ru") for court in LOCAL_SECTIONS)
     assert all(record["source_domain"].endswith(".tum.sudrf.ru") for record in REGISTRY["records"][:25])
 
 
 def test_gated_local_search_keeps_cards_enabled_and_cassation_open():
     assert courts_for_search(list(REGION.first_instance_courts)) == []
-    assert all(court.enabled for court in LOCAL_COURTS)
-    assert all(court.search_gated and court.search_disabled for court in LOCAL_COURTS)
+    assert all(court.enabled for court in LOCAL_SECTIONS)
+    assert all(court.search_gated and court.search_disabled for court in LOCAL_SECTIONS)
+    assert courts_for_search(list(REGION.presidium_courts)) == []
     assert REGION.cassation_court.enabled
     assert not REGION.cassation_court.search_gated
     assert not REGION.cassation_court.search_disabled
@@ -110,7 +113,14 @@ def test_public_region_supports_operator_imports_with_tyumen_time():
     assert info["code"] == "tyumen"
     assert info["manual_import_all_courts"]
     assert info["timezone"] == "Asia/Yekaterinburg"
-    sources = [*info["fi_courts"], *info["appeal_courts"], info["cassation"]]
-    assert len(sources) == 26
+    sources = [*info["fi_courts"], *info["appeal_courts"], *info["presidium_courts"], info["cassation"]]
+    assert len(sources) == 27
     assert all(source["timezone"] == "Asia/Yekaterinburg" for source in sources)
-    assert info["presidium_courts"] == []
+    presidium, = info["presidium_courts"]
+    appeal, = info["appeal_courts"]
+    assert presidium["name"] == "Президиум Тюменского областного суда"
+    assert presidium["domain"] == appeal["domain"] == "oblsud--tum.sudrf.ru"
+    assert presidium["delo_id"] == presidium["new"] == 2800001
+    assert appeal["delo_id"] == appeal["new"] == 5
+    assert presidium["cassation_kind"] == "presidium"
+    assert presidium["search_gated"] and presidium["search_disabled"]

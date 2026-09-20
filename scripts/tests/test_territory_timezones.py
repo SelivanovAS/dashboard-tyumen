@@ -189,7 +189,8 @@ def test_bashkortostan_manual_history_offers_all_courts_but_only_ksou_is_due(tmp
     html = json.loads(rendered.stdout)
     script = next(s for s in re.findall(r'<script>([\s\S]*?)</script>', html) if 'function loadImportCourts' in s)
     bundle = '\n'.join(fn(script, n) for n in ['loadImportCourts','impCourtKey','impCourtLabel',
-        'impDomainOf','impCourtLink','syncImportCourtLink','renderImportFreshness'])
+        'impDomainOf','impCourtLink','syncImportCourtLink','renderImportFreshness',
+        'impRecordDeloId','impSectionKey','canonSudrfHost'])
     region = get_region('bashkortostan').public_info()
     result = node('''
 const elements=new Map(),tiles={};let freshRows=[];
@@ -228,8 +229,11 @@ console.log(JSON.stringify({count:impCourts.length,options:(sel.innerHTML.match(
 
 def test_worker_preserves_cassation_review_counters_and_kind():
     src = (ROOT / 'cloudflare-worker/worker.js').read_text()
-    result = node('\n'.join(fn(src, name) for name in (
-        'importQueuePending', 'importLogWriteOptions', 'listImportLogKeys', 'handleImportResult'
+    section_ids = re.search(r'const IMPORT_SECTION_DELO_IDS\s*=\s*\{[^}]+\};', src)
+    assert section_ids, 'Не найдены идентификаторы разделов настоящего Worker'
+    result = node(section_ids.group(0) + '\n' + '\n'.join(fn(src, name) for name in (
+        'importQueuePending', 'importLogWriteOptions', 'listImportLogKeys', 'handleImportResult',
+        'importSectionIdentity', 'detectDumpCardDeloIds', 'canonSudrfHost'
     )) + '''
 const IMPORT_LOG_TTL=100;
 const importChannelAuthOk=()=>true;
@@ -240,7 +244,7 @@ const env={PUSH_SUBSCRIPTIONS:{list:async()=>({keys:[{name:key}]}),get:async k=>
 (async()=>{
 const response=await handleImportResult(new Request('https://test.invalid/import-result',{method:'POST',body:JSON.stringify({dump_key:'import:dump:'+uuid,status:'done',section:'cassation',cassation_kind:'court',needs_review:2,skipped_region:3,fetch_fail:1})}),env);
 const stored=JSON.parse(data.get(key));
-console.log(JSON.stringify({status:response.status,kind:stored.cassation_kind,review:stored.needs_review,other:stored.skipped_region,section:stored.section,fresh:data.has('import:last:6kas.sudrf.ru')}));
+console.log(JSON.stringify({status:response.status,kind:stored.cassation_kind,review:stored.needs_review,other:stored.skipped_region,section:stored.section,fresh:[...data.keys()].some(k=>k.startsWith('import:last:'))}));
 })().catch(e=>{console.error(e);process.exit(1)});
 ''')
     assert result == {'status':200,'kind':'court','review':2,'other':3,'section':'cassation','fresh':False}
