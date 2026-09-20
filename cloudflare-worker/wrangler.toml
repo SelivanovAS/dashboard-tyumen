@@ -19,8 +19,8 @@ CRON_UTC = ""
 # Сроки 7/30 дней без использования + 7 дней восстановления.
 PROFILE_CLEANUP_ENABLED = "1"
 IMPORT_EXECUTOR = "vps"
-# Выключено до настройки и проверки отдельного шлюза Тюмени.
-IMPORT_GATEWAY_ORIGIN = ""
+# VPS принимает большой файл, Worker скачивает его по отдельному временному токену.
+IMPORT_GATEWAY_ORIGIN = "https://api2-tyumen.delosud.ru"
 IMPORT_SLOTS_LOCAL = "12:00,14:00,16:00,18:00,20:00"
 VISITS_ENABLED = "1"
 CAL_TZID = "Asia/Yekaterinburg"
