@@ -1,6 +1,5 @@
 {
   "version": 1,
-  "updated_at": "2026-09-20T22:41:28+05:00",
   "track": "plaintiff_light",
   "archived_count": 0,
   "cases": [
@@ -33,7 +32,11 @@
         "last_checked_at": "2026-09-20",
         "intake_card_parse": true,
         "resolved_emitted": true,
-        "decision_date": "24.08.2026"
+        "decision_date": "24.08.2026",
+        "legal_force_est": "2026-10-08",
+        "writ_awaited_since": "2026-10-08",
+        "default_judgment": true,
+        "motivirovka_date": "24.08.2026"
       },
       "appeal": null,
       "track": "plaintiff_light",
@@ -176,8 +179,8 @@
         "court_domain": "isetsky--tum.sudrf.ru",
         "judge": "Красовский Сергей Владимирович",
         "filing_date": "02.04.2026",
-        "status": "Решено",
-        "result": "Иск (заявление, жалоба) УДОВЛЕТВОРЕН",
+        "status": "В производстве",
+        "result": "",
         "last_event": "Дело сдано в отдел судебного делопроизводства после рассмотрения ходатайства/заявления/вопроса. 16:41. 02.07.2026",
         "event_date": "02.07.2026",
         "hearing_date": "01.06.2026",
@@ -188,10 +191,22 @@
         "judicial_uid": "72RS0009-01-2026-000193-22",
         "delo_id": 1540005,
         "srv_num": 1,
-        "last_checked_at": "2026-09-20",
-        "intake_card_parse": true,
-        "resolved_emitted": true,
-        "decision_date": "01.06.2026"
+        "last_checked_at": "2026-09-21",
+        "resolved_emitted": false,
+        "decision_date_vacated": "01.06.2026",
+        "default_copy_served_emitted": "18.06.2026",
+        "default_cancel_filed_emitted": "24.06.2026",
+        "default_cancel_hearing_emitted": "01.07.2026",
+        "default_cancel_outcome_emitted": "cancelled",
+        "default_judgment": true,
+        "motivirovka_date": "05.06.2026",
+        "default_copy_served_date": "18.06.2026",
+        "default_cancellation": {
+          "filed_date": "24.06.2026",
+          "hearing_date": "01.07.2026",
+          "outcome": "cancelled",
+          "outcome_date": "01.07.2026"
+        }
       },
       "appeal": null,
       "track": "plaintiff_light",
@@ -217,8 +232,8 @@
         "court_domain": "isetsky--tum.sudrf.ru",
         "judge": "Красовский Сергей Владимирович",
         "filing_date": "02.04.2026",
-        "status": "Решено",
-        "result": "Иск (заявление, жалоба) УДОВЛЕТВОРЕН",
+        "status": "В производстве",
+        "result": "",
         "last_event": "Дело сдано в отдел судебного делопроизводства после рассмотрения ходатайства/заявления/вопроса. 10:06. 15.07.2026",
         "event_date": "15.07.2026",
         "hearing_date": "01.06.2026",
@@ -229,10 +244,22 @@
         "judicial_uid": "72RS0009-01-2026-000189-34",
         "delo_id": 1540005,
         "srv_num": 1,
-        "last_checked_at": "2026-09-20",
-        "intake_card_parse": true,
-        "resolved_emitted": true,
-        "decision_date": "01.06.2026"
+        "last_checked_at": "2026-09-21",
+        "resolved_emitted": false,
+        "decision_date_vacated": "01.06.2026",
+        "default_copy_served_emitted": "27.06.2026",
+        "default_cancel_filed_emitted": "01.07.2026",
+        "default_cancel_hearing_emitted": "14.07.2026",
+        "default_cancel_outcome_emitted": "cancelled",
+        "default_judgment": true,
+        "motivirovka_date": "05.06.2026",
+        "default_copy_served_date": "27.06.2026",
+        "default_cancellation": {
+          "filed_date": "01.07.2026",
+          "hearing_date": "14.07.2026",
+          "outcome": "cancelled",
+          "outcome_date": "14.07.2026"
+        }
       },
       "appeal": null,
       "track": "plaintiff_light",
@@ -244,5 +271,6 @@
         "announced": true
       }
     }
-  ]
+  ],
+  "updated_at": "2026-09-21T06:14:55+05:00"
 }
