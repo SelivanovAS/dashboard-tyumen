@@ -45,11 +45,13 @@ def test_registry_preserves_all_source_records_and_original_urls():
     assert all(record["source_domain"].endswith(".tum.sudrf.ru") for record in REGISTRY["records"][:25])
 
 
-def test_gated_local_search_keeps_cards_enabled_and_cassation_open():
+def test_district_search_stays_gated_but_oblast_sections_search_automatically():
     assert courts_for_search(list(REGION.first_instance_courts)) == []
     assert all(court.enabled for court in LOCAL_SECTIONS)
-    assert all(court.search_gated and court.search_disabled for court in LOCAL_SECTIONS)
-    assert courts_for_search(list(REGION.presidium_courts)) == []
+    assert all(court.search_gated and court.search_disabled for court in REGION.first_instance_courts)
+    for sources in (REGION.appeal_courts, REGION.presidium_courts):
+        assert all(not court.search_gated and not court.search_disabled for court in sources)
+        assert courts_for_search(list(sources)) == list(sources)
     assert REGION.cassation_court.enabled
     assert not REGION.cassation_court.search_gated
     assert not REGION.cassation_court.search_disabled
@@ -123,4 +125,5 @@ def test_public_region_supports_operator_imports_with_tyumen_time():
     assert presidium["delo_id"] == presidium["new"] == 2800001
     assert appeal["delo_id"] == appeal["new"] == 5
     assert presidium["cassation_kind"] == "presidium"
-    assert presidium["search_gated"] and presidium["search_disabled"]
+    assert not presidium["search_gated"] and not presidium["search_disabled"]
+    assert not appeal["search_gated"] and not appeal["search_disabled"]
