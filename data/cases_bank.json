@@ -2,7 +2,6 @@
   "version": 1,
   "track": "plaintiff_light",
   "archived_count": 0,
-  "updated_at": "2026-09-21T18:02:19+05:00",
   "cases": [
     {
       "id": "2-280/2026",
@@ -33,7 +32,11 @@
         "last_checked_at": "2026-09-21",
         "intake_card_parse": true,
         "resolved_emitted": true,
-        "decision_date": "28.08.2026"
+        "decision_date": "28.08.2026",
+        "legal_force_est": "2026-10-22",
+        "writ_awaited_since": "2026-10-22",
+        "default_judgment": true,
+        "motivirovka_date": "07.09.2026"
       },
       "appeal": null,
       "track": "plaintiff_light",
@@ -71,8 +74,7 @@
         "judicial_uid": "72RS0012-01-2024-000235-93",
         "delo_id": 1540005,
         "srv_num": 1,
-        "last_checked_at": "2026-09-21",
-        "intake_card_parse": true
+        "last_checked_at": "2026-09-22"
       },
       "appeal": null,
       "track": "plaintiff_light",
@@ -80,128 +82,6 @@
       "import": {
         "operator": "Виктор",
         "at": "2026-09-21T18:01:40",
-        "source": "dump",
-        "announced": true
-      }
-    },
-    {
-      "id": "2-94/2025",
-      "current_stage": "first_instance",
-      "plaintiff": "ПАО Сбербанк в лице филиала Уральский банк ПАО Сбербанк",
-      "defendant": "Администрация Аромашевского муниципального района Тюменской области, Администрация Новопетровского сельского поселения, Максимов Константин Сергеевич, Российская Федерация в лице МТУ Росимущества в Тюменской области, ХМАО-Югре, ЯНАО",
-      "category": "Споры, связанные с имущественными правами → Иски о взыскании сумм по договору займа, кредитному договору",
-      "bank_role": "Истец",
-      "notes": "",
-      "first_instance": {
-        "case_number": "2-94/2025",
-        "court": "Голышмановский районный суд",
-        "court_domain": "golyshmanovsky--tum.sudrf.ru",
-        "judge": "Шааф Анна Николаевна",
-        "filing_date": "22.01.2025",
-        "status": "Решено",
-        "result": "Иск (заявление, жалоба) УДОВЛЕТВОРЕН ЧАСТИЧНО",
-        "last_event": "Дело передано в архив. 14:43. 30.08.2025",
-        "event_date": "18.08.2025",
-        "hearing_date": "28.02.2025",
-        "hearing_time": "09:00",
-        "link": "217286527|e347785e-dede-427e-8994-d0fa85d5e7bc",
-        "act_published": true,
-        "act_date": "",
-        "judicial_uid": "86RS0007-01-2024-003716-41",
-        "delo_id": 1540005,
-        "srv_num": 1,
-        "last_checked_at": "2026-09-21",
-        "intake_card_parse": true,
-        "resolved_emitted": true,
-        "decision_date": "28.02.2025",
-        "appeal_filed": true,
-        "appeal_filed_date": "09.04.2025",
-        "sent_to_appeal": true,
-        "sent_to_appeal_date": "30.04.2025",
-        "cassation_filed": true,
-        "cassation_filed_date": "10.10.2025",
-        "sent_to_cassation": true,
-        "sent_to_cassation_date": "13.10.2025",
-        "appeal_events": [
-          {
-            "date": "30.06.2025",
-            "text": "Назначено в вышестоящий суд на дату"
-          },
-          {
-            "date": "30.06.2025",
-            "text": "Дата рассмотрения жалобы"
-          },
-          {
-            "date": "09.04.2025",
-            "text": "Регистрация жалобы (представления) в суде",
-            "name": "Регистрация жалобы (представления) в суде",
-            "posted_at": "10.04.2025"
-          },
-          {
-            "date": "09.04.2025",
-            "text": "Решение вопроса о принятии жалобы (представления) к рассмотрению",
-            "name": "Решение вопроса о принятии жалобы (представления) к рассмотрению",
-            "result_event": "Жалоба (предст.) ПРИНЯТА К РАССМОТРЕНИЮ",
-            "posted_at": "16.08.2025"
-          },
-          {
-            "date": "09.04.2025",
-            "text": "Установлен срок для предоставления возражений · Срок до 24.04.2025",
-            "name": "Установлен срок для предоставления возражений",
-            "note": "Срок до 24.04.2025",
-            "posted_at": "16.08.2025"
-          },
-          {
-            "date": "30.04.2025",
-            "text": "Направлено в вышестоящую инстанцию",
-            "name": "Направлено в вышестоящую инстанцию",
-            "posted_at": "16.08.2025"
-          },
-          {
-            "date": "18.08.2025",
-            "text": "Возвращено из вышестоящей инстанции",
-            "name": "Возвращено из вышестоящей инстанции",
-            "posted_at": "16.08.2025"
-          }
-        ],
-        "cassation_events": [
-          {
-            "date": "26.11.2025",
-            "text": "Назначено в вышестоящий суд на дату"
-          },
-          {
-            "date": "26.11.2025",
-            "text": "Дата рассмотрения жалобы"
-          },
-          {
-            "date": "10.10.2025",
-            "text": "Регистрация жалобы (представления) в суде",
-            "name": "Регистрация жалобы (представления) в суде",
-            "posted_at": "10.10.2025"
-          },
-          {
-            "date": "13.10.2025",
-            "text": "Направлено в вышестоящую инстанцию",
-            "name": "Направлено в вышестоящую инстанцию",
-            "posted_at": "26.12.2025"
-          },
-          {
-            "date": "25.12.2025",
-            "text": "Возвращено из вышестоящей инстанции",
-            "name": "Возвращено из вышестоящей инстанции",
-            "posted_at": "26.12.2025"
-          }
-        ],
-        "appeal_appellant": "Ответчик",
-        "appeal_appellant_is_bank": false,
-        "appeal_appellant_status": "Ответчик"
-      },
-      "appeal": null,
-      "track": "plaintiff_light",
-      "initial_bank_role": "Истец",
-      "import": {
-        "operator": "Виктор",
-        "at": "2026-09-21T18:00:37",
         "source": "dump",
         "announced": true
       }
@@ -274,7 +154,10 @@
         "last_checked_at": "2026-09-21",
         "intake_card_parse": true,
         "resolved_emitted": true,
-        "decision_date": "07.09.2026"
+        "decision_date": "07.09.2026",
+        "legal_force_est": "2026-10-22",
+        "writ_awaited_since": "2026-10-22",
+        "default_judgment": true
       },
       "appeal": null,
       "track": "plaintiff_light",
@@ -315,7 +198,13 @@
         "last_checked_at": "2026-09-21",
         "intake_card_parse": true,
         "resolved_emitted": true,
-        "decision_date": "17.02.2026"
+        "decision_date": "17.02.2026",
+        "legal_force_emitted": "2026-04-04",
+        "writ_overdue_emitted": "2026-04-04|150",
+        "court_archived_at": "12.05.2026",
+        "legal_force_est": "2026-04-04",
+        "writ_awaited_since": "2026-04-04",
+        "motivirovka_date": "03.03.2026"
       },
       "appeal": null,
       "track": "plaintiff_light",
@@ -356,7 +245,13 @@
         "last_checked_at": "2026-09-21",
         "intake_card_parse": true,
         "resolved_emitted": true,
-        "decision_date": "25.03.2026"
+        "decision_date": "25.03.2026",
+        "legal_force_emitted": "2026-05-01",
+        "writ_overdue_emitted": "2026-05-01|120",
+        "court_archived_at": "04.06.2026",
+        "legal_force_est": "2026-05-01",
+        "writ_awaited_since": "2026-05-01",
+        "motivirovka_date": "31.03.2026"
       },
       "appeal": null,
       "track": "plaintiff_light",
@@ -514,7 +409,11 @@
         "last_checked_at": "2026-09-21",
         "intake_card_parse": true,
         "resolved_emitted": true,
-        "decision_date": "03.09.2026"
+        "decision_date": "03.09.2026",
+        "legal_force_est": "2026-10-22",
+        "writ_awaited_since": "2026-10-22",
+        "default_judgment": true,
+        "motivirovka_date": "07.09.2026"
       },
       "appeal": null,
       "track": "plaintiff_light",
@@ -555,7 +454,13 @@
         "last_checked_at": "2026-09-21",
         "intake_card_parse": true,
         "resolved_emitted": true,
-        "decision_date": "03.08.2026"
+        "decision_date": "03.08.2026",
+        "default_copy_served_emitted": "03.09.2026",
+        "legal_force_est": "2026-10-15",
+        "writ_awaited_since": "2026-10-15",
+        "default_judgment": true,
+        "motivirovka_date": "17.08.2026",
+        "default_copy_served_date": "03.09.2026"
       },
       "appeal": null,
       "track": "plaintiff_light",
@@ -596,7 +501,12 @@
         "last_checked_at": "2026-09-21",
         "intake_card_parse": true,
         "resolved_emitted": true,
-        "decision_date": "30.06.2026"
+        "decision_date": "30.06.2026",
+        "legal_force_emitted": "2026-08-15",
+        "writ_overdue_emitted": "2026-08-15|30",
+        "legal_force_est": "2026-08-15",
+        "writ_awaited_since": "2026-08-15",
+        "motivirovka_date": "14.07.2026"
       },
       "appeal": null,
       "track": "plaintiff_light",
@@ -676,7 +586,9 @@
         "last_checked_at": "2026-09-21",
         "intake_card_parse": true,
         "resolved_emitted": true,
-        "decision_date": "11.08.2026"
+        "decision_date": "11.08.2026",
+        "writ_expected": false,
+        "motivirovka_date": "25.08.2026"
       },
       "appeal": null,
       "track": "plaintiff_light",
@@ -717,7 +629,9 @@
         "last_checked_at": "2026-09-21",
         "intake_card_parse": true,
         "resolved_emitted": true,
-        "decision_date": "12.08.2026"
+        "decision_date": "12.08.2026",
+        "writ_expected": false,
+        "motivirovka_date": "19.08.2026"
       },
       "appeal": null,
       "track": "plaintiff_light",
@@ -914,7 +828,10 @@
         "last_checked_at": "2026-09-21",
         "intake_card_parse": true,
         "resolved_emitted": true,
-        "decision_date": "17.09.2026"
+        "decision_date": "17.09.2026",
+        "legal_force_est": "2026-11-03",
+        "writ_awaited_since": "2026-11-03",
+        "default_judgment": true
       },
       "appeal": null,
       "track": "plaintiff_light",
@@ -994,7 +911,11 @@
         "last_checked_at": "2026-09-21",
         "intake_card_parse": true,
         "resolved_emitted": true,
-        "decision_date": "13.08.2026"
+        "decision_date": "13.08.2026",
+        "legal_force_est": "2026-09-29",
+        "writ_awaited_since": "2026-09-29",
+        "default_judgment": true,
+        "motivirovka_date": "13.08.2026"
       },
       "appeal": null,
       "track": "plaintiff_light",
@@ -1035,7 +956,9 @@
         "last_checked_at": "2026-09-21",
         "intake_card_parse": true,
         "resolved_emitted": true,
-        "decision_date": "01.09.2026"
+        "decision_date": "01.09.2026",
+        "legal_force_est": "2026-10-16",
+        "writ_awaited_since": "2026-10-16"
       },
       "appeal": null,
       "track": "plaintiff_light",
@@ -1076,7 +999,10 @@
         "last_checked_at": "2026-09-21",
         "intake_card_parse": true,
         "resolved_emitted": true,
-        "decision_date": "18.08.2026"
+        "decision_date": "18.08.2026",
+        "legal_force_est": "2026-09-29",
+        "writ_awaited_since": "2026-09-29",
+        "motivirovka_date": "26.08.2026"
       },
       "appeal": null,
       "track": "plaintiff_light",
@@ -1273,7 +1199,10 @@
         "last_checked_at": "2026-09-21",
         "intake_card_parse": true,
         "resolved_emitted": true,
-        "decision_date": "27.08.2026"
+        "decision_date": "27.08.2026",
+        "legal_force_est": "2026-09-29",
+        "writ_awaited_since": "2026-09-29",
+        "motivirovka_date": "27.08.2026"
       },
       "appeal": null,
       "track": "plaintiff_light",
@@ -1311,8 +1240,7 @@
         "judicial_uid": "72RS0006-01-2024-000384-61",
         "delo_id": 1540005,
         "srv_num": 1,
-        "last_checked_at": "2026-09-21",
-        "intake_card_parse": true
+        "last_checked_at": "2026-09-22"
       },
       "appeal": null,
       "track": "plaintiff_light",
@@ -1431,7 +1359,10 @@
         "last_checked_at": "2026-09-21",
         "intake_card_parse": true,
         "resolved_emitted": true,
-        "decision_date": "09.09.2026"
+        "decision_date": "09.09.2026",
+        "legal_force_est": "2026-10-10",
+        "writ_awaited_since": "2026-10-10",
+        "motivirovka_date": "09.09.2026"
       },
       "appeal": null,
       "track": "plaintiff_light",
@@ -1439,109 +1370,6 @@
       "import": {
         "operator": "Виктор",
         "at": "2026-09-21T11:46:16",
-        "source": "dump",
-        "announced": true
-      }
-    },
-    {
-      "id": "2-111/2024",
-      "current_stage": "first_instance",
-      "plaintiff": "ПАО Сбербанк",
-      "defendant": "Ануфриева Светлана Николапевна, Сироткин Роман Сергеевич, Соловьева (Сироткина) Мария Валентиновна",
-      "category": "Споры, связанные с имущественными правами → Иски о взыскании сумм по договору займа, кредитному договору",
-      "bank_role": "Истец",
-      "notes": "",
-      "first_instance": {
-        "case_number": "2-111/2024",
-        "court": "Армизонский районный суд",
-        "court_domain": "armizonsky--tum.sudrf.ru",
-        "judge": "Рахимова Любовь Александровна",
-        "filing_date": "03.06.2024",
-        "status": "Решено",
-        "result": "Иск (заявление, жалоба) УДОВЛЕТВОРЕН",
-        "last_event": "Дело передано в архив. 09:17. 08.04.2025",
-        "event_date": "26.05.2025",
-        "hearing_date": "27.08.2024",
-        "hearing_time": "10:00",
-        "link": "251245293|a32d3cc8-e102-41bd-85e0-d799baf63dff",
-        "act_published": true,
-        "act_date": "",
-        "judicial_uid": "72RS0002-01-2024-000118-04",
-        "delo_id": 1540005,
-        "srv_num": 1,
-        "last_checked_at": "2026-09-21",
-        "intake_card_parse": true,
-        "resolved_emitted": true,
-        "decision_date": "27.08.2024",
-        "appeal_filed": true,
-        "appeal_filed_date": "23.09.2024",
-        "sent_to_appeal": true,
-        "sent_to_appeal_date": "30.10.2024",
-        "appeal_events": [
-          {
-            "date": "15.01.2025",
-            "text": "Назначено в вышестоящий суд на дату"
-          },
-          {
-            "date": "15.01.2025",
-            "text": "Дата рассмотрения жалобы"
-          },
-          {
-            "date": "23.09.2024",
-            "text": "Регистрация жалобы (представления) в суде",
-            "name": "Регистрация жалобы (представления) в суде",
-            "posted_at": "24.09.2024"
-          },
-          {
-            "date": "24.09.2024",
-            "text": "Оставление жалобы (представления) без движения · Срок для устранения недостатков до 15.10.2024",
-            "name": "Оставление жалобы (представления) без движения",
-            "note": "Срок для устранения недостатков до 15.10.2024",
-            "posted_at": "25.09.2024"
-          },
-          {
-            "date": "15.10.2024",
-            "text": "Поступление исправленной жалобы (представления) в суд",
-            "name": "Поступление исправленной жалобы (представления) в суд",
-            "posted_at": "15.10.2024"
-          },
-          {
-            "date": "15.10.2024",
-            "text": "Решение вопроса о принятии жалобы (представления) к рассмотрению",
-            "name": "Решение вопроса о принятии жалобы (представления) к рассмотрению",
-            "result_event": "Жалоба (предст.) ПРИНЯТА К РАССМОТРЕНИЮ",
-            "posted_at": "16.10.2024"
-          },
-          {
-            "date": "15.10.2024",
-            "text": "Установлен срок для предоставления возражений · Срок до 30.10.2024",
-            "name": "Установлен срок для предоставления возражений",
-            "note": "Срок до 30.10.2024",
-            "posted_at": "16.10.2024"
-          },
-          {
-            "date": "30.10.2024",
-            "text": "Направлено в вышестоящую инстанцию",
-            "name": "Направлено в вышестоящую инстанцию",
-            "posted_at": "02.11.2024"
-          },
-          {
-            "date": "18.03.2025",
-            "text": "Возвращено из вышестоящей инстанции",
-            "name": "Возвращено из вышестоящей инстанции",
-            "posted_at": "19.03.2025"
-          }
-        ],
-        "appeal_appellant": "Ответчик",
-        "appeal_appellant_is_bank": false,
-        "appeal_appellant_status": "Ответчик"
-      },
-      "appeal": null,
-      "track": "plaintiff_light",
-      "initial_bank_role": "Истец",
-      "import": {
-        "operator": "Виктор",
-        "at": "2026-09-21T11:41:43",
         "source": "dump",
         "announced": true
       }
@@ -1614,7 +1442,10 @@
         "last_checked_at": "2026-09-21",
         "intake_card_parse": true,
         "resolved_emitted": true,
-        "decision_date": "25.08.2026"
+        "decision_date": "25.08.2026",
+        "legal_force_est": "2026-09-26",
+        "writ_awaited_since": "2026-09-26",
+        "motivirovka_date": "25.08.2026"
       },
       "appeal": null,
       "track": "plaintiff_light",
@@ -1655,7 +1486,15 @@
         "last_checked_at": "2026-09-21",
         "intake_card_parse": true,
         "resolved_emitted": true,
-        "decision_date": "05.08.2026"
+        "decision_date": "05.08.2026",
+        "default_copy_returned_emitted": "31.08.2026",
+        "legal_force_emitted": "2026-09-22",
+        "legal_force_est": "2026-09-22",
+        "writ_awaited_since": "2026-09-22",
+        "default_judgment": true,
+        "motivirovka_date": "05.08.2026",
+        "default_copy_returned": true,
+        "default_copy_returned_date": "31.08.2026"
       },
       "appeal": null,
       "track": "plaintiff_light",
@@ -1696,7 +1535,14 @@
         "last_checked_at": "2026-09-21",
         "intake_card_parse": true,
         "resolved_emitted": true,
-        "decision_date": "10.08.2026"
+        "decision_date": "10.08.2026",
+        "default_copy_returned_emitted": "14.09.2026",
+        "legal_force_est": "2026-09-25",
+        "writ_awaited_since": "2026-09-25",
+        "default_judgment": true,
+        "motivirovka_date": "10.08.2026",
+        "default_copy_returned": true,
+        "default_copy_returned_date": "14.09.2026"
       },
       "appeal": null,
       "track": "plaintiff_light",
@@ -1737,7 +1583,15 @@
         "last_checked_at": "2026-09-21",
         "intake_card_parse": true,
         "resolved_emitted": true,
-        "decision_date": "09.07.2026"
+        "decision_date": "09.07.2026",
+        "default_copy_returned_emitted": "12.08.2026",
+        "legal_force_emitted": "2026-09-08",
+        "legal_force_est": "2026-09-08",
+        "writ_awaited_since": "2026-09-08",
+        "default_judgment": true,
+        "motivirovka_date": "22.07.2026",
+        "default_copy_returned": true,
+        "default_copy_returned_date": "12.08.2026"
       },
       "appeal": null,
       "track": "plaintiff_light",
@@ -1750,66 +1604,7 @@
       }
     },
     {
-      "id": "2-46/2026 (2-572/2025;)",
-      "current_stage": "first_instance",
-      "plaintiff": "ПАО Сбербанк в лице филиала - Западно-Сибирское отделение №8647",
-      "defendant": "Иванова Людмила Александровна",
-      "category": "Споры, связанные с имущественными правами → Иски о взыскании сумм по договору займа, кредитному договору",
-      "bank_role": "Истец",
-      "notes": "",
-      "first_instance": {
-        "case_number": "2-46/2026 (2-572/2025;)",
-        "court": "Омутинский районный суд",
-        "court_domain": "omutinsky--tum.sudrf.ru",
-        "judge": "Коробейников Вячеслав Петрович",
-        "filing_date": "12.09.2025",
-        "status": "Решено",
-        "result": "Иск (заявление, жалоба) УДОВЛЕТВОРЕН",
-        "last_event": "Дело сдано в отдел судебного делопроизводства. 08:05. 21.08.2026",
-        "event_date": "21.08.2026",
-        "hearing_date": "05.08.2026",
-        "hearing_time": "13:30",
-        "link": "229156274|011fddf8-4565-491a-a3c7-886bc7597a58",
-        "act_published": true,
-        "act_date": "",
-        "judicial_uid": "72RS0016-01-2025-000590-93",
-        "delo_id": 1540005,
-        "srv_num": 1,
-        "last_checked_at": "2026-09-21",
-        "intake_card_parse": true,
-        "resolved_emitted": true,
-        "decision_date": "05.08.2026",
-        "appeal_filed": true,
-        "appeal_filed_date": "11.09.2026",
-        "sent_to_appeal": true,
-        "sent_to_appeal_date": "15.09.2026",
-        "appeal_events": [
-          {
-            "date": "11.09.2026",
-            "text": "Регистрация жалобы (представления) в суде",
-            "name": "Регистрация жалобы (представления) в суде",
-            "posted_at": "18.09.2026"
-          },
-          {
-            "date": "15.09.2026",
-            "text": "Направлено в вышестоящую инстанцию",
-            "name": "Направлено в вышестоящую инстанцию",
-            "posted_at": "18.09.2026"
-          }
-        ]
-      },
-      "appeal": null,
-      "track": "plaintiff_light",
-      "initial_bank_role": "Истец",
-      "import": {
-        "operator": "Виктор",
-        "at": "2026-09-21T11:16:07",
-        "source": "dump",
-        "announced": true
-      }
-    },
-    {
-      "id": "М-417/2026",
+      "id": "2-564/2026",
       "current_stage": "first_instance",
       "plaintiff": "ПАО \"Сбербанк России\"",
       "defendant": "Уразова Альбина Шамсудтдиновна",
@@ -1817,25 +1612,26 @@
       "bank_role": "Истец",
       "notes": "",
       "first_instance": {
-        "case_number": "М-417/2026",
+        "case_number": "2-564/2026",
         "court": "Омутинский районный суд",
         "court_domain": "omutinsky--tum.sudrf.ru",
         "judge": "Коробейников Вячеслав Петрович",
         "filing_date": "15.09.2026",
         "status": "В производстве",
         "result": "",
-        "last_event": "Передача материалов судье. 10:06. 15.09.2026",
-        "event_date": "15.09.2026",
-        "hearing_date": "",
-        "hearing_time": "",
+        "last_event": "Судебное заседание. 14:30. зал № 1. 21.09.2026",
+        "event_date": "05.10.2026",
+        "hearing_date": "05.10.2026",
+        "hearing_time": "14:30",
         "link": "251057486|56bf7c1a-f0a2-47e8-8d71-8728a36abd82",
         "act_published": false,
         "act_date": "",
         "judicial_uid": "72RS0016-01-2026-000591-09",
         "delo_id": 1540005,
         "srv_num": 1,
-        "last_checked_at": "2026-09-21",
-        "intake_card_parse": true
+        "last_checked_at": "2026-09-22",
+        "material_number": "М-417/2026",
+        "accepted_pending_emit": false
       },
       "appeal": null,
       "track": "plaintiff_light",
@@ -1876,82 +1672,10 @@
         "last_checked_at": "2026-09-21",
         "intake_card_parse": true,
         "resolved_emitted": true,
-        "decision_date": "04.08.2026"
-      },
-      "appeal": null,
-      "track": "plaintiff_light",
-      "initial_bank_role": "Истец",
-      "import": {
-        "operator": "Виктор",
-        "at": "2026-09-21T11:11:28",
-        "source": "dump",
-        "announced": true
-      }
-    },
-    {
-      "id": "2-227/2026",
-      "current_stage": "first_instance",
-      "plaintiff": "ПАО Сбербанк",
-      "defendant": "наследственное имущество умершего заемщика Нехорошковой Нины Дементьевны",
-      "category": "Споры, связанные с имущественными правами → Иски о взыскании сумм по договору займа, кредитному договору",
-      "bank_role": "Истец",
-      "notes": "",
-      "first_instance": {
-        "case_number": "2-227/2026",
-        "court": "Омутинский районный суд",
-        "court_domain": "omutinsky--tum.sudrf.ru",
-        "judge": "Оглоблина Татьяна Анатольевна",
-        "filing_date": "24.02.2026",
-        "status": "Решено",
-        "result": "ОТКАЗАНО в удовлетворении иска (заявлении, жалобы)",
-        "last_event": "Дело передано в архив. 11:26. 09.09.2026",
-        "event_date": "03.09.2026",
-        "hearing_date": "20.04.2026",
-        "hearing_time": "09:30",
-        "link": "238196235|9c578336-4ae2-408a-92c9-b45ccc4c5369",
-        "act_published": true,
-        "act_date": "",
-        "judicial_uid": "72RS0016-01-2026-000086-69",
-        "delo_id": 1540005,
-        "srv_num": 1,
-        "last_checked_at": "2026-09-21",
-        "intake_card_parse": true,
-        "resolved_emitted": true,
-        "decision_date": "20.04.2026",
-        "appeal_filed": true,
-        "appeal_filed_date": "19.05.2026",
-        "sent_to_appeal": true,
-        "sent_to_appeal_date": "25.05.2026",
-        "appeal_events": [
-          {
-            "date": "04.06.2026",
-            "text": "Назначено в вышестоящий суд на дату"
-          },
-          {
-            "date": "04.06.2026",
-            "text": "Дата рассмотрения жалобы"
-          },
-          {
-            "date": "19.05.2026",
-            "text": "Регистрация жалобы (представления) в суде",
-            "name": "Регистрация жалобы (представления) в суде",
-            "posted_at": "26.05.2026"
-          },
-          {
-            "date": "25.05.2026",
-            "text": "Направлено в вышестоящую инстанцию",
-            "name": "Направлено в вышестоящую инстанцию",
-            "posted_at": "26.05.2026"
-          },
-          {
-            "date": "03.09.2026",
-            "text": "Возвращено из вышестоящей инстанции",
-            "name": "Возвращено из вышестоящей инстанции",
-            "posted_at": "09.09.2026"
-          }
-        ],
-        "appeal_appellant": "ПРЕДСТАВИТЕЛЬ",
-        "appeal_appellant_is_bank": null
+        "decision_date": "04.08.2026",
+        "legal_force_est": "2026-10-01",
+        "writ_awaited_since": "2026-10-01",
+        "motivirovka_date": "31.08.2026"
       },
       "appeal": null,
       "track": "plaintiff_light",
@@ -2109,7 +1833,10 @@
         "last_checked_at": "2026-09-21",
         "intake_card_parse": true,
         "resolved_emitted": true,
-        "decision_date": "14.08.2026"
+        "decision_date": "14.08.2026",
+        "legal_force_est": "2026-10-08",
+        "writ_awaited_since": "2026-10-08",
+        "motivirovka_date": "07.09.2026"
       },
       "appeal": null,
       "track": "plaintiff_light",
@@ -2264,8 +1991,7 @@
         "judicial_uid": "72RS0022-01-2026-000400-70",
         "delo_id": 1540005,
         "srv_num": 1,
-        "last_checked_at": "2026-09-21",
-        "intake_card_parse": true
+        "last_checked_at": "2026-09-22"
       },
       "appeal": null,
       "track": "plaintiff_light",
@@ -2303,8 +2029,7 @@
         "judicial_uid": "72RS0022-01-2026-000398-76",
         "delo_id": 1540005,
         "srv_num": 1,
-        "last_checked_at": "2026-09-21",
-        "intake_card_parse": true
+        "last_checked_at": "2026-09-22"
       },
       "appeal": null,
       "track": "plaintiff_light",
@@ -2387,8 +2112,7 @@
         "judicial_uid": "72RS0022-01-2026-000022-40",
         "delo_id": 1540005,
         "srv_num": 1,
-        "last_checked_at": "2026-09-21",
-        "intake_card_parse": true
+        "last_checked_at": "2026-09-22"
       },
       "appeal": null,
       "track": "plaintiff_light",
@@ -2668,5 +2392,6 @@
         "announced": true
       }
     }
-  ]
+  ],
+  "updated_at": "2026-09-22T06:15:02+05:00"
 }
