@@ -1,9 +1,10 @@
 {
  "version": 1,
- "updated_at": "2026-09-21T08:40:10+05:00",
+ "updated_at": "2026-09-22T06:15:02+05:00",
  "sources": {
   "cassation:7kas:total": {
    "counts": [
+    25,
     25
    ],
    "zero_streak": 0,
@@ -11,10 +12,11 @@
    "alerted_zero": false,
    "label": "Кассация 7kas (вся выдача)",
    "last_count": 25,
-   "last_run_at": "2026-09-21T06:14:55+05:00"
+   "last_run_at": "2026-09-22T06:15:02+05:00"
   },
   "cassation:7kas:tyumen": {
    "counts": [
+    1,
     1
    ],
    "zero_streak": 0,
@@ -22,66 +24,128 @@
    "alerted_zero": false,
    "label": "Кассация 7kas (фильтр региона)",
    "last_count": 1,
-   "last_run_at": "2026-09-21T06:14:55+05:00"
+   "last_run_at": "2026-09-22T06:15:02+05:00"
   }
  },
  "last_run": {
-  "at": "2026-09-21T08:40:10",
+  "at": "2026-09-22T06:15:02",
   "alerts": [],
-  "requests_ok": 0,
+  "requests_ok": 68,
   "requests_failed": 0,
   "requests_retried": 0,
-  "cards_breaker_skipped": 0,
-  "cards_breaker_unrequested": 0,
+  "cards_breaker_skipped": 7,
+  "cards_breaker_unrequested": 7,
   "cards_breaker_recovered": 0,
-  "cards_blocked": 0,
-  "cards_read": 0,
-  "cards_planned": 0,
-  "cards_read_today": 70,
-  "cards_planned_today": 70,
-  "daily_attempts": 6,
+  "cards_blocked": 6,
+  "cards_read": 61,
+  "cards_planned": 74,
+  "cards_read_today": 61,
+  "cards_planned_today": 74,
+  "daily_attempts": 1,
   "instances": {
    "first_instance": {
-    "read": 0,
-    "planned": 0,
-    "read_today": 3,
-    "planned_today": 3
+    "read": 22,
+    "planned": 35,
+    "read_today": 22,
+    "planned_today": 35
    },
    "appeal": {
-    "read": 0,
-    "planned": 0,
-    "read_today": 64,
-    "planned_today": 64
+    "read": 36,
+    "planned": 36,
+    "read_today": 36,
+    "planned_today": 36
    },
    "cassation": {
-    "read": 0,
-    "planned": 0,
+    "read": 3,
+    "planned": 3,
     "read_today": 3,
     "planned_today": 3
    }
   },
-  "latency": {},
-  "failure_latency": {},
-  "fail_kinds": {},
+  "latency": {
+   "n": 68,
+   "p50": 0.7,
+   "p90": 4.8,
+   "max": 8.0
+  },
+  "failure_latency": {
+   "portal_placeholder": {
+    "n": 6,
+    "p50": 0.3,
+    "p90": 5.3,
+    "max": 5.3
+   }
+  },
+  "fail_kinds": {
+   "portal_placeholder": 6
+  },
   "breaker": {
    "mode": "time",
-   "opened_hosts": 0,
-   "open_hosts": 0,
+   "opened_hosts": 3,
+   "open_hosts": 3,
    "recovered_hosts": 0,
-   "deferred_total": 0,
-   "deferred_remaining": 0,
+   "deferred_total": 10,
+   "deferred_remaining": 10,
    "deferred_recovered": 0,
    "probes": 0,
    "probe_successes": 0,
    "probe_failures": 0,
-   "by_kind": {},
-   "hosts": []
+   "by_kind": {
+    "portal_placeholder": 3
+   },
+   "hosts": [
+    {
+     "host": "isetsky--tum.sudrf.ru",
+     "state": "open",
+     "kind": "portal_placeholder",
+     "family": "portal_outage",
+     "reason": "вместо карточки пришла заглушка портала",
+     "preopened": false,
+     "skipped": 1,
+     "probes": 0,
+     "deferred_total": 2,
+     "deferred_remaining": 2,
+     "deferred_recovered": 0,
+     "cooldown_seconds": 180.0,
+     "next_probe_in_seconds": 180.0
+    },
+    {
+     "host": "nizhnetavdinsky--tum.sudrf.ru",
+     "state": "open",
+     "kind": "portal_placeholder",
+     "family": "portal_outage",
+     "reason": "вместо карточки пришла заглушка портала",
+     "preopened": false,
+     "skipped": 2,
+     "probes": 0,
+     "deferred_total": 3,
+     "deferred_remaining": 3,
+     "deferred_recovered": 0,
+     "cooldown_seconds": 180.0,
+     "next_probe_in_seconds": 41.9
+    },
+    {
+     "host": "zavodoukovsky--tum.sudrf.ru",
+     "state": "open",
+     "kind": "portal_placeholder",
+     "family": "portal_outage",
+     "reason": "вместо карточки пришла заглушка портала",
+     "preopened": false,
+     "skipped": 4,
+     "probes": 0,
+     "deferred_total": 5,
+     "deferred_remaining": 5,
+     "deferred_recovered": 0,
+     "cooldown_seconds": 180.0,
+     "next_probe_in_seconds": 156.8
+    }
+   ]
   },
-  "courts_unavailable": 0,
-  "courts_with_unrequested": 0,
+  "courts_unavailable": 3,
+  "courts_with_unrequested": 3,
   "courts_outage": 0,
-  "cards_unreachable": 0,
-  "cards_unread_other": 0,
+  "cards_unreachable": 7,
+  "cards_unread_other": 6,
   "run_deadline_seconds": 3300.0,
   "run_deadline_reached": false
  }
