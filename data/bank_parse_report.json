@@ -3,12 +3,12 @@
   "run_date": "2026-09-22",
   "smart_skip": true,
   "totals": {
-    "total": 61,
-    "parsed": 6,
-    "skip": 40,
-    "failed": 11,
+    "total": 57,
+    "parsed": 4,
+    "skip": 45,
+    "failed": 8,
     "no_card": 0,
-    "not_in_queue": 4,
+    "not_in_queue": 0,
     "intake_new": 0
   },
   "cases": [
@@ -31,9 +31,9 @@
       "last_checked_at": "2026-09-21"
     },
     {
-      "outcome": "parsed",
-      "reason": "",
-      "reason_ru": "",
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -47,24 +47,6 @@
       "court_domain": "kazansky--tum.sudrf.ru",
       "case_status": "В производстве",
       "last_checked_at": "2026-09-22"
-    },
-    {
-      "outcome": "not_in_queue",
-      "reason": "",
-      "reason_ru": "стадия «awaiting_appeal» — карточку 1-й инст. не парсим, дело уходит из лёгкого трека",
-      "detail": "awaiting_appeal",
-      "degraded": false,
-      "force_parsed": false,
-      "events": [],
-      "changed": false,
-      "left_track": true,
-      "archived": false,
-      "key": "golyshmanovsky--tum.sudrf.ru|2-94/2025",
-      "number": "2-94/2025",
-      "court": "Голышмановский районный суд",
-      "court_domain": "golyshmanovsky--tum.sudrf.ru",
-      "case_status": "Решено",
-      "last_checked_at": "2026-09-21"
     },
     {
       "outcome": "fetch_blocked",
@@ -139,9 +121,9 @@
       "last_checked_at": "2026-09-21"
     },
     {
-      "outcome": "court_breaker",
+      "outcome": "fetch_blocked",
       "reason": "",
-      "reason_ru": "суд снят с обхода предохранителем — карточки не читаются (заглушка/код/сеть), дело перечитается следующим прогоном",
+      "reason_ru": "портал суда отдал заглушку/блокировку вместо карточки",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -175,9 +157,9 @@
       "last_checked_at": "2026-09-21"
     },
     {
-      "outcome": "court_breaker",
+      "outcome": "fetch_blocked",
       "reason": "",
-      "reason_ru": "суд снят с обхода предохранителем — карточки не читаются (заглушка/код/сеть), дело перечитается следующим прогоном",
+      "reason_ru": "портал суда отдал заглушку/блокировку вместо карточки",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -625,24 +607,6 @@
       "last_checked_at": "2026-09-21"
     },
     {
-      "outcome": "not_in_queue",
-      "reason": "",
-      "reason_ru": "стадия «awaiting_appeal» — карточку 1-й инст. не парсим, дело уходит из лёгкого трека",
-      "detail": "awaiting_appeal",
-      "degraded": false,
-      "force_parsed": false,
-      "events": [],
-      "changed": false,
-      "left_track": true,
-      "archived": false,
-      "key": "armizonsky--tum.sudrf.ru|2-111/2024",
-      "number": "2-111/2024",
-      "court": "Армизонский районный суд",
-      "court_domain": "armizonsky--tum.sudrf.ru",
-      "case_status": "Решено",
-      "last_checked_at": "2026-09-21"
-    },
-    {
       "outcome": "skip",
       "reason": "future_hearing(29.09.2026)",
       "reason_ru": "заседание 29.09.2026 ещё впереди",
@@ -733,34 +697,14 @@
       "last_checked_at": "2026-09-21"
     },
     {
-      "outcome": "not_in_queue",
-      "reason": "",
-      "reason_ru": "стадия «awaiting_appeal» — карточку 1-й инст. не парсим, дело уходит из лёгкого трека",
-      "detail": "awaiting_appeal",
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "detail": "",
       "degraded": false,
       "force_parsed": false,
       "events": [],
       "changed": false,
-      "left_track": true,
-      "archived": false,
-      "key": "omutinsky--tum.sudrf.ru|2-46/2026 (2-572/2025;)",
-      "number": "2-46/2026 (2-572/2025;)",
-      "court": "Омутинский районный суд",
-      "court_domain": "omutinsky--tum.sudrf.ru",
-      "case_status": "Решено",
-      "last_checked_at": "2026-09-21"
-    },
-    {
-      "outcome": "parsed",
-      "reason": "",
-      "reason_ru": "",
-      "detail": "",
-      "degraded": false,
-      "force_parsed": false,
-      "events": [
-        "fi_hearing_new"
-      ],
-      "changed": true,
       "left_track": false,
       "archived": false,
       "key": "omutinsky--tum.sudrf.ru|2-564/2026",
@@ -783,24 +727,6 @@
       "archived": false,
       "key": "omutinsky--tum.sudrf.ru|2-245/2026",
       "number": "2-245/2026",
-      "court": "Омутинский районный суд",
-      "court_domain": "omutinsky--tum.sudrf.ru",
-      "case_status": "Решено",
-      "last_checked_at": "2026-09-21"
-    },
-    {
-      "outcome": "not_in_queue",
-      "reason": "",
-      "reason_ru": "стадия «awaiting_appeal» — карточку 1-й инст. не парсим, дело уходит из лёгкого трека",
-      "detail": "awaiting_appeal",
-      "degraded": false,
-      "force_parsed": false,
-      "events": [],
-      "changed": false,
-      "left_track": true,
-      "archived": false,
-      "key": "omutinsky--tum.sudrf.ru|2-227/2026",
-      "number": "2-227/2026",
       "court": "Омутинский районный суд",
       "court_domain": "omutinsky--tum.sudrf.ru",
       "case_status": "Решено",
@@ -933,9 +859,9 @@
       "last_checked_at": "2026-09-21"
     },
     {
-      "outcome": "parsed",
-      "reason": "",
-      "reason_ru": "",
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -951,9 +877,9 @@
       "last_checked_at": "2026-09-22"
     },
     {
-      "outcome": "parsed",
-      "reason": "",
-      "reason_ru": "",
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -987,9 +913,9 @@
       "last_checked_at": "2026-09-21"
     },
     {
-      "outcome": "parsed",
-      "reason": "",
-      "reason_ru": "",
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -1041,14 +967,16 @@
       "last_checked_at": "2026-09-20"
     },
     {
-      "outcome": "fetch_blocked",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "портал суда отдал заглушку/блокировку вместо карточки",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
-      "events": [],
-      "changed": false,
+      "events": [
+        "fi_hearing_postponed"
+      ],
+      "changed": true,
       "left_track": false,
       "archived": false,
       "key": "isetsky--tum.sudrf.ru|2-394/2026",
@@ -1056,7 +984,7 @@
       "court": "Исетский районный суд",
       "court_domain": "isetsky--tum.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-09-20"
+      "last_checked_at": "2026-09-22"
     },
     {
       "outcome": "skip",
@@ -1077,9 +1005,9 @@
       "last_checked_at": "2026-09-20"
     },
     {
-      "outcome": "fetch_blocked",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "портал суда отдал заглушку/блокировку вместо карточки",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -1092,12 +1020,12 @@
       "court": "Исетский районный суд",
       "court_domain": "isetsky--tum.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-09-21"
+      "last_checked_at": "2026-09-22"
     },
     {
-      "outcome": "court_breaker",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "суд снят с обхода предохранителем — карточки не читаются (заглушка/код/сеть), дело перечитается следующим прогоном",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -1110,8 +1038,8 @@
       "court": "Исетский районный суд",
       "court_domain": "isetsky--tum.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-09-21"
+      "last_checked_at": "2026-09-22"
     }
   ],
-  "updated_at": "2026-09-22T06:15:02+05:00"
+  "updated_at": "2026-09-22T06:51:55+05:00"
 }
