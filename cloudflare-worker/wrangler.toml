@@ -22,7 +22,7 @@ IMPORT_EXECUTOR = "vps"
 # VPS принимает большой файл, Worker скачивает его по отдельному временному токену.
 IMPORT_GATEWAY_ORIGIN = "https://api2-tyumen.delosud.ru"
 # Ежедневные слоты повторов VPS; новые задания проверяются круглосуточно каждые 5 минут.
-IMPORT_SLOTS_LOCAL = "12:00,14:00,16:00,18:00,20:00"
+IMPORT_SLOTS_LOCAL = "12:00,13:00,14:00,15:00,16:00,17:00,18:00,19:00,20:00"
 VISITS_ENABLED = "1"
 CAL_TZID = "Asia/Yekaterinburg"
 CAL_TZ_OFFSET_MIN = "300"
