@@ -1,9 +1,10 @@
 {
  "version": 1,
- "updated_at": "2026-09-22T13:23:12+05:00",
+ "updated_at": "2026-09-23T06:20:06+05:00",
  "sources": {
   "cassation:7kas:total": {
    "counts": [
+    25,
     25,
     25
    ],
@@ -12,22 +13,24 @@
    "alerted_zero": false,
    "label": "Кассация 7kas (вся выдача)",
    "last_count": 25,
-   "last_run_at": "2026-09-22T06:15:02+05:00"
+   "last_run_at": "2026-09-23T06:20:06+05:00"
   },
   "cassation:7kas:tyumen": {
    "counts": [
     1,
-    1
+    1,
+    2
    ],
    "zero_streak": 0,
    "fail_streak": 0,
    "alerted_zero": false,
    "label": "Кассация 7kas (фильтр региона)",
-   "last_count": 1,
-   "last_run_at": "2026-09-22T06:15:02+05:00"
+   "last_count": 2,
+   "last_run_at": "2026-09-23T06:20:06+05:00"
   },
   "cassation:presidium:oblsud--tum.sudrf.ru:total": {
    "counts": [
+    2,
     2
    ],
    "zero_streak": 0,
@@ -35,60 +38,61 @@
    "alerted_zero": false,
    "label": "Президиум Тюменского областного суда",
    "last_count": 2,
-   "last_run_at": "2026-09-22T13:23:12+05:00"
+   "last_run_at": "2026-09-23T06:20:06+05:00"
   },
   "appeal:oblsud": {
    "counts": [
-    22
+    22,
+    23
    ],
    "zero_streak": 0,
    "fail_streak": 0,
    "alerted_zero": false,
    "label": "Апелляция (Тюменский областной суд)",
-   "last_count": 22,
-   "last_run_at": "2026-09-22T13:23:12+05:00"
+   "last_count": 23,
+   "last_run_at": "2026-09-23T06:20:06+05:00"
   }
  },
  "last_run": {
-  "at": "2026-09-22T13:23:12",
+  "at": "2026-09-23T06:20:06",
   "alerts": [],
-  "requests_ok": 27,
+  "requests_ok": 102,
   "requests_failed": 0,
   "requests_retried": 0,
   "cards_breaker_skipped": 0,
   "cards_breaker_unrequested": 0,
   "cards_breaker_recovered": 0,
   "cards_blocked": 0,
-  "cards_read": 6,
-  "cards_planned": 6,
-  "cards_read_today": 77,
-  "cards_planned_today": 78,
-  "daily_attempts": 7,
+  "cards_read": 95,
+  "cards_planned": 95,
+  "cards_read_today": 95,
+  "cards_planned_today": 95,
+  "daily_attempts": 1,
   "instances": {
    "first_instance": {
-    "read": 4,
-    "planned": 4,
-    "read_today": 36,
-    "planned_today": 37
+    "read": 55,
+    "planned": 55,
+    "read_today": 55,
+    "planned_today": 55
    },
    "appeal": {
-    "read": 0,
-    "planned": 0,
-    "read_today": 36,
-    "planned_today": 36
+    "read": 33,
+    "planned": 33,
+    "read_today": 33,
+    "planned_today": 33
    },
    "cassation": {
-    "read": 2,
-    "planned": 2,
-    "read_today": 5,
-    "planned_today": 5
+    "read": 7,
+    "planned": 7,
+    "read_today": 7,
+    "planned_today": 7
    }
   },
   "latency": {
-   "n": 27,
-   "p50": 0.3,
-   "p90": 1.6,
-   "max": 2.9
+   "n": 102,
+   "p50": 2.5,
+   "p90": 6.9,
+   "max": 13.4
   },
   "failure_latency": {},
   "fail_kinds": {},
