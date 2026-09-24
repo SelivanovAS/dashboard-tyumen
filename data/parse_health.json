@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated_at": "2026-09-24T07:53:52+05:00",
+ "updated_at": "2026-09-24T08:13:29+05:00",
  "sources": {
   "cassation:7kas:total": {
    "counts": [
@@ -58,24 +58,24 @@
   }
  },
  "last_run": {
-  "at": "2026-09-24T07:53:52",
+  "at": "2026-09-24T08:13:29",
   "alerts": [],
-  "requests_ok": 29,
+  "requests_ok": 17,
   "requests_failed": 0,
   "requests_retried": 0,
-  "cards_breaker_skipped": 10,
-  "cards_breaker_unrequested": 3,
-  "cards_breaker_recovered": 9,
-  "cards_blocked": 18,
-  "cards_read": 11,
-  "cards_planned": 29,
+  "cards_breaker_skipped": 5,
+  "cards_breaker_unrequested": 5,
+  "cards_breaker_recovered": 0,
+  "cards_blocked": 17,
+  "cards_read": 0,
+  "cards_planned": 22,
   "cards_read_today": 132,
   "cards_planned_today": 142,
-  "daily_attempts": 4,
+  "daily_attempts": 5,
   "instances": {
    "first_instance": {
-    "read": 11,
-    "planned": 29,
+    "read": 0,
+    "planned": 22,
     "read_today": 87,
     "planned_today": 97
    },
@@ -93,35 +93,35 @@
    }
   },
   "latency": {
-   "n": 29,
-   "p50": 5.7,
+   "n": 17,
+   "p50": 5.1,
    "p90": 25.4,
-   "max": 26.9
+   "max": 25.8
   },
   "failure_latency": {
    "portal_placeholder": {
-    "n": 18,
-    "p50": 5.7,
-    "p90": 26.6,
-    "max": 26.9
+    "n": 17,
+    "p50": 5.1,
+    "p90": 25.4,
+    "max": 25.8
    }
   },
   "fail_kinds": {
-   "portal_placeholder": 18
+   "portal_placeholder": 17
   },
   "breaker": {
    "mode": "time",
    "opened_hosts": 6,
-   "open_hosts": 4,
-   "recovered_hosts": 2,
-   "deferred_total": 16,
-   "deferred_remaining": 7,
-   "deferred_recovered": 9,
-   "probes": 3,
-   "probe_successes": 2,
-   "probe_failures": 1,
+   "open_hosts": 6,
+   "recovered_hosts": 0,
+   "deferred_total": 11,
+   "deferred_remaining": 11,
+   "deferred_recovered": 0,
+   "probes": 0,
+   "probe_successes": 0,
+   "probe_failures": 0,
    "by_kind": {
-    "portal_placeholder": 7
+    "portal_placeholder": 6
    },
    "hosts": [
     {
@@ -132,42 +132,42 @@
      "reason": "вместо карточки пришла заглушка портала",
      "preopened": false,
      "skipped": 1,
-     "probes": 1,
+     "probes": 0,
      "deferred_total": 2,
      "deferred_remaining": 2,
      "deferred_recovered": 0,
      "cooldown_seconds": 180.0,
-     "next_probe_in_seconds": 165.9
+     "next_probe_in_seconds": 69.7
     },
     {
      "host": "kalininsky--tum.sudrf.ru",
-     "state": "closed",
+     "state": "open",
      "kind": "portal_placeholder",
      "family": "portal_outage",
      "reason": "вместо карточки пришла заглушка портала",
      "preopened": false,
      "skipped": 1,
-     "probes": 1,
+     "probes": 0,
      "deferred_total": 2,
-     "deferred_remaining": 0,
-     "deferred_recovered": 2,
+     "deferred_remaining": 2,
+     "deferred_recovered": 0,
      "cooldown_seconds": 180.0,
-     "next_probe_in_seconds": 0.0
+     "next_probe_in_seconds": 83.2
     },
     {
      "host": "leninsky--tum.sudrf.ru",
-     "state": "closed",
+     "state": "open",
      "kind": "portal_placeholder",
      "family": "portal_outage",
      "reason": "вместо карточки пришла заглушка портала",
      "preopened": false,
-     "skipped": 6,
-     "probes": 1,
-     "deferred_total": 7,
-     "deferred_remaining": 0,
-     "deferred_recovered": 7,
+     "skipped": 1,
+     "probes": 0,
+     "deferred_total": 2,
+     "deferred_remaining": 2,
+     "deferred_recovered": 0,
      "cooldown_seconds": 180.0,
-     "next_probe_in_seconds": 0.0
+     "next_probe_in_seconds": 13.1
     },
     {
      "host": "yalutorovsky--tum.sudrf.ru",
@@ -182,7 +182,7 @@
      "deferred_remaining": 1,
      "deferred_recovered": 0,
      "cooldown_seconds": 180.0,
-     "next_probe_in_seconds": 101.7
+     "next_probe_in_seconds": 171.9
     },
     {
      "host": "yarkovsky--tum.sudrf.ru",
@@ -197,7 +197,7 @@
      "deferred_remaining": 1,
      "deferred_recovered": 0,
      "cooldown_seconds": 180.0,
-     "next_probe_in_seconds": 8.1
+     "next_probe_in_seconds": 113.9
     },
     {
      "host": "zavodoukovsky--tum.sudrf.ru",
@@ -212,15 +212,15 @@
      "deferred_remaining": 3,
      "deferred_recovered": 0,
      "cooldown_seconds": 180.0,
-     "next_probe_in_seconds": 107.0
+     "next_probe_in_seconds": 179.9
     }
    ]
   },
-  "courts_unavailable": 4,
-  "courts_with_unrequested": 2,
+  "courts_unavailable": 6,
+  "courts_with_unrequested": 4,
   "courts_outage": 0,
-  "cards_unreachable": 3,
-  "cards_unread_other": 15,
+  "cards_unreachable": 5,
+  "cards_unread_other": 17,
   "run_deadline_seconds": 3300.0,
   "run_deadline_reached": false
  }

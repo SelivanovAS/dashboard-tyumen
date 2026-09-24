@@ -4,9 +4,9 @@
   "smart_skip": true,
   "totals": {
     "total": 330,
-    "parsed": 9,
-    "skip": 313,
-    "failed": 8,
+    "parsed": 0,
+    "skip": 319,
+    "failed": 11,
     "no_card": 0,
     "not_in_queue": 0,
     "intake_new": 0
@@ -337,17 +337,14 @@
       "last_checked_at": "2026-09-23"
     },
     {
-      "outcome": "parsed",
-      "reason": "",
-      "reason_ru": "",
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
-      "events": [
-        "fi_resolved",
-        "fi_status_change"
-      ],
-      "changed": true,
+      "events": [],
+      "changed": false,
       "left_track": false,
       "archived": false,
       "key": "leninsky--tum.sudrf.ru|2-8168/2026",
@@ -394,17 +391,14 @@
       "last_checked_at": "2026-09-23"
     },
     {
-      "outcome": "parsed",
-      "reason": "",
-      "reason_ru": "",
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
-      "events": [
-        "fi_resolved",
-        "fi_status_change"
-      ],
-      "changed": true,
+      "events": [],
+      "changed": false,
       "left_track": false,
       "archived": false,
       "key": "leninsky--tum.sudrf.ru|2-7644/2026",
@@ -451,9 +445,9 @@
       "last_checked_at": "2026-09-23"
     },
     {
-      "outcome": "parsed",
-      "reason": "",
-      "reason_ru": "",
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -577,9 +571,9 @@
       "last_checked_at": "2026-09-23"
     },
     {
-      "outcome": "parsed",
-      "reason": "",
-      "reason_ru": "",
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -1999,9 +1993,9 @@
       "last_checked_at": "2026-09-23"
     },
     {
-      "outcome": "parsed",
+      "outcome": "court_breaker",
       "reason": "",
-      "reason_ru": "",
+      "reason_ru": "суд снят с обхода предохранителем — карточки не читаются (заглушка/код/сеть), дело перечитается следующим прогоном",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -4069,9 +4063,9 @@
       "last_checked_at": "2026-09-24"
     },
     {
-      "outcome": "parsed",
+      "outcome": "fetch_blocked",
       "reason": "",
-      "reason_ru": "",
+      "reason_ru": "портал суда отдал заглушку/блокировку вместо карточки",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -4087,9 +4081,9 @@
       "last_checked_at": "2026-09-24"
     },
     {
-      "outcome": "parsed",
+      "outcome": "court_breaker",
       "reason": "",
-      "reason_ru": "",
+      "reason_ru": "суд снят с обхода предохранителем — карточки не читаются (заглушка/код/сеть), дело перечитается следующим прогоном",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -4591,9 +4585,9 @@
       "last_checked_at": "2026-09-22"
     },
     {
-      "outcome": "parsed",
-      "reason": "",
-      "reason_ru": "",
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -4681,17 +4675,14 @@
       "last_checked_at": "2026-09-22"
     },
     {
-      "outcome": "parsed",
-      "reason": "",
-      "reason_ru": "",
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
-      "events": [
-        "fi_resolved",
-        "fi_status_change"
-      ],
-      "changed": true,
+      "events": [],
+      "changed": false,
       "left_track": false,
       "archived": false,
       "key": "sladkovsky--tum.sudrf.ru|2-108/2026",
@@ -5962,5 +5953,5 @@
       "last_checked_at": "2026-09-24"
     }
   ],
-  "updated_at": "2026-09-24T07:53:52+05:00"
+  "updated_at": "2026-09-24T08:13:30+05:00"
 }
