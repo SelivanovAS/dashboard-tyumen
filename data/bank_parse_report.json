@@ -4,9 +4,9 @@
   "smart_skip": true,
   "totals": {
     "total": 330,
-    "parsed": 0,
+    "parsed": 2,
     "skip": 319,
-    "failed": 11,
+    "failed": 9,
     "no_card": 0,
     "not_in_queue": 0,
     "intake_new": 0
@@ -4963,9 +4963,9 @@
       "last_checked_at": "2026-09-23"
     },
     {
-      "outcome": "fetch_blocked",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "портал суда отдал заглушку/блокировку вместо карточки",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -4978,7 +4978,7 @@
       "court": "Заводоуковский районный суд",
       "court_domain": "zavodoukovsky--tum.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-09-23"
+      "last_checked_at": "2026-09-24"
     },
     {
       "outcome": "skip",
@@ -5449,9 +5449,9 @@
       "last_checked_at": "2026-09-21"
     },
     {
-      "outcome": "fetch_blocked",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "портал суда отдал заглушку/блокировку вместо карточки",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -5953,5 +5953,5 @@
       "last_checked_at": "2026-09-24"
     }
   ],
-  "updated_at": "2026-09-24T08:13:30+05:00"
+  "updated_at": "2026-09-24T08:43:19+05:00"
 }
