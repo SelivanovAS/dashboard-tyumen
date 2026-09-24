@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated_at": "2026-09-24T07:17:53+05:00",
+ "updated_at": "2026-09-24T07:37:35+05:00",
  "sources": {
   "cassation:7kas:total": {
    "counts": [
@@ -58,30 +58,30 @@
   }
  },
  "last_run": {
-  "at": "2026-09-24T07:17:53",
+  "at": "2026-09-24T07:37:35",
   "alerts": [],
-  "requests_ok": 61,
+  "requests_ok": 39,
   "requests_failed": 1,
   "requests_retried": 0,
-  "cards_breaker_skipped": 22,
-  "cards_breaker_unrequested": 22,
-  "cards_breaker_recovered": 0,
-  "cards_blocked": 19,
-  "cards_read": 42,
-  "cards_planned": 81,
-  "cards_read_today": 104,
-  "cards_planned_today": 141,
-  "daily_attempts": 2,
+  "cards_breaker_skipped": 10,
+  "cards_breaker_unrequested": 5,
+  "cards_breaker_recovered": 1,
+  "cards_blocked": 14,
+  "cards_read": 25,
+  "cards_planned": 44,
+  "cards_read_today": 124,
+  "cards_planned_today": 142,
+  "daily_attempts": 3,
   "instances": {
    "first_instance": {
-    "read": 41,
-    "planned": 80,
-    "read_today": 59,
-    "planned_today": 96
+    "read": 25,
+    "planned": 44,
+    "read_today": 79,
+    "planned_today": 97
    },
    "appeal": {
-    "read": 1,
-    "planned": 1,
+    "read": 0,
+    "planned": 0,
     "read_today": 38,
     "planned_today": 38
    },
@@ -93,60 +93,44 @@
    }
   },
   "latency": {
-   "n": 61,
-   "p50": 6.4,
-   "p90": 21.8,
-   "max": 29.9
+   "n": 39,
+   "p50": 7.8,
+   "p90": 26.8,
+   "max": 29.2
   },
   "failure_latency": {
    "http_504": {
     "n": 1,
-    "p50": 30.3,
-    "p90": 30.3,
-    "max": 30.3
+    "p50": 30.1,
+    "p90": 30.1,
+    "max": 30.1
    },
    "portal_placeholder": {
-    "n": 19,
-    "p50": 7.6,
-    "p90": 29.9,
-    "max": 29.9
+    "n": 14,
+    "p50": 9.5,
+    "p90": 27.5,
+    "max": 29.2
    }
   },
   "fail_kinds": {
-   "portal_placeholder": 19,
+   "portal_placeholder": 14,
    "http_504": 1
   },
   "breaker": {
    "mode": "time",
-   "opened_hosts": 5,
-   "open_hosts": 5,
-   "recovered_hosts": 0,
-   "deferred_total": 27,
-   "deferred_remaining": 27,
-   "deferred_recovered": 0,
-   "probes": 3,
-   "probe_successes": 0,
-   "probe_failures": 3,
+   "opened_hosts": 3,
+   "open_hosts": 3,
+   "recovered_hosts": 1,
+   "deferred_total": 10,
+   "deferred_remaining": 9,
+   "deferred_recovered": 1,
+   "probes": 1,
+   "probe_successes": 1,
+   "probe_failures": 0,
    "by_kind": {
-    "http_504": 1,
-    "portal_placeholder": 7
+    "portal_placeholder": 4
    },
    "hosts": [
-    {
-     "host": "centralny--tum.sudrf.ru",
-     "state": "open",
-     "kind": "portal_placeholder",
-     "family": "portal_outage",
-     "reason": "вместо карточки пришла заглушка портала",
-     "preopened": false,
-     "skipped": 12,
-     "probes": 1,
-     "deferred_total": 13,
-     "deferred_remaining": 13,
-     "deferred_recovered": 0,
-     "cooldown_seconds": 180.0,
-     "next_probe_in_seconds": 147.2
-    },
     {
      "host": "leninsky--tum.sudrf.ru",
      "state": "open",
@@ -154,13 +138,13 @@
      "family": "portal_outage",
      "reason": "вместо карточки пришла заглушка портала",
      "preopened": false,
-     "skipped": 9,
+     "skipped": 8,
      "probes": 1,
-     "deferred_total": 10,
-     "deferred_remaining": 10,
-     "deferred_recovered": 0,
+     "deferred_total": 6,
+     "deferred_remaining": 5,
+     "deferred_recovered": 1,
      "cooldown_seconds": 180.0,
-     "next_probe_in_seconds": 132.3
+     "next_probe_in_seconds": 179.9
     },
     {
      "host": "yalutorovsky--tum.sudrf.ru",
@@ -175,22 +159,7 @@
      "deferred_remaining": 1,
      "deferred_recovered": 0,
      "cooldown_seconds": 180.0,
-     "next_probe_in_seconds": 81.6
-    },
-    {
-     "host": "yarkovsky--tum.sudrf.ru",
-     "state": "open",
-     "kind": "http_504",
-     "family": "fast_transient",
-     "reason": "суд отвечает HTTP 504",
-     "preopened": false,
-     "skipped": 0,
-     "probes": 1,
-     "deferred_total": 1,
-     "deferred_remaining": 1,
-     "deferred_recovered": 0,
-     "cooldown_seconds": 60.0,
-     "next_probe_in_seconds": 59.9
+     "next_probe_in_seconds": 91.4
     },
     {
      "host": "zavodoukovsky--tum.sudrf.ru",
@@ -199,21 +168,21 @@
      "family": "portal_outage",
      "reason": "вместо карточки пришла заглушка портала",
      "preopened": false,
-     "skipped": 1,
+     "skipped": 2,
      "probes": 0,
-     "deferred_total": 2,
-     "deferred_remaining": 2,
+     "deferred_total": 3,
+     "deferred_remaining": 3,
      "deferred_recovered": 0,
      "cooldown_seconds": 180.0,
-     "next_probe_in_seconds": 99.8
+     "next_probe_in_seconds": 121.4
     }
    ]
   },
-  "courts_unavailable": 5,
-  "courts_with_unrequested": 3,
+  "courts_unavailable": 3,
+  "courts_with_unrequested": 2,
   "courts_outage": 0,
-  "cards_unreachable": 22,
-  "cards_unread_other": 17,
+  "cards_unreachable": 5,
+  "cards_unread_other": 14,
   "run_deadline_seconds": 3300.0,
   "run_deadline_reached": false
  }
