@@ -793,9 +793,9 @@
         "court_domain": "leninsky--tum.sudrf.ru",
         "judge": "Бубнова Ольга Викторовна",
         "filing_date": "06.07.2026",
-        "status": "В производстве",
-        "result": "",
-        "last_event": "Судебное заседание. 14:00. 12.08.2026",
+        "status": "Решено",
+        "result": "ОТКАЗАНО в удовлетворении иска (заявлении, жалобы)",
+        "last_event": "Судебное заседание. 14:00. Вынесено решение по делу. ОТКАЗАНО в удовлетворении иска (заявлении, жалобы). 12.08.2026",
         "event_date": "21.09.2026",
         "hearing_date": "21.09.2026",
         "hearing_time": "14:00",
@@ -805,8 +805,10 @@
         "judicial_uid": "72RS0014-01-2026-001519-47",
         "delo_id": 1540005,
         "srv_num": 1,
-        "last_checked_at": "2026-09-23",
-        "intake_card_parse": true
+        "last_checked_at": "2026-09-24",
+        "decision_date": "21.09.2026",
+        "resolved_emitted": true,
+        "writ_expected": false
       },
       "appeal": null,
       "track": "plaintiff_light",
@@ -916,9 +918,9 @@
         "court_domain": "leninsky--tum.sudrf.ru",
         "judge": "Бубнова Ольга Викторовна",
         "filing_date": "02.07.2026",
-        "status": "В производстве",
-        "result": "",
-        "last_event": "Судебное заседание. 10:30. 12.08.2026",
+        "status": "Решено",
+        "result": "Иск (заявление, жалоба) УДОВЛЕТВОРЕН",
+        "last_event": "Судебное заседание. 10:30. Вынесено заочное решение по делу. Иск (заявление, жалоба) УДОВЛЕТВОРЕН. 12.08.2026",
         "event_date": "16.09.2026",
         "hearing_date": "16.09.2026",
         "hearing_time": "10:30",
@@ -928,8 +930,12 @@
         "judicial_uid": "72RS0017-01-2026-000015-35",
         "delo_id": 1540005,
         "srv_num": 1,
-        "last_checked_at": "2026-09-23",
-        "intake_card_parse": true
+        "last_checked_at": "2026-09-24",
+        "decision_date": "16.09.2026",
+        "resolved_emitted": true,
+        "legal_force_est": "2026-10-31",
+        "writ_awaited_since": "2026-10-31",
+        "default_judgment": true
       },
       "appeal": null,
       "track": "plaintiff_light",
@@ -1050,8 +1056,7 @@
         "judicial_uid": "72RS0014-01-2026-010929-44",
         "delo_id": 1540005,
         "srv_num": 1,
-        "last_checked_at": "2026-09-23",
-        "intake_card_parse": true
+        "last_checked_at": "2026-09-24"
       },
       "appeal": null,
       "track": "plaintiff_light",
@@ -1345,8 +1350,7 @@
         "judicial_uid": "72RS0014-01-2026-010331-92",
         "delo_id": 1540005,
         "srv_num": 1,
-        "last_checked_at": "2026-09-23",
-        "intake_card_parse": true
+        "last_checked_at": "2026-09-24"
       },
       "appeal": null,
       "track": "plaintiff_light",
@@ -4577,8 +4581,7 @@
         "judicial_uid": "72RS0014-01-2026-013624-10",
         "delo_id": 1540005,
         "srv_num": 1,
-        "last_checked_at": "2026-09-23",
-        "intake_card_parse": true
+        "last_checked_at": "2026-09-24"
       },
       "appeal": null,
       "track": "plaintiff_light",
@@ -10565,7 +10568,7 @@
         "judicial_uid": "72RS0010-01-2026-000835-80",
         "delo_id": 1540005,
         "srv_num": 1,
-        "last_checked_at": "2026-09-23"
+        "last_checked_at": "2026-09-24"
       },
       "appeal": null,
       "track": "plaintiff_light",
@@ -10769,10 +10772,10 @@
         "court_domain": "sladkovsky--tum.sudrf.ru",
         "judge": "Малинин Александр Олегович",
         "filing_date": "04.08.2026",
-        "status": "В производстве",
-        "result": "",
-        "last_event": "Переход к рассмотрению дела в порядке упрощенного производства. 14:02. Срок для предоставления доказательств и возражений до 23.09.2026\r\nСрок для предоставления дополнительных возражений до 01.09.2026. 04.08.2026",
-        "event_date": "04.08.2026",
+        "status": "Решено",
+        "result": "Иск (заявление, жалоба) УДОВЛЕТВОРЕН",
+        "last_event": "Принятие судебного постановления в порядке упрощенного производства. 13:09. Вынесено решение по делу. Иск (заявление, жалоба) УДОВЛЕТВОРЕН. 23.09.2026",
+        "event_date": "23.09.2026",
         "hearing_date": "",
         "hearing_time": "",
         "link": "249010488|73e8dd98-6510-46ab-9191-f205f220c20c",
@@ -10781,7 +10784,11 @@
         "judicial_uid": "72RS0017-01-2026-000141-45",
         "delo_id": 1540005,
         "srv_num": 1,
-        "last_checked_at": "2026-09-23"
+        "last_checked_at": "2026-09-24",
+        "decision_date": "23.09.2026",
+        "resolved_emitted": true,
+        "legal_force_est": "2026-11-10",
+        "writ_awaited_since": "2026-11-10"
       },
       "appeal": null,
       "track": "plaintiff_light",
@@ -13745,5 +13752,5 @@
       }
     }
   ],
-  "updated_at": "2026-09-24T07:37:35+05:00"
+  "updated_at": "2026-09-24T07:53:52+05:00"
 }
