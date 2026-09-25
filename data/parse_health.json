@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated_at": "2026-09-25T06:52:14+05:00",
+ "updated_at": "2026-09-25T07:16:13+05:00",
  "sources": {
   "cassation:7kas:total": {
    "counts": [
@@ -62,30 +62,30 @@
   }
  },
  "last_run": {
-  "at": "2026-09-25T06:52:14",
+  "at": "2026-09-25T07:16:13",
   "alerts": [],
-  "requests_ok": 14,
+  "requests_ok": 12,
   "requests_failed": 0,
   "requests_retried": 0,
-  "cards_breaker_skipped": 2,
-  "cards_breaker_unrequested": 2,
+  "cards_breaker_skipped": 0,
+  "cards_breaker_unrequested": 0,
   "cards_breaker_recovered": 0,
-  "cards_blocked": 7,
-  "cards_read": 7,
-  "cards_planned": 16,
+  "cards_blocked": 2,
+  "cards_read": 10,
+  "cards_planned": 12,
   "cards_read_today": 134,
   "cards_planned_today": 135,
-  "daily_attempts": 2,
+  "daily_attempts": 3,
   "instances": {
    "first_instance": {
-    "read": 3,
+    "read": 10,
     "planned": 12,
     "read_today": 89,
     "planned_today": 90
    },
    "appeal": {
-    "read": 4,
-    "planned": 4,
+    "read": 0,
+    "planned": 0,
     "read_today": 39,
     "planned_today": 39
    },
@@ -97,52 +97,37 @@
    }
   },
   "latency": {
-   "n": 14,
-   "p50": 2.3,
-   "p90": 5.0,
-   "max": 7.3
+   "n": 12,
+   "p50": 3.7,
+   "p90": 4.4,
+   "max": 4.7
   },
   "failure_latency": {
    "portal_placeholder": {
-    "n": 7,
-    "p50": 3.5,
-    "p90": 5.0,
-    "max": 5.0
+    "n": 2,
+    "p50": 3.7,
+    "p90": 4.1,
+    "max": 4.1
    }
   },
   "fail_kinds": {
-   "portal_placeholder": 7
+   "portal_placeholder": 2
   },
   "breaker": {
    "mode": "time",
-   "opened_hosts": 3,
-   "open_hosts": 3,
+   "opened_hosts": 1,
+   "open_hosts": 1,
    "recovered_hosts": 0,
-   "deferred_total": 5,
-   "deferred_remaining": 5,
+   "deferred_total": 1,
+   "deferred_remaining": 1,
    "deferred_recovered": 0,
    "probes": 0,
    "probe_successes": 0,
    "probe_failures": 0,
    "by_kind": {
-    "portal_placeholder": 3
+    "portal_placeholder": 1
    },
    "hosts": [
-    {
-     "host": "centralny--tum.sudrf.ru",
-     "state": "open",
-     "kind": "portal_placeholder",
-     "family": "portal_outage",
-     "reason": "вместо карточки пришла заглушка портала",
-     "preopened": false,
-     "skipped": 1,
-     "probes": 0,
-     "deferred_total": 2,
-     "deferred_remaining": 2,
-     "deferred_recovered": 0,
-     "cooldown_seconds": 180.0,
-     "next_probe_in_seconds": 165.7
-    },
     {
      "host": "kalininsky--tum.sudrf.ru",
      "state": "open",
@@ -156,30 +141,15 @@
      "deferred_remaining": 1,
      "deferred_recovered": 0,
      "cooldown_seconds": 180.0,
-     "next_probe_in_seconds": 176.2
-    },
-    {
-     "host": "leninsky--tum.sudrf.ru",
-     "state": "open",
-     "kind": "portal_placeholder",
-     "family": "portal_outage",
-     "reason": "вместо карточки пришла заглушка портала",
-     "preopened": false,
-     "skipped": 1,
-     "probes": 0,
-     "deferred_total": 2,
-     "deferred_remaining": 2,
-     "deferred_recovered": 0,
-     "cooldown_seconds": 180.0,
-     "next_probe_in_seconds": 132.3
+     "next_probe_in_seconds": 176.4
     }
    ]
   },
-  "courts_unavailable": 3,
-  "courts_with_unrequested": 2,
+  "courts_unavailable": 1,
+  "courts_with_unrequested": 0,
   "courts_outage": 0,
-  "cards_unreachable": 2,
-  "cards_unread_other": 7,
+  "cards_unreachable": 0,
+  "cards_unread_other": 2,
   "run_deadline_seconds": 3300.0,
   "run_deadline_reached": false
  }
