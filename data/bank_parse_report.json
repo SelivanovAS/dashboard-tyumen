@@ -4,9 +4,9 @@
   "smart_skip": true,
   "totals": {
     "total": 330,
-    "parsed": 5,
+    "parsed": 6,
     "skip": 324,
-    "failed": 1,
+    "failed": 0,
     "no_card": 0,
     "not_in_queue": 0,
     "intake_new": 0
@@ -4117,9 +4117,9 @@
       "last_checked_at": "2026-09-22"
     },
     {
-      "outcome": "fetch_blocked",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "портал суда отдал заглушку/блокировку вместо карточки",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -4132,7 +4132,7 @@
       "court": "Калининский районный суд г. Тюмени",
       "court_domain": "kalininsky--tum.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-09-24"
+      "last_checked_at": "2026-09-25"
     },
     {
       "outcome": "skip",
@@ -5953,5 +5953,5 @@
       "last_checked_at": "2026-09-25"
     }
   ],
-  "updated_at": "2026-09-25T07:16:13+05:00"
+  "updated_at": "2026-09-25T07:40:55+05:00"
 }
