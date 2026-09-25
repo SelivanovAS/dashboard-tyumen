@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated_at": "2026-09-25T06:21:28+05:00",
+ "updated_at": "2026-09-25T06:52:14+05:00",
  "sources": {
   "cassation:7kas:total": {
    "counts": [
@@ -62,76 +62,124 @@
   }
  },
  "last_run": {
-  "at": "2026-09-25T06:21:28",
+  "at": "2026-09-25T06:52:14",
   "alerts": [],
-  "requests_ok": 138,
+  "requests_ok": 14,
   "requests_failed": 0,
   "requests_retried": 0,
-  "cards_breaker_skipped": 0,
-  "cards_breaker_unrequested": 0,
+  "cards_breaker_skipped": 2,
+  "cards_breaker_unrequested": 2,
   "cards_breaker_recovered": 0,
-  "cards_blocked": 1,
-  "cards_read": 130,
-  "cards_planned": 131,
-  "cards_read_today": 130,
-  "cards_planned_today": 131,
-  "daily_attempts": 1,
+  "cards_blocked": 7,
+  "cards_read": 7,
+  "cards_planned": 16,
+  "cards_read_today": 134,
+  "cards_planned_today": 135,
+  "daily_attempts": 2,
   "instances": {
    "first_instance": {
-    "read": 89,
-    "planned": 90,
+    "read": 3,
+    "planned": 12,
     "read_today": 89,
     "planned_today": 90
    },
    "appeal": {
-    "read": 35,
-    "planned": 35,
-    "read_today": 35,
-    "planned_today": 35
+    "read": 4,
+    "planned": 4,
+    "read_today": 39,
+    "planned_today": 39
    },
    "cassation": {
-    "read": 6,
-    "planned": 6,
+    "read": 0,
+    "planned": 0,
     "read_today": 6,
     "planned_today": 6
    }
   },
   "latency": {
-   "n": 138,
-   "p50": 1.5,
-   "p90": 5.3,
-   "max": 10.9
+   "n": 14,
+   "p50": 2.3,
+   "p90": 5.0,
+   "max": 7.3
   },
   "failure_latency": {
    "portal_placeholder": {
-    "n": 1,
-    "p50": 6.6,
-    "p90": 6.6,
-    "max": 6.6
+    "n": 7,
+    "p50": 3.5,
+    "p90": 5.0,
+    "max": 5.0
    }
   },
   "fail_kinds": {
-   "portal_placeholder": 1
+   "portal_placeholder": 7
   },
   "breaker": {
    "mode": "time",
-   "opened_hosts": 0,
-   "open_hosts": 0,
+   "opened_hosts": 3,
+   "open_hosts": 3,
    "recovered_hosts": 0,
-   "deferred_total": 0,
-   "deferred_remaining": 0,
+   "deferred_total": 5,
+   "deferred_remaining": 5,
    "deferred_recovered": 0,
    "probes": 0,
    "probe_successes": 0,
    "probe_failures": 0,
-   "by_kind": {},
-   "hosts": []
+   "by_kind": {
+    "portal_placeholder": 3
+   },
+   "hosts": [
+    {
+     "host": "centralny--tum.sudrf.ru",
+     "state": "open",
+     "kind": "portal_placeholder",
+     "family": "portal_outage",
+     "reason": "вместо карточки пришла заглушка портала",
+     "preopened": false,
+     "skipped": 1,
+     "probes": 0,
+     "deferred_total": 2,
+     "deferred_remaining": 2,
+     "deferred_recovered": 0,
+     "cooldown_seconds": 180.0,
+     "next_probe_in_seconds": 165.7
+    },
+    {
+     "host": "kalininsky--tum.sudrf.ru",
+     "state": "open",
+     "kind": "portal_placeholder",
+     "family": "portal_outage",
+     "reason": "вместо карточки пришла заглушка портала",
+     "preopened": false,
+     "skipped": 0,
+     "probes": 0,
+     "deferred_total": 1,
+     "deferred_remaining": 1,
+     "deferred_recovered": 0,
+     "cooldown_seconds": 180.0,
+     "next_probe_in_seconds": 176.2
+    },
+    {
+     "host": "leninsky--tum.sudrf.ru",
+     "state": "open",
+     "kind": "portal_placeholder",
+     "family": "portal_outage",
+     "reason": "вместо карточки пришла заглушка портала",
+     "preopened": false,
+     "skipped": 1,
+     "probes": 0,
+     "deferred_total": 2,
+     "deferred_remaining": 2,
+     "deferred_recovered": 0,
+     "cooldown_seconds": 180.0,
+     "next_probe_in_seconds": 132.3
+    }
+   ]
   },
-  "courts_unavailable": 0,
-  "courts_with_unrequested": 0,
+  "courts_unavailable": 3,
+  "courts_with_unrequested": 2,
   "courts_outage": 0,
-  "cards_unreachable": 0,
-  "cards_unread_other": 1,
+  "cards_unreachable": 2,
+  "cards_unread_other": 7,
   "run_deadline_seconds": 3300.0,
   "run_deadline_reached": false
  }
