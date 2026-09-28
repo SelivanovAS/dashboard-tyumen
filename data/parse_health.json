@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated_at": "2026-09-28T06:23:49+05:00",
+ "updated_at": "2026-09-28T06:51:41+05:00",
  "sources": {
   "cassation:7kas:total": {
    "counts": [
@@ -66,70 +66,70 @@
   }
  },
  "last_run": {
-  "at": "2026-09-28T06:23:49",
+  "at": "2026-09-28T06:51:41",
   "alerts": [],
-  "requests_ok": 158,
+  "requests_ok": 15,
   "requests_failed": 0,
   "requests_retried": 0,
-  "cards_breaker_skipped": 31,
-  "cards_breaker_unrequested": 5,
-  "cards_breaker_recovered": 21,
-  "cards_blocked": 12,
-  "cards_read": 143,
-  "cards_planned": 156,
-  "cards_read_today": 143,
+  "cards_breaker_skipped": 6,
+  "cards_breaker_unrequested": 6,
+  "cards_breaker_recovered": 0,
+  "cards_blocked": 7,
+  "cards_read": 8,
+  "cards_planned": 21,
+  "cards_read_today": 147,
   "cards_planned_today": 156,
-  "daily_attempts": 1,
+  "daily_attempts": 2,
   "instances": {
    "first_instance": {
-    "read": 99,
-    "planned": 112,
-    "read_today": 99,
+    "read": 8,
+    "planned": 21,
+    "read_today": 103,
     "planned_today": 112
    },
    "appeal": {
-    "read": 38,
-    "planned": 38,
+    "read": 0,
+    "planned": 0,
     "read_today": 38,
     "planned_today": 38
    },
    "cassation": {
-    "read": 6,
-    "planned": 6,
+    "read": 0,
+    "planned": 0,
     "read_today": 6,
     "planned_today": 6
    }
   },
   "latency": {
-   "n": 158,
-   "p50": 2.1,
-   "p90": 5.3,
-   "max": 7.6
+   "n": 15,
+   "p50": 4.5,
+   "p90": 6.5,
+   "max": 8.2
   },
   "failure_latency": {
    "portal_placeholder": {
-    "n": 12,
-    "p50": 1.6,
-    "p90": 6.1,
+    "n": 7,
+    "p50": 4.5,
+    "p90": 6.5,
     "max": 6.5
    }
   },
   "fail_kinds": {
-   "portal_placeholder": 12
+   "portal_placeholder": 7
   },
   "breaker": {
    "mode": "time",
-   "opened_hosts": 4,
-   "open_hosts": 2,
-   "recovered_hosts": 4,
-   "deferred_total": 30,
+   "opened_hosts": 3,
+   "open_hosts": 3,
+   "recovered_hosts": 0,
+   "deferred_total": 9,
    "deferred_remaining": 9,
-   "deferred_recovered": 21,
-   "probes": 4,
-   "probe_successes": 4,
+   "deferred_recovered": 0,
+   "probes": 0,
+   "probe_successes": 0,
    "probe_failures": 0,
    "by_kind": {
-    "portal_placeholder": 6
+    "portal_placeholder": 3
    },
    "hosts": [
     {
@@ -139,28 +139,28 @@
      "family": "portal_outage",
      "reason": "вместо карточки пришла заглушка портала",
      "preopened": false,
-     "skipped": 14,
-     "probes": 1,
-     "deferred_total": 13,
-     "deferred_remaining": 4,
-     "deferred_recovered": 9,
+     "skipped": 6,
+     "probes": 0,
+     "deferred_total": 7,
+     "deferred_remaining": 7,
+     "deferred_recovered": 0,
      "cooldown_seconds": 180.0,
-     "next_probe_in_seconds": 179.9
+     "next_probe_in_seconds": 165.0
     },
     {
      "host": "kalininsky--tum.sudrf.ru",
-     "state": "closed",
+     "state": "open",
      "kind": "portal_placeholder",
      "family": "portal_outage",
      "reason": "вместо карточки пришла заглушка портала",
      "preopened": false,
-     "skipped": 2,
-     "probes": 1,
-     "deferred_total": 3,
-     "deferred_remaining": 0,
-     "deferred_recovered": 3,
+     "skipped": 0,
+     "probes": 0,
+     "deferred_total": 1,
+     "deferred_remaining": 1,
+     "deferred_recovered": 0,
      "cooldown_seconds": 180.0,
-     "next_probe_in_seconds": 0.0
+     "next_probe_in_seconds": 153.5
     },
     {
      "host": "leninsky--tum.sudrf.ru",
@@ -169,36 +169,21 @@
      "family": "portal_outage",
      "reason": "вместо карточки пришла заглушка портала",
      "preopened": false,
-     "skipped": 10,
-     "probes": 1,
-     "deferred_total": 8,
-     "deferred_remaining": 5,
-     "deferred_recovered": 3,
+     "skipped": 0,
+     "probes": 0,
+     "deferred_total": 1,
+     "deferred_remaining": 1,
+     "deferred_recovered": 0,
      "cooldown_seconds": 180.0,
-     "next_probe_in_seconds": 55.1
-    },
-    {
-     "host": "tobolskygor--tum.sudrf.ru",
-     "state": "closed",
-     "kind": "portal_placeholder",
-     "family": "portal_outage",
-     "reason": "вместо карточки пришла заглушка портала",
-     "preopened": false,
-     "skipped": 5,
-     "probes": 1,
-     "deferred_total": 6,
-     "deferred_remaining": 0,
-     "deferred_recovered": 6,
-     "cooldown_seconds": 180.0,
-     "next_probe_in_seconds": 0.0
+     "next_probe_in_seconds": 169.5
     }
    ]
   },
-  "courts_unavailable": 2,
-  "courts_with_unrequested": 2,
+  "courts_unavailable": 3,
+  "courts_with_unrequested": 1,
   "courts_outage": 0,
-  "cards_unreachable": 5,
-  "cards_unread_other": 8,
+  "cards_unreachable": 6,
+  "cards_unread_other": 7,
   "run_deadline_seconds": 3300.0,
   "run_deadline_reached": false
  }
