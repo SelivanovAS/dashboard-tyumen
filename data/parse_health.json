@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated_at": "2026-09-28T07:11:10+05:00",
+ "updated_at": "2026-09-28T07:41:21+05:00",
  "sources": {
   "cassation:7kas:total": {
    "counts": [
@@ -66,25 +66,25 @@
   }
  },
  "last_run": {
-  "at": "2026-09-28T07:11:10",
+  "at": "2026-09-28T07:41:21",
   "alerts": [],
-  "requests_ok": 12,
+  "requests_ok": 14,
   "requests_failed": 0,
   "requests_retried": 0,
-  "cards_breaker_skipped": 6,
-  "cards_breaker_unrequested": 6,
+  "cards_breaker_skipped": 2,
+  "cards_breaker_unrequested": 2,
   "cards_breaker_recovered": 0,
   "cards_blocked": 6,
-  "cards_read": 6,
-  "cards_planned": 18,
-  "cards_read_today": 149,
+  "cards_read": 8,
+  "cards_planned": 16,
+  "cards_read_today": 153,
   "cards_planned_today": 156,
-  "daily_attempts": 3,
+  "daily_attempts": 4,
   "instances": {
    "first_instance": {
-    "read": 6,
-    "planned": 18,
-    "read_today": 105,
+    "read": 8,
+    "planned": 16,
+    "read_today": 109,
     "planned_today": 112
    },
    "appeal": {
@@ -101,17 +101,17 @@
    }
   },
   "latency": {
-   "n": 12,
-   "p50": 1.0,
-   "p90": 4.6,
-   "max": 5.2
+   "n": 14,
+   "p50": 0.7,
+   "p90": 3.4,
+   "max": 3.6
   },
   "failure_latency": {
    "portal_placeholder": {
     "n": 6,
-    "p50": 0.2,
-    "p90": 4.6,
-    "max": 4.6
+    "p50": 0.4,
+    "p90": 3.0,
+    "max": 3.0
    }
   },
   "fail_kinds": {
@@ -119,34 +119,19 @@
   },
   "breaker": {
    "mode": "time",
-   "opened_hosts": 3,
-   "open_hosts": 3,
+   "opened_hosts": 2,
+   "open_hosts": 2,
    "recovered_hosts": 0,
-   "deferred_total": 9,
-   "deferred_remaining": 9,
+   "deferred_total": 4,
+   "deferred_remaining": 4,
    "deferred_recovered": 0,
    "probes": 0,
    "probe_successes": 0,
    "probe_failures": 0,
    "by_kind": {
-    "portal_placeholder": 3
+    "portal_placeholder": 2
    },
    "hosts": [
-    {
-     "host": "centralny--tum.sudrf.ru",
-     "state": "open",
-     "kind": "portal_placeholder",
-     "family": "portal_outage",
-     "reason": "вместо карточки пришла заглушка портала",
-     "preopened": false,
-     "skipped": 4,
-     "probes": 0,
-     "deferred_total": 5,
-     "deferred_remaining": 5,
-     "deferred_recovered": 0,
-     "cooldown_seconds": 180.0,
-     "next_probe_in_seconds": 177.0
-    },
     {
      "host": "kalininsky--tum.sudrf.ru",
      "state": "open",
@@ -160,7 +145,7 @@
      "deferred_remaining": 1,
      "deferred_recovered": 0,
      "cooldown_seconds": 180.0,
-     "next_probe_in_seconds": 168.3
+     "next_probe_in_seconds": 148.9
     },
     {
      "host": "leninsky--tum.sudrf.ru",
@@ -175,14 +160,14 @@
      "deferred_remaining": 3,
      "deferred_recovered": 0,
      "cooldown_seconds": 180.0,
-     "next_probe_in_seconds": 132.4
+     "next_probe_in_seconds": 130.1
     }
    ]
   },
-  "courts_unavailable": 3,
-  "courts_with_unrequested": 2,
+  "courts_unavailable": 2,
+  "courts_with_unrequested": 1,
   "courts_outage": 0,
-  "cards_unreachable": 6,
+  "cards_unreachable": 2,
   "cards_unread_other": 6,
   "run_deadline_seconds": 3300.0,
   "run_deadline_reached": false
