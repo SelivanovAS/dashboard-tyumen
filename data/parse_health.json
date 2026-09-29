@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated_at": "2026-09-29T08:11:39+05:00",
+ "updated_at": "2026-09-29T08:41:57+05:00",
  "sources": {
   "cassation:7kas:total": {
    "counts": [
@@ -70,23 +70,23 @@
   }
  },
  "last_run": {
-  "at": "2026-09-29T08:11:39",
+  "at": "2026-09-29T08:41:57",
   "alerts": [],
-  "requests_ok": 12,
+  "requests_ok": 9,
   "requests_failed": 0,
   "requests_retried": 0,
-  "cards_breaker_skipped": 0,
-  "cards_breaker_unrequested": 0,
+  "cards_breaker_skipped": 3,
+  "cards_breaker_unrequested": 3,
   "cards_breaker_recovered": 0,
-  "cards_blocked": 0,
-  "cards_read": 12,
+  "cards_blocked": 4,
+  "cards_read": 5,
   "cards_planned": 12,
   "cards_read_today": 229,
   "cards_planned_today": 229,
-  "daily_attempts": 5,
+  "daily_attempts": 6,
   "instances": {
    "first_instance": {
-    "read": 12,
+    "read": 5,
     "planned": 12,
     "read_today": 182,
     "planned_today": 182
@@ -105,32 +105,59 @@
    }
   },
   "latency": {
-   "n": 12,
-   "p50": 1.8,
-   "p90": 4.9,
-   "max": 6.2
+   "n": 9,
+   "p50": 5.3,
+   "p90": 8.3,
+   "max": 8.3
   },
-  "failure_latency": {},
-  "fail_kinds": {},
+  "failure_latency": {
+   "portal_placeholder": {
+    "n": 4,
+    "p50": 5.3,
+    "p90": 7.3,
+    "max": 7.3
+   }
+  },
+  "fail_kinds": {
+   "portal_placeholder": 4
+  },
   "breaker": {
    "mode": "time",
-   "opened_hosts": 0,
-   "open_hosts": 0,
+   "opened_hosts": 1,
+   "open_hosts": 1,
    "recovered_hosts": 0,
-   "deferred_total": 0,
-   "deferred_remaining": 0,
+   "deferred_total": 4,
+   "deferred_remaining": 4,
    "deferred_recovered": 0,
    "probes": 0,
    "probe_successes": 0,
    "probe_failures": 0,
-   "by_kind": {},
-   "hosts": []
+   "by_kind": {
+    "portal_placeholder": 1
+   },
+   "hosts": [
+    {
+     "host": "leninsky--tum.sudrf.ru",
+     "state": "open",
+     "kind": "portal_placeholder",
+     "family": "portal_outage",
+     "reason": "вместо карточки пришла заглушка портала",
+     "preopened": false,
+     "skipped": 3,
+     "probes": 0,
+     "deferred_total": 4,
+     "deferred_remaining": 4,
+     "deferred_recovered": 0,
+     "cooldown_seconds": 180.0,
+     "next_probe_in_seconds": 123.9
+    }
+   ]
   },
-  "courts_unavailable": 0,
-  "courts_with_unrequested": 0,
+  "courts_unavailable": 1,
+  "courts_with_unrequested": 1,
   "courts_outage": 0,
-  "cards_unreachable": 0,
-  "cards_unread_other": 0,
+  "cards_unreachable": 3,
+  "cards_unread_other": 4,
   "run_deadline_seconds": 3300.0,
   "run_deadline_reached": false
  }
