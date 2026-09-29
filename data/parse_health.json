@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated_at": "2026-09-29T07:07:06+05:00",
+ "updated_at": "2026-09-29T07:22:55+05:00",
  "sources": {
   "cassation:7kas:total": {
    "counts": [
@@ -70,24 +70,24 @@
   }
  },
  "last_run": {
-  "at": "2026-09-29T07:07:06",
+  "at": "2026-09-29T07:22:55",
   "alerts": [],
-  "requests_ok": 17,
+  "requests_ok": 8,
   "requests_failed": 0,
   "requests_retried": 0,
-  "cards_breaker_skipped": 0,
-  "cards_breaker_unrequested": 0,
+  "cards_breaker_skipped": 4,
+  "cards_breaker_unrequested": 4,
   "cards_breaker_recovered": 0,
-  "cards_blocked": 0,
-  "cards_read": 13,
-  "cards_planned": 13,
+  "cards_blocked": 8,
+  "cards_read": 0,
+  "cards_planned": 12,
   "cards_read_today": 229,
   "cards_planned_today": 229,
-  "daily_attempts": 2,
+  "daily_attempts": 3,
   "instances": {
    "first_instance": {
-    "read": 13,
-    "planned": 13,
+    "read": 0,
+    "planned": 12,
     "read_today": 182,
     "planned_today": 182
    },
@@ -105,32 +105,74 @@
    }
   },
   "latency": {
-   "n": 17,
-   "p50": 2.4,
-   "p90": 3.6,
-   "max": 6.6
+   "n": 8,
+   "p50": 4.0,
+   "p90": 21.0,
+   "max": 21.0
   },
-  "failure_latency": {},
-  "fail_kinds": {},
+  "failure_latency": {
+   "portal_placeholder": {
+    "n": 8,
+    "p50": 4.0,
+    "p90": 21.0,
+    "max": 21.0
+   }
+  },
+  "fail_kinds": {
+   "portal_placeholder": 8
+  },
   "breaker": {
    "mode": "time",
-   "opened_hosts": 0,
-   "open_hosts": 0,
+   "opened_hosts": 2,
+   "open_hosts": 2,
    "recovered_hosts": 0,
-   "deferred_total": 0,
-   "deferred_remaining": 0,
+   "deferred_total": 6,
+   "deferred_remaining": 6,
    "deferred_recovered": 0,
    "probes": 0,
    "probe_successes": 0,
    "probe_failures": 0,
-   "by_kind": {},
-   "hosts": []
+   "by_kind": {
+    "portal_placeholder": 2
+   },
+   "hosts": [
+    {
+     "host": "centralny--tum.sudrf.ru",
+     "state": "open",
+     "kind": "portal_placeholder",
+     "family": "portal_outage",
+     "reason": "вместо карточки пришла заглушка портала",
+     "preopened": false,
+     "skipped": 1,
+     "probes": 0,
+     "deferred_total": 2,
+     "deferred_remaining": 2,
+     "deferred_recovered": 0,
+     "cooldown_seconds": 180.0,
+     "next_probe_in_seconds": 175.3
+    },
+    {
+     "host": "leninsky--tum.sudrf.ru",
+     "state": "open",
+     "kind": "portal_placeholder",
+     "family": "portal_outage",
+     "reason": "вместо карточки пришла заглушка портала",
+     "preopened": false,
+     "skipped": 3,
+     "probes": 0,
+     "deferred_total": 4,
+     "deferred_remaining": 4,
+     "deferred_recovered": 0,
+     "cooldown_seconds": 180.0,
+     "next_probe_in_seconds": 139.6
+    }
+   ]
   },
-  "courts_unavailable": 0,
-  "courts_with_unrequested": 0,
+  "courts_unavailable": 2,
+  "courts_with_unrequested": 2,
   "courts_outage": 0,
-  "cards_unreachable": 0,
-  "cards_unread_other": 0,
+  "cards_unreachable": 4,
+  "cards_unread_other": 8,
   "run_deadline_seconds": 3300.0,
   "run_deadline_reached": false
  }
