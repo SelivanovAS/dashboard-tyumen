@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated_at": "2026-09-29T06:29:21+05:00",
+ "updated_at": "2026-09-29T07:07:06+05:00",
  "sources": {
   "cassation:7kas:total": {
    "counts": [
@@ -70,57 +70,48 @@
   }
  },
  "last_run": {
-  "at": "2026-09-29T06:29:21",
+  "at": "2026-09-29T07:07:06",
   "alerts": [],
-  "requests_ok": 250,
+  "requests_ok": 17,
   "requests_failed": 0,
   "requests_retried": 0,
   "cards_breaker_skipped": 0,
   "cards_breaker_unrequested": 0,
   "cards_breaker_recovered": 0,
-  "cards_blocked": 1,
-  "cards_read": 231,
-  "cards_planned": 232,
-  "cards_read_today": 228,
+  "cards_blocked": 0,
+  "cards_read": 13,
+  "cards_planned": 13,
+  "cards_read_today": 229,
   "cards_planned_today": 229,
-  "daily_attempts": 1,
+  "daily_attempts": 2,
   "instances": {
    "first_instance": {
-    "read": 181,
-    "planned": 182,
-    "read_today": 181,
+    "read": 13,
+    "planned": 13,
+    "read_today": 182,
     "planned_today": 182
    },
    "appeal": {
-    "read": 41,
-    "planned": 41,
+    "read": 0,
+    "planned": 0,
     "read_today": 41,
     "planned_today": 41
    },
    "cassation": {
-    "read": 9,
-    "planned": 9,
+    "read": 0,
+    "planned": 0,
     "read_today": 6,
     "planned_today": 6
    }
   },
   "latency": {
-   "n": 250,
-   "p50": 2.0,
-   "p90": 3.8,
-   "max": 7.9
+   "n": 17,
+   "p50": 2.4,
+   "p90": 3.6,
+   "max": 6.6
   },
-  "failure_latency": {
-   "portal_placeholder": {
-    "n": 1,
-    "p50": 0.8,
-    "p90": 0.8,
-    "max": 0.8
-   }
-  },
-  "fail_kinds": {
-   "portal_placeholder": 1
-  },
+  "failure_latency": {},
+  "fail_kinds": {},
   "breaker": {
    "mode": "time",
    "opened_hosts": 0,
@@ -139,7 +130,7 @@
   "courts_with_unrequested": 0,
   "courts_outage": 0,
   "cards_unreachable": 0,
-  "cards_unread_other": 1,
+  "cards_unread_other": 0,
   "run_deadline_seconds": 3300.0,
   "run_deadline_reached": false
  }
