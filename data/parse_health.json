@@ -1,9 +1,10 @@
 {
  "version": 1,
- "updated_at": "2026-09-29T08:41:57+05:00",
+ "updated_at": "2026-09-30T07:05:23+05:00",
  "sources": {
   "cassation:7kas:total": {
    "counts": [
+    25,
     25,
     25,
     25,
@@ -17,12 +18,13 @@
    "alerted_zero": false,
    "label": "Кассация 7kas (вся выдача)",
    "last_count": 25,
-   "last_run_at": "2026-09-29T06:29:21+05:00"
+   "last_run_at": "2026-09-30T07:05:23+05:00"
   },
   "cassation:7kas:tyumen": {
    "counts": [
     1,
     1,
+    2,
     2,
     2,
     2,
@@ -34,10 +36,11 @@
    "alerted_zero": false,
    "label": "Кассация 7kas (фильтр региона)",
    "last_count": 2,
-   "last_run_at": "2026-09-29T06:29:21+05:00"
+   "last_run_at": "2026-09-30T07:05:23+05:00"
   },
   "cassation:presidium:oblsud--tum.sudrf.ru:total": {
    "counts": [
+    2,
     2,
     2,
     2,
@@ -50,7 +53,7 @@
    "alerted_zero": false,
    "label": "Президиум Тюменского областного суда",
    "last_count": 2,
-   "last_run_at": "2026-09-29T06:29:21+05:00"
+   "last_run_at": "2026-09-30T07:05:23+05:00"
   },
   "appeal:oblsud": {
    "counts": [
@@ -59,106 +62,167 @@
     23,
     24,
     24,
-    24
+    24,
+    25
    ],
    "zero_streak": 0,
    "fail_streak": 0,
    "alerted_zero": false,
    "label": "Апелляция (Тюменский областной суд)",
-   "last_count": 24,
-   "last_run_at": "2026-09-29T06:29:21+05:00"
+   "last_count": 25,
+   "last_run_at": "2026-09-30T07:05:23+05:00"
   }
  },
  "last_run": {
-  "at": "2026-09-29T08:41:57",
+  "at": "2026-09-30T07:05:23",
   "alerts": [],
-  "requests_ok": 9,
-  "requests_failed": 0,
+  "requests_ok": 288,
+  "requests_failed": 6,
   "requests_retried": 0,
-  "cards_breaker_skipped": 3,
-  "cards_breaker_unrequested": 3,
-  "cards_breaker_recovered": 0,
-  "cards_blocked": 4,
-  "cards_read": 5,
-  "cards_planned": 12,
-  "cards_read_today": 229,
-  "cards_planned_today": 229,
-  "daily_attempts": 6,
+  "cards_breaker_skipped": 76,
+  "cards_breaker_unrequested": 14,
+  "cards_breaker_recovered": 49,
+  "cards_blocked": 11,
+  "cards_read": 261,
+  "cards_planned": 286,
+  "cards_read_today": 261,
+  "cards_planned_today": 286,
+  "daily_attempts": 1,
   "instances": {
    "first_instance": {
-    "read": 5,
-    "planned": 12,
-    "read_today": 182,
-    "planned_today": 182
+    "read": 218,
+    "planned": 243,
+    "read_today": 218,
+    "planned_today": 243
    },
    "appeal": {
-    "read": 0,
-    "planned": 0,
-    "read_today": 41,
-    "planned_today": 41
+    "read": 36,
+    "planned": 36,
+    "read_today": 36,
+    "planned_today": 36
    },
    "cassation": {
-    "read": 0,
-    "planned": 0,
-    "read_today": 6,
-    "planned_today": 6
+    "read": 7,
+    "planned": 7,
+    "read_today": 7,
+    "planned_today": 7
    }
   },
   "latency": {
-   "n": 9,
-   "p50": 5.3,
-   "p90": 8.3,
-   "max": 8.3
+   "n": 288,
+   "p50": 8.5,
+   "p90": 12.4,
+   "max": 28.9
   },
   "failure_latency": {
+   "http_504": {
+    "n": 1,
+    "p50": 30.1,
+    "p90": 30.1,
+    "max": 30.1
+   },
    "portal_placeholder": {
-    "n": 4,
-    "p50": 5.3,
-    "p90": 7.3,
-    "max": 7.3
+    "n": 11,
+    "p50": 9.2,
+    "p90": 26.6,
+    "max": 28.9
+   },
+   "read_timeout": {
+    "n": 5,
+    "p50": 0.2,
+    "p90": 7.6,
+    "max": 7.6
    }
   },
   "fail_kinds": {
-   "portal_placeholder": 4
+   "portal_placeholder": 11,
+   "http_504": 1,
+   "read_timeout": 5
   },
   "breaker": {
    "mode": "time",
-   "opened_hosts": 1,
-   "open_hosts": 1,
-   "recovered_hosts": 0,
-   "deferred_total": 4,
-   "deferred_remaining": 4,
-   "deferred_recovered": 0,
-   "probes": 0,
-   "probe_successes": 0,
-   "probe_failures": 0,
+   "opened_hosts": 4,
+   "open_hosts": 3,
+   "recovered_hosts": 3,
+   "deferred_total": 68,
+   "deferred_remaining": 19,
+   "deferred_recovered": 49,
+   "probes": 4,
+   "probe_successes": 3,
+   "probe_failures": 1,
    "by_kind": {
-    "portal_placeholder": 1
+    "portal_placeholder": 5,
+    "read_timeout": 2
    },
    "hosts": [
     {
-     "host": "leninsky--tum.sudrf.ru",
+     "host": "centralny--tum.sudrf.ru",
      "state": "open",
      "kind": "portal_placeholder",
      "family": "portal_outage",
      "reason": "вместо карточки пришла заглушка портала",
      "preopened": false,
-     "skipped": 3,
-     "probes": 0,
-     "deferred_total": 4,
+     "skipped": 24,
+     "probes": 1,
+     "deferred_total": 23,
      "deferred_remaining": 4,
-     "deferred_recovered": 0,
+     "deferred_recovered": 19,
      "cooldown_seconds": 180.0,
-     "next_probe_in_seconds": 123.9
+     "next_probe_in_seconds": 127.2
+    },
+    {
+     "host": "leninsky--tum.sudrf.ru",
+     "state": "closed",
+     "kind": "portal_placeholder",
+     "family": "portal_outage",
+     "reason": "вместо карточки пришла заглушка портала",
+     "preopened": false,
+     "skipped": 26,
+     "probes": 1,
+     "deferred_total": 27,
+     "deferred_remaining": 0,
+     "deferred_recovered": 27,
+     "cooldown_seconds": 180.0,
+     "next_probe_in_seconds": 0.0
+    },
+    {
+     "host": "tobolskygor--tum.sudrf.ru",
+     "state": "open",
+     "kind": "read_timeout",
+     "family": "slow_unavailable",
+     "reason": "суд не отдал данные до таймаута чтения",
+     "preopened": false,
+     "skipped": 2,
+     "probes": 1,
+     "deferred_total": 3,
+     "deferred_remaining": 3,
+     "deferred_recovered": 0,
+     "cooldown_seconds": 300.0,
+     "next_probe_in_seconds": 295.4
+    },
+    {
+     "host": "tumensky--tum.sudrf.ru",
+     "state": "open",
+     "kind": "read_timeout",
+     "family": "slow_unavailable",
+     "reason": "суд не отдал данные до таймаута чтения",
+     "preopened": false,
+     "skipped": 24,
+     "probes": 1,
+     "deferred_total": 15,
+     "deferred_remaining": 12,
+     "deferred_recovered": 3,
+     "cooldown_seconds": 300.0,
+     "next_probe_in_seconds": 292.6
     }
    ]
   },
-  "courts_unavailable": 1,
-  "courts_with_unrequested": 1,
+  "courts_unavailable": 3,
+  "courts_with_unrequested": 3,
   "courts_outage": 0,
-  "cards_unreachable": 3,
-  "cards_unread_other": 4,
+  "cards_unreachable": 14,
+  "cards_unread_other": 11,
   "run_deadline_seconds": 3300.0,
-  "run_deadline_reached": false
+  "run_deadline_reached": true
  }
 }
