@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-09-30T08:46:43+05:00",
+  "updated_at": "2026-09-30T03:47:19+00:00",
   "cases": [
     {
       "id": "33-7170/2026",
@@ -657,7 +657,14 @@
         "judicial_uid": "72RS0013-01-2026-004005-14",
         "last_checked_at": "2026-09-30",
         "decision_date": "26.08.2026",
-        "resolved_emitted": true
+        "resolved_emitted": true,
+        "act_analysis": {
+          "html": "<a href=\"https://kalininsky--tum.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=244583335&case_uid=4d099d91-3426-480d-9d4b-fce36f096b98&delo_id=1540005&new=0\"><b>2-4560/2026</b></a> Лаптева С.В. vs Сбербанк (прочие (прочие исковые дела)) | Калининский рай. суд г. Тюмени\n<b>28.04.2026</b> — 📥 иск зарегистрирован в суде\n<b>26.08.2026</b> — 📅 заседание назначено в 09:00\n⚖️ Итог: Иск (заявление, жалоба) ОСТАВЛЕН БЕЗ РАССМОТРЕНИЯИСТЕЦ (не просивший о разбирательстве в его отсутствии) НЕ ЯВИЛСЯ В СУД\n\n<a href=\"https://kalininsky--tum.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=244583335&case_uid=4d099d91-3426-480d-9d4b-fce36f096b98&delo_id=1540005&new=0\"><b>2-4560/2026</b></a> — Лаптева С.В. vs Сбербанк\n<b>Итог:</b> иск оставлен без рассмотрения 26.08.2026 (истец не явился в суд по вторичному вызову). <b>Для банка:</b> в пользу банка",
+          "source": "digest",
+          "act_date": "",
+          "generated_at": "2026-09-30T03:47:19",
+          "model": "openrouter:nvidia/nemotron-3-super-120b-a12b:free"
+        }
       },
       "appeal": null,
       "import": {
@@ -1859,7 +1866,14 @@
         "last_checked_at": "2026-09-30",
         "decision_date": "25.08.2026",
         "resolved_emitted": true,
-        "motivirovka_emitted": true
+        "motivirovka_emitted": true,
+        "act_analysis": {
+          "html": "<a href=\"https://centralny--tum.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=242208764&case_uid=ab2e987e-ade3-452f-aeb1-00709238adac&delo_id=1540005&new=0\"><b>2-4180/2026</b></a> — Подкина Е.В. vs Сбербанк\n<b>Итог:</b> удовлетворено (решение от 25.08.2026). <b>Для банка:</b> против банка\n<b>Почему:</b> <i>Дополнительное соглашение к кредитному договору признано незаключённым, поскольку истец не выражала волю на его заключение, не подписывала документ и не давала распоряжений, а доступ к её счёту был получен мошенническим путём. Суд основывался на возбуждённом уголовном деле о мошенничестве, признании истца потерпевшей и установлении факта несанкционированного доступа к личному кабинету, увеличения лимита и перевода средств, отклоняя доводы ответчика о фактическом заключении соглашения.</i>",
+          "source": "digest",
+          "act_date": "",
+          "generated_at": "2026-09-30T03:47:19",
+          "model": "openrouter:nvidia/nemotron-3-super-120b-a12b:free"
+        }
       },
       "appeal": null,
       "import": {
