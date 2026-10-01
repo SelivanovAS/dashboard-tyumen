@@ -67,21 +67,19 @@ def test_empty_case_registry_keeps_search_targets_without_inventing_card(probe_r
     assert {target.instance for target in targets} == {"first_instance", "appeal", "cassation"}
 
 
-def test_empty_tyumen_has_no_gated_fi_search_or_fabricated_card(monkeypatch):
-    from court_monitor.regions import get_region
+def test_empty_registry_has_no_closed_fi_search_or_fabricated_card(monkeypatch):
+    from court_monitor.regions.base import CourtConfig
 
-    region = get_region("tyumen")
-    _configure_probe_courts(
-        monkeypatch, region.first_instance_courts, region.appeal_courts, region.cassation_court,
-    )
+    fi = CourtConfig("Суд первой инстанции", "fi.test", 1540005,
+                     "first_instance", search_gated=True, search_disabled=True)
+    appeal = CourtConfig("Апелляция", "appeal.test", 5, "appeal")
+    cassation = CourtConfig("Кассация", "cassation.test", 2800001, "cassation")
+    _configure_probe_courts(monkeypatch, [fi], [appeal], cassation)
     monkeypatch.setattr(network_fingerprint, "_load_cases", lambda: [])
     targets = network_fingerprint.build_targets()
     assert all(target.page_type == "search" for target in targets)
-    assert not any(target.instance == "first_instance" for target in targets)
-    # Текущая диагностическая проба всегда включает апелляцию, в отличие
-    # от основного парсера. Пустой портфель не создаёт фиктивную карточку.
     assert {(target.instance, target.host) for target in targets} == {
-        ("cassation", "7kas.sudrf.ru"), ("appeal", "oblsud--tum.sudrf.ru"),
+        ("cassation", "cassation.test"), ("appeal", "appeal.test"),
     }
 
 

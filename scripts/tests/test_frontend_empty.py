@@ -38,7 +38,7 @@ const document = { getElementById(id) {
 const window = {};
 const navigator = {onLine: true};
 const localStorage = {getItem: () => null};
-const LAST_VISIT_KEY = 'tyumen:last-visit';
+const LAST_VISIT_KEY = 'test:last-visit';
 const FETCH_TIMEOUT_MS = 100;
 const url = fixture.csv ? 'data/cases.csv' : 'data/cases.json';
 const resolveSheetUrl = () => url;
@@ -83,16 +83,15 @@ FUNCTIONS
 
 
 def test_initial_empty_json_opens_app_and_explains_pending_population():
-    initial = json.loads((ROOT / "data/cases.json").read_text(encoding="utf-8"))
-    # Exercise the public region payload without requiring production data to stay empty.
-    initial.update(cases=[], updated_at="")
+    # Изолированная фикстура: не зависит от живой картотеки или региона checkout.
+    initial = {"cases": [], "updated_at": "", "region": {"code": "test-region"}}
     result = run_browser(initial)
     assert result["ui"]["screen"] == "app"
     assert "error" not in result["ui"]
     assert result["cases"] == []
     assert result["ui"]["empty"]["detail"] == "Ожидает загрузки дел."
     assert result["meta"] == "Ещё не обновлялось"
-    assert result["region"]["code"] == "tyumen"
+    assert result["region"]["code"] == "test-region"
 
 
 def test_empty_offline_snapshot_is_still_a_valid_dataset():
