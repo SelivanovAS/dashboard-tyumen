@@ -1,9 +1,10 @@
 {
  "version": 1,
- "updated_at": "2026-09-30T08:46:43+05:00",
+ "updated_at": "2026-10-01T07:05:23+05:00",
  "sources": {
   "cassation:7kas:total": {
    "counts": [
+    25,
     25,
     25,
     25,
@@ -18,12 +19,13 @@
    "alerted_zero": false,
    "label": "Кассация 7kas (вся выдача)",
    "last_count": 25,
-   "last_run_at": "2026-09-30T07:05:23+05:00"
+   "last_run_at": "2026-10-01T07:05:23+05:00"
   },
   "cassation:7kas:tyumen": {
    "counts": [
     1,
     1,
+    2,
     2,
     2,
     2,
@@ -36,10 +38,11 @@
    "alerted_zero": false,
    "label": "Кассация 7kas (фильтр региона)",
    "last_count": 2,
-   "last_run_at": "2026-09-30T07:05:23+05:00"
+   "last_run_at": "2026-10-01T07:05:23+05:00"
   },
   "cassation:presidium:oblsud--tum.sudrf.ru:total": {
    "counts": [
+    2,
     2,
     2,
     2,
@@ -53,7 +56,7 @@
    "alerted_zero": false,
    "label": "Президиум Тюменского областного суда",
    "last_count": 2,
-   "last_run_at": "2026-09-30T07:05:23+05:00"
+   "last_run_at": "2026-10-01T07:05:23+05:00"
   },
   "appeal:oblsud": {
    "counts": [
@@ -63,6 +66,7 @@
     24,
     24,
     24,
+    25,
     25
    ],
    "zero_streak": 0,
@@ -70,99 +74,128 @@
    "alerted_zero": false,
    "label": "Апелляция (Тюменский областной суд)",
    "last_count": 25,
-   "last_run_at": "2026-09-30T07:05:23+05:00"
+   "last_run_at": "2026-10-01T07:05:23+05:00"
   }
  },
  "last_run": {
-  "at": "2026-09-30T08:46:43",
+  "at": "2026-10-01T07:05:23",
   "alerts": [],
-  "requests_ok": 9,
-  "requests_failed": 0,
+  "requests_ok": 159,
+  "requests_failed": 14,
   "requests_retried": 0,
-  "cards_breaker_skipped": 2,
-  "cards_breaker_unrequested": 2,
+  "cards_breaker_skipped": 0,
+  "cards_breaker_unrequested": 0,
   "cards_breaker_recovered": 0,
-  "cards_blocked": 4,
-  "cards_read": 5,
-  "cards_planned": 11,
-  "cards_read_today": 291,
-  "cards_planned_today": 291,
-  "daily_attempts": 5,
+  "cards_blocked": 1,
+  "cards_read": 143,
+  "cards_planned": 236,
+  "cards_read_today": 143,
+  "cards_planned_today": 236,
+  "daily_attempts": 1,
   "instances": {
    "first_instance": {
-    "read": 5,
-    "planned": 11,
-    "read_today": 244,
-    "planned_today": 244
+    "read": 94,
+    "planned": 187,
+    "read_today": 94,
+    "planned_today": 187
    },
    "appeal": {
-    "read": 0,
-    "planned": 0,
-    "read_today": 40,
-    "planned_today": 40
+    "read": 42,
+    "planned": 42,
+    "read_today": 42,
+    "planned_today": 42
    },
    "cassation": {
-    "read": 0,
-    "planned": 0,
+    "read": 7,
+    "planned": 7,
     "read_today": 7,
     "planned_today": 7
    }
   },
   "latency": {
-   "n": 9,
-   "p50": 6.4,
-   "p90": 10.8,
-   "max": 10.8
+   "n": 159,
+   "p50": 15.5,
+   "p90": 24.7,
+   "max": 33.1
   },
   "failure_latency": {
+   "http_504": {
+    "n": 7,
+    "p50": 30.0,
+    "p90": 30.0,
+    "max": 30.0
+   },
    "portal_placeholder": {
-    "n": 4,
-    "p50": 6.1,
-    "p90": 6.4,
-    "max": 6.4
+    "n": 1,
+    "p50": 17.6,
+    "p90": 17.6,
+    "max": 17.6
+   },
+   "read_timeout": {
+    "n": 7,
+    "p50": 0.2,
+    "p90": 65.1,
+    "max": 65.1
    }
   },
   "fail_kinds": {
-   "portal_placeholder": 4
+   "http_504": 7,
+   "read_timeout": 7,
+   "portal_placeholder": 1
   },
   "breaker": {
    "mode": "time",
-   "opened_hosts": 1,
-   "open_hosts": 1,
+   "opened_hosts": 2,
+   "open_hosts": 2,
    "recovered_hosts": 0,
-   "deferred_total": 3,
-   "deferred_remaining": 3,
+   "deferred_total": 2,
+   "deferred_remaining": 2,
    "deferred_recovered": 0,
    "probes": 0,
    "probe_successes": 0,
    "probe_failures": 0,
    "by_kind": {
-    "portal_placeholder": 1
+    "read_timeout": 2
    },
    "hosts": [
     {
-     "host": "leninsky--tum.sudrf.ru",
+     "host": "centralny--tum.sudrf.ru",
      "state": "open",
-     "kind": "portal_placeholder",
-     "family": "portal_outage",
-     "reason": "вместо карточки пришла заглушка портала",
+     "kind": "read_timeout",
+     "family": "slow_unavailable",
+     "reason": "суд не отдал данные до таймаута чтения",
      "preopened": false,
-     "skipped": 2,
+     "skipped": 0,
      "probes": 0,
-     "deferred_total": 3,
-     "deferred_remaining": 3,
+     "deferred_total": 1,
+     "deferred_remaining": 1,
      "deferred_recovered": 0,
-     "cooldown_seconds": 180.0,
-     "next_probe_in_seconds": 106.9
+     "cooldown_seconds": 300.0,
+     "next_probe_in_seconds": 299.7
+    },
+    {
+     "host": "tobolskygor--tum.sudrf.ru",
+     "state": "open",
+     "kind": "read_timeout",
+     "family": "slow_unavailable",
+     "reason": "суд не отдал данные до таймаута чтения",
+     "preopened": false,
+     "skipped": 0,
+     "probes": 0,
+     "deferred_total": 1,
+     "deferred_remaining": 1,
+     "deferred_recovered": 0,
+     "cooldown_seconds": 300.0,
+     "next_probe_in_seconds": 292.9
     }
    ]
   },
-  "courts_unavailable": 1,
-  "courts_with_unrequested": 1,
+  "courts_unavailable": 2,
+  "courts_with_unrequested": 0,
   "courts_outage": 0,
-  "cards_unreachable": 2,
-  "cards_unread_other": 4,
+  "cards_unreachable": 0,
+  "cards_unread_other": 93,
   "run_deadline_seconds": 3300.0,
-  "run_deadline_reached": false
+  "run_deadline_reached": true
  }
 }
