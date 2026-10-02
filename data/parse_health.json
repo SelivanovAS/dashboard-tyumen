@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated_at": "2026-10-02T07:05:28+05:00",
+ "updated_at": "2026-10-02T07:24:05+05:00",
  "sources": {
   "cassation:7kas:total": {
    "counts": [
@@ -82,133 +82,95 @@
   }
  },
  "last_run": {
-  "at": "2026-10-02T07:05:28",
+  "at": "2026-10-02T07:24:05",
   "alerts": [],
-  "requests_ok": 280,
-  "requests_failed": 5,
+  "requests_ok": 33,
+  "requests_failed": 0,
   "requests_retried": 0,
-  "cards_breaker_skipped": 27,
-  "cards_breaker_unrequested": 8,
-  "cards_breaker_recovered": 11,
-  "cards_blocked": 14,
-  "cards_read": 252,
-  "cards_planned": 274,
-  "cards_read_today": 249,
-  "cards_planned_today": 271,
-  "daily_attempts": 1,
+  "cards_breaker_skipped": 0,
+  "cards_breaker_unrequested": 0,
+  "cards_breaker_recovered": 0,
+  "cards_blocked": 3,
+  "cards_read": 21,
+  "cards_planned": 24,
+  "cards_read_today": 270,
+  "cards_planned_today": 273,
+  "daily_attempts": 2,
   "instances": {
    "first_instance": {
-    "read": 206,
-    "planned": 228,
-    "read_today": 206,
+    "read": 19,
+    "planned": 22,
+    "read_today": 225,
     "planned_today": 228
    },
    "appeal": {
-    "read": 34,
-    "planned": 34,
-    "read_today": 34,
-    "planned_today": 34
+    "read": 2,
+    "planned": 2,
+    "read_today": 36,
+    "planned_today": 36
    },
    "cassation": {
-    "read": 12,
-    "planned": 12,
+    "read": 0,
+    "planned": 0,
     "read_today": 9,
     "planned_today": 9
    }
   },
   "latency": {
-   "n": 280,
-   "p50": 9.9,
-   "p90": 16.1,
-   "max": 30.1
+   "n": 33,
+   "p50": 10.3,
+   "p90": 18.0,
+   "max": 21.5
   },
   "failure_latency": {
    "portal_placeholder": {
-    "n": 14,
-    "p50": 11.1,
-    "p90": 27.6,
-    "max": 27.7
-   },
-   "read_timeout": {
-    "n": 5,
-    "p50": 0.2,
-    "p90": 2.7,
-    "max": 2.7
+    "n": 3,
+    "p50": 13.5,
+    "p90": 16.2,
+    "max": 16.2
    }
   },
   "fail_kinds": {
-   "portal_placeholder": 14,
-   "read_timeout": 5
+   "portal_placeholder": 3
   },
   "breaker": {
    "mode": "time",
-   "opened_hosts": 3,
-   "open_hosts": 2,
-   "recovered_hosts": 3,
-   "deferred_total": 23,
-   "deferred_remaining": 12,
-   "deferred_recovered": 11,
-   "probes": 4,
-   "probe_successes": 4,
+   "opened_hosts": 1,
+   "open_hosts": 1,
+   "recovered_hosts": 0,
+   "deferred_total": 1,
+   "deferred_remaining": 1,
+   "deferred_recovered": 0,
+   "probes": 0,
+   "probe_successes": 0,
    "probe_failures": 0,
    "by_kind": {
-    "portal_placeholder": 4,
-    "read_timeout": 2
+    "portal_placeholder": 1
    },
    "hosts": [
     {
      "host": "centralny--tum.sudrf.ru",
      "state": "open",
-     "kind": "read_timeout",
-     "family": "slow_unavailable",
-     "reason": "суд не отдал данные до таймаута чтения",
-     "preopened": false,
-     "skipped": 7,
-     "probes": 1,
-     "deferred_total": 5,
-     "deferred_remaining": 5,
-     "deferred_recovered": 0,
-     "cooldown_seconds": 300.0,
-     "next_probe_in_seconds": 297.6
-    },
-    {
-     "host": "kalininsky--tum.sudrf.ru",
-     "state": "closed",
      "kind": "portal_placeholder",
      "family": "portal_outage",
      "reason": "вместо карточки пришла заглушка портала",
      "preopened": false,
-     "skipped": 8,
-     "probes": 1,
-     "deferred_total": 9,
-     "deferred_remaining": 0,
-     "deferred_recovered": 9,
+     "skipped": 0,
+     "probes": 0,
+     "deferred_total": 1,
+     "deferred_remaining": 1,
+     "deferred_recovered": 0,
      "cooldown_seconds": 180.0,
      "next_probe_in_seconds": 0.0
-    },
-    {
-     "host": "leninsky--tum.sudrf.ru",
-     "state": "open",
-     "kind": "read_timeout",
-     "family": "slow_unavailable",
-     "reason": "суд не отдал данные до таймаута чтения",
-     "preopened": false,
-     "skipped": 12,
-     "probes": 2,
-     "deferred_total": 9,
-     "deferred_remaining": 7,
-     "deferred_recovered": 2,
-     "cooldown_seconds": 300.0,
-     "next_probe_in_seconds": 292.2
     }
    ]
   },
-  "courts_unavailable": 2,
-  "courts_with_unrequested": 2,
+  "courts_unavailable": 1,
+  "courts_with_unrequested": 0,
   "courts_outage": 0,
-  "cards_unreachable": 8,
-  "cards_unread_other": 14,
+  "cards_unreachable": 0,
+  "cards_unread_other": 3,
   "run_deadline_seconds": 3300.0,
-  "run_deadline_reached": true
+  "run_deadline_reached": false
  }
 }
