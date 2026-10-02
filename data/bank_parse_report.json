@@ -4,9 +4,9 @@
   "smart_skip": true,
   "totals": {
     "total": 577,
-    "parsed": 8,
-    "skip": 566,
-    "failed": 3,
+    "parsed": 3,
+    "skip": 574,
+    "failed": 0,
     "no_card": 0,
     "not_in_queue": 0,
     "intake_new": 0
@@ -4225,9 +4225,9 @@
       "last_checked_at": "2026-09-25"
     },
     {
-      "outcome": "parsed",
-      "reason": "",
-      "reason_ru": "",
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -4549,18 +4549,14 @@
       "last_checked_at": "2026-09-30"
     },
     {
-      "outcome": "parsed",
-      "reason": "",
-      "reason_ru": "",
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
-      "events": [
-        "fi_resolved",
-        "fi_act_text_published",
-        "fi_status_change"
-      ],
-      "changed": true,
+      "events": [],
+      "changed": false,
       "left_track": false,
       "archived": false,
       "key": "leninsky--tum.sudrf.ru|2-8862/2026",
@@ -5435,9 +5431,9 @@
       "last_checked_at": "2026-09-23"
     },
     {
-      "outcome": "parsed",
-      "reason": "",
-      "reason_ru": "",
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -6461,9 +6457,9 @@
       "last_checked_at": "2026-09-23"
     },
     {
-      "outcome": "parsed",
-      "reason": "",
-      "reason_ru": "",
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -6839,9 +6835,9 @@
       "last_checked_at": "2026-09-30"
     },
     {
-      "outcome": "fetch_blocked",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "портал суда отдал заглушку/блокировку вместо карточки",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -6854,7 +6850,7 @@
       "court": "Тобольский городской суд",
       "court_domain": "tobolskygor--tum.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-09-30"
+      "last_checked_at": "2026-10-02"
     },
     {
       "outcome": "skip",
@@ -6875,16 +6871,14 @@
       "last_checked_at": "2026-09-29"
     },
     {
-      "outcome": "parsed",
-      "reason": "",
-      "reason_ru": "",
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
-      "events": [
-        "fi_hearing_new"
-      ],
-      "changed": true,
+      "events": [],
+      "changed": false,
       "left_track": false,
       "archived": false,
       "key": "centralny--tum.sudrf.ru|2-9606/2026",
@@ -6913,9 +6907,9 @@
       "last_checked_at": "2026-09-23"
     },
     {
-      "outcome": "parsed",
-      "reason": "",
-      "reason_ru": "",
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -6967,9 +6961,9 @@
       "last_checked_at": "2026-09-23"
     },
     {
-      "outcome": "parsed",
-      "reason": "",
-      "reason_ru": "",
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -6985,9 +6979,9 @@
       "last_checked_at": "2026-10-02"
     },
     {
-      "outcome": "parsed",
-      "reason": "",
-      "reason_ru": "",
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -7057,9 +7051,9 @@
       "last_checked_at": "2026-09-23"
     },
     {
-      "outcome": "fetch_blocked",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "портал суда отдал заглушку/блокировку вместо карточки",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -7072,12 +7066,12 @@
       "court": "Центральный районный суд г. Тюмени",
       "court_domain": "centralny--tum.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-09-30"
+      "last_checked_at": "2026-10-02"
     },
     {
-      "outcome": "fetch_blocked",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "портал суда отдал заглушку/блокировку вместо карточки",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -7090,7 +7084,7 @@
       "court": "Центральный районный суд г. Тюмени",
       "court_domain": "centralny--tum.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-09-23"
+      "last_checked_at": "2026-10-02"
     },
     {
       "outcome": "skip",
@@ -10405,5 +10399,5 @@
       "last_checked_at": "2026-10-02"
     }
   ],
-  "updated_at": "2026-10-02T07:24:05+05:00"
+  "updated_at": "2026-10-02T08:15:13+05:00"
 }
