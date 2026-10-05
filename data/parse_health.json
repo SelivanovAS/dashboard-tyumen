@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated_at": "2026-10-05T07:32:28+05:00",
+ "updated_at": "2026-10-05T08:18:48+05:00",
  "sources": {
   "cassation:7kas:total": {
    "counts": [
@@ -86,30 +86,30 @@
   }
  },
  "last_run": {
-  "at": "2026-10-05T07:32:28",
+  "at": "2026-10-05T08:18:48",
   "alerts": [],
-  "requests_ok": 86,
+  "requests_ok": 14,
   "requests_failed": 0,
   "requests_retried": 0,
   "cards_breaker_skipped": 13,
   "cards_breaker_unrequested": 13,
   "cards_breaker_recovered": 0,
-  "cards_blocked": 10,
-  "cards_read": 76,
-  "cards_planned": 99,
-  "cards_read_today": 324,
-  "cards_planned_today": 351,
-  "daily_attempts": 2,
+  "cards_blocked": 9,
+  "cards_read": 5,
+  "cards_planned": 27,
+  "cards_read_today": 329,
+  "cards_planned_today": 355,
+  "daily_attempts": 3,
   "instances": {
    "first_instance": {
-    "read": 72,
-    "planned": 95,
-    "read_today": 277,
-    "planned_today": 304
+    "read": 5,
+    "planned": 27,
+    "read_today": 282,
+    "planned_today": 308
    },
    "appeal": {
-    "read": 4,
-    "planned": 4,
+    "read": 0,
+    "planned": 0,
     "read_today": 37,
     "planned_today": 37
    },
@@ -121,21 +121,21 @@
    }
   },
   "latency": {
-   "n": 86,
-   "p50": 8.6,
-   "p90": 15.3,
-   "max": 21.2
+   "n": 14,
+   "p50": 12.0,
+   "p90": 19.3,
+   "max": 23.0
   },
   "failure_latency": {
    "portal_placeholder": {
-    "n": 10,
-    "p50": 4.3,
-    "p90": 9.7,
-    "max": 20.2
+    "n": 9,
+    "p50": 10.8,
+    "p90": 23.0,
+    "max": 23.0
    }
   },
   "fail_kinds": {
-   "portal_placeholder": 10
+   "portal_placeholder": 9
   },
   "breaker": {
    "mode": "time",
@@ -165,7 +165,7 @@
      "deferred_remaining": 14,
      "deferred_recovered": 0,
      "cooldown_seconds": 180.0,
-     "next_probe_in_seconds": 19.2
+     "next_probe_in_seconds": 120.0
     },
     {
      "host": "ishimsky--tum.sudrf.ru",
@@ -180,7 +180,7 @@
      "deferred_remaining": 1,
      "deferred_recovered": 0,
      "cooldown_seconds": 180.0,
-     "next_probe_in_seconds": 110.5
+     "next_probe_in_seconds": 179.7
     },
     {
      "host": "yalutorovsky--tum.sudrf.ru",
@@ -195,7 +195,7 @@
      "deferred_remaining": 1,
      "deferred_recovered": 0,
      "cooldown_seconds": 180.0,
-     "next_probe_in_seconds": 91.1
+     "next_probe_in_seconds": 148.3
     }
    ]
   },
@@ -203,7 +203,7 @@
   "courts_with_unrequested": 1,
   "courts_outage": 0,
   "cards_unreachable": 13,
-  "cards_unread_other": 10,
+  "cards_unread_other": 9,
   "run_deadline_seconds": 3300.0,
   "run_deadline_reached": false
  }
