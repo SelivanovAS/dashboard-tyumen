@@ -1,9 +1,10 @@
 {
  "version": 1,
- "updated_at": "2026-10-02T08:40:30+05:00",
+ "updated_at": "2026-10-05T07:05:28+05:00",
  "sources": {
   "cassation:7kas:total": {
    "counts": [
+    25,
     25,
     25,
     25,
@@ -20,7 +21,7 @@
    "alerted_zero": false,
    "label": "Кассация 7kas (вся выдача)",
    "last_count": 25,
-   "last_run_at": "2026-10-02T07:05:28+05:00"
+   "last_run_at": "2026-10-05T07:05:28+05:00"
   },
   "cassation:7kas:tyumen": {
    "counts": [
@@ -33,17 +34,19 @@
     2,
     2,
     2,
-    2
+    2,
+    1
    ],
    "zero_streak": 0,
    "fail_streak": 0,
    "alerted_zero": false,
    "label": "Кассация 7kas (фильтр региона)",
-   "last_count": 2,
-   "last_run_at": "2026-10-02T07:05:28+05:00"
+   "last_count": 1,
+   "last_run_at": "2026-10-05T07:05:28+05:00"
   },
   "cassation:presidium:oblsud--tum.sudrf.ru:total": {
    "counts": [
+    2,
     2,
     2,
     2,
@@ -59,7 +62,7 @@
    "alerted_zero": false,
    "label": "Президиум Тюменского областного суда",
    "last_count": 2,
-   "last_run_at": "2026-10-02T07:05:28+05:00"
+   "last_run_at": "2026-10-05T07:05:28+05:00"
   },
   "appeal:oblsud": {
    "counts": [
@@ -71,6 +74,7 @@
     24,
     25,
     25,
+    25,
     25
    ],
    "zero_streak": 0,
@@ -78,67 +82,219 @@
    "alerted_zero": false,
    "label": "Апелляция (Тюменский областной суд)",
    "last_count": 25,
-   "last_run_at": "2026-10-02T07:05:28+05:00"
+   "last_run_at": "2026-10-05T07:05:28+05:00"
   }
  },
  "last_run": {
-  "at": "2026-10-02T08:40:30",
+  "at": "2026-10-05T07:05:28",
   "alerts": [],
-  "requests_ok": 0,
-  "requests_failed": 0,
+  "requests_ok": 305,
+  "requests_failed": 7,
   "requests_retried": 0,
-  "cards_breaker_skipped": 0,
-  "cards_breaker_unrequested": 0,
-  "cards_breaker_recovered": 0,
-  "cards_blocked": 0,
-  "cards_read": 0,
-  "cards_planned": 0,
-  "cards_read_today": 275,
-  "cards_planned_today": 275,
-  "daily_attempts": 4,
+  "cards_breaker_skipped": 330,
+  "cards_breaker_unrequested": 72,
+  "cards_breaker_recovered": 78,
+  "cards_blocked": 36,
+  "cards_read": 249,
+  "cards_planned": 349,
+  "cards_read_today": 248,
+  "cards_planned_today": 347,
+  "daily_attempts": 1,
   "instances": {
    "first_instance": {
-    "read": 0,
-    "planned": 0,
-    "read_today": 229,
-    "planned_today": 229
+    "read": 205,
+    "planned": 304,
+    "read_today": 205,
+    "planned_today": 304
    },
    "appeal": {
-    "read": 0,
-    "planned": 0,
-    "read_today": 37,
-    "planned_today": 37
+    "read": 33,
+    "planned": 33,
+    "read_today": 33,
+    "planned_today": 33
    },
    "cassation": {
-    "read": 0,
-    "planned": 0,
-    "read_today": 9,
-    "planned_today": 9
+    "read": 11,
+    "planned": 12,
+    "read_today": 10,
+    "planned_today": 10
    }
   },
-  "latency": {},
-  "failure_latency": {},
-  "fail_kinds": {},
+  "latency": {
+   "n": 305,
+   "p50": 7.7,
+   "p90": 14.7,
+   "max": 60.9
+  },
+  "failure_latency": {
+   "http_504": {
+    "n": 2,
+    "p50": 30.0,
+    "p90": 60.0,
+    "max": 60.0
+   },
+   "portal_placeholder": {
+    "n": 36,
+    "p50": 10.5,
+    "p90": 16.4,
+    "max": 20.7
+   },
+   "read_timeout": {
+    "n": 5,
+    "p50": 0.2,
+    "p90": 0.2,
+    "max": 0.2
+   }
+  },
+  "fail_kinds": {
+   "http_504": 2,
+   "portal_placeholder": 36,
+   "read_timeout": 5
+  },
   "breaker": {
    "mode": "time",
-   "opened_hosts": 0,
-   "open_hosts": 0,
-   "recovered_hosts": 0,
-   "deferred_total": 0,
-   "deferred_remaining": 0,
-   "deferred_recovered": 0,
-   "probes": 0,
-   "probe_successes": 0,
-   "probe_failures": 0,
-   "by_kind": {},
-   "hosts": []
+   "opened_hosts": 8,
+   "open_hosts": 4,
+   "recovered_hosts": 8,
+   "deferred_total": 163,
+   "deferred_remaining": 85,
+   "deferred_recovered": 78,
+   "probes": 15,
+   "probe_successes": 13,
+   "probe_failures": 2,
+   "by_kind": {
+    "portal_placeholder": 16,
+    "read_timeout": 3
+   },
+   "hosts": [
+    {
+     "host": "centralny--tum.sudrf.ru",
+     "state": "open",
+     "kind": "portal_placeholder",
+     "family": "portal_outage",
+     "reason": "вместо карточки пришла заглушка портала",
+     "preopened": false,
+     "skipped": 220,
+     "probes": 4,
+     "deferred_total": 102,
+     "deferred_remaining": 51,
+     "deferred_recovered": 51,
+     "cooldown_seconds": 180.0,
+     "next_probe_in_seconds": 47.5
+    },
+    {
+     "host": "ishimsky--tum.sudrf.ru",
+     "state": "closed",
+     "kind": "http_504",
+     "family": "fast_transient",
+     "reason": "суд отвечает HTTP 504",
+     "preopened": false,
+     "skipped": 3,
+     "probes": 1,
+     "deferred_total": 4,
+     "deferred_remaining": 1,
+     "deferred_recovered": 3,
+     "cooldown_seconds": 180.0,
+     "next_probe_in_seconds": 0.0
+    },
+    {
+     "host": "kalininsky--tum.sudrf.ru",
+     "state": "closed",
+     "kind": "portal_placeholder",
+     "family": "portal_outage",
+     "reason": "вместо карточки пришла заглушка портала",
+     "preopened": false,
+     "skipped": 8,
+     "probes": 2,
+     "deferred_total": 10,
+     "deferred_remaining": 0,
+     "deferred_recovered": 10,
+     "cooldown_seconds": 180.0,
+     "next_probe_in_seconds": 0.0
+    },
+    {
+     "host": "leninsky--tum.sudrf.ru",
+     "state": "open",
+     "kind": "read_timeout",
+     "family": "slow_unavailable",
+     "reason": "суд не отдал данные до таймаута чтения",
+     "preopened": false,
+     "skipped": 88,
+     "probes": 2,
+     "deferred_total": 34,
+     "deferred_remaining": 26,
+     "deferred_recovered": 8,
+     "cooldown_seconds": 300.0,
+     "next_probe_in_seconds": 292.6
+    },
+    {
+     "host": "nizhnetavdinsky--tum.sudrf.ru",
+     "state": "open",
+     "kind": "read_timeout",
+     "family": "slow_unavailable",
+     "reason": "суд не отдал данные до таймаута чтения",
+     "preopened": false,
+     "skipped": 6,
+     "probes": 2,
+     "deferred_total": 5,
+     "deferred_remaining": 4,
+     "deferred_recovered": 1,
+     "cooldown_seconds": 300.0,
+     "next_probe_in_seconds": 298.0
+    },
+    {
+     "host": "tobolskygor--tum.sudrf.ru",
+     "state": "closed",
+     "kind": "portal_placeholder",
+     "family": "portal_outage",
+     "reason": "вместо карточки пришла заглушка портала",
+     "preopened": false,
+     "skipped": 4,
+     "probes": 1,
+     "deferred_total": 5,
+     "deferred_remaining": 0,
+     "deferred_recovered": 5,
+     "cooldown_seconds": 180.0,
+     "next_probe_in_seconds": 0.0
+    },
+    {
+     "host": "tumensky--tum.sudrf.ru",
+     "state": "open",
+     "kind": "read_timeout",
+     "family": "slow_unavailable",
+     "reason": "суд не отдал данные до таймаута чтения",
+     "preopened": false,
+     "skipped": 1,
+     "probes": 2,
+     "deferred_total": 2,
+     "deferred_remaining": 2,
+     "deferred_recovered": 0,
+     "cooldown_seconds": 300.0,
+     "next_probe_in_seconds": 295.7
+    },
+    {
+     "host": "yalutorovsky--tum.sudrf.ru",
+     "state": "closed",
+     "kind": "portal_placeholder",
+     "family": "portal_outage",
+     "reason": "вместо карточки пришла заглушка портала",
+     "preopened": false,
+     "skipped": 0,
+     "probes": 1,
+     "deferred_total": 1,
+     "deferred_remaining": 1,
+     "deferred_recovered": 0,
+     "cooldown_seconds": 180.0,
+     "next_probe_in_seconds": 0.0
+    }
+   ]
   },
-  "courts_unavailable": 0,
-  "courts_with_unrequested": 0,
+  "courts_unavailable": 4,
+  "courts_with_unrequested": 3,
   "courts_outage": 0,
-  "cards_unreachable": 0,
-  "cards_unread_other": 0,
+  "cards_unreachable": 72,
+  "cards_unread_other": 28,
   "run_deadline_seconds": 3300.0,
-  "run_deadline_reached": false
+  "run_deadline_reached": true
  }
 }
