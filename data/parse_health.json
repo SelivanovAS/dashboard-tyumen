@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated_at": "2026-10-06T08:10:25+05:00",
+ "updated_at": "2026-10-06T08:21:03+05:00",
  "sources": {
   "cassation:7kas:total": {
    "counts": [
@@ -90,24 +90,24 @@
   }
  },
  "last_run": {
-  "at": "2026-10-06T08:10:25",
+  "at": "2026-10-06T08:21:03",
   "alerts": [],
-  "requests_ok": 23,
+  "requests_ok": 1,
   "requests_failed": 0,
   "requests_retried": 0,
   "cards_breaker_skipped": 0,
   "cards_breaker_unrequested": 0,
   "cards_breaker_recovered": 0,
   "cards_blocked": 1,
-  "cards_read": 21,
-  "cards_planned": 22,
+  "cards_read": 0,
+  "cards_planned": 1,
   "cards_read_today": 309,
   "cards_planned_today": 310,
-  "daily_attempts": 3,
+  "daily_attempts": 4,
   "instances": {
    "first_instance": {
-    "read": 21,
-    "planned": 22,
+    "read": 0,
+    "planned": 1,
     "read_today": 219,
     "planned_today": 220
    },
@@ -125,17 +125,17 @@
    }
   },
   "latency": {
-   "n": 23,
-   "p50": 8.9,
-   "p90": 13.6,
-   "max": 15.1
+   "n": 1,
+   "p50": 6.5,
+   "p90": 6.5,
+   "max": 6.5
   },
   "failure_latency": {
    "portal_placeholder": {
     "n": 1,
-    "p50": 13.7,
-    "p90": 13.7,
-    "max": 13.7
+    "p50": 6.5,
+    "p90": 6.5,
+    "max": 6.5
    }
   },
   "fail_kinds": {
@@ -281,10 +281,10 @@
   "date": "2026-10-06",
   "region": "tyumen",
   "waiting": 47,
-  "due": 1,
-  "planned": 1,
-  "read": 1,
-  "published": 1,
+  "due": 0,
+  "planned": 0,
+  "read": 0,
+  "published": 0,
   "unplanned": 0,
   "items": [
    {
@@ -746,16 +746,6 @@
     "next_check_at": "2026-10-12",
     "over_90_days": false,
     "reason": "scheduled"
-   },
-   {
-    "key": "oblsud--tum.sudrf.ru|5|1|33-4942/2026",
-    "number": "33-4942/2026",
-    "court": "oblsud--tum.sudrf.ru",
-    "status": "waiting",
-    "last_checked_at": "",
-    "next_check_at": "2026-10-13",
-    "over_90_days": false,
-    "reason": "published"
    },
    {
     "key": "oblsud--tum.sudrf.ru|5|1|33-7106/2026",
