@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated_at": "2026-10-06T07:20:32+05:00",
+ "updated_at": "2026-10-06T08:10:25+05:00",
  "sources": {
   "cassation:7kas:total": {
    "counts": [
@@ -90,31 +90,31 @@
   }
  },
  "last_run": {
-  "at": "2026-10-06T07:20:32",
+  "at": "2026-10-06T08:10:25",
   "alerts": [],
-  "requests_ok": 24,
-  "requests_failed": 1,
+  "requests_ok": 23,
+  "requests_failed": 0,
   "requests_retried": 0,
-  "cards_breaker_skipped": 16,
-  "cards_breaker_unrequested": 16,
+  "cards_breaker_skipped": 0,
+  "cards_breaker_unrequested": 0,
   "cards_breaker_recovered": 0,
-  "cards_blocked": 6,
-  "cards_read": 18,
-  "cards_planned": 40,
-  "cards_read_today": 287,
+  "cards_blocked": 1,
+  "cards_read": 21,
+  "cards_planned": 22,
+  "cards_read_today": 309,
   "cards_planned_today": 310,
-  "daily_attempts": 2,
+  "daily_attempts": 3,
   "instances": {
    "first_instance": {
-    "read": 16,
-    "planned": 38,
-    "read_today": 198,
+    "read": 21,
+    "planned": 22,
+    "read_today": 219,
     "planned_today": 220
    },
    "appeal": {
-    "read": 2,
-    "planned": 2,
-    "read_today": 77,
+    "read": 0,
+    "planned": 0,
+    "read_today": 78,
     "planned_today": 78
    },
    "cassation": {
@@ -125,96 +125,41 @@
    }
   },
   "latency": {
-   "n": 24,
-   "p50": 5.0,
-   "p90": 12.3,
-   "max": 14.4
+   "n": 23,
+   "p50": 8.9,
+   "p90": 13.6,
+   "max": 15.1
   },
   "failure_latency": {
-   "http_504": {
-    "n": 1,
-    "p50": 37.2,
-    "p90": 37.2,
-    "max": 37.2
-   },
    "portal_placeholder": {
-    "n": 6,
-    "p50": 5.1,
-    "p90": 11.6,
-    "max": 11.6
+    "n": 1,
+    "p50": 13.7,
+    "p90": 13.7,
+    "max": 13.7
    }
   },
   "fail_kinds": {
-   "http_504": 1,
-   "portal_placeholder": 6
+   "portal_placeholder": 1
   },
   "breaker": {
    "mode": "time",
-   "opened_hosts": 3,
-   "open_hosts": 3,
+   "opened_hosts": 0,
+   "open_hosts": 0,
    "recovered_hosts": 0,
-   "deferred_total": 19,
-   "deferred_remaining": 19,
+   "deferred_total": 0,
+   "deferred_remaining": 0,
    "deferred_recovered": 0,
    "probes": 0,
    "probe_successes": 0,
    "probe_failures": 0,
-   "by_kind": {
-    "portal_placeholder": 3
-   },
-   "hosts": [
-    {
-     "host": "kalininsky--tum.sudrf.ru",
-     "state": "open",
-     "kind": "portal_placeholder",
-     "family": "portal_outage",
-     "reason": "вместо карточки пришла заглушка портала",
-     "preopened": false,
-     "skipped": 1,
-     "probes": 0,
-     "deferred_total": 2,
-     "deferred_remaining": 2,
-     "deferred_recovered": 0,
-     "cooldown_seconds": 180.0,
-     "next_probe_in_seconds": 26.4
-    },
-    {
-     "host": "leninsky--tum.sudrf.ru",
-     "state": "open",
-     "kind": "portal_placeholder",
-     "family": "portal_outage",
-     "reason": "вместо карточки пришла заглушка портала",
-     "preopened": false,
-     "skipped": 9,
-     "probes": 0,
-     "deferred_total": 10,
-     "deferred_remaining": 10,
-     "deferred_recovered": 0,
-     "cooldown_seconds": 180.0,
-     "next_probe_in_seconds": 60.6
-    },
-    {
-     "host": "tumensky--tum.sudrf.ru",
-     "state": "open",
-     "kind": "portal_placeholder",
-     "family": "portal_outage",
-     "reason": "вместо карточки пришла заглушка портала",
-     "preopened": false,
-     "skipped": 6,
-     "probes": 0,
-     "deferred_total": 7,
-     "deferred_remaining": 7,
-     "deferred_recovered": 0,
-     "cooldown_seconds": 180.0,
-     "next_probe_in_seconds": 12.2
-    }
-   ]
+   "by_kind": {},
+   "hosts": []
   },
-  "courts_unavailable": 3,
-  "courts_with_unrequested": 3,
+  "courts_unavailable": 0,
+  "courts_with_unrequested": 0,
   "courts_outage": 0,
-  "cards_unreachable": 16,
-  "cards_unread_other": 6,
+  "cards_unreachable": 0,
+  "cards_unread_other": 1,
   "run_deadline_seconds": 3300.0,
   "run_deadline_reached": false
  },
@@ -335,11 +280,11 @@
  "appeal_act_publication_watch": {
   "date": "2026-10-06",
   "region": "tyumen",
-  "waiting": 48,
+  "waiting": 47,
   "due": 1,
   "planned": 1,
-  "read": 0,
-  "published": 0,
+  "read": 1,
+  "published": 1,
   "unplanned": 0,
   "items": [
    {
@@ -808,10 +753,9 @@
     "court": "oblsud--tum.sudrf.ru",
     "status": "waiting",
     "last_checked_at": "",
-    "next_check_at": "2026-10-06",
+    "next_check_at": "2026-10-13",
     "over_90_days": false,
-    "reason": "unread_card",
-    "failure_kind": "http_504"
+    "reason": "published"
    },
    {
     "key": "oblsud--tum.sudrf.ru|5|1|33-7106/2026",
@@ -824,7 +768,7 @@
     "reason": "scheduled"
    }
   ],
-  "unread": 1,
+  "unread": 0,
   "long_wait": 6
  }
 }
