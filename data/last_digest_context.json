@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-10-07T07:52:07",
+  "saved_at": "2026-10-07T08:15:27",
   "new_cases": [
     {
       "Номер дела": "33-7260/2026",
@@ -2781,6 +2781,72 @@
         "scheduled_hearing_time": "15:00"
       },
       "track": "plaintiff_light"
+    },
+    {
+      "case": "2-7462/2026",
+      "court": "Ленинский районный суд г. Тюмени",
+      "plaintiff": "ПАО Сбербанк в лице фил-ла - Западно-Сибирское отделение № 8647",
+      "defendant": "Безгодова Галина Степановна",
+      "bank_role": "Истец",
+      "category": "Споры, связанные с имущественными правами → Иски о взыскании сумм по договору займа, кредитному договору",
+      "type": [
+        "fi_final_event"
+      ],
+      "details": {
+        "link": "247109995|0fdba548-f80d-48fe-a6b6-84d468dc8343",
+        "court_domain": "leninsky--tum.sudrf.ru",
+        "event": "Изготовлено мотивированное решение в окончательной форме. 09:20. 05.10.2026",
+        "event_date": "30.09.2026",
+        "scheduled_hearing_date": "16.09.2026",
+        "scheduled_hearing_time": "14:10"
+      },
+      "track": "plaintiff_light"
+    },
+    {
+      "case": "2-7417/2026",
+      "court": "Ленинский районный суд г. Тюмени",
+      "plaintiff": "ПАО Сбербанк в лице филиала - Западно-Сибирское отделение № 8647",
+      "defendant": "Кремлёв Алексей Юрьевич",
+      "bank_role": "Истец",
+      "category": "Споры, связанные с имущественными правами → Иски о взыскании сумм по договору займа, кредитному договору",
+      "type": [
+        "fi_writ_issued"
+      ],
+      "details": {
+        "link": "246826010|f4896a90-3e13-48c7-8ce8-b10c6b8a8163",
+        "court_domain": "leninsky--tum.sudrf.ru",
+        "writs": [
+          {
+            "issue_date": "05.10.2026",
+            "blank_number": "",
+            "electronic_id": "72RS0014#2-7417/2026#1",
+            "recipient": "Районное отделение судебных приставов Восточного административного округа г. Тюмени",
+            "status": "Выдан",
+            "kind": "enforcement"
+          },
+          {
+            "issue_date": "05.10.2026",
+            "blank_number": "",
+            "electronic_id": "72RS0014#2-7417/2026#2",
+            "recipient": "Районное отделение судебных приставов Восточного административного округа г. Тюмени",
+            "status": "Выдан",
+            "kind": "enforcement"
+          }
+        ],
+        "act_decision_date": "13.08.2026",
+        "act_detected_at": "",
+        "act_source_url": "https://leninsky--tum.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=246826010&case_uid=f4896a90-3e13-48c7-8ce8-b10c6b8a8163&delo_id=1540005&new=0",
+        "act_received_at": "2026-10-07T03:12:32+00:00",
+        "act_date": "",
+        "decision_date": "13.08.2026",
+        "verdict_label": "удовлетворено",
+        "raw_result": "Иск (заявление, жалоба) УДОВЛЕТВОРЕН",
+        "bank_outcome": "в пользу банка",
+        "category": "Споры, связанные с имущественными правами → Иски о взыскании сумм по договору займа, кредитному договору",
+        "last_event": "Дело сдано в отдел судебного делопроизводства. 09:28. 20.08.2026",
+        "default_judgment": true
+      },
+      "track": "plaintiff_light"
     }
   ],
   "total_active_appeal": 43,
@@ -2790,5 +2856,5 @@
   "cass_changes": [],
   "cass_discovered": [],
   "issue_key": "2026-10-07T06:54:28",
-  "updated_at": "2026-10-07T07:52:07+05:00"
+  "updated_at": "2026-10-07T08:15:27+05:00"
 }
