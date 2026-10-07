@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated_at": "2026-10-07T07:52:06+05:00",
+ "updated_at": "2026-10-07T08:15:26+05:00",
  "sources": {
   "cassation:7kas:total": {
    "counts": [
@@ -94,25 +94,25 @@
   }
  },
  "last_run": {
-  "at": "2026-10-07T07:52:06",
+  "at": "2026-10-07T08:15:26",
   "alerts": [],
-  "requests_ok": 40,
-  "requests_failed": 1,
+  "requests_ok": 31,
+  "requests_failed": 0,
   "requests_retried": 0,
-  "cards_breaker_skipped": 128,
-  "cards_breaker_unrequested": 75,
-  "cards_breaker_recovered": 1,
-  "cards_blocked": 7,
-  "cards_read": 33,
-  "cards_planned": 133,
-  "cards_read_today": 262,
+  "cards_breaker_skipped": 52,
+  "cards_breaker_unrequested": 52,
+  "cards_breaker_recovered": 0,
+  "cards_blocked": 5,
+  "cards_read": 26,
+  "cards_planned": 100,
+  "cards_read_today": 288,
   "cards_planned_today": 362,
-  "daily_attempts": 3,
+  "daily_attempts": 4,
   "instances": {
    "first_instance": {
-    "read": 33,
-    "planned": 115,
-    "read_today": 222,
+    "read": 26,
+    "planned": 82,
+    "read_today": 248,
     "planned_today": 304
    },
    "appeal": {
@@ -129,40 +129,33 @@
    }
   },
   "latency": {
-   "n": 40,
-   "p50": 8.9,
-   "p90": 17.1,
-   "max": 25.3
+   "n": 31,
+   "p50": 7.8,
+   "p90": 12.0,
+   "max": 14.6
   },
   "failure_latency": {
-   "http_504": {
-    "n": 1,
-    "p50": 30.0,
-    "p90": 30.0,
-    "max": 30.0
-   },
    "portal_placeholder": {
-    "n": 7,
-    "p50": 10.5,
-    "p90": 14.6,
-    "max": 14.6
+    "n": 5,
+    "p50": 8.0,
+    "p90": 11.3,
+    "max": 11.3
    }
   },
   "fail_kinds": {
-   "http_504": 1,
-   "portal_placeholder": 7
+   "portal_placeholder": 5
   },
   "breaker": {
    "mode": "time",
    "opened_hosts": 2,
    "open_hosts": 2,
-   "recovered_hosts": 1,
-   "deferred_total": 79,
-   "deferred_remaining": 78,
-   "deferred_recovered": 1,
+   "recovered_hosts": 0,
+   "deferred_total": 54,
+   "deferred_remaining": 54,
+   "deferred_recovered": 0,
    "probes": 1,
-   "probe_successes": 1,
-   "probe_failures": 0,
+   "probe_successes": 0,
+   "probe_failures": 1,
    "by_kind": {
     "portal_placeholder": 3
    },
@@ -174,11 +167,11 @@
      "family": "portal_outage",
      "reason": "вместо карточки пришла заглушка портала",
      "preopened": false,
-     "skipped": 104,
+     "skipped": 44,
      "probes": 1,
-     "deferred_total": 54,
-     "deferred_remaining": 53,
-     "deferred_recovered": 1,
+     "deferred_total": 45,
+     "deferred_remaining": 45,
+     "deferred_recovered": 0,
      "cooldown_seconds": 180.0,
      "next_probe_in_seconds": 178.6
     },
@@ -189,21 +182,21 @@
      "family": "portal_outage",
      "reason": "вместо карточки пришла заглушка портала",
      "preopened": false,
-     "skipped": 24,
+     "skipped": 8,
      "probes": 0,
-     "deferred_total": 25,
-     "deferred_remaining": 25,
+     "deferred_total": 9,
+     "deferred_remaining": 9,
      "deferred_recovered": 0,
      "cooldown_seconds": 180.0,
-     "next_probe_in_seconds": 7.5
+     "next_probe_in_seconds": 157.4
     }
    ]
   },
   "courts_unavailable": 2,
   "courts_with_unrequested": 2,
   "courts_outage": 0,
-  "cards_unreachable": 75,
-  "cards_unread_other": 25,
+  "cards_unreachable": 52,
+  "cards_unread_other": 22,
   "run_deadline_seconds": 3300.0,
   "run_deadline_reached": false
  },
