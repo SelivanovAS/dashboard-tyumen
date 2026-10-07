@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-10-07T08:15:27",
+  "saved_at": "2026-10-07T08:44:15",
   "new_cases": [
     {
       "Номер дела": "33-7260/2026",
@@ -2847,14 +2847,78 @@
         "default_judgment": true
       },
       "track": "plaintiff_light"
+    },
+    {
+      "case": "2-9443/2026",
+      "court": "Ленинский районный суд г. Тюмени",
+      "plaintiff": "ПАО Сбербанк",
+      "defendant": "наследственное имущество Павлова Алексея Викторовича, Ревина Юлия Викторовна",
+      "bank_role": "Истец",
+      "category": "Споры, связанные с наследственными отношениями → Споры, связанные с наследованием имущества → об ответственности наследников по долгам наследодателя",
+      "type": [
+        "fi_hearing_recess"
+      ],
+      "details": {
+        "link": "250658376|2a4512e6-b233-4c34-a4dd-645329f33462",
+        "court_domain": "leninsky--tum.sudrf.ru",
+        "hearing_date": "23.10.2026",
+        "hearing_time": "12:30",
+        "hearing_type": "заседание"
+      },
+      "track": "plaintiff_light"
+    },
+    {
+      "case": "2-9198/2026",
+      "court": "Ленинский районный суд г. Тюмени",
+      "plaintiff": "ПАО Сбербанк",
+      "defendant": "Королёва Роксана Алексеевна",
+      "bank_role": "Истец",
+      "category": "Споры, связанные с имущественными правами → Иски о взыскании сумм по договору займа, кредитному договору",
+      "type": [
+        "fi_resolved",
+        "fi_status_change"
+      ],
+      "details": {
+        "link": "249616597|23072286-8127-4b8f-a1c8-77afe9348e84",
+        "court_domain": "leninsky--tum.sudrf.ru",
+        "raw_result": "Иск (заявление, жалоба) УДОВЛЕТВОРЕН",
+        "verdict_label": "удовлетворено",
+        "bank_outcome": "в пользу банка",
+        "decision_date": "05.10.2026",
+        "last_event": "Судебное заседание. 09:15. 1204. Вынесено заочное решение по делу. Иск (заявление, жалоба) УДОВЛЕТВОРЕН. 25.08.2026",
+        "category": "Споры, связанные с имущественными правами → Иски о взыскании сумм по договору займа, кредитному договору",
+        "default_judgment": true,
+        "old_status": "В производстве",
+        "new_status": "Решено"
+      },
+      "track": "plaintiff_light"
+    },
+    {
+      "case": "2-10480/2026",
+      "court": "Ленинский районный суд г. Тюмени",
+      "plaintiff": "ПАО Сбербанк в лице филиала Западно-Сибирское отделение №8647",
+      "defendant": "Колычева Евгения Павловна",
+      "bank_role": "Истец",
+      "category": "Споры, связанные с имущественными правами → Иски о взыскании сумм по договору займа, кредитному договору",
+      "type": [
+        "fi_hearing_new"
+      ],
+      "details": {
+        "link": "250933642|b0dd9b32-8535-4987-a8b9-1cf272c5f1a2",
+        "court_domain": "leninsky--tum.sudrf.ru",
+        "hearing_date": "06.11.2026",
+        "hearing_time": "11:00",
+        "hearing_type": "заседание"
+      },
+      "track": "plaintiff_light"
     }
   ],
   "total_active_appeal": 43,
   "total_active_fi": 44,
   "total_active_cassation": 12,
-  "total_active_bank": 237,
+  "total_active_bank": 236,
   "cass_changes": [],
   "cass_discovered": [],
   "issue_key": "2026-10-07T06:54:28",
-  "updated_at": "2026-10-07T08:15:27+05:00"
+  "updated_at": "2026-10-07T08:44:15+05:00"
 }
