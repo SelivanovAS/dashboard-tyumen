@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated_at": "2026-10-08T08:42:31+05:00",
+ "updated_at": "2026-10-08T12:10:49+05:00",
  "sources": {
   "cassation:7kas:total": {
    "counts": [
@@ -98,25 +98,25 @@
   }
  },
  "last_run": {
-  "at": "2026-10-08T08:42:31",
+  "at": "2026-10-08T12:10:49",
   "alerts": [],
-  "requests_ok": 3,
-  "requests_failed": 1,
+  "requests_ok": 1,
+  "requests_failed": 0,
   "requests_retried": 0,
   "cards_breaker_skipped": 0,
   "cards_breaker_unrequested": 0,
   "cards_breaker_recovered": 0,
   "cards_blocked": 0,
-  "cards_read": 3,
-  "cards_planned": 94,
-  "cards_read_today": 220,
+  "cards_read": 1,
+  "cards_planned": 90,
+  "cards_read_today": 221,
   "cards_planned_today": 310,
-  "daily_attempts": 4,
+  "daily_attempts": 5,
   "instances": {
    "first_instance": {
-    "read": 3,
-    "planned": 87,
-    "read_today": 167,
+    "read": 1,
+    "planned": 83,
+    "read_today": 168,
     "planned_today": 250
    },
    "appeal": {
@@ -133,22 +133,13 @@
    }
   },
   "latency": {
-   "n": 3,
-   "p50": 20.5,
-   "p90": 28.0,
-   "max": 28.0
+   "n": 1,
+   "p50": 29.8,
+   "p90": 29.8,
+   "max": 29.8
   },
-  "failure_latency": {
-   "http_504": {
-    "n": 1,
-    "p50": 30.0,
-    "p90": 30.0,
-    "max": 30.0
-   }
-  },
-  "fail_kinds": {
-   "http_504": 1
-  },
+  "failure_latency": {},
+  "fail_kinds": {},
   "breaker": {
    "mode": "time",
    "opened_hosts": 0,
@@ -167,8 +158,8 @@
   "courts_with_unrequested": 0,
   "courts_outage": 0,
   "cards_unreachable": 0,
-  "cards_unread_other": 91,
-  "run_deadline_seconds": 3300.0,
+  "cards_unread_other": 89,
+  "run_deadline_seconds": 600.0,
   "run_deadline_reached": false
  },
  "act_publication_watch": {
@@ -787,8 +778,8 @@
   "date": "2026-10-08",
   "region": "tyumen",
   "waiting": 174,
-  "due": 83,
-  "planned": 83,
+  "due": 82,
+  "planned": 82,
   "read": 0,
   "published": 0,
   "backfilled": 0,
@@ -1073,6 +1064,18 @@
    {
     "key": "leninsky--tum.sudrf.ru|1540005|1|2-8168/2026|2026-09-21",
     "number": "2-8168/2026",
+    "court": "leninsky--tum.sudrf.ru",
+    "status": "waiting",
+    "last_checked_at": "2026-10-08",
+    "normal_last_checked_at": "2026-10-08",
+    "fi_act_checked_at": "2026-10-08",
+    "next_check_at": "2026-10-09",
+    "over_90_days": false,
+    "reason": "scheduled"
+   },
+   {
+    "key": "leninsky--tum.sudrf.ru|1540005|1|2-8669/2026|2026-09-23",
+    "number": "2-8669/2026",
     "court": "leninsky--tum.sudrf.ru",
     "status": "waiting",
     "last_checked_at": "2026-10-08",
@@ -2289,18 +2292,6 @@
     "status": "waiting",
     "last_checked_at": "2026-09-29",
     "normal_last_checked_at": "2026-09-29",
-    "fi_act_checked_at": "",
-    "next_check_at": "2026-10-02",
-    "over_90_days": false,
-    "reason": "backfill_daily_card_limit"
-   },
-   {
-    "key": "leninsky--tum.sudrf.ru|1540005|1|2-8669/2026|2026-09-23",
-    "number": "2-8669/2026",
-    "court": "leninsky--tum.sudrf.ru",
-    "status": "waiting",
-    "last_checked_at": "2026-10-01",
-    "normal_last_checked_at": "2026-10-01",
     "fi_act_checked_at": "",
     "next_check_at": "2026-10-02",
     "over_90_days": false,
@@ -3796,7 +3787,7 @@
    }
   ],
   "expired": 76,
-  "unread": 83,
+  "unread": 82,
   "long_wait": 34
  },
  "writ_watch": {
@@ -5633,10 +5624,10 @@
  "parsing_backlog": {
   "date": "2026-10-08",
   "region": "tyumen",
-  "cards_unread": 91,
+  "cards_unread": 89,
   "fi_without_card": 10,
   "candidates_pending": 0,
-  "acts_unread": 90,
+  "acts_unread": 89,
   "writs_unread": 2,
   "writs_need_review": 11
  }
