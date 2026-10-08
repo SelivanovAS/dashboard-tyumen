@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-08T08:42:31+05:00",
+  "updated_at": "2026-10-08T03:45:27+00:00",
   "cases": [
     {
       "id": "33-7260/2026",
@@ -20697,7 +20697,29 @@
         "act_decision_date": "01.10.2026",
         "act_notification_kind": "new_publication",
         "act_source_url": "https://7kas.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=15830321&case_uid=e7ed9714-51dc-4a13-9b38-28d8b6563bf0&delo_id=2800001&new=2800001",
-        "act_received_at": "2026-10-08T01:58:09+00:00"
+        "act_received_at": "2026-10-08T01:58:09+00:00",
+        "act_analysis": {
+          "html": "<p><b>Почему:</b> Апелляционный суд правомерно назначил дополнительную экспертизу и приостановил производство, поскольку без специальных знаний невозможно установить стоимость и объем выполненных работ. Кассация отклонила жалобу, указав, что вопросы к эксперту и кандидатура эксперта определяются судом, а их несогласие не является основанием для отмены.</p>",
+          "source": "llm_summary",
+          "act_date": "01.10.2026",
+          "generated_at": "2026-10-08T03:45:25+00:00",
+          "model": "openrouter:apodex/apodex-1.1-mini:free",
+          "source_hash": "d4adaeca2ca82c6a809f3178612ab67845ca0868194d726d4f4e1558fe8ff1aa",
+          "preparation": {
+            "version": "full-act-v1",
+            "source_hash": "d4adaeca2ca82c6a809f3178612ab67845ca0868194d726d4f4e1558fe8ff1aa",
+            "raw_chars": 10180,
+            "prepared_chars": 10180,
+            "source_url": "https://7kas.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=15830321&case_uid=e7ed9714-51dc-4a13-9b38-28d8b6563bf0&delo_id=2800001&new=2800001",
+            "court_domain": "7kas.sudrf.ru",
+            "received_at": "2026-10-08T01:58:09+00:00",
+            "case_number": "8Г-13690/2026",
+            "stage": "cassation",
+            "judicial_uid": "72RS0014-01-2025-004469-08",
+            "identity_check": "matched_uid",
+            "status": "ready"
+          }
+        }
       },
       "import": {
         "operator": "Селиванов А.С.",

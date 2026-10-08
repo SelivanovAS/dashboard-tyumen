@@ -148,5 +148,37 @@
     "model": "openrouter:openrouter/free",
     "stage": "appeal",
     "generated_at": "2026-10-06T03:52:23"
+  },
+  "4387facacbe3b3a9": {
+    "summary": "Апелляционный суд правомерно назначил дополнительную экспертизу и приостановил производство, поскольку без специальных знаний невозможно установить стоимость и объем выполненных работ. Кассация отклонила жалобу, указав, что вопросы к эксперту и кандидатура эксперта определяются судом, а их несогласие не является основанием для отмены.",
+    "model": "openrouter:apodex/apodex-1.1-mini:free",
+    "attempts": [
+      {
+        "provider": "openrouter",
+        "model": "apodex/apodex-1.1-mini:free",
+        "status": "ready",
+        "context_limit": 262144,
+        "input_token_upper_bound": 23969,
+        "output_reserve": 1024,
+        "token_estimate": "utf8_bytes_upper_bound"
+      }
+    ],
+    "fallback": false,
+    "stage": "cassation",
+    "preparation": {
+      "version": "full-act-v1",
+      "source_hash": "d4adaeca2ca82c6a809f3178612ab67845ca0868194d726d4f4e1558fe8ff1aa",
+      "raw_chars": 10180,
+      "prepared_chars": 10180,
+      "source_url": "https://7kas.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=15830321&case_uid=e7ed9714-51dc-4a13-9b38-28d8b6563bf0&delo_id=2800001&new=2800001",
+      "court_domain": "7kas.sudrf.ru",
+      "received_at": "2026-10-08T01:58:09+00:00",
+      "case_number": "8Г-13690/2026",
+      "stage": "cassation",
+      "judicial_uid": "72RS0014-01-2025-004469-08",
+      "identity_check": "matched_uid",
+      "status": "ready"
+    },
+    "generated_at": "2026-10-08T03:45:27+00:00"
   }
 }
