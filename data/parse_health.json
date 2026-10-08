@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated_at": "2026-10-08T12:10:49+05:00",
+ "updated_at": "2026-10-08T16:10:23+05:00",
  "sources": {
   "cassation:7kas:total": {
    "counts": [
@@ -98,24 +98,24 @@
   }
  },
  "last_run": {
-  "at": "2026-10-08T12:10:49",
+  "at": "2026-10-08T16:10:23",
   "alerts": [],
-  "requests_ok": 1,
+  "requests_ok": 0,
   "requests_failed": 0,
   "requests_retried": 0,
   "cards_breaker_skipped": 0,
   "cards_breaker_unrequested": 0,
   "cards_breaker_recovered": 0,
   "cards_blocked": 0,
-  "cards_read": 1,
-  "cards_planned": 90,
+  "cards_read": 0,
+  "cards_planned": 89,
   "cards_read_today": 221,
   "cards_planned_today": 310,
-  "daily_attempts": 5,
+  "daily_attempts": 6,
   "instances": {
    "first_instance": {
-    "read": 1,
-    "planned": 83,
+    "read": 0,
+    "planned": 82,
     "read_today": 168,
     "planned_today": 250
    },
@@ -132,12 +132,7 @@
     "planned_today": 12
    }
   },
-  "latency": {
-   "n": 1,
-   "p50": 29.8,
-   "p90": 29.8,
-   "max": 29.8
-  },
+  "latency": {},
   "failure_latency": {},
   "fail_kinds": {},
   "breaker": {
