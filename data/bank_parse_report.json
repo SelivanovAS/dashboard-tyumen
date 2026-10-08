@@ -3,15 +3,33 @@
   "run_date": "2026-10-08",
   "smart_skip": true,
   "totals": {
-    "total": 579,
-    "parsed": 1,
-    "skip": 578,
+    "total": 580,
+    "parsed": 0,
+    "skip": 580,
     "failed": 0,
     "no_card": 0,
     "not_in_queue": 0,
     "intake_new": 0
   },
   "cases": [
+    {
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "detail": "",
+      "degraded": false,
+      "force_parsed": false,
+      "events": [],
+      "changed": false,
+      "left_track": false,
+      "archived": false,
+      "key": "tobolskygor--tum.sudrf.ru|2-2499/2026",
+      "number": "2-2499/2026",
+      "court": "Тобольский городской суд",
+      "court_domain": "tobolskygor--tum.sudrf.ru",
+      "case_status": "В производстве",
+      "last_checked_at": "2026-10-08"
+    },
     {
       "outcome": "skip",
       "reason": "checked_today",
@@ -4963,9 +4981,9 @@
       "last_checked_at": "2026-09-23"
     },
     {
-      "outcome": "parsed",
-      "reason": "",
-      "reason_ru": "",
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -10435,5 +10453,5 @@
       "last_checked_at": "2026-10-08"
     }
   ],
-  "updated_at": "2026-10-08T12:10:49+05:00"
+  "updated_at": "2026-10-08T16:10:23+05:00"
 }
