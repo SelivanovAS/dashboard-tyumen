@@ -5,8 +5,8 @@
   "totals": {
     "total": 578,
     "parsed": 1,
-    "skip": 576,
-    "failed": 1,
+    "skip": 577,
+    "failed": 0,
     "no_card": 0,
     "not_in_queue": 0,
     "intake_new": 0
@@ -2875,9 +2875,9 @@
       "last_checked_at": "2026-10-05"
     },
     {
-      "outcome": "fetch_blocked",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "портал суда отдал заглушку/блокировку вместо карточки",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -2890,7 +2890,7 @@
       "court": "Ленинский районный суд г. Тюмени",
       "court_domain": "leninsky--tum.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-08"
+      "last_checked_at": "2026-10-09"
     },
     {
       "outcome": "skip",
@@ -6907,9 +6907,9 @@
       "last_checked_at": "2026-10-07"
     },
     {
-      "outcome": "parsed",
-      "reason": "",
-      "reason_ru": "",
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -10417,5 +10417,5 @@
       "last_checked_at": "2026-10-09"
     }
   ],
-  "updated_at": "2026-10-09T10:02:13+05:00"
+  "updated_at": "2026-10-09T12:11:00+05:00"
 }
