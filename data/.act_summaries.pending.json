@@ -72,8 +72,8 @@
     },
     "source_hash": "4e1be25bc6b619793cc1efaa8748a5ba0c56cc94e83e51ec9ed344b0574bdc25",
     "created_at": "2026-10-09T02:45:58+00:00",
-    "runs": 0,
-    "status": "missing_keys",
+    "runs": 1,
+    "status": "ready",
     "preparation": {
       "version": "full-act-v1",
       "source_hash": "4e1be25bc6b619793cc1efaa8748a5ba0c56cc94e83e51ec9ed344b0574bdc25",
@@ -88,8 +88,23 @@
       "identity_check": "matched_uid",
       "status": "ready"
     },
-    "attempts": [],
+    "attempts": [
+      {
+        "provider": "openrouter",
+        "model": "apodex/apodex-1.1-mini:free",
+        "status": "ready",
+        "context_limit": 262144,
+        "input_token_upper_bound": 26225,
+        "output_reserve": 1024,
+        "token_estimate": "utf8_bytes_upper_bound"
+      }
+    ],
     "refusal_rechecked": false,
-    "updated_at": "2026-10-09T02:45:58+00:00"
+    "updated_at": "2026-10-09T03:45:26+00:00",
+    "retry_after": "2026-10-10T03:45:26+00:00",
+    "model": "openrouter:apodex/apodex-1.1-mini:free",
+    "fallback": false,
+    "cached": false,
+    "summary": "Кассация оставила отказ в отмене решения финансового уполномоченного, установив, что банк изменил условия кредита в обход закона, что является злоупотреблением правом. Доводы банка о превышении полномочий уполномоченного отклонены как основанные на неверном понимании закона и не опровергающие выводы судов."
   }
 }

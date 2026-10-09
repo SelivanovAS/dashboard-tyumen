@@ -180,5 +180,37 @@
       "status": "ready"
     },
     "generated_at": "2026-10-08T03:45:27+00:00"
+  },
+  "12bb160b605be683": {
+    "summary": "Кассация оставила отказ в отмене решения финансового уполномоченного, установив, что банк изменил условия кредита в обход закона, что является злоупотреблением правом. Доводы банка о превышении полномочий уполномоченного отклонены как основанные на неверном понимании закона и не опровергающие выводы судов.",
+    "model": "openrouter:apodex/apodex-1.1-mini:free",
+    "attempts": [
+      {
+        "provider": "openrouter",
+        "model": "apodex/apodex-1.1-mini:free",
+        "status": "ready",
+        "context_limit": 262144,
+        "input_token_upper_bound": 26225,
+        "output_reserve": 1024,
+        "token_estimate": "utf8_bytes_upper_bound"
+      }
+    ],
+    "fallback": false,
+    "stage": "cassation",
+    "preparation": {
+      "version": "full-act-v1",
+      "source_hash": "4e1be25bc6b619793cc1efaa8748a5ba0c56cc94e83e51ec9ed344b0574bdc25",
+      "raw_chars": 11534,
+      "prepared_chars": 11534,
+      "source_url": "https://7kas.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=15854347&case_uid=77fd8ee2-9a02-4cd3-9929-50e8a3178586&delo_id=2800001&new=2800001",
+      "court_domain": "7kas.sudrf.ru",
+      "received_at": "2026-10-09T02:40:59+00:00",
+      "case_number": "8Г-13044/2026",
+      "stage": "cassation",
+      "judicial_uid": "72RS0025-01-2025-010121-26",
+      "identity_check": "matched_uid",
+      "status": "ready"
+    },
+    "generated_at": "2026-10-09T03:45:28+00:00"
   }
 }
