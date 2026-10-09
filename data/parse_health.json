@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated_at": "2026-10-08T16:10:23+05:00",
+ "updated_at": "2026-10-09T07:05:51+05:00",
  "sources": {
   "cassation:7kas:total": {
    "counts": [
@@ -24,20 +24,20 @@
    "alerted_zero": false,
    "label": "Кассация 7kas (вся выдача)",
    "last_count": 25,
-   "last_run_at": "2026-10-08T07:04:36+05:00"
+   "last_run_at": "2026-10-09T07:05:51+05:00"
   },
   "cassation:7kas:tyumen": {
    "counts": [
     1,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
     1,
-    2,
-    2,
-    2,
-    2,
-    2,
-    2,
-    2,
-    2,
     1,
     1,
     1,
@@ -48,10 +48,11 @@
    "alerted_zero": false,
    "label": "Кассация 7kas (фильтр региона)",
    "last_count": 1,
-   "last_run_at": "2026-10-08T07:04:36+05:00"
+   "last_run_at": "2026-10-09T07:05:51+05:00"
   },
   "cassation:presidium:oblsud--tum.sudrf.ru:total": {
    "counts": [
+    2,
     2,
     2,
     2,
@@ -71,7 +72,7 @@
    "alerted_zero": false,
    "label": "Президиум Тюменского областного суда",
    "last_count": 2,
-   "last_run_at": "2026-10-08T07:04:36+05:00"
+   "last_run_at": "2026-10-09T07:05:51+05:00"
   },
   "appeal:oblsud": {
    "counts": [
@@ -87,82 +88,228 @@
     25,
     25,
     24,
-    24
+    24,
+    23
    ],
    "zero_streak": 0,
    "fail_streak": 0,
    "alerted_zero": false,
    "label": "Апелляция (Тюменский областной суд)",
-   "last_count": 24,
-   "last_run_at": "2026-10-08T07:04:36+05:00"
+   "last_count": 23,
+   "last_run_at": "2026-10-09T07:05:51+05:00"
   }
  },
  "last_run": {
-  "at": "2026-10-08T16:10:23",
+  "at": "2026-10-09T07:05:51",
   "alerts": [],
-  "requests_ok": 0,
-  "requests_failed": 0,
+  "requests_ok": 155,
+  "requests_failed": 13,
   "requests_retried": 0,
-  "cards_breaker_skipped": 0,
-  "cards_breaker_unrequested": 0,
+  "cards_breaker_skipped": 46,
+  "cards_breaker_unrequested": 27,
   "cards_breaker_recovered": 0,
-  "cards_blocked": 0,
-  "cards_read": 0,
-  "cards_planned": 89,
-  "cards_read_today": 221,
-  "cards_planned_today": 310,
-  "daily_attempts": 6,
+  "cards_blocked": 22,
+  "cards_read": 129,
+  "cards_planned": 303,
+  "cards_read_today": 129,
+  "cards_planned_today": 293,
+  "daily_attempts": 1,
   "instances": {
    "first_instance": {
-    "read": 0,
-    "planned": 82,
-    "read_today": 168,
-    "planned_today": 250
+    "read": 93,
+    "planned": 245,
+    "read_today": 93,
+    "planned_today": 235
    },
    "appeal": {
-    "read": 0,
-    "planned": 7,
-    "read_today": 41,
-    "planned_today": 48
+    "read": 30,
+    "planned": 46,
+    "read_today": 30,
+    "planned_today": 46
    },
    "cassation": {
-    "read": 0,
-    "planned": 0,
-    "read_today": 12,
+    "read": 6,
+    "planned": 12,
+    "read_today": 6,
     "planned_today": 12
    }
   },
-  "latency": {},
-  "failure_latency": {},
-  "fail_kinds": {},
+  "latency": {
+   "n": 155,
+   "p50": 16.7,
+   "p90": 22.5,
+   "max": 27.3
+  },
+  "failure_latency": {
+   "http_502": {
+    "n": 1,
+    "p50": 60.1,
+    "p90": 60.1,
+    "max": 60.1
+   },
+   "http_504": {
+    "n": 4,
+    "p50": 30.1,
+    "p90": 30.2,
+    "max": 30.2
+   },
+   "portal_placeholder": {
+    "n": 22,
+    "p50": 17.5,
+    "p90": 25.0,
+    "max": 27.3
+   },
+   "read_timeout": {
+    "n": 8,
+    "p50": 0.2,
+    "p90": 8.4,
+    "max": 8.4
+   }
+  },
+  "fail_kinds": {
+   "portal_placeholder": 22,
+   "http_504": 4,
+   "http_502": 1,
+   "read_timeout": 8,
+   "breaker": 13
+  },
   "breaker": {
    "mode": "time",
-   "opened_hosts": 0,
-   "open_hosts": 0,
-   "recovered_hosts": 0,
-   "deferred_total": 0,
-   "deferred_remaining": 0,
+   "opened_hosts": 7,
+   "open_hosts": 7,
+   "recovered_hosts": 3,
+   "deferred_total": 37,
+   "deferred_remaining": 37,
    "deferred_recovered": 0,
-   "probes": 0,
-   "probe_successes": 0,
-   "probe_failures": 0,
-   "by_kind": {},
-   "hosts": []
+   "probes": 5,
+   "probe_successes": 3,
+   "probe_failures": 2,
+   "by_kind": {
+    "portal_placeholder": 8,
+    "read_timeout": 4
+   },
+   "hosts": [
+    {
+     "host": "7kas.sudrf.ru",
+     "state": "open",
+     "kind": "read_timeout",
+     "family": "slow_unavailable",
+     "reason": "суд не отдал данные до таймаута чтения",
+     "preopened": false,
+     "skipped": 1,
+     "probes": 0,
+     "deferred_total": 0,
+     "deferred_remaining": 0,
+     "deferred_recovered": 0,
+     "cooldown_seconds": 300.0,
+     "next_probe_in_seconds": 289.7
+    },
+    {
+     "host": "centralny--tum.sudrf.ru",
+     "state": "open",
+     "kind": "read_timeout",
+     "family": "slow_unavailable",
+     "reason": "суд не отдал данные до таймаута чтения",
+     "preopened": false,
+     "skipped": 12,
+     "probes": 2,
+     "deferred_total": 5,
+     "deferred_remaining": 5,
+     "deferred_recovered": 0,
+     "cooldown_seconds": 300.0,
+     "next_probe_in_seconds": 201.4
+    },
+    {
+     "host": "isetsky--tum.sudrf.ru",
+     "state": "open",
+     "kind": "read_timeout",
+     "family": "slow_unavailable",
+     "reason": "суд не отдал данные до таймаута чтения",
+     "preopened": false,
+     "skipped": 0,
+     "probes": 0,
+     "deferred_total": 1,
+     "deferred_remaining": 1,
+     "deferred_recovered": 0,
+     "cooldown_seconds": 300.0,
+     "next_probe_in_seconds": 193.8
+    },
+    {
+     "host": "kalininsky--tum.sudrf.ru",
+     "state": "open",
+     "kind": "portal_placeholder",
+     "family": "portal_outage",
+     "reason": "вместо карточки пришла заглушка портала",
+     "preopened": false,
+     "skipped": 10,
+     "probes": 1,
+     "deferred_total": 12,
+     "deferred_remaining": 12,
+     "deferred_recovered": 0,
+     "cooldown_seconds": 180.0,
+     "next_probe_in_seconds": 0.0
+    },
+    {
+     "host": "leninsky--tum.sudrf.ru",
+     "state": "open",
+     "kind": "read_timeout",
+     "family": "slow_unavailable",
+     "reason": "суд не отдал данные до таймаута чтения",
+     "preopened": false,
+     "skipped": 14,
+     "probes": 1,
+     "deferred_total": 7,
+     "deferred_remaining": 7,
+     "deferred_recovered": 0,
+     "cooldown_seconds": 300.0,
+     "next_probe_in_seconds": 199.1
+    },
+    {
+     "host": "tumensky--tum.sudrf.ru",
+     "state": "open",
+     "kind": "portal_placeholder",
+     "family": "portal_outage",
+     "reason": "вместо карточки пришла заглушка портала",
+     "preopened": false,
+     "skipped": 8,
+     "probes": 1,
+     "deferred_total": 10,
+     "deferred_remaining": 10,
+     "deferred_recovered": 0,
+     "cooldown_seconds": 180.0,
+     "next_probe_in_seconds": 0.0
+    },
+    {
+     "host": "yarkovsky--tum.sudrf.ru",
+     "state": "open",
+     "kind": "portal_placeholder",
+     "family": "portal_outage",
+     "reason": "вместо карточки пришла заглушка портала",
+     "preopened": false,
+     "skipped": 1,
+     "probes": 0,
+     "deferred_total": 2,
+     "deferred_remaining": 2,
+     "deferred_recovered": 0,
+     "cooldown_seconds": 180.0,
+     "next_probe_in_seconds": 0.0
+    }
+   ]
   },
-  "courts_unavailable": 0,
-  "courts_with_unrequested": 0,
+  "courts_unavailable": 7,
+  "courts_with_unrequested": 5,
   "courts_outage": 0,
-  "cards_unreachable": 0,
-  "cards_unread_other": 89,
-  "run_deadline_seconds": 600.0,
-  "run_deadline_reached": false
+  "cards_unreachable": 27,
+  "cards_unread_other": 147,
+  "run_deadline_seconds": 3300.0,
+  "run_deadline_reached": true
  },
  "act_publication_watch": {
-  "date": "2026-10-08",
+  "date": "2026-10-09",
   "region": "tyumen",
   "waiting": 8,
-  "due": 0,
-  "planned": 0,
+  "due": 6,
+  "planned": 6,
   "read": 0,
   "published": 0,
   "backfilled": 0,
@@ -176,7 +323,8 @@
     "last_checked_at": "2026-10-08",
     "next_check_at": "2026-10-09",
     "over_90_days": false,
-    "reason": "scheduled"
+    "reason": "unread_card",
+    "failure_kind": "read_timeout"
    },
    {
     "key": "7kas.sudrf.ru|2800001|8Г-13044/2026",
@@ -186,7 +334,8 @@
     "last_checked_at": "2026-10-08",
     "next_check_at": "2026-10-09",
     "over_90_days": false,
-    "reason": "scheduled"
+    "reason": "unread_card",
+    "failure_kind": "read_timeout"
    },
    {
     "key": "7kas.sudrf.ru|2800001|8Г-13177/2026",
@@ -196,7 +345,8 @@
     "last_checked_at": "2026-10-08",
     "next_check_at": "2026-10-09",
     "over_90_days": false,
-    "reason": "scheduled"
+    "reason": "unread_card",
+    "failure_kind": "breaker"
    },
    {
     "key": "7kas.sudrf.ru|2800001|8Г-13376/2026",
@@ -206,7 +356,7 @@
     "last_checked_at": "2026-10-08",
     "next_check_at": "2026-10-09",
     "over_90_days": false,
-    "reason": "scheduled"
+    "reason": "run_deadline"
    },
    {
     "key": "7kas.sudrf.ru|2800001|8Г-13639/2026",
@@ -216,7 +366,7 @@
     "last_checked_at": "2026-10-08",
     "next_check_at": "2026-10-09",
     "over_90_days": false,
-    "reason": "scheduled"
+    "reason": "run_deadline"
    },
    {
     "key": "7kas.sudrf.ru|2800001|8Г-13822/2026",
@@ -226,6 +376,16 @@
     "last_checked_at": "2026-10-08",
     "next_check_at": "2026-10-09",
     "over_90_days": false,
+    "reason": "run_deadline"
+   },
+   {
+    "key": "oblsud--tum.sudrf.ru|2800001|4Г-23/2026",
+    "number": "4Г-23/2026",
+    "court": "oblsud--tum.sudrf.ru",
+    "status": "waiting",
+    "last_checked_at": "2026-10-09",
+    "next_check_at": "2026-10-12",
+    "over_90_days": false,
     "reason": "scheduled"
    },
    {
@@ -233,17 +393,7 @@
     "number": "4Г-56/2026",
     "court": "oblsud--tum.sudrf.ru",
     "status": "waiting",
-    "last_checked_at": "2026-10-08",
-    "next_check_at": "2026-10-09",
-    "over_90_days": false,
-    "reason": "scheduled"
-   },
-   {
-    "key": "oblsud--tum.sudrf.ru|2800001|4Г-23/2026",
-    "number": "4Г-23/2026",
-    "court": "oblsud--tum.sudrf.ru",
-    "status": "waiting",
-    "last_checked_at": "2026-10-08",
+    "last_checked_at": "2026-10-09",
     "next_check_at": "2026-10-12",
     "over_90_days": false,
     "reason": "scheduled"
@@ -260,100 +410,20 @@
    }
   ],
   "expired": 1,
-  "unread": 0,
+  "unread": 6,
   "long_wait": 0
  },
  "appeal_act_publication_watch": {
-  "date": "2026-10-08",
+  "date": "2026-10-09",
   "region": "tyumen",
-  "waiting": 49,
-  "due": 7,
-  "planned": 7,
+  "waiting": 50,
+  "due": 16,
+  "planned": 16,
   "read": 0,
   "published": 0,
   "backfilled": 0,
   "unplanned": 0,
   "items": [
-   {
-    "key": "oblsud--tum.sudrf.ru|5|1|33-5399/2026",
-    "number": "33-5399/2026",
-    "court": "oblsud--tum.sudrf.ru",
-    "status": "waiting",
-    "last_checked_at": "2026-10-08",
-    "next_check_at": "2026-10-09",
-    "over_90_days": false,
-    "reason": "scheduled"
-   },
-   {
-    "key": "oblsud--tum.sudrf.ru|5|1|33-5445/2026",
-    "number": "33-5445/2026",
-    "court": "oblsud--tum.sudrf.ru",
-    "status": "waiting",
-    "last_checked_at": "2026-10-08",
-    "next_check_at": "2026-10-09",
-    "over_90_days": false,
-    "reason": "scheduled"
-   },
-   {
-    "key": "oblsud--tum.sudrf.ru|5|1|33-5538/2026",
-    "number": "33-5538/2026",
-    "court": "oblsud--tum.sudrf.ru",
-    "status": "waiting",
-    "last_checked_at": "2026-10-08",
-    "next_check_at": "2026-10-09",
-    "over_90_days": false,
-    "reason": "scheduled"
-   },
-   {
-    "key": "oblsud--tum.sudrf.ru|5|1|33-5585/2026",
-    "number": "33-5585/2026",
-    "court": "oblsud--tum.sudrf.ru",
-    "status": "waiting",
-    "last_checked_at": "2026-10-08",
-    "next_check_at": "2026-10-09",
-    "over_90_days": false,
-    "reason": "scheduled"
-   },
-   {
-    "key": "oblsud--tum.sudrf.ru|5|1|33-5644/2026",
-    "number": "33-5644/2026",
-    "court": "oblsud--tum.sudrf.ru",
-    "status": "waiting",
-    "last_checked_at": "2026-10-08",
-    "next_check_at": "2026-10-09",
-    "over_90_days": false,
-    "reason": "scheduled"
-   },
-   {
-    "key": "oblsud--tum.sudrf.ru|5|1|33-5729/2026",
-    "number": "33-5729/2026",
-    "court": "oblsud--tum.sudrf.ru",
-    "status": "waiting",
-    "last_checked_at": "2026-10-08",
-    "next_check_at": "2026-10-09",
-    "over_90_days": false,
-    "reason": "scheduled"
-   },
-   {
-    "key": "oblsud--tum.sudrf.ru|5|1|33-5887/2026",
-    "number": "33-5887/2026",
-    "court": "oblsud--tum.sudrf.ru",
-    "status": "waiting",
-    "last_checked_at": "2026-10-08",
-    "next_check_at": "2026-10-09",
-    "over_90_days": false,
-    "reason": "scheduled"
-   },
-   {
-    "key": "oblsud--tum.sudrf.ru|5|1|33-5897/2026",
-    "number": "33-5897/2026",
-    "court": "oblsud--tum.sudrf.ru",
-    "status": "waiting",
-    "last_checked_at": "2026-10-08",
-    "next_check_at": "2026-10-09",
-    "over_90_days": false,
-    "reason": "scheduled"
-   },
    {
     "key": "oblsud--tum.sudrf.ru|5|1|33-5961/2026",
     "number": "33-5961/2026",
@@ -362,7 +432,7 @@
     "last_checked_at": "2026-10-08",
     "next_check_at": "2026-10-09",
     "over_90_days": false,
-    "reason": "scheduled"
+    "reason": "run_deadline"
    },
    {
     "key": "oblsud--tum.sudrf.ru|5|1|33-6040/2026",
@@ -372,77 +442,7 @@
     "last_checked_at": "2026-10-08",
     "next_check_at": "2026-10-09",
     "over_90_days": false,
-    "reason": "scheduled"
-   },
-   {
-    "key": "oblsud--tum.sudrf.ru|5|1|33-6045/2026",
-    "number": "33-6045/2026",
-    "court": "oblsud--tum.sudrf.ru",
-    "status": "waiting",
-    "last_checked_at": "2026-10-08",
-    "next_check_at": "2026-10-09",
-    "over_90_days": false,
-    "reason": "scheduled"
-   },
-   {
-    "key": "oblsud--tum.sudrf.ru|5|1|33-6182/2026",
-    "number": "33-6182/2026",
-    "court": "oblsud--tum.sudrf.ru",
-    "status": "waiting",
-    "last_checked_at": "2026-10-08",
-    "next_check_at": "2026-10-09",
-    "over_90_days": false,
-    "reason": "scheduled"
-   },
-   {
-    "key": "oblsud--tum.sudrf.ru|5|1|33-6334/2026",
-    "number": "33-6334/2026",
-    "court": "oblsud--tum.sudrf.ru",
-    "status": "waiting",
-    "last_checked_at": "2026-10-08",
-    "next_check_at": "2026-10-09",
-    "over_90_days": false,
-    "reason": "scheduled"
-   },
-   {
-    "key": "oblsud--tum.sudrf.ru|5|1|33-6338/2026",
-    "number": "33-6338/2026",
-    "court": "oblsud--tum.sudrf.ru",
-    "status": "waiting",
-    "last_checked_at": "2026-10-08",
-    "next_check_at": "2026-10-09",
-    "over_90_days": false,
-    "reason": "scheduled"
-   },
-   {
-    "key": "oblsud--tum.sudrf.ru|5|1|33-6385/2026",
-    "number": "33-6385/2026",
-    "court": "oblsud--tum.sudrf.ru",
-    "status": "waiting",
-    "last_checked_at": "2026-10-08",
-    "next_check_at": "2026-10-09",
-    "over_90_days": false,
-    "reason": "scheduled"
-   },
-   {
-    "key": "oblsud--tum.sudrf.ru|5|1|33-6416/2026",
-    "number": "33-6416/2026",
-    "court": "oblsud--tum.sudrf.ru",
-    "status": "waiting",
-    "last_checked_at": "2026-10-08",
-    "next_check_at": "2026-10-09",
-    "over_90_days": false,
-    "reason": "scheduled"
-   },
-   {
-    "key": "oblsud--tum.sudrf.ru|5|1|33-6566/2026",
-    "number": "33-6566/2026",
-    "court": "oblsud--tum.sudrf.ru",
-    "status": "waiting",
-    "last_checked_at": "2026-10-08",
-    "next_check_at": "2026-10-09",
-    "over_90_days": false,
-    "reason": "scheduled"
+    "reason": "run_deadline"
    },
    {
     "key": "oblsud--tum.sudrf.ru|5|1|33-6687/2026",
@@ -452,15 +452,45 @@
     "last_checked_at": "2026-10-08",
     "next_check_at": "2026-10-09",
     "over_90_days": false,
+    "reason": "run_deadline"
+   },
+   {
+    "key": "oblsud--tum.sudrf.ru|5|1|33-5399/2026",
+    "number": "33-5399/2026",
+    "court": "oblsud--tum.sudrf.ru",
+    "status": "waiting",
+    "last_checked_at": "2026-10-09",
+    "next_check_at": "2026-10-12",
+    "over_90_days": false,
     "reason": "scheduled"
    },
    {
-    "key": "oblsud--tum.sudrf.ru|5|1|33-7106/2026",
-    "number": "33-7106/2026",
+    "key": "oblsud--tum.sudrf.ru|5|1|33-5445/2026",
+    "number": "33-5445/2026",
     "court": "oblsud--tum.sudrf.ru",
     "status": "waiting",
-    "last_checked_at": "2026-10-08",
-    "next_check_at": "2026-10-09",
+    "last_checked_at": "2026-10-09",
+    "next_check_at": "2026-10-12",
+    "over_90_days": false,
+    "reason": "scheduled"
+   },
+   {
+    "key": "oblsud--tum.sudrf.ru|5|1|33-5538/2026",
+    "number": "33-5538/2026",
+    "court": "oblsud--tum.sudrf.ru",
+    "status": "waiting",
+    "last_checked_at": "2026-10-09",
+    "next_check_at": "2026-10-12",
+    "over_90_days": false,
+    "reason": "scheduled"
+   },
+   {
+    "key": "oblsud--tum.sudrf.ru|5|1|33-5585/2026",
+    "number": "33-5585/2026",
+    "court": "oblsud--tum.sudrf.ru",
+    "status": "waiting",
+    "last_checked_at": "2026-10-09",
+    "next_check_at": "2026-10-12",
     "over_90_days": false,
     "reason": "scheduled"
    },
@@ -470,6 +500,136 @@
     "court": "oblsud--tum.sudrf.ru",
     "status": "waiting",
     "last_checked_at": "2026-10-07",
+    "next_check_at": "2026-10-12",
+    "over_90_days": false,
+    "reason": "scheduled"
+   },
+   {
+    "key": "oblsud--tum.sudrf.ru|5|1|33-5644/2026",
+    "number": "33-5644/2026",
+    "court": "oblsud--tum.sudrf.ru",
+    "status": "waiting",
+    "last_checked_at": "2026-10-09",
+    "next_check_at": "2026-10-12",
+    "over_90_days": false,
+    "reason": "scheduled"
+   },
+   {
+    "key": "oblsud--tum.sudrf.ru|5|1|33-5729/2026",
+    "number": "33-5729/2026",
+    "court": "oblsud--tum.sudrf.ru",
+    "status": "waiting",
+    "last_checked_at": "2026-10-09",
+    "next_check_at": "2026-10-12",
+    "over_90_days": false,
+    "reason": "scheduled"
+   },
+   {
+    "key": "oblsud--tum.sudrf.ru|5|1|33-5887/2026",
+    "number": "33-5887/2026",
+    "court": "oblsud--tum.sudrf.ru",
+    "status": "waiting",
+    "last_checked_at": "2026-10-09",
+    "next_check_at": "2026-10-12",
+    "over_90_days": false,
+    "reason": "scheduled"
+   },
+   {
+    "key": "oblsud--tum.sudrf.ru|5|1|33-5897/2026",
+    "number": "33-5897/2026",
+    "court": "oblsud--tum.sudrf.ru",
+    "status": "waiting",
+    "last_checked_at": "2026-10-09",
+    "next_check_at": "2026-10-12",
+    "over_90_days": false,
+    "reason": "scheduled"
+   },
+   {
+    "key": "oblsud--tum.sudrf.ru|5|1|33-6045/2026",
+    "number": "33-6045/2026",
+    "court": "oblsud--tum.sudrf.ru",
+    "status": "waiting",
+    "last_checked_at": "2026-10-09",
+    "next_check_at": "2026-10-12",
+    "over_90_days": false,
+    "reason": "scheduled"
+   },
+   {
+    "key": "oblsud--tum.sudrf.ru|5|1|33-6182/2026",
+    "number": "33-6182/2026",
+    "court": "oblsud--tum.sudrf.ru",
+    "status": "waiting",
+    "last_checked_at": "2026-10-09",
+    "next_check_at": "2026-10-12",
+    "over_90_days": false,
+    "reason": "scheduled"
+   },
+   {
+    "key": "oblsud--tum.sudrf.ru|5|1|33-6250/2026",
+    "number": "33-6250/2026",
+    "court": "oblsud--tum.sudrf.ru",
+    "status": "waiting",
+    "last_checked_at": "2026-10-09",
+    "next_check_at": "2026-10-12",
+    "over_90_days": false,
+    "reason": "scheduled"
+   },
+   {
+    "key": "oblsud--tum.sudrf.ru|5|1|33-6334/2026",
+    "number": "33-6334/2026",
+    "court": "oblsud--tum.sudrf.ru",
+    "status": "waiting",
+    "last_checked_at": "2026-10-09",
+    "next_check_at": "2026-10-12",
+    "over_90_days": false,
+    "reason": "scheduled"
+   },
+   {
+    "key": "oblsud--tum.sudrf.ru|5|1|33-6338/2026",
+    "number": "33-6338/2026",
+    "court": "oblsud--tum.sudrf.ru",
+    "status": "waiting",
+    "last_checked_at": "2026-10-09",
+    "next_check_at": "2026-10-12",
+    "over_90_days": false,
+    "reason": "scheduled"
+   },
+   {
+    "key": "oblsud--tum.sudrf.ru|5|1|33-6385/2026",
+    "number": "33-6385/2026",
+    "court": "oblsud--tum.sudrf.ru",
+    "status": "waiting",
+    "last_checked_at": "2026-10-09",
+    "next_check_at": "2026-10-12",
+    "over_90_days": false,
+    "reason": "scheduled"
+   },
+   {
+    "key": "oblsud--tum.sudrf.ru|5|1|33-6416/2026",
+    "number": "33-6416/2026",
+    "court": "oblsud--tum.sudrf.ru",
+    "status": "waiting",
+    "last_checked_at": "2026-10-09",
+    "next_check_at": "2026-10-12",
+    "over_90_days": false,
+    "reason": "scheduled"
+   },
+   {
+    "key": "oblsud--tum.sudrf.ru|5|1|33-6566/2026",
+    "number": "33-6566/2026",
+    "court": "oblsud--tum.sudrf.ru",
+    "status": "waiting",
+    "last_checked_at": "2026-10-09",
+    "next_check_at": "2026-10-12",
+    "over_90_days": false,
+    "reason": "scheduled"
+   },
+   {
+    "key": "oblsud--tum.sudrf.ru|5|1|33-7106/2026",
+    "number": "33-7106/2026",
+    "court": "oblsud--tum.sudrf.ru",
+    "status": "waiting",
+    "last_checked_at": "2026-10-09",
     "next_check_at": "2026-10-12",
     "over_90_days": false,
     "reason": "scheduled"
@@ -562,7 +722,7 @@
     "last_checked_at": "2026-10-02",
     "next_check_at": "2026-10-07",
     "over_90_days": false,
-    "reason": "backfill_daily_card_limit"
+    "reason": "run_deadline"
    },
    {
     "key": "oblsud--tum.sudrf.ru|5|1|33-4953/2026",
@@ -572,7 +732,7 @@
     "last_checked_at": "2026-10-06",
     "next_check_at": "2026-10-08",
     "over_90_days": false,
-    "reason": "backfill_daily_card_limit"
+    "reason": "run_deadline"
    },
    {
     "key": "oblsud--tum.sudrf.ru|5|1|33-4980/2026",
@@ -582,7 +742,7 @@
     "last_checked_at": "2026-10-06",
     "next_check_at": "2026-10-08",
     "over_90_days": false,
-    "reason": "backfill_daily_card_limit"
+    "reason": "run_deadline"
    },
    {
     "key": "oblsud--tum.sudrf.ru|5|1|33-5141/2026",
@@ -592,7 +752,7 @@
     "last_checked_at": "2026-10-05",
     "next_check_at": "2026-10-08",
     "over_90_days": false,
-    "reason": "backfill_daily_card_limit"
+    "reason": "run_deadline"
    },
    {
     "key": "oblsud--tum.sudrf.ru|5|1|33-5336/2026",
@@ -602,7 +762,7 @@
     "last_checked_at": "2026-10-01",
     "next_check_at": "2026-10-08",
     "over_90_days": false,
-    "reason": "backfill_daily_card_limit"
+    "reason": "run_deadline"
    },
    {
     "key": "oblsud--tum.sudrf.ru|5|1|33-5395/2026",
@@ -612,7 +772,7 @@
     "last_checked_at": "2026-10-06",
     "next_check_at": "2026-10-08",
     "over_90_days": false,
-    "reason": "backfill_daily_card_limit"
+    "reason": "run_deadline"
    },
    {
     "key": "oblsud--tum.sudrf.ru|5|1|33-6150/2026",
@@ -622,7 +782,7 @@
     "last_checked_at": "2026-10-06",
     "next_check_at": "2026-10-08",
     "over_90_days": false,
-    "reason": "backfill_daily_card_limit"
+    "reason": "run_deadline"
    },
    {
     "key": "oblsud--tum.sudrf.ru|5|1|33-3321/2026",
@@ -632,7 +792,7 @@
     "last_checked_at": "2026-10-06",
     "next_check_at": "2026-10-09",
     "over_90_days": false,
-    "reason": "scheduled"
+    "reason": "run_deadline"
    },
    {
     "key": "oblsud--tum.sudrf.ru|5|1|33-4478/2026",
@@ -642,7 +802,7 @@
     "last_checked_at": "2026-10-06",
     "next_check_at": "2026-10-09",
     "over_90_days": false,
-    "reason": "scheduled"
+    "reason": "run_deadline"
    },
    {
     "key": "oblsud--tum.sudrf.ru|5|1|33-4592/2026",
@@ -652,7 +812,7 @@
     "last_checked_at": "2026-10-06",
     "next_check_at": "2026-10-09",
     "over_90_days": false,
-    "reason": "scheduled"
+    "reason": "run_deadline"
    },
    {
     "key": "oblsud--tum.sudrf.ru|5|1|33-4723/2026",
@@ -662,7 +822,7 @@
     "last_checked_at": "2026-10-06",
     "next_check_at": "2026-10-09",
     "over_90_days": false,
-    "reason": "scheduled"
+    "reason": "run_deadline"
    },
    {
     "key": "oblsud--tum.sudrf.ru|5|1|33-5096/2026",
@@ -672,7 +832,7 @@
     "last_checked_at": "2026-10-06",
     "next_check_at": "2026-10-09",
     "over_90_days": false,
-    "reason": "scheduled"
+    "reason": "run_deadline"
    },
    {
     "key": "oblsud--tum.sudrf.ru|5|1|33-5893/2026",
@@ -682,7 +842,7 @@
     "last_checked_at": "2026-10-06",
     "next_check_at": "2026-10-09",
     "over_90_days": false,
-    "reason": "scheduled"
+    "reason": "run_deadline"
    },
    {
     "key": "oblsud--tum.sudrf.ru|5|1|33-4639/2026",
@@ -766,19 +926,19 @@
    }
   ],
   "expired": 0,
-  "unread": 7,
+  "unread": 16,
   "long_wait": 6
  },
  "fi_act_publication_watch": {
-  "date": "2026-10-08",
+  "date": "2026-10-09",
   "region": "tyumen",
-  "waiting": 174,
-  "due": 82,
-  "planned": 82,
+  "waiting": 177,
+  "due": 96,
+  "planned": 96,
   "read": 0,
   "published": 0,
   "backfilled": 0,
-  "unplanned": 6,
+  "unplanned": 7,
   "items": [
    {
     "key": "centralny--tum.sudrf.ru|1540005|1|2-2071/2026|2026-04-09",
@@ -805,6 +965,18 @@
     "reason": "age_limit"
    },
    {
+    "key": "tobolskygor--tum.sudrf.ru|1540005|1|9-348/2026|undated",
+    "number": "9-348/2026",
+    "court": "tobolskygor--tum.sudrf.ru",
+    "status": "needs_review",
+    "last_checked_at": "2026-10-09",
+    "normal_last_checked_at": "2026-10-09",
+    "fi_act_checked_at": "2026-10-09",
+    "next_check_at": "",
+    "over_90_days": false,
+    "reason": "missing_decision_date"
+   },
+   {
     "key": "tumensky--tum.sudrf.ru|1540005|1|2-3086/2025|2025-10-24",
     "number": "2-3086/2025",
     "court": "tumensky--tum.sudrf.ru",
@@ -826,31 +998,8 @@
     "fi_act_checked_at": "2026-10-07",
     "next_check_at": "2026-10-08",
     "over_90_days": false,
-    "reason": "daily_retry_limit"
-   },
-   {
-    "key": "centralny--tum.sudrf.ru|1540005|1|2-2592/2026|2026-10-01",
-    "number": "2-2592/2026",
-    "court": "centralny--tum.sudrf.ru",
-    "status": "waiting",
-    "last_checked_at": "2026-10-08",
-    "normal_last_checked_at": "2026-10-08",
-    "fi_act_checked_at": "2026-10-08",
-    "next_check_at": "2026-10-09",
-    "over_90_days": false,
-    "reason": "scheduled"
-   },
-   {
-    "key": "centralny--tum.sudrf.ru|1540005|1|2-6078/2026|2026-09-16",
-    "number": "2-6078/2026",
-    "court": "centralny--tum.sudrf.ru",
-    "status": "waiting",
-    "last_checked_at": "2026-10-08",
-    "normal_last_checked_at": "2026-10-08",
-    "fi_act_checked_at": "2026-10-08",
-    "next_check_at": "2026-10-09",
-    "over_90_days": false,
-    "reason": "scheduled"
+    "reason": "unread_card",
+    "failure_kind": "breaker"
    },
    {
     "key": "centralny--tum.sudrf.ru|1540005|1|2-7060/2026|2026-09-21",
@@ -862,7 +1011,8 @@
     "fi_act_checked_at": "2026-10-08",
     "next_check_at": "2026-10-09",
     "over_90_days": false,
-    "reason": "scheduled"
+    "reason": "unread_card",
+    "failure_kind": "breaker"
    },
    {
     "key": "centralny--tum.sudrf.ru|1540005|1|2-7361/2026|2026-09-23",
@@ -874,7 +1024,8 @@
     "fi_act_checked_at": "2026-10-08",
     "next_check_at": "2026-10-09",
     "over_90_days": false,
-    "reason": "scheduled"
+    "reason": "unread_card",
+    "failure_kind": "breaker"
    },
    {
     "key": "centralny--tum.sudrf.ru|1540005|1|2-7424/2026|2026-09-09",
@@ -886,31 +1037,8 @@
     "fi_act_checked_at": "2026-10-08",
     "next_check_at": "2026-10-09",
     "over_90_days": false,
-    "reason": "scheduled"
-   },
-   {
-    "key": "centralny--tum.sudrf.ru|1540005|1|2-7615/2026|2026-08-26",
-    "number": "2-7615/2026",
-    "court": "centralny--tum.sudrf.ru",
-    "status": "waiting",
-    "last_checked_at": "2026-10-08",
-    "normal_last_checked_at": "2026-10-08",
-    "fi_act_checked_at": "2026-10-08",
-    "next_check_at": "2026-10-09",
-    "over_90_days": false,
-    "reason": "scheduled"
-   },
-   {
-    "key": "centralny--tum.sudrf.ru|1540005|1|2-7665/2026|2026-09-08",
-    "number": "2-7665/2026",
-    "court": "centralny--tum.sudrf.ru",
-    "status": "waiting",
-    "last_checked_at": "2026-10-08",
-    "normal_last_checked_at": "2026-10-07",
-    "fi_act_checked_at": "2026-10-08",
-    "next_check_at": "2026-10-09",
-    "over_90_days": false,
-    "reason": "scheduled"
+    "reason": "unread_card",
+    "failure_kind": "breaker"
    },
    {
     "key": "centralny--tum.sudrf.ru|1540005|1|2-7839/2026|2026-09-14",
@@ -922,7 +1050,8 @@
     "fi_act_checked_at": "2026-10-08",
     "next_check_at": "2026-10-09",
     "over_90_days": false,
-    "reason": "scheduled"
+    "reason": "unread_card",
+    "failure_kind": "breaker"
    },
    {
     "key": "centralny--tum.sudrf.ru|1540005|1|2-7998/2026|2026-09-09",
@@ -934,7 +1063,8 @@
     "fi_act_checked_at": "2026-10-08",
     "next_check_at": "2026-10-09",
     "over_90_days": false,
-    "reason": "scheduled"
+    "reason": "unread_card",
+    "failure_kind": "breaker"
    },
    {
     "key": "centralny--tum.sudrf.ru|1540005|1|2-8052/2026|2026-09-28",
@@ -946,7 +1076,8 @@
     "fi_act_checked_at": "2026-10-08",
     "next_check_at": "2026-10-09",
     "over_90_days": false,
-    "reason": "scheduled"
+    "reason": "unread_card",
+    "failure_kind": "breaker"
    },
    {
     "key": "centralny--tum.sudrf.ru|1540005|1|2-8470/2026|2026-09-25",
@@ -958,7 +1089,8 @@
     "fi_act_checked_at": "2026-10-08",
     "next_check_at": "2026-10-09",
     "over_90_days": false,
-    "reason": "scheduled"
+    "reason": "unread_card",
+    "failure_kind": "breaker"
    },
    {
     "key": "centralny--tum.sudrf.ru|1540005|1|2-8508/2026|2026-09-18",
@@ -970,67 +1102,8 @@
     "fi_act_checked_at": "2026-10-08",
     "next_check_at": "2026-10-09",
     "over_90_days": false,
-    "reason": "scheduled"
-   },
-   {
-    "key": "kalininsky--tum.sudrf.ru|1540005|1|2-3014/2026|2026-08-05",
-    "number": "2-3014/2026",
-    "court": "kalininsky--tum.sudrf.ru",
-    "status": "waiting",
-    "last_checked_at": "2026-10-08",
-    "normal_last_checked_at": "2026-10-08",
-    "fi_act_checked_at": "2026-10-08",
-    "next_check_at": "2026-10-09",
-    "over_90_days": false,
-    "reason": "scheduled"
-   },
-   {
-    "key": "leninsky--tum.sudrf.ru|1540005|1|2-7002/2026|2026-09-16",
-    "number": "2-7002/2026",
-    "court": "leninsky--tum.sudrf.ru",
-    "status": "waiting",
-    "last_checked_at": "2026-10-08",
-    "normal_last_checked_at": "2026-10-08",
-    "fi_act_checked_at": "2026-10-08",
-    "next_check_at": "2026-10-09",
-    "over_90_days": false,
-    "reason": "scheduled"
-   },
-   {
-    "key": "leninsky--tum.sudrf.ru|1540005|1|2-7212/2026|2026-09-09",
-    "number": "2-7212/2026",
-    "court": "leninsky--tum.sudrf.ru",
-    "status": "waiting",
-    "last_checked_at": "2026-10-08",
-    "normal_last_checked_at": "2026-10-08",
-    "fi_act_checked_at": "2026-10-08",
-    "next_check_at": "2026-10-09",
-    "over_90_days": false,
-    "reason": "scheduled"
-   },
-   {
-    "key": "leninsky--tum.sudrf.ru|1540005|1|2-7411/2026|2026-09-15",
-    "number": "2-7411/2026",
-    "court": "leninsky--tum.sudrf.ru",
-    "status": "waiting",
-    "last_checked_at": "2026-10-08",
-    "normal_last_checked_at": "2026-10-08",
-    "fi_act_checked_at": "2026-10-08",
-    "next_check_at": "2026-10-09",
-    "over_90_days": false,
-    "reason": "scheduled"
-   },
-   {
-    "key": "leninsky--tum.sudrf.ru|1540005|1|2-7515/2026|2026-09-22",
-    "number": "2-7515/2026",
-    "court": "leninsky--tum.sudrf.ru",
-    "status": "waiting",
-    "last_checked_at": "2026-10-08",
-    "normal_last_checked_at": "2026-10-08",
-    "fi_act_checked_at": "2026-10-08",
-    "next_check_at": "2026-10-09",
-    "over_90_days": false,
-    "reason": "scheduled"
+    "reason": "unread_card",
+    "failure_kind": "breaker"
    },
    {
     "key": "leninsky--tum.sudrf.ru|1540005|1|2-7644/2026|2026-09-16",
@@ -1042,19 +1115,8 @@
     "fi_act_checked_at": "2026-10-08",
     "next_check_at": "2026-10-09",
     "over_90_days": false,
-    "reason": "scheduled"
-   },
-   {
-    "key": "leninsky--tum.sudrf.ru|1540005|1|2-8143/2026|2026-08-26",
-    "number": "2-8143/2026",
-    "court": "leninsky--tum.sudrf.ru",
-    "status": "waiting",
-    "last_checked_at": "2026-10-08",
-    "normal_last_checked_at": "2026-10-08",
-    "fi_act_checked_at": "2026-10-08",
-    "next_check_at": "2026-10-09",
-    "over_90_days": false,
-    "reason": "scheduled"
+    "reason": "unread_card",
+    "failure_kind": "breaker"
    },
    {
     "key": "leninsky--tum.sudrf.ru|1540005|1|2-8168/2026|2026-09-21",
@@ -1066,7 +1128,8 @@
     "fi_act_checked_at": "2026-10-08",
     "next_check_at": "2026-10-09",
     "over_90_days": false,
-    "reason": "scheduled"
+    "reason": "unread_card",
+    "failure_kind": "breaker"
    },
    {
     "key": "leninsky--tum.sudrf.ru|1540005|1|2-8669/2026|2026-09-23",
@@ -1078,19 +1141,8 @@
     "fi_act_checked_at": "2026-10-08",
     "next_check_at": "2026-10-09",
     "over_90_days": false,
-    "reason": "scheduled"
-   },
-   {
-    "key": "leninsky--tum.sudrf.ru|1540005|1|2-9128/2026|2026-10-02",
-    "number": "2-9128/2026",
-    "court": "leninsky--tum.sudrf.ru",
-    "status": "waiting",
-    "last_checked_at": "2026-10-08",
-    "normal_last_checked_at": "2026-10-08",
-    "fi_act_checked_at": "2026-10-08",
-    "next_check_at": "2026-10-09",
-    "over_90_days": false,
-    "reason": "scheduled"
+    "reason": "unread_card",
+    "failure_kind": "breaker"
    },
    {
     "key": "sladkovsky--tum.sudrf.ru|1540005|1|2-108/2026|2026-09-23",
@@ -1102,7 +1154,8 @@
     "fi_act_checked_at": "2026-10-08",
     "next_check_at": "2026-10-09",
     "over_90_days": false,
-    "reason": "scheduled"
+    "reason": "unread_card",
+    "failure_kind": "portal_placeholder"
    },
    {
     "key": "tobolskygor--tum.sudrf.ru|1540005|1|2-2156/2026|2026-10-07",
@@ -1114,29 +1167,30 @@
     "fi_act_checked_at": "2026-10-08",
     "next_check_at": "2026-10-09",
     "over_90_days": false,
-    "reason": "scheduled"
+    "reason": "unread_card",
+    "failure_kind": "read_timeout"
    },
    {
-    "key": "tobolskygor--tum.sudrf.ru|1540005|1|2-2313/2026|2026-10-06",
-    "number": "2-2313/2026",
-    "court": "tobolskygor--tum.sudrf.ru",
+    "key": "centralny--tum.sudrf.ru|1540005|1|2-2592/2026|2026-10-01",
+    "number": "2-2592/2026",
+    "court": "centralny--tum.sudrf.ru",
     "status": "waiting",
-    "last_checked_at": "2026-10-08",
-    "normal_last_checked_at": "2026-10-08",
-    "fi_act_checked_at": "2026-10-08",
-    "next_check_at": "2026-10-09",
+    "last_checked_at": "2026-10-09",
+    "normal_last_checked_at": "2026-10-09",
+    "fi_act_checked_at": "2026-10-09",
+    "next_check_at": "2026-10-12",
     "over_90_days": false,
     "reason": "scheduled"
    },
    {
-    "key": "tumensky--tum.sudrf.ru|1540005|1|2-3655/2026|2026-09-08",
-    "number": "2-3655/2026",
-    "court": "tumensky--tum.sudrf.ru",
+    "key": "centralny--tum.sudrf.ru|1540005|1|2-6078/2026|2026-09-16",
+    "number": "2-6078/2026",
+    "court": "centralny--tum.sudrf.ru",
     "status": "waiting",
-    "last_checked_at": "2026-10-08",
-    "normal_last_checked_at": "2026-10-08",
-    "fi_act_checked_at": "2026-10-08",
-    "next_check_at": "2026-10-09",
+    "last_checked_at": "2026-10-09",
+    "normal_last_checked_at": "2026-10-09",
+    "fi_act_checked_at": "2026-10-09",
+    "next_check_at": "2026-10-12",
     "over_90_days": false,
     "reason": "scheduled"
    },
@@ -1165,6 +1219,18 @@
     "reason": "scheduled"
    },
    {
+    "key": "centralny--tum.sudrf.ru|1540005|1|2-7570/2026|2026-10-07",
+    "number": "2-7570/2026",
+    "court": "centralny--tum.sudrf.ru",
+    "status": "waiting",
+    "last_checked_at": "2026-10-09",
+    "normal_last_checked_at": "2026-10-09",
+    "fi_act_checked_at": "2026-10-09",
+    "next_check_at": "2026-10-12",
+    "over_90_days": false,
+    "reason": "scheduled"
+   },
+   {
     "key": "centralny--tum.sudrf.ru|1540005|1|2-7628/2026|2026-08-25",
     "number": "2-7628/2026",
     "court": "centralny--tum.sudrf.ru",
@@ -1177,9 +1243,141 @@
     "reason": "scheduled"
    },
    {
+    "key": "centralny--tum.sudrf.ru|1540005|1|2-7715/2026|2026-10-07",
+    "number": "2-7715/2026",
+    "court": "centralny--tum.sudrf.ru",
+    "status": "waiting",
+    "last_checked_at": "2026-10-09",
+    "normal_last_checked_at": "2026-10-09",
+    "fi_act_checked_at": "2026-10-09",
+    "next_check_at": "2026-10-12",
+    "over_90_days": false,
+    "reason": "scheduled"
+   },
+   {
+    "key": "leninsky--tum.sudrf.ru|1540005|1|2-7002/2026|2026-09-16",
+    "number": "2-7002/2026",
+    "court": "leninsky--tum.sudrf.ru",
+    "status": "waiting",
+    "last_checked_at": "2026-10-09",
+    "normal_last_checked_at": "2026-10-09",
+    "fi_act_checked_at": "2026-10-09",
+    "next_check_at": "2026-10-12",
+    "over_90_days": false,
+    "reason": "scheduled"
+   },
+   {
+    "key": "leninsky--tum.sudrf.ru|1540005|1|2-7212/2026|2026-09-09",
+    "number": "2-7212/2026",
+    "court": "leninsky--tum.sudrf.ru",
+    "status": "waiting",
+    "last_checked_at": "2026-10-09",
+    "normal_last_checked_at": "2026-10-09",
+    "fi_act_checked_at": "2026-10-09",
+    "next_check_at": "2026-10-12",
+    "over_90_days": false,
+    "reason": "scheduled"
+   },
+   {
+    "key": "leninsky--tum.sudrf.ru|1540005|1|2-7411/2026|2026-09-15",
+    "number": "2-7411/2026",
+    "court": "leninsky--tum.sudrf.ru",
+    "status": "waiting",
+    "last_checked_at": "2026-10-09",
+    "normal_last_checked_at": "2026-10-09",
+    "fi_act_checked_at": "2026-10-09",
+    "next_check_at": "2026-10-12",
+    "over_90_days": false,
+    "reason": "scheduled"
+   },
+   {
+    "key": "leninsky--tum.sudrf.ru|1540005|1|2-7515/2026|2026-09-22",
+    "number": "2-7515/2026",
+    "court": "leninsky--tum.sudrf.ru",
+    "status": "waiting",
+    "last_checked_at": "2026-10-09",
+    "normal_last_checked_at": "2026-10-09",
+    "fi_act_checked_at": "2026-10-09",
+    "next_check_at": "2026-10-12",
+    "over_90_days": false,
+    "reason": "scheduled"
+   },
+   {
+    "key": "leninsky--tum.sudrf.ru|1540005|1|2-9128/2026|2026-10-02",
+    "number": "2-9128/2026",
+    "court": "leninsky--tum.sudrf.ru",
+    "status": "waiting",
+    "last_checked_at": "2026-10-09",
+    "normal_last_checked_at": "2026-10-09",
+    "fi_act_checked_at": "2026-10-09",
+    "next_check_at": "2026-10-12",
+    "over_90_days": false,
+    "reason": "scheduled"
+   },
+   {
+    "key": "leninsky--tum.sudrf.ru|1540005|1|2-9134/2026|2026-09-23",
+    "number": "2-9134/2026",
+    "court": "leninsky--tum.sudrf.ru",
+    "status": "waiting",
+    "last_checked_at": "2026-10-09",
+    "normal_last_checked_at": "2026-10-09",
+    "fi_act_checked_at": "2026-10-09",
+    "next_check_at": "2026-10-12",
+    "over_90_days": false,
+    "reason": "scheduled"
+   },
+   {
+    "key": "leninsky--tum.sudrf.ru|1540005|1|2-9772/2026|2026-10-06",
+    "number": "2-9772/2026",
+    "court": "leninsky--tum.sudrf.ru",
+    "status": "waiting",
+    "last_checked_at": "2026-10-09",
+    "normal_last_checked_at": "2026-10-09",
+    "fi_act_checked_at": "2026-10-09",
+    "next_check_at": "2026-10-12",
+    "over_90_days": false,
+    "reason": "scheduled"
+   },
+   {
+    "key": "tobolskygor--tum.sudrf.ru|1540005|1|2-2313/2026|2026-10-06",
+    "number": "2-2313/2026",
+    "court": "tobolskygor--tum.sudrf.ru",
+    "status": "waiting",
+    "last_checked_at": "2026-10-09",
+    "normal_last_checked_at": "2026-10-09",
+    "fi_act_checked_at": "2026-10-09",
+    "next_check_at": "2026-10-12",
+    "over_90_days": false,
+    "reason": "scheduled"
+   },
+   {
+    "key": "zavodoukovsky--tum.sudrf.ru|1540005|1|2-626/2026|2026-09-29",
+    "number": "2-626/2026",
+    "court": "zavodoukovsky--tum.sudrf.ru",
+    "status": "waiting",
+    "last_checked_at": "2026-10-09",
+    "normal_last_checked_at": "2026-10-09",
+    "fi_act_checked_at": "2026-10-09",
+    "next_check_at": "2026-10-12",
+    "over_90_days": false,
+    "reason": "scheduled"
+   },
+   {
     "key": "centralny--tum.sudrf.ru|1540005|1|2-4213/2026|2026-08-17",
     "number": "2-4213/2026",
     "court": "centralny--tum.sudrf.ru",
+    "status": "waiting",
+    "last_checked_at": "2026-10-09",
+    "normal_last_checked_at": "2026-10-09",
+    "fi_act_checked_at": "2026-10-09",
+    "next_check_at": "2026-10-13",
+    "over_90_days": false,
+    "reason": "scheduled"
+   },
+   {
+    "key": "tumensky--tum.sudrf.ru|1540005|1|2-3655/2026|2026-09-08",
+    "number": "2-3655/2026",
+    "court": "tumensky--tum.sudrf.ru",
     "status": "waiting",
     "last_checked_at": "2026-10-08",
     "normal_last_checked_at": "2026-10-08",
@@ -1193,8 +1391,20 @@
     "number": "2-4211/2026",
     "court": "centralny--tum.sudrf.ru",
     "status": "waiting",
+    "last_checked_at": "2026-10-09",
+    "normal_last_checked_at": "2026-10-09",
+    "fi_act_checked_at": "2026-10-09",
+    "next_check_at": "2026-10-14",
+    "over_90_days": false,
+    "reason": "scheduled"
+   },
+   {
+    "key": "centralny--tum.sudrf.ru|1540005|1|2-7665/2026|2026-09-08",
+    "number": "2-7665/2026",
+    "court": "centralny--tum.sudrf.ru",
+    "status": "waiting",
     "last_checked_at": "2026-10-08",
-    "normal_last_checked_at": "2026-10-08",
+    "normal_last_checked_at": "2026-10-07",
     "fi_act_checked_at": "2026-10-08",
     "next_check_at": "2026-10-14",
     "over_90_days": false,
@@ -1209,6 +1419,42 @@
     "normal_last_checked_at": "2026-10-07",
     "fi_act_checked_at": "2026-10-08",
     "next_check_at": "2026-10-15",
+    "over_90_days": false,
+    "reason": "scheduled"
+   },
+   {
+    "key": "centralny--tum.sudrf.ru|1540005|1|2-7615/2026|2026-08-26",
+    "number": "2-7615/2026",
+    "court": "centralny--tum.sudrf.ru",
+    "status": "waiting",
+    "last_checked_at": "2026-10-09",
+    "normal_last_checked_at": "2026-10-09",
+    "fi_act_checked_at": "2026-10-09",
+    "next_check_at": "2026-10-16",
+    "over_90_days": false,
+    "reason": "scheduled"
+   },
+   {
+    "key": "kalininsky--tum.sudrf.ru|1540005|1|2-3014/2026|2026-08-05",
+    "number": "2-3014/2026",
+    "court": "kalininsky--tum.sudrf.ru",
+    "status": "waiting",
+    "last_checked_at": "2026-10-09",
+    "normal_last_checked_at": "2026-10-09",
+    "fi_act_checked_at": "2026-10-09",
+    "next_check_at": "2026-10-16",
+    "over_90_days": false,
+    "reason": "scheduled"
+   },
+   {
+    "key": "leninsky--tum.sudrf.ru|1540005|1|2-8143/2026|2026-08-26",
+    "number": "2-8143/2026",
+    "court": "leninsky--tum.sudrf.ru",
+    "status": "waiting",
+    "last_checked_at": "2026-10-09",
+    "normal_last_checked_at": "2026-10-09",
+    "fi_act_checked_at": "2026-10-09",
+    "next_check_at": "2026-10-16",
     "over_90_days": false,
     "reason": "scheduled"
    },
@@ -1241,9 +1487,9 @@
     "number": "2-17/2026",
     "court": "kalininsky--tum.sudrf.ru",
     "status": "waiting",
-    "last_checked_at": "2026-10-08",
-    "normal_last_checked_at": "2026-10-08",
-    "fi_act_checked_at": "2026-10-08",
+    "last_checked_at": "2026-10-09",
+    "normal_last_checked_at": "2026-10-09",
+    "fi_act_checked_at": "2026-10-09",
     "next_check_at": "2026-11-06",
     "over_90_days": true,
     "reason": "scheduled"
@@ -1369,18 +1615,6 @@
     "reason": "age_limit"
    },
    {
-    "key": "centralny--tum.sudrf.ru|1540005|1|2-315/2026|2026-01-15",
-    "number": "2-315/2026",
-    "court": "centralny--tum.sudrf.ru",
-    "status": "expired",
-    "last_checked_at": "2026-10-02",
-    "normal_last_checked_at": "2026-10-02",
-    "fi_act_checked_at": "",
-    "next_check_at": "",
-    "over_90_days": true,
-    "reason": "age_limit"
-   },
-   {
     "key": "centralny--tum.sudrf.ru|1540005|1|2-3563/2025|2025-03-12",
     "number": "2-3563/2025",
     "court": "centralny--tum.sudrf.ru",
@@ -1411,42 +1645,6 @@
     "status": "expired",
     "last_checked_at": "",
     "normal_last_checked_at": "",
-    "fi_act_checked_at": "",
-    "next_check_at": "",
-    "over_90_days": true,
-    "reason": "age_limit"
-   },
-   {
-    "key": "centralny--tum.sudrf.ru|1540005|1|2-7214/2025|2025-12-19",
-    "number": "2-7214/2025",
-    "court": "centralny--tum.sudrf.ru",
-    "status": "expired",
-    "last_checked_at": "2026-10-02",
-    "normal_last_checked_at": "2026-10-02",
-    "fi_act_checked_at": "",
-    "next_check_at": "",
-    "over_90_days": true,
-    "reason": "age_limit"
-   },
-   {
-    "key": "centralny--tum.sudrf.ru|1540005|1|2-7724/2025|2025-12-16",
-    "number": "2-7724/2025",
-    "court": "centralny--tum.sudrf.ru",
-    "status": "expired",
-    "last_checked_at": "2026-10-02",
-    "normal_last_checked_at": "2026-10-02",
-    "fi_act_checked_at": "",
-    "next_check_at": "",
-    "over_90_days": true,
-    "reason": "age_limit"
-   },
-   {
-    "key": "centralny--tum.sudrf.ru|1540005|1|2-7987/2025|2025-10-08",
-    "number": "2-7987/2025",
-    "court": "centralny--tum.sudrf.ru",
-    "status": "expired",
-    "last_checked_at": "2026-10-02",
-    "normal_last_checked_at": "2026-10-02",
     "fi_act_checked_at": "",
     "next_check_at": "",
     "over_90_days": true,
@@ -2242,7 +2440,7 @@
     "fi_act_checked_at": "",
     "next_check_at": "2026-09-22",
     "over_90_days": false,
-    "reason": "backfill_daily_card_limit"
+    "reason": "run_deadline"
    },
    {
     "key": "leninsky--tum.sudrf.ru|1540005|1|2-5072/2026|2026-08-10",
@@ -2254,7 +2452,7 @@
     "fi_act_checked_at": "",
     "next_check_at": "2026-09-29",
     "over_90_days": false,
-    "reason": "backfill_daily_card_limit"
+    "reason": "run_deadline"
    },
    {
     "key": "leninsky--tum.sudrf.ru|1540005|1|2-4059/2026|2026-08-03",
@@ -2266,7 +2464,7 @@
     "fi_act_checked_at": "",
     "next_check_at": "2026-10-01",
     "over_90_days": false,
-    "reason": "backfill_daily_card_limit"
+    "reason": "run_deadline"
    },
    {
     "key": "leninsky--tum.sudrf.ru|1540005|1|2-5098/2026|2026-08-05",
@@ -2278,7 +2476,7 @@
     "fi_act_checked_at": "",
     "next_check_at": "2026-10-02",
     "over_90_days": false,
-    "reason": "backfill_daily_card_limit"
+    "reason": "run_deadline"
    },
    {
     "key": "leninsky--tum.sudrf.ru|1540005|1|2-5204/2026|2026-08-05",
@@ -2290,7 +2488,7 @@
     "fi_act_checked_at": "",
     "next_check_at": "2026-10-02",
     "over_90_days": false,
-    "reason": "backfill_daily_card_limit"
+    "reason": "run_deadline"
    },
    {
     "key": "kalininsky--tum.sudrf.ru|1540005|1|2-5430/2026|2026-09-18",
@@ -2302,7 +2500,7 @@
     "fi_act_checked_at": "",
     "next_check_at": "2026-10-05",
     "over_90_days": false,
-    "reason": "backfill_daily_card_limit"
+    "reason": "run_deadline"
    },
    {
     "key": "kalininsky--tum.sudrf.ru|1540005|1|2-5534/2026|2026-09-11",
@@ -2314,19 +2512,7 @@
     "fi_act_checked_at": "",
     "next_check_at": "2026-10-05",
     "over_90_days": false,
-    "reason": "backfill_daily_card_limit"
-   },
-   {
-    "key": "leninsky--tum.sudrf.ru|1540005|1|2-9134/2026|2026-09-23",
-    "number": "2-9134/2026",
-    "court": "leninsky--tum.sudrf.ru",
-    "status": "waiting",
-    "last_checked_at": "2026-10-02",
-    "normal_last_checked_at": "2026-10-02",
-    "fi_act_checked_at": "",
-    "next_check_at": "2026-10-05",
-    "over_90_days": false,
-    "reason": "backfill_daily_card_limit"
+    "reason": "run_deadline"
    },
    {
     "key": "tumensky--tum.sudrf.ru|1540005|1|2-3727/2026|2026-10-01",
@@ -2338,7 +2524,7 @@
     "fi_act_checked_at": "",
     "next_check_at": "2026-10-05",
     "over_90_days": false,
-    "reason": "backfill_daily_card_limit"
+    "reason": "run_deadline"
    },
    {
     "key": "yarkovsky--tum.sudrf.ru|1540005|1|2-304/2026|2026-09-07",
@@ -2350,19 +2536,7 @@
     "fi_act_checked_at": "",
     "next_check_at": "2026-10-05",
     "over_90_days": false,
-    "reason": "backfill_daily_card_limit"
-   },
-   {
-    "key": "zavodoukovsky--tum.sudrf.ru|1540005|1|2-626/2026|2026-09-29",
-    "number": "2-626/2026",
-    "court": "zavodoukovsky--tum.sudrf.ru",
-    "status": "waiting",
-    "last_checked_at": "2026-10-02",
-    "normal_last_checked_at": "2026-10-02",
-    "fi_act_checked_at": "",
-    "next_check_at": "2026-10-05",
-    "over_90_days": false,
-    "reason": "backfill_daily_card_limit"
+    "reason": "run_deadline"
    },
    {
     "key": "centralny--tum.sudrf.ru|1540005|1|2-3231/2026|2026-09-09",
@@ -2374,7 +2548,7 @@
     "fi_act_checked_at": "",
     "next_check_at": "2026-10-06",
     "over_90_days": false,
-    "reason": "backfill_daily_card_limit"
+    "reason": "run_deadline"
    },
    {
     "key": "centralny--tum.sudrf.ru|1540005|1|2-3711/2026|2026-09-09",
@@ -2386,7 +2560,7 @@
     "fi_act_checked_at": "",
     "next_check_at": "2026-10-06",
     "over_90_days": false,
-    "reason": "backfill_daily_card_limit"
+    "reason": "run_deadline"
    },
    {
     "key": "centralny--tum.sudrf.ru|1540005|1|2-3875/2026|2026-07-24",
@@ -2398,7 +2572,7 @@
     "fi_act_checked_at": "",
     "next_check_at": "2026-10-06",
     "over_90_days": false,
-    "reason": "backfill_daily_card_limit"
+    "reason": "run_deadline"
    },
    {
     "key": "centralny--tum.sudrf.ru|1540005|1|2-4295/2026|2026-08-24",
@@ -2410,7 +2584,7 @@
     "fi_act_checked_at": "",
     "next_check_at": "2026-10-06",
     "over_90_days": false,
-    "reason": "backfill_daily_card_limit"
+    "reason": "run_deadline"
    },
    {
     "key": "centralny--tum.sudrf.ru|1540005|1|2-4434/2026|2026-09-16",
@@ -2422,7 +2596,7 @@
     "fi_act_checked_at": "",
     "next_check_at": "2026-10-06",
     "over_90_days": false,
-    "reason": "backfill_daily_card_limit"
+    "reason": "run_deadline"
    },
    {
     "key": "centralny--tum.sudrf.ru|1540005|1|2-4961/2026|2026-08-24",
@@ -2434,7 +2608,7 @@
     "fi_act_checked_at": "",
     "next_check_at": "2026-10-06",
     "over_90_days": false,
-    "reason": "backfill_daily_card_limit"
+    "reason": "run_deadline"
    },
    {
     "key": "centralny--tum.sudrf.ru|1540005|1|2-5305/2026|2026-09-16",
@@ -2446,7 +2620,7 @@
     "fi_act_checked_at": "",
     "next_check_at": "2026-10-06",
     "over_90_days": false,
-    "reason": "backfill_daily_card_limit"
+    "reason": "run_deadline"
    },
    {
     "key": "centralny--tum.sudrf.ru|1540005|1|2-5697/2026|2026-09-03",
@@ -2458,7 +2632,7 @@
     "fi_act_checked_at": "",
     "next_check_at": "2026-10-06",
     "over_90_days": false,
-    "reason": "backfill_daily_card_limit"
+    "reason": "run_deadline"
    },
    {
     "key": "centralny--tum.sudrf.ru|1540005|1|2-5807/2026|2026-09-24",
@@ -2470,7 +2644,7 @@
     "fi_act_checked_at": "",
     "next_check_at": "2026-10-06",
     "over_90_days": false,
-    "reason": "backfill_daily_card_limit"
+    "reason": "run_deadline"
    },
    {
     "key": "centralny--tum.sudrf.ru|1540005|1|2-6425/2026|2026-09-23",
@@ -2482,7 +2656,7 @@
     "fi_act_checked_at": "",
     "next_check_at": "2026-10-06",
     "over_90_days": false,
-    "reason": "backfill_daily_card_limit"
+    "reason": "run_deadline"
    },
    {
     "key": "isetsky--tum.sudrf.ru|1540005|1|2-375/2026|2026-09-24",
@@ -2494,7 +2668,7 @@
     "fi_act_checked_at": "",
     "next_check_at": "2026-10-06",
     "over_90_days": false,
-    "reason": "backfill_daily_card_limit"
+    "reason": "run_deadline"
    },
    {
     "key": "kalininsky--tum.sudrf.ru|1540005|1|2-4603/2026|2026-09-09",
@@ -2506,7 +2680,7 @@
     "fi_act_checked_at": "",
     "next_check_at": "2026-10-06",
     "over_90_days": false,
-    "reason": "backfill_daily_card_limit"
+    "reason": "run_deadline"
    },
    {
     "key": "kalininsky--tum.sudrf.ru|1540005|1|2-4829/2026|2026-09-14",
@@ -2518,7 +2692,7 @@
     "fi_act_checked_at": "",
     "next_check_at": "2026-10-06",
     "over_90_days": false,
-    "reason": "backfill_daily_card_limit"
+    "reason": "run_deadline"
    },
    {
     "key": "kalininsky--tum.sudrf.ru|1540005|1|2-5618/2026|2026-08-31",
@@ -2530,7 +2704,7 @@
     "fi_act_checked_at": "",
     "next_check_at": "2026-10-06",
     "over_90_days": false,
-    "reason": "backfill_daily_card_limit"
+    "reason": "run_deadline"
    },
    {
     "key": "kalininsky--tum.sudrf.ru|1540005|1|2-5710/2026|2026-08-28",
@@ -2542,7 +2716,7 @@
     "fi_act_checked_at": "",
     "next_check_at": "2026-10-06",
     "over_90_days": false,
-    "reason": "backfill_daily_card_limit"
+    "reason": "run_deadline"
    },
    {
     "key": "kalininsky--tum.sudrf.ru|1540005|1|2-5934/2026|2026-09-03",
@@ -2554,7 +2728,7 @@
     "fi_act_checked_at": "",
     "next_check_at": "2026-10-06",
     "over_90_days": false,
-    "reason": "backfill_daily_card_limit"
+    "reason": "run_deadline"
    },
    {
     "key": "leninsky--tum.sudrf.ru|1540005|1|2-4751/2026|2026-07-20",
@@ -2566,7 +2740,7 @@
     "fi_act_checked_at": "",
     "next_check_at": "2026-10-06",
     "over_90_days": false,
-    "reason": "backfill_daily_card_limit"
+    "reason": "run_deadline"
    },
    {
     "key": "leninsky--tum.sudrf.ru|1540005|1|2-7348/2026|2026-09-14",
@@ -2578,7 +2752,7 @@
     "fi_act_checked_at": "",
     "next_check_at": "2026-10-06",
     "over_90_days": false,
-    "reason": "backfill_daily_card_limit"
+    "reason": "run_deadline"
    },
    {
     "key": "nizhnetavdinsky--tum.sudrf.ru|1540005|1|2-501/2026|2026-09-16",
@@ -2590,7 +2764,7 @@
     "fi_act_checked_at": "",
     "next_check_at": "2026-10-06",
     "over_90_days": false,
-    "reason": "backfill_daily_card_limit"
+    "reason": "run_deadline"
    },
    {
     "key": "sladkovsky--tum.sudrf.ru|1540005|1|2-114/2026|2026-09-25",
@@ -2602,7 +2776,7 @@
     "fi_act_checked_at": "",
     "next_check_at": "2026-10-06",
     "over_90_days": false,
-    "reason": "backfill_daily_card_limit"
+    "reason": "run_deadline"
    },
    {
     "key": "vikulovsky--tum.sudrf.ru|1540005|1|2-169/2026|2026-10-02",
@@ -2614,7 +2788,7 @@
     "fi_act_checked_at": "",
     "next_check_at": "2026-10-06",
     "over_90_days": false,
-    "reason": "backfill_daily_card_limit"
+    "reason": "run_deadline"
    },
    {
     "key": "vikulovsky--tum.sudrf.ru|1540005|1|2-90/2026|2026-09-09",
@@ -2626,7 +2800,7 @@
     "fi_act_checked_at": "",
     "next_check_at": "2026-10-06",
     "over_90_days": false,
-    "reason": "backfill_daily_card_limit"
+    "reason": "run_deadline"
    },
    {
     "key": "centralny--tum.sudrf.ru|1540005|1|2-3583/2026|2026-08-17",
@@ -2638,7 +2812,7 @@
     "fi_act_checked_at": "",
     "next_check_at": "2026-10-07",
     "over_90_days": false,
-    "reason": "backfill_daily_card_limit"
+    "reason": "run_deadline"
    },
    {
     "key": "centralny--tum.sudrf.ru|1540005|1|2-8337/2026|2026-10-05",
@@ -2650,7 +2824,7 @@
     "fi_act_checked_at": "",
     "next_check_at": "2026-10-07",
     "over_90_days": false,
-    "reason": "backfill_daily_card_limit"
+    "reason": "run_deadline"
    },
    {
     "key": "ishimskygor--tum.sudrf.ru|1540005|1|2-974/2026|2026-09-09",
@@ -2662,7 +2836,7 @@
     "fi_act_checked_at": "",
     "next_check_at": "2026-10-07",
     "over_90_days": false,
-    "reason": "backfill_daily_card_limit"
+    "reason": "run_deadline"
    },
    {
     "key": "kalininsky--tum.sudrf.ru|1540005|1|2-2706/2026|2026-09-10",
@@ -2674,7 +2848,7 @@
     "fi_act_checked_at": "",
     "next_check_at": "2026-10-07",
     "over_90_days": false,
-    "reason": "backfill_daily_card_limit"
+    "reason": "run_deadline"
    },
    {
     "key": "kalininsky--tum.sudrf.ru|1540005|1|2-3964/2026|2026-09-23",
@@ -2686,7 +2860,7 @@
     "fi_act_checked_at": "",
     "next_check_at": "2026-10-07",
     "over_90_days": false,
-    "reason": "backfill_daily_card_limit"
+    "reason": "run_deadline"
    },
    {
     "key": "kalininsky--tum.sudrf.ru|1540005|1|2-5302/2026|2026-09-23",
@@ -2698,7 +2872,7 @@
     "fi_act_checked_at": "",
     "next_check_at": "2026-10-07",
     "over_90_days": false,
-    "reason": "backfill_daily_card_limit"
+    "reason": "run_deadline"
    },
    {
     "key": "kalininsky--tum.sudrf.ru|1540005|1|2-5410/2026|2026-09-23",
@@ -2710,7 +2884,7 @@
     "fi_act_checked_at": "",
     "next_check_at": "2026-10-07",
     "over_90_days": false,
-    "reason": "backfill_daily_card_limit"
+    "reason": "run_deadline"
    },
    {
     "key": "kalininsky--tum.sudrf.ru|1540005|1|2-5988/2026|2026-09-21",
@@ -2722,7 +2896,7 @@
     "fi_act_checked_at": "",
     "next_check_at": "2026-10-07",
     "over_90_days": false,
-    "reason": "backfill_daily_card_limit"
+    "reason": "run_deadline"
    },
    {
     "key": "kalininsky--tum.sudrf.ru|1540005|1|2-6299/2026|2026-09-21",
@@ -2734,7 +2908,7 @@
     "fi_act_checked_at": "",
     "next_check_at": "2026-10-07",
     "over_90_days": false,
-    "reason": "backfill_daily_card_limit"
+    "reason": "run_deadline"
    },
    {
     "key": "leninsky--tum.sudrf.ru|1540005|1|2-9315/2026|2026-10-05",
@@ -2746,7 +2920,7 @@
     "fi_act_checked_at": "",
     "next_check_at": "2026-10-07",
     "over_90_days": false,
-    "reason": "backfill_daily_card_limit"
+    "reason": "run_deadline"
    },
    {
     "key": "nizhnetavdinsky--tum.sudrf.ru|1540005|1|2-280/2026|2026-08-28",
@@ -2758,7 +2932,7 @@
     "fi_act_checked_at": "",
     "next_check_at": "2026-10-07",
     "over_90_days": false,
-    "reason": "backfill_daily_card_limit"
+    "reason": "run_deadline"
    },
    {
     "key": "nizhnetavdinsky--tum.sudrf.ru|1540005|1|2-405/2026|2026-08-03",
@@ -2770,7 +2944,7 @@
     "fi_act_checked_at": "",
     "next_check_at": "2026-10-07",
     "over_90_days": false,
-    "reason": "backfill_daily_card_limit"
+    "reason": "run_deadline"
    },
    {
     "key": "oblsud--tum.sudrf.ru||1|2-301/2026|2026-06-15",
@@ -2794,7 +2968,7 @@
     "fi_act_checked_at": "",
     "next_check_at": "2026-10-07",
     "over_90_days": true,
-    "reason": "backfill_daily_card_limit"
+    "reason": "run_deadline"
    },
    {
     "key": "tobolsky--tum.sudrf.ru|1540005|1|2-298/2026|2026-09-17",
@@ -2806,7 +2980,7 @@
     "fi_act_checked_at": "",
     "next_check_at": "2026-10-07",
     "over_90_days": false,
-    "reason": "backfill_daily_card_limit"
+    "reason": "run_deadline"
    },
    {
     "key": "uvatsky--tum.sudrf.ru|1540005|1|2-267/2026|2026-10-05",
@@ -2818,7 +2992,7 @@
     "fi_act_checked_at": "",
     "next_check_at": "2026-10-07",
     "over_90_days": false,
-    "reason": "backfill_daily_card_limit"
+    "reason": "run_deadline"
    },
    {
     "key": "zavodoukovsky--tum.sudrf.ru|1540005|1|2-485/2026|2026-08-12",
@@ -2830,7 +3004,7 @@
     "fi_act_checked_at": "",
     "next_check_at": "2026-10-07",
     "over_90_days": false,
-    "reason": "backfill_daily_card_limit"
+    "reason": "run_deadline"
    },
    {
     "key": "zavodoukovsky--tum.sudrf.ru|1540005|1|2-915/2026|2026-09-28",
@@ -2842,7 +3016,7 @@
     "fi_act_checked_at": "",
     "next_check_at": "2026-10-07",
     "over_90_days": false,
-    "reason": "backfill_daily_card_limit"
+    "reason": "run_deadline"
    },
    {
     "key": "zavodoukovsky--tum.sudrf.ru|1540005|1|2-921/2026|2026-09-28",
@@ -2854,7 +3028,7 @@
     "fi_act_checked_at": "",
     "next_check_at": "2026-10-07",
     "over_90_days": false,
-    "reason": "backfill_daily_card_limit"
+    "reason": "run_deadline"
    },
    {
     "key": "armizonsky--tum.sudrf.ru|1540005|1|2-146/2026|2026-10-05",
@@ -2866,7 +3040,7 @@
     "fi_act_checked_at": "",
     "next_check_at": "2026-10-08",
     "over_90_days": false,
-    "reason": "backfill_daily_card_limit"
+    "reason": "run_deadline"
    },
    {
     "key": "centralny--tum.sudrf.ru|1540005|1|2-2813/2026|2026-09-04",
@@ -2878,7 +3052,7 @@
     "fi_act_checked_at": "",
     "next_check_at": "2026-10-08",
     "over_90_days": false,
-    "reason": "backfill_daily_card_limit"
+    "reason": "run_deadline"
    },
    {
     "key": "centralny--tum.sudrf.ru|1540005|1|2-3698/2026|2026-07-22",
@@ -2890,7 +3064,7 @@
     "fi_act_checked_at": "",
     "next_check_at": "2026-10-08",
     "over_90_days": false,
-    "reason": "backfill_daily_card_limit"
+    "reason": "run_deadline"
    },
    {
     "key": "centralny--tum.sudrf.ru|1540005|1|2-5391/2026|2026-08-12",
@@ -2902,7 +3076,7 @@
     "fi_act_checked_at": "",
     "next_check_at": "2026-10-08",
     "over_90_days": false,
-    "reason": "backfill_daily_card_limit"
+    "reason": "run_deadline"
    },
    {
     "key": "centralny--tum.sudrf.ru|1540005|1|2-5420/2026|2026-07-13",
@@ -2914,7 +3088,7 @@
     "fi_act_checked_at": "",
     "next_check_at": "2026-10-08",
     "over_90_days": false,
-    "reason": "backfill_daily_card_limit"
+    "reason": "run_deadline"
    },
    {
     "key": "centralny--tum.sudrf.ru|1540005|1|2-6020/2026|2026-08-11",
@@ -2926,7 +3100,7 @@
     "fi_act_checked_at": "",
     "next_check_at": "2026-10-08",
     "over_90_days": false,
-    "reason": "backfill_daily_card_limit"
+    "reason": "run_deadline"
    },
    {
     "key": "ishimskygor--tum.sudrf.ru|1540005|1|2-1103/2026|2026-09-28",
@@ -2938,7 +3112,7 @@
     "fi_act_checked_at": "",
     "next_check_at": "2026-10-08",
     "over_90_days": false,
-    "reason": "backfill_daily_card_limit"
+    "reason": "run_deadline"
    },
    {
     "key": "ishimskygor--tum.sudrf.ru|1540005|1|2-1106/2026|2026-09-29",
@@ -2950,7 +3124,7 @@
     "fi_act_checked_at": "",
     "next_check_at": "2026-10-08",
     "over_90_days": false,
-    "reason": "backfill_daily_card_limit"
+    "reason": "run_deadline"
    },
    {
     "key": "ishimskygor--tum.sudrf.ru|1540005|1|2-236/2026|2026-07-20",
@@ -2962,7 +3136,7 @@
     "fi_act_checked_at": "",
     "next_check_at": "2026-10-08",
     "over_90_days": false,
-    "reason": "backfill_daily_card_limit"
+    "reason": "run_deadline"
    },
    {
     "key": "kalininsky--tum.sudrf.ru|1540005|1|2-5338/2026|2026-08-24",
@@ -2974,7 +3148,7 @@
     "fi_act_checked_at": "",
     "next_check_at": "2026-10-08",
     "over_90_days": false,
-    "reason": "backfill_daily_card_limit"
+    "reason": "run_deadline"
    },
    {
     "key": "kalininsky--tum.sudrf.ru|1540005|1|2-6105/2026|2026-10-06",
@@ -2986,7 +3160,7 @@
     "fi_act_checked_at": "",
     "next_check_at": "2026-10-08",
     "over_90_days": false,
-    "reason": "backfill_daily_card_limit"
+    "reason": "run_deadline"
    },
    {
     "key": "leninsky--tum.sudrf.ru|1540005|1|2-6642/2026|2026-07-27",
@@ -2998,7 +3172,7 @@
     "fi_act_checked_at": "",
     "next_check_at": "2026-10-08",
     "over_90_days": false,
-    "reason": "backfill_daily_card_limit"
+    "reason": "run_deadline"
    },
    {
     "key": "leninsky--tum.sudrf.ru|1540005|1|2-6897/2026|2026-07-30",
@@ -3010,7 +3184,7 @@
     "fi_act_checked_at": "",
     "next_check_at": "2026-10-08",
     "over_90_days": false,
-    "reason": "backfill_daily_card_limit"
+    "reason": "run_deadline"
    },
    {
     "key": "leninsky--tum.sudrf.ru|1540005|1|2-7462/2026|2026-09-16",
@@ -3022,7 +3196,7 @@
     "fi_act_checked_at": "",
     "next_check_at": "2026-10-08",
     "over_90_days": false,
-    "reason": "backfill_daily_card_limit"
+    "reason": "run_deadline"
    },
    {
     "key": "leninsky--tum.sudrf.ru|1540005|1|2-8423/2026|2026-09-15",
@@ -3034,7 +3208,7 @@
     "fi_act_checked_at": "",
     "next_check_at": "2026-10-08",
     "over_90_days": false,
-    "reason": "backfill_daily_card_limit"
+    "reason": "run_deadline"
    },
    {
     "key": "leninsky--tum.sudrf.ru|1540005|1|2-8540/2026|2026-08-31",
@@ -3046,7 +3220,7 @@
     "fi_act_checked_at": "",
     "next_check_at": "2026-10-08",
     "over_90_days": false,
-    "reason": "backfill_daily_card_limit"
+    "reason": "run_deadline"
    },
    {
     "key": "leninsky--tum.sudrf.ru|1540005|1|2-9037/2026|2026-09-15",
@@ -3058,7 +3232,7 @@
     "fi_act_checked_at": "",
     "next_check_at": "2026-10-08",
     "over_90_days": false,
-    "reason": "backfill_daily_card_limit"
+    "reason": "run_deadline"
    },
    {
     "key": "leninsky--tum.sudrf.ru|1540005|1|2-9129/2026|2026-09-11",
@@ -3070,7 +3244,7 @@
     "fi_act_checked_at": "",
     "next_check_at": "2026-10-08",
     "over_90_days": false,
-    "reason": "backfill_daily_card_limit"
+    "reason": "run_deadline"
    },
    {
     "key": "leninsky--tum.sudrf.ru|1540005|1|2-9189/2026|2026-09-21",
@@ -3082,7 +3256,7 @@
     "fi_act_checked_at": "",
     "next_check_at": "2026-10-08",
     "over_90_days": false,
-    "reason": "backfill_daily_card_limit"
+    "reason": "run_deadline"
    },
    {
     "key": "leninsky--tum.sudrf.ru|1540005|1|2-9198/2026|2026-10-05",
@@ -3094,7 +3268,7 @@
     "fi_act_checked_at": "",
     "next_check_at": "2026-10-08",
     "over_90_days": false,
-    "reason": "backfill_daily_card_limit"
+    "reason": "run_deadline"
    },
    {
     "key": "leninsky--tum.sudrf.ru|1540005|1|2-9535/2026|2026-09-28",
@@ -3106,7 +3280,7 @@
     "fi_act_checked_at": "",
     "next_check_at": "2026-10-08",
     "over_90_days": false,
-    "reason": "backfill_daily_card_limit"
+    "reason": "run_deadline"
    },
    {
     "key": "omutinsky--tum.sudrf.ru|1540005|1|2-67/2026|2026-07-30",
@@ -3118,7 +3292,7 @@
     "fi_act_checked_at": "",
     "next_check_at": "2026-10-08",
     "over_90_days": false,
-    "reason": "backfill_daily_card_limit"
+    "reason": "run_deadline"
    },
    {
     "key": "tumensky--tum.sudrf.ru|1540005|1|2-1842/2026|2026-09-24",
@@ -3130,7 +3304,7 @@
     "fi_act_checked_at": "",
     "next_check_at": "2026-10-08",
     "over_90_days": false,
-    "reason": "backfill_daily_card_limit"
+    "reason": "run_deadline"
    },
    {
     "key": "tumensky--tum.sudrf.ru|1540005|1|2-3291/2026|2026-09-21",
@@ -3142,7 +3316,7 @@
     "fi_act_checked_at": "",
     "next_check_at": "2026-10-08",
     "over_90_days": false,
-    "reason": "backfill_daily_card_limit"
+    "reason": "run_deadline"
    },
    {
     "key": "tumensky--tum.sudrf.ru|1540005|1|2-3626/2026|2026-09-18",
@@ -3154,31 +3328,7 @@
     "fi_act_checked_at": "",
     "next_check_at": "2026-10-08",
     "over_90_days": false,
-    "reason": "backfill_daily_card_limit"
-   },
-   {
-    "key": "tumensky--tum.sudrf.ru|1540005|1|2-3641/2026|2026-09-08",
-    "number": "2-3641/2026",
-    "court": "tumensky--tum.sudrf.ru",
-    "status": "waiting",
-    "last_checked_at": "2026-10-07",
-    "normal_last_checked_at": "2026-10-07",
-    "fi_act_checked_at": "",
-    "next_check_at": "2026-10-08",
-    "over_90_days": false,
-    "reason": "backfill_daily_card_limit"
-   },
-   {
-    "key": "tumensky--tum.sudrf.ru|1540005|1|2-3642/2026|2026-09-08",
-    "number": "2-3642/2026",
-    "court": "tumensky--tum.sudrf.ru",
-    "status": "waiting",
-    "last_checked_at": "2026-10-07",
-    "normal_last_checked_at": "2026-10-07",
-    "fi_act_checked_at": "",
-    "next_check_at": "2026-10-08",
-    "over_90_days": false,
-    "reason": "backfill_daily_card_limit"
+    "reason": "run_deadline"
    },
    {
     "key": "tumensky--tum.sudrf.ru|1540005|1|2-3718/2026|2026-09-14",
@@ -3190,7 +3340,7 @@
     "fi_act_checked_at": "",
     "next_check_at": "2026-10-08",
     "over_90_days": false,
-    "reason": "backfill_daily_card_limit"
+    "reason": "run_deadline"
    },
    {
     "key": "zavodoukovsky--tum.sudrf.ru|1540005|1|2-1017/2026|2026-08-13",
@@ -3202,7 +3352,7 @@
     "fi_act_checked_at": "",
     "next_check_at": "2026-10-08",
     "over_90_days": false,
-    "reason": "backfill_daily_card_limit"
+    "reason": "run_deadline"
    },
    {
     "key": "zavodoukovsky--tum.sudrf.ru|1540005|1|2-515/2026|2026-08-11",
@@ -3214,7 +3364,7 @@
     "fi_act_checked_at": "",
     "next_check_at": "2026-10-08",
     "over_90_days": false,
-    "reason": "backfill_daily_card_limit"
+    "reason": "run_deadline"
    },
    {
     "key": "kalininsky--tum.sudrf.ru|1540005|1|2-5209/2026|2026-07-28",
@@ -3226,7 +3376,7 @@
     "fi_act_checked_at": "",
     "next_check_at": "2026-10-09",
     "over_90_days": false,
-    "reason": "scheduled"
+    "reason": "run_deadline"
    },
    {
     "key": "leninsky--tum.sudrf.ru|1540005|1|2-8219/2026|2026-08-24",
@@ -3238,7 +3388,7 @@
     "fi_act_checked_at": "",
     "next_check_at": "2026-10-09",
     "over_90_days": false,
-    "reason": "scheduled"
+    "reason": "run_deadline"
    },
    {
     "key": "tobolskygor--tum.sudrf.ru|1540005|1|2-1037/2026|2026-04-16",
@@ -3250,7 +3400,19 @@
     "fi_act_checked_at": "",
     "next_check_at": "2026-10-09",
     "over_90_days": true,
-    "reason": "scheduled"
+    "reason": "run_deadline"
+   },
+   {
+    "key": "tumensky--tum.sudrf.ru|1540005|1|2-3642/2026|2026-09-08",
+    "number": "2-3642/2026",
+    "court": "tumensky--tum.sudrf.ru",
+    "status": "waiting",
+    "last_checked_at": "2026-10-07",
+    "normal_last_checked_at": "2026-10-07",
+    "fi_act_checked_at": "",
+    "next_check_at": "2026-10-09",
+    "over_90_days": false,
+    "reason": "run_deadline"
    },
    {
     "key": "yalutorovsky--tum.sudrf.ru|1540005|1|2-741/2026|2026-08-31",
@@ -3262,7 +3424,7 @@
     "fi_act_checked_at": "",
     "next_check_at": "2026-10-09",
     "over_90_days": false,
-    "reason": "scheduled"
+    "reason": "run_deadline"
    },
    {
     "key": "abatsky--tum.sudrf.ru|1540005|1|2-100/2026|2026-08-10",
@@ -3493,18 +3655,6 @@
     "reason": "scheduled"
    },
    {
-    "key": "leninsky--tum.sudrf.ru|1540005|1|2-4849/2026|2026-07-10",
-    "number": "2-4849/2026",
-    "court": "leninsky--tum.sudrf.ru",
-    "status": "waiting",
-    "last_checked_at": "2026-10-07",
-    "normal_last_checked_at": "2026-10-07",
-    "fi_act_checked_at": "",
-    "next_check_at": "2026-10-14",
-    "over_90_days": false,
-    "reason": "scheduled"
-   },
-   {
     "key": "leninsky--tum.sudrf.ru|1540005|1|2-8051/2026|2026-08-13",
     "number": "2-8051/2026",
     "court": "leninsky--tum.sudrf.ru",
@@ -3529,9 +3679,33 @@
     "reason": "scheduled"
    },
    {
+    "key": "tumensky--tum.sudrf.ru|1540005|1|2-3641/2026|2026-09-08",
+    "number": "2-3641/2026",
+    "court": "tumensky--tum.sudrf.ru",
+    "status": "waiting",
+    "last_checked_at": "2026-10-07",
+    "normal_last_checked_at": "2026-10-07",
+    "fi_act_checked_at": "",
+    "next_check_at": "2026-10-14",
+    "over_90_days": false,
+    "reason": "scheduled"
+   },
+   {
     "key": "centralny--tum.sudrf.ru|1540005|1|2-2844/2026|2026-07-07",
     "number": "2-2844/2026",
     "court": "centralny--tum.sudrf.ru",
+    "status": "waiting",
+    "last_checked_at": "2026-10-07",
+    "normal_last_checked_at": "2026-10-07",
+    "fi_act_checked_at": "",
+    "next_check_at": "2026-11-04",
+    "over_90_days": true,
+    "reason": "scheduled"
+   },
+   {
+    "key": "leninsky--tum.sudrf.ru|1540005|1|2-4849/2026|2026-07-10",
+    "number": "2-4849/2026",
+    "court": "leninsky--tum.sudrf.ru",
     "status": "waiting",
     "last_checked_at": "2026-10-07",
     "normal_last_checked_at": "2026-10-07",
@@ -3685,18 +3859,6 @@
     "reason": "scheduled"
    },
    {
-    "key": "centralny--tum.sudrf.ru|1540005|1|2-393/2026|2026-04-20",
-    "number": "2-393/2026",
-    "court": "centralny--tum.sudrf.ru",
-    "status": "waiting",
-    "last_checked_at": "2026-10-02",
-    "normal_last_checked_at": "2026-10-02",
-    "fi_act_checked_at": "",
-    "next_check_at": "2026-11-23",
-    "over_90_days": true,
-    "reason": "scheduled"
-   },
-   {
     "key": "yalutorovsky--tum.sudrf.ru|1540005|1|2-33/2026|2026-05-05",
     "number": "2-33/2026",
     "court": "yalutorovsky--tum.sudrf.ru",
@@ -3781,107 +3943,92 @@
     "reason": "scheduled"
    }
   ],
-  "expired": 76,
-  "unread": 82,
+  "expired": 72,
+  "unread": 96,
   "long_wait": 34
  },
  "writ_watch": {
-  "date": "2026-10-08",
+  "date": "2026-10-09",
   "region": "tyumen",
-  "waiting": 350,
+  "waiting": 352,
   "needs_review": 11,
   "long_wait": 64,
-  "planned": 2,
+  "planned": 15,
   "read": 0,
   "items": [
    {
     "key": "golyshmanovsky--tum.sudrf.ru|1|2-272/2025|24.10.2025",
     "reason": "missing_link",
-    "next_check_at": "2026-10-08"
+    "next_check_at": "2026-10-09"
    },
    {
     "key": "centralny--tum.sudrf.ru|1|2-8678/2025|06.11.2025",
     "reason": "missing_link",
-    "next_check_at": "2026-10-08"
-   },
-   {
-    "key": "centralny--tum.sudrf.ru|1|2-5604/2026|14.07.2026",
-    "reason": "appeal_pending",
     "next_check_at": "2026-10-09"
    },
    {
-    "key": "centralny--tum.sudrf.ru|1|2-393/2026 (2-5173/2025;)|20.04.2026",
-    "reason": "awaiting_writ",
+    "key": "centralny--tum.sudrf.ru|1|2-5604/2026|14.07.2026",
+    "reason": "run_deadline",
     "next_check_at": "2026-10-09"
    },
    {
     "key": "kalininsky--tum.sudrf.ru|1|2-5710/2026|28.08.2026",
-    "reason": "awaiting_writ",
+    "reason": "run_deadline",
     "next_check_at": "2026-10-09"
    },
    {
     "key": "kalininsky--tum.sudrf.ru|1|2-5534/2026|11.09.2026",
-    "reason": "awaiting_writ",
+    "reason": "run_deadline",
     "next_check_at": "2026-10-09"
    },
    {
     "key": "kalininsky--tum.sudrf.ru|1|2-5338/2026|24.08.2026",
-    "reason": "awaiting_writ",
+    "reason": "run_deadline",
     "next_check_at": "2026-10-09"
    },
    {
     "key": "kalininsky--tum.sudrf.ru|1|2-5156/2026|11.08.2026",
-    "reason": "awaiting_writ",
+    "reason": "run_deadline",
     "next_check_at": "2026-10-09"
    },
    {
     "key": "kalininsky--tum.sudrf.ru|1|2-5430/2026|18.09.2026",
-    "reason": "awaiting_writ",
+    "reason": "run_deadline",
     "next_check_at": "2026-10-09"
    },
    {
     "key": "kalininsky--tum.sudrf.ru|1|2-5209/2026|28.07.2026",
-    "reason": "awaiting_writ",
+    "reason": "run_deadline",
     "next_check_at": "2026-10-09"
    },
    {
     "key": "kalininsky--tum.sudrf.ru|1|2-5724/2026|31.08.2026",
-    "reason": "awaiting_writ",
+    "reason": "run_deadline",
     "next_check_at": "2026-10-09"
    },
    {
     "key": "kalininsky--tum.sudrf.ru|1|2-5934/2026|03.09.2026",
-    "reason": "awaiting_writ",
+    "reason": "run_deadline",
     "next_check_at": "2026-10-09"
    },
    {
     "key": "kalininsky--tum.sudrf.ru|1|2-5901/2026|09.09.2026",
-    "reason": "awaiting_writ",
+    "reason": "run_deadline",
     "next_check_at": "2026-10-09"
    },
    {
     "key": "kalininsky--tum.sudrf.ru|1|2-5855/2026|16.09.2026",
-    "reason": "awaiting_writ",
-    "next_check_at": "2026-10-09"
-   },
-   {
-    "key": "leninsky--tum.sudrf.ru|1|2-9134/2026|23.09.2026",
-    "reason": "awaiting_writ",
+    "reason": "run_deadline",
     "next_check_at": "2026-10-09"
    },
    {
     "key": "tumensky--tum.sudrf.ru|1|2-3727/2026|01.10.2026",
-    "reason": "awaiting_writ",
+    "reason": "run_deadline",
     "next_check_at": "2026-10-09"
    },
    {
     "key": "yarkovsky--tum.sudrf.ru|1|2-304/2026|07.09.2026",
-    "reason": "awaiting_writ",
-    "next_check_at": "2026-10-09"
-   },
-   {
-    "key": "zavodoukovsky--tum.sudrf.ru|1|2-626/2026|29.09.2026",
-    "reason": "awaiting_writ",
+    "reason": "run_deadline",
     "next_check_at": "2026-10-09"
    },
    {
@@ -5165,16 +5312,6 @@
     "next_check_at": "2026-10-14"
    },
    {
-    "key": "kalininsky--tum.sudrf.ru|1|2-3014/2026|05.08.2026",
-    "reason": "appeal_pending",
-    "next_check_at": "2026-10-15"
-   },
-   {
-    "key": "kalininsky--tum.sudrf.ru|1|2-17/2026 (2-93/2025; 2-1992/2024;)|29.04.2026",
-    "reason": "awaiting_writ",
-    "next_check_at": "2026-10-15"
-   },
-   {
     "key": "centralny--tum.sudrf.ru|1|2-1646/2026 (2-10732/2025;)|26.05.2026",
     "reason": "awaiting_writ",
     "next_check_at": "2026-10-15"
@@ -5290,6 +5427,41 @@
     "next_check_at": "2026-10-15"
    },
    {
+    "key": "kalininsky--tum.sudrf.ru|1|2-3014/2026|05.08.2026",
+    "reason": "appeal_pending",
+    "next_check_at": "2026-10-16"
+   },
+   {
+    "key": "kalininsky--tum.sudrf.ru|1|2-17/2026 (2-93/2025; 2-1992/2024;)|29.04.2026",
+    "reason": "awaiting_writ",
+    "next_check_at": "2026-10-16"
+   },
+   {
+    "key": "centralny--tum.sudrf.ru|1|2-393/2026 (2-5173/2025;)|20.04.2026",
+    "reason": "awaiting_writ",
+    "next_check_at": "2026-10-16"
+   },
+   {
+    "key": "leninsky--tum.sudrf.ru|1|2-9134/2026|23.09.2026",
+    "reason": "awaiting_writ",
+    "next_check_at": "2026-10-16"
+   },
+   {
+    "key": "zavodoukovsky--tum.sudrf.ru|1|2-626/2026|29.09.2026",
+    "reason": "awaiting_writ",
+    "next_check_at": "2026-10-16"
+   },
+   {
+    "key": "leninsky--tum.sudrf.ru|1|2-9772/2026|06.10.2026",
+    "reason": "awaiting_writ",
+    "next_check_at": "2026-10-16"
+   },
+   {
+    "key": "centralny--tum.sudrf.ru|1|2-7715/2026|07.10.2026",
+    "reason": "awaiting_writ",
+    "next_check_at": "2026-10-16"
+   },
+   {
     "key": "armizonsky--tum.sudrf.ru|1|2-111/2024|27.08.2024",
     "reason": "appeal_pending",
     "next_check_at": "2026-10-21"
@@ -5382,26 +5554,6 @@
    {
     "key": "kalininsky--tum.sudrf.ru|1|2-1092/2024 (2-8331/2023;)|19.01.2024",
     "reason": "basis_changed",
-    "next_check_at": "2026-11-01"
-   },
-   {
-    "key": "centralny--tum.sudrf.ru|1|2-315/2026 (2-4262/2025;)|15.01.2026",
-    "reason": "awaiting_writ",
-    "next_check_at": "2026-11-01"
-   },
-   {
-    "key": "centralny--tum.sudrf.ru|1|2-7724/2025|16.12.2025",
-    "reason": "awaiting_writ",
-    "next_check_at": "2026-11-01"
-   },
-   {
-    "key": "centralny--tum.sudrf.ru|1|2-7214/2025|19.12.2025",
-    "reason": "awaiting_writ",
-    "next_check_at": "2026-11-01"
-   },
-   {
-    "key": "centralny--tum.sudrf.ru|1|2-7987/2025|08.10.2025",
-    "reason": "awaiting_writ",
     "next_check_at": "2026-11-01"
    },
    {
@@ -5598,12 +5750,32 @@
     "key": "centralny--tum.sudrf.ru|1|2-2255/2026 (2-11391/2025;)|02.03.2026",
     "reason": "awaiting_writ",
     "next_check_at": "2026-11-07"
+   },
+   {
+    "key": "centralny--tum.sudrf.ru|1|2-315/2026 (2-4262/2025;)|15.01.2026",
+    "reason": "awaiting_writ",
+    "next_check_at": "2026-11-08"
+   },
+   {
+    "key": "centralny--tum.sudrf.ru|1|2-7724/2025|16.12.2025",
+    "reason": "awaiting_writ",
+    "next_check_at": "2026-11-08"
+   },
+   {
+    "key": "centralny--tum.sudrf.ru|1|2-7214/2025|19.12.2025",
+    "reason": "awaiting_writ",
+    "next_check_at": "2026-11-08"
+   },
+   {
+    "key": "centralny--tum.sudrf.ru|1|2-7987/2025|08.10.2025",
+    "reason": "awaiting_writ",
+    "next_check_at": "2026-11-08"
    }
   ],
-  "unread": 2
+  "unread": 15
  },
  "discovery_queue": {
-  "date": "2026-10-08",
+  "date": "2026-10-09",
   "region": "tyumen",
   "pending": 0,
   "due": 0,
@@ -5617,13 +5789,13 @@
   "items": []
  },
  "parsing_backlog": {
-  "date": "2026-10-08",
+  "date": "2026-10-09",
   "region": "tyumen",
-  "cards_unread": 89,
-  "fi_without_card": 10,
+  "cards_unread": 174,
+  "fi_without_card": 12,
   "candidates_pending": 0,
-  "acts_unread": 89,
-  "writs_unread": 2,
+  "acts_unread": 118,
+  "writs_unread": 15,
   "writs_need_review": 11
  }
 }
