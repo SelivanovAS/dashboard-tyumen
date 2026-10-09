@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated_at": "2026-10-09T10:02:12+05:00",
+ "updated_at": "2026-10-09T12:11:00+05:00",
  "sources": {
   "cassation:7kas:total": {
    "counts": [
@@ -100,25 +100,25 @@
   }
  },
  "last_run": {
-  "at": "2026-10-09T10:02:12",
+  "at": "2026-10-09T12:11:00",
   "alerts": [],
-  "requests_ok": 3,
+  "requests_ok": 2,
   "requests_failed": 0,
   "requests_retried": 0,
   "cards_breaker_skipped": 0,
   "cards_breaker_unrequested": 0,
   "cards_breaker_recovered": 0,
-  "cards_blocked": 2,
-  "cards_read": 1,
-  "cards_planned": 96,
-  "cards_read_today": 199,
+  "cards_blocked": 0,
+  "cards_read": 2,
+  "cards_planned": 95,
+  "cards_read_today": 201,
   "cards_planned_today": 294,
-  "daily_attempts": 4,
+  "daily_attempts": 5,
   "instances": {
    "first_instance": {
-    "read": 1,
-    "planned": 82,
-    "read_today": 154,
+    "read": 2,
+    "planned": 81,
+    "read_today": 156,
     "planned_today": 235
    },
    "appeal": {
@@ -135,59 +135,32 @@
    }
   },
   "latency": {
-   "n": 3,
-   "p50": 16.6,
-   "p90": 17.4,
-   "max": 17.4
+   "n": 2,
+   "p50": 15.9,
+   "p90": 18.7,
+   "max": 18.7
   },
-  "failure_latency": {
-   "portal_placeholder": {
-    "n": 2,
-    "p50": 16.6,
-    "p90": 17.4,
-    "max": 17.4
-   }
-  },
-  "fail_kinds": {
-   "portal_placeholder": 2
-  },
+  "failure_latency": {},
+  "fail_kinds": {},
   "breaker": {
    "mode": "time",
-   "opened_hosts": 1,
-   "open_hosts": 1,
+   "opened_hosts": 0,
+   "open_hosts": 0,
    "recovered_hosts": 0,
-   "deferred_total": 1,
-   "deferred_remaining": 1,
+   "deferred_total": 0,
+   "deferred_remaining": 0,
    "deferred_recovered": 0,
    "probes": 0,
    "probe_successes": 0,
    "probe_failures": 0,
-   "by_kind": {
-    "portal_placeholder": 1
-   },
-   "hosts": [
-    {
-     "host": "leninsky--tum.sudrf.ru",
-     "state": "open",
-     "kind": "portal_placeholder",
-     "family": "portal_outage",
-     "reason": "вместо карточки пришла заглушка портала",
-     "preopened": false,
-     "skipped": 0,
-     "probes": 0,
-     "deferred_total": 1,
-     "deferred_remaining": 1,
-     "deferred_recovered": 0,
-     "cooldown_seconds": 180.0,
-     "next_probe_in_seconds": 157.4
-    }
-   ]
+   "by_kind": {},
+   "hosts": []
   },
-  "courts_unavailable": 1,
+  "courts_unavailable": 0,
   "courts_with_unrequested": 0,
   "courts_outage": 0,
   "cards_unreachable": 0,
-  "cards_unread_other": 95,
+  "cards_unread_other": 93,
   "run_deadline_seconds": 600.0,
   "run_deadline_reached": false
  },
@@ -5654,7 +5627,7 @@
  "parsing_backlog": {
   "date": "2026-10-09",
   "region": "tyumen",
-  "cards_unread": 95,
+  "cards_unread": 93,
   "fi_without_card": 12,
   "candidates_pending": 0,
   "acts_unread": 93,
