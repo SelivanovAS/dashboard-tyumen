@@ -126,8 +126,8 @@
     },
     "source_hash": "fd37c6cd50b35c20887434dad4f57f678b6fcad7e6d27a02d805581c6b139ce6",
     "created_at": "2026-10-12T08:39:14+00:00",
-    "runs": 0,
-    "status": "missing_keys",
+    "runs": 1,
+    "status": "ready",
     "preparation": {
       "version": "full-act-v1",
       "source_hash": "fd37c6cd50b35c20887434dad4f57f678b6fcad7e6d27a02d805581c6b139ce6",
@@ -142,8 +142,23 @@
       "identity_check": "matched_uid",
       "status": "ready"
     },
-    "attempts": [],
+    "attempts": [
+      {
+        "provider": "openrouter",
+        "model": "apodex/apodex-1.1-mini:free",
+        "status": "ready",
+        "context_limit": 262144,
+        "input_token_upper_bound": 12953,
+        "output_reserve": 1024,
+        "token_estimate": "utf8_bytes_upper_bound"
+      }
+    ],
     "refusal_rechecked": false,
-    "updated_at": "2026-10-12T08:39:14+00:00"
+    "updated_at": "2026-10-12T08:39:39+00:00",
+    "retry_after": "2026-10-13T08:39:39+00:00",
+    "model": "openrouter:apodex/apodex-1.1-mini:free",
+    "fallback": false,
+    "cached": false,
+    "summary": "Суд отказал взыскать 4000 рублей госпошлины как убытки, поскольку эти суммы были оплачены в исполнение вступившего в законную силу решения суда. Оплаченные по решению суда суммы убытками не являются."
   }
 }
