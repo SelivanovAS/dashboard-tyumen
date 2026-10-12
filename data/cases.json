@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-12T13:39:15+05:00",
+  "updated_at": "2026-10-12T08:39:41+00:00",
   "cases": [
     {
       "id": "М-5742/2026",
@@ -13151,7 +13151,29 @@
         "act_notification_kind": "new_publication",
         "act_received_at": "2026-10-12T08:08:49+00:00",
         "act_source_url": "https://tobolskygor--tum.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=250940050&case_uid=e0ba4d18-6087-42cb-9ce3-f20f7c4be94b&delo_id=1540005&new=0",
-        "act_decision_date": "06.10.2026"
+        "act_decision_date": "06.10.2026",
+        "act_analysis": {
+          "html": "<p><b>Почему:</b> Суд отказал взыскать 4000 рублей госпошлины как убытки, поскольку эти суммы были оплачены в исполнение вступившего в законную силу решения суда. Оплаченные по решению суда суммы убытками не являются.</p>",
+          "source": "llm_summary",
+          "act_date": "06.10.2026",
+          "generated_at": "2026-10-12T08:39:39+00:00",
+          "model": "openrouter:apodex/apodex-1.1-mini:free",
+          "source_hash": "fd37c6cd50b35c20887434dad4f57f678b6fcad7e6d27a02d805581c6b139ce6",
+          "preparation": {
+            "version": "full-act-v1",
+            "source_hash": "fd37c6cd50b35c20887434dad4f57f678b6fcad7e6d27a02d805581c6b139ce6",
+            "raw_chars": 4418,
+            "prepared_chars": 4418,
+            "source_url": "https://tobolskygor--tum.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=250940050&case_uid=e0ba4d18-6087-42cb-9ce3-f20f7c4be94b&delo_id=1540005&new=0",
+            "court_domain": "tobolskygor--tum.sudrf.ru",
+            "received_at": "2026-10-12T08:08:49+00:00",
+            "case_number": "2-2313/2026",
+            "stage": "first_instance",
+            "judicial_uid": "72RS0019-01-2026-002984-43",
+            "identity_check": "matched_uid",
+            "status": "ready"
+          }
+        }
       },
       "appeal": null,
       "import": {
