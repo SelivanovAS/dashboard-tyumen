@@ -244,5 +244,37 @@
       "status": "ready"
     },
     "generated_at": "2026-10-12T08:39:40+00:00"
+  },
+  "171ece4729e2f8bf": {
+    "summary": "Иски отказаны, поскольку ответчик — отец погибшего при выполнении задач СВО военнослужащего, члена семьи которого, по Закону № 377-ФЗ, прекращаются обязательства по кредитным договорам. Суд установил гибель военнослужащего при исполнении обязанностей и родство с ответчиком, что подтверждено справкой военного комиссара и документами о статусе члена семьи.",
+    "model": "openrouter:apodex/apodex-1.1-mini:free",
+    "attempts": [
+      {
+        "provider": "openrouter",
+        "model": "apodex/apodex-1.1-mini:free",
+        "status": "ready",
+        "context_limit": 262144,
+        "input_token_upper_bound": 38373,
+        "output_reserve": 1024,
+        "token_estimate": "utf8_bytes_upper_bound"
+      }
+    ],
+    "fallback": false,
+    "stage": "first_instance",
+    "preparation": {
+      "version": "full-act-v1",
+      "source_hash": "7bc132bca5c942c6404edbb2f37e8b423c2bf479e85e3bcf83a803e65c5c3095",
+      "raw_chars": 18544,
+      "prepared_chars": 18544,
+      "source_url": "https://kalininsky--tum.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=247890942&case_uid=12939df5-8b25-47b5-b4af-348b656165f8&delo_id=1540005&new=0",
+      "court_domain": "kalininsky--tum.sudrf.ru",
+      "received_at": "2026-10-13T02:51:08+00:00",
+      "case_number": "2-5618/2026",
+      "stage": "first_instance",
+      "judicial_uid": "",
+      "identity_check": "matched_header",
+      "status": "ready"
+    },
+    "generated_at": "2026-10-13T03:45:23+00:00"
   }
 }

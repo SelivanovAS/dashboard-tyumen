@@ -180,8 +180,8 @@
     },
     "source_hash": "7bc132bca5c942c6404edbb2f37e8b423c2bf479e85e3bcf83a803e65c5c3095",
     "created_at": "2026-10-13T02:52:01+00:00",
-    "runs": 0,
-    "status": "missing_keys",
+    "runs": 1,
+    "status": "ready",
     "preparation": {
       "version": "full-act-v1",
       "source_hash": "7bc132bca5c942c6404edbb2f37e8b423c2bf479e85e3bcf83a803e65c5c3095",
@@ -196,8 +196,23 @@
       "identity_check": "matched_header",
       "status": "ready"
     },
-    "attempts": [],
+    "attempts": [
+      {
+        "provider": "openrouter",
+        "model": "apodex/apodex-1.1-mini:free",
+        "status": "ready",
+        "context_limit": 262144,
+        "input_token_upper_bound": 38373,
+        "output_reserve": 1024,
+        "token_estimate": "utf8_bytes_upper_bound"
+      }
+    ],
     "refusal_rechecked": false,
-    "updated_at": "2026-10-13T02:52:01+00:00"
+    "updated_at": "2026-10-13T03:45:22+00:00",
+    "retry_after": "2026-10-14T03:45:22+00:00",
+    "model": "openrouter:apodex/apodex-1.1-mini:free",
+    "fallback": false,
+    "cached": false,
+    "summary": "Иски отказаны, поскольку ответчик — отец погибшего при выполнении задач СВО военнослужащего, члена семьи которого, по Закону № 377-ФЗ, прекращаются обязательства по кредитным договорам. Суд установил гибель военнослужащего при исполнении обязанностей и родство с ответчиком, что подтверждено справкой военного комиссара и документами о статусе члена семьи."
   }
 }
