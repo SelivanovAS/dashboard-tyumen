@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated_at": "2026-10-14T08:41:03+05:00",
+ "updated_at": "2026-10-14T12:10:21+05:00",
  "sources": {
   "cassation:7kas:total": {
    "counts": [
@@ -100,7 +100,7 @@
   }
  },
  "last_run": {
-  "at": "2026-10-14T08:41:03",
+  "at": "2026-10-14T12:10:21",
   "alerts": [],
   "requests_ok": 0,
   "requests_failed": 0,
@@ -113,7 +113,7 @@
   "cards_planned": 1,
   "cards_read_today": 404,
   "cards_planned_today": 405,
-  "daily_attempts": 4,
+  "daily_attempts": 5,
   "instances": {
    "first_instance": {
     "read": 0,
@@ -156,7 +156,7 @@
   "courts_outage": 0,
   "cards_unreachable": 0,
   "cards_unread_other": 1,
-  "run_deadline_seconds": 3300.0,
+  "run_deadline_seconds": 600.0,
   "run_deadline_reached": false
  },
  "act_publication_watch": {
@@ -1478,7 +1478,7 @@
     "key": "zavodoukovsky--tum.sudrf.ru|1540005|1|2-515/2026|2026-08-11",
     "number": "2-515/2026",
     "next_check_at": "2026-10-08",
-    "reason": "retry_cooldown"
+    "reason": "backfill_daily_card_limit"
    },
    {
     "key": "zavodoukovsky--tum.sudrf.ru|1540005|1|2-1017/2026|2026-08-13",
@@ -4246,7 +4246,7 @@
     "reasons": [
      "text_missing"
     ],
-    "reason": "retry_cooldown"
+    "reason": "backfill_daily_card_limit"
    }
   ],
   "instances": {
@@ -4592,7 +4592,7 @@
    },
    "first_instance|https://zavodoukovsky--tum.sudrf.ru/modules.php?case_id=242056368&case_uid=262a246c-5c30-4ff0-a547-818b642b1f54&delo_id=1540005&name=sud_delo&name_op=case&new=0&srv_num=1": {
     "stage": "first_instance",
-    "reason": "retry_cooldown"
+    "reason": "backfill_daily_card_limit"
    }
   }
  }
