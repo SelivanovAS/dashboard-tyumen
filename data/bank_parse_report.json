@@ -1,21 +1,21 @@
 {
   "version": 1,
-  "run_date": "2026-10-14",
+  "run_date": "2026-10-15",
   "smart_skip": true,
   "totals": {
-    "total": 588,
-    "parsed": 0,
-    "skip": 588,
-    "failed": 0,
+    "total": 589,
+    "parsed": 80,
+    "skip": 475,
+    "failed": 27,
     "no_card": 0,
     "not_in_queue": 0,
     "intake_new": 0
   },
   "cases": [
     {
-      "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "outcome": "parsed",
+      "reason": "",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -28,12 +28,12 @@
       "court": "Центральный районный суд г. Тюмени",
       "court_domain": "centralny--tum.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-14"
+      "last_checked_at": "2026-10-15"
     },
     {
-      "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "outcome": "parsed",
+      "reason": "",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -46,12 +46,12 @@
       "court": "Центральный районный суд г. Тюмени",
       "court_domain": "centralny--tum.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-14"
+      "last_checked_at": "2026-10-15"
     },
     {
-      "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "outcome": "parsed",
+      "reason": "",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -64,12 +64,12 @@
       "court": "Центральный районный суд г. Тюмени",
       "court_domain": "centralny--tum.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-14"
+      "last_checked_at": "2026-10-15"
     },
     {
-      "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "outcome": "parsed",
+      "reason": "",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -82,12 +82,12 @@
       "court": "Центральный районный суд г. Тюмени",
       "court_domain": "centralny--tum.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-14"
+      "last_checked_at": "2026-10-15"
     },
     {
-      "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "outcome": "parsed",
+      "reason": "",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -100,12 +100,12 @@
       "court": "Центральный районный суд г. Тюмени",
       "court_domain": "centralny--tum.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-14"
+      "last_checked_at": "2026-10-15"
     },
     {
-      "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "outcome": "parsed",
+      "reason": "",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -118,12 +118,12 @@
       "court": "Центральный районный суд г. Тюмени",
       "court_domain": "centralny--tum.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-14"
+      "last_checked_at": "2026-10-15"
     },
     {
-      "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "outcome": "parsed",
+      "reason": "",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -136,12 +136,12 @@
       "court": "Центральный районный суд г. Тюмени",
       "court_domain": "centralny--tum.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-14"
+      "last_checked_at": "2026-10-15"
     },
     {
-      "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "outcome": "parsed",
+      "reason": "",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -154,7 +154,7 @@
       "court": "Центральный районный суд г. Тюмени",
       "court_domain": "centralny--tum.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-14"
+      "last_checked_at": "2026-10-15"
     },
     {
       "outcome": "skip",
@@ -176,8 +176,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "future_hearing(10.11.2026)",
+      "reason_ru": "заседание 10.11.2026 ещё впереди",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -211,22 +211,24 @@
       "last_checked_at": "2026-10-13"
     },
     {
-      "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "outcome": "parsed",
+      "reason": "",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
-      "events": [],
-      "changed": false,
+      "events": [
+        "fi_hearing_new"
+      ],
+      "changed": true,
       "left_track": false,
       "archived": false,
-      "key": "kalininsky--tum.sudrf.ru|М-5724/2026",
-      "number": "М-5724/2026",
+      "key": "kalininsky--tum.sudrf.ru|2-7350/2026",
+      "number": "2-7350/2026",
       "court": "Калининский районный суд г. Тюмени",
       "court_domain": "kalininsky--tum.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-14"
+      "last_checked_at": "2026-10-15"
     },
     {
       "outcome": "skip",
@@ -283,9 +285,9 @@
       "last_checked_at": "2026-10-12"
     },
     {
-      "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "outcome": "parsed",
+      "reason": "",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -298,12 +300,12 @@
       "court": "Тюменский районный суд",
       "court_domain": "tumensky--tum.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-14"
+      "last_checked_at": "2026-10-15"
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "future_hearing(29.10.2026)",
+      "reason_ru": "заседание 29.10.2026 ещё впереди",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -428,8 +430,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(5d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 5)",
+      "reason": "writ_weekly(6d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 6)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -446,8 +448,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(5d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 5)",
+      "reason": "writ_weekly(6d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 6)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -463,9 +465,9 @@
       "last_checked_at": "2026-10-09"
     },
     {
-      "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "outcome": "fetch_blocked",
+      "reason": "",
+      "reason_ru": "портал суда отдал заглушку/блокировку вместо карточки",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -482,8 +484,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(5d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 5)",
+      "reason": "writ_weekly(6d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 6)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -500,8 +502,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(5d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 5)",
+      "reason": "writ_weekly(6d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 6)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -518,8 +520,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(5d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 5)",
+      "reason": "writ_weekly(6d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 6)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -535,9 +537,9 @@
       "last_checked_at": "2026-10-09"
     },
     {
-      "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "outcome": "fetch_blocked",
+      "reason": "",
+      "reason_ru": "портал суда отдал заглушку/блокировку вместо карточки",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -553,9 +555,9 @@
       "last_checked_at": "2026-10-14"
     },
     {
-      "outcome": "skip",
-      "reason": "writ_weekly(6d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 6)",
+      "outcome": "court_breaker",
+      "reason": "",
+      "reason_ru": "суд снят с обхода предохранителем — карточки не читаются (заглушка/код/сеть), дело перечитается следующим прогоном",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -571,9 +573,9 @@
       "last_checked_at": "2026-10-08"
     },
     {
-      "outcome": "skip",
-      "reason": "writ_weekly(6d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 6)",
+      "outcome": "parsed",
+      "reason": "",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -586,12 +588,12 @@
       "court": "Центральный районный суд г. Тюмени",
       "court_domain": "centralny--tum.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-08"
+      "last_checked_at": "2026-10-15"
     },
     {
-      "outcome": "skip",
-      "reason": "writ_weekly(6d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 6)",
+      "outcome": "court_breaker",
+      "reason": "",
+      "reason_ru": "суд снят с обхода предохранителем — карточки не читаются (заглушка/код/сеть), дело перечитается следующим прогоном",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -607,9 +609,9 @@
       "last_checked_at": "2026-10-08"
     },
     {
-      "outcome": "skip",
-      "reason": "writ_weekly(6d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 6)",
+      "outcome": "parsed",
+      "reason": "",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -622,12 +624,12 @@
       "court": "Центральный районный суд г. Тюмени",
       "court_domain": "centralny--tum.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-08"
+      "last_checked_at": "2026-10-15"
     },
     {
-      "outcome": "skip",
-      "reason": "writ_weekly(6d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 6)",
+      "outcome": "parsed",
+      "reason": "",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -640,12 +642,12 @@
       "court": "Центральный районный суд г. Тюмени",
       "court_domain": "centralny--tum.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-08"
+      "last_checked_at": "2026-10-15"
     },
     {
-      "outcome": "skip",
-      "reason": "writ_weekly(6d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 6)",
+      "outcome": "parsed",
+      "reason": "",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -658,12 +660,12 @@
       "court": "Центральный районный суд г. Тюмени",
       "court_domain": "centralny--tum.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-08"
+      "last_checked_at": "2026-10-15"
     },
     {
-      "outcome": "skip",
-      "reason": "writ_weekly(6d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 6)",
+      "outcome": "parsed",
+      "reason": "",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -676,16 +678,18 @@
       "court": "Центральный районный суд г. Тюмени",
       "court_domain": "centralny--tum.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-08"
+      "last_checked_at": "2026-10-15"
     },
     {
-      "outcome": "skip",
-      "reason": "writ_weekly(6d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 6)",
+      "outcome": "parsed",
+      "reason": "",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
-      "events": [],
+      "events": [
+        "fi_writ_issued"
+      ],
       "changed": false,
       "left_track": false,
       "archived": false,
@@ -694,12 +698,12 @@
       "court": "Центральный районный суд г. Тюмени",
       "court_domain": "centralny--tum.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-08"
+      "last_checked_at": "2026-10-15"
     },
     {
-      "outcome": "skip",
-      "reason": "writ_weekly(6d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 6)",
+      "outcome": "court_breaker",
+      "reason": "",
+      "reason_ru": "суд снят с обхода предохранителем — карточки не читаются (заглушка/код/сеть), дело перечитается следующим прогоном",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -715,9 +719,9 @@
       "last_checked_at": "2026-10-08"
     },
     {
-      "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "outcome": "parsed",
+      "reason": "",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -730,12 +734,12 @@
       "court": "Ленинский районный суд г. Тюмени",
       "court_domain": "leninsky--tum.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-14"
+      "last_checked_at": "2026-10-15"
     },
     {
-      "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "outcome": "court_breaker",
+      "reason": "",
+      "reason_ru": "суд снят с обхода предохранителем — карточки не читаются (заглушка/код/сеть), дело перечитается следующим прогоном",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -751,9 +755,9 @@
       "last_checked_at": "2026-10-14"
     },
     {
-      "outcome": "skip",
-      "reason": "writ_weekly(6d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 6)",
+      "outcome": "court_breaker",
+      "reason": "",
+      "reason_ru": "суд снят с обхода предохранителем — карточки не читаются (заглушка/код/сеть), дело перечитается следующим прогоном",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -769,9 +773,9 @@
       "last_checked_at": "2026-10-08"
     },
     {
-      "outcome": "skip",
-      "reason": "writ_weekly(6d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 6)",
+      "outcome": "parsed",
+      "reason": "",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -784,12 +788,12 @@
       "court": "Центральный районный суд г. Тюмени",
       "court_domain": "centralny--tum.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-08"
+      "last_checked_at": "2026-10-15"
     },
     {
-      "outcome": "skip",
-      "reason": "writ_weekly(6d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 6)",
+      "outcome": "parsed",
+      "reason": "",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -802,12 +806,12 @@
       "court": "Центральный районный суд г. Тюмени",
       "court_domain": "centralny--tum.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-08"
+      "last_checked_at": "2026-10-15"
     },
     {
-      "outcome": "skip",
-      "reason": "writ_weekly(6d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 6)",
+      "outcome": "court_breaker",
+      "reason": "",
+      "reason_ru": "суд снят с обхода предохранителем — карточки не читаются (заглушка/код/сеть), дело перечитается следующим прогоном",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -823,9 +827,9 @@
       "last_checked_at": "2026-10-08"
     },
     {
-      "outcome": "skip",
-      "reason": "writ_weekly(6d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 6)",
+      "outcome": "court_breaker",
+      "reason": "",
+      "reason_ru": "суд снят с обхода предохранителем — карточки не читаются (заглушка/код/сеть), дело перечитается следующим прогоном",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -841,13 +845,15 @@
       "last_checked_at": "2026-10-08"
     },
     {
-      "outcome": "skip",
-      "reason": "writ_weekly(6d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 6)",
+      "outcome": "parsed",
+      "reason": "",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
-      "events": [],
+      "events": [
+        "fi_writ_issued"
+      ],
       "changed": false,
       "left_track": false,
       "archived": false,
@@ -856,12 +862,12 @@
       "court": "Центральный районный суд г. Тюмени",
       "court_domain": "centralny--tum.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-08"
+      "last_checked_at": "2026-10-15"
     },
     {
-      "outcome": "skip",
-      "reason": "writ_weekly(6d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 6)",
+      "outcome": "parsed",
+      "reason": "",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -874,17 +880,19 @@
       "court": "Центральный районный суд г. Тюмени",
       "court_domain": "centralny--tum.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-08"
+      "last_checked_at": "2026-10-15"
     },
     {
-      "outcome": "skip",
-      "reason": "writ_weekly(6d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 6)",
+      "outcome": "parsed",
+      "reason": "",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
-      "events": [],
-      "changed": false,
+      "events": [
+        "fi_default_copy_served"
+      ],
+      "changed": true,
       "left_track": false,
       "archived": false,
       "key": "centralny--tum.sudrf.ru|2-1598/2026 (2-10673/2025;)",
@@ -892,12 +900,12 @@
       "court": "Центральный районный суд г. Тюмени",
       "court_domain": "centralny--tum.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-08"
+      "last_checked_at": "2026-10-15"
     },
     {
-      "outcome": "skip",
-      "reason": "writ_weekly(6d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 6)",
+      "outcome": "parsed",
+      "reason": "",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -910,17 +918,19 @@
       "court": "Центральный районный суд г. Тюмени",
       "court_domain": "centralny--tum.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-08"
+      "last_checked_at": "2026-10-15"
     },
     {
-      "outcome": "skip",
-      "reason": "writ_weekly(6d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 6)",
+      "outcome": "parsed",
+      "reason": "",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
-      "events": [],
-      "changed": false,
+      "events": [
+        "fi_default_copy_served"
+      ],
+      "changed": true,
       "left_track": false,
       "archived": false,
       "key": "centralny--tum.sudrf.ru|2-1819/2026 (2-10926/2025;)",
@@ -928,12 +938,12 @@
       "court": "Центральный районный суд г. Тюмени",
       "court_domain": "centralny--tum.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-08"
+      "last_checked_at": "2026-10-15"
     },
     {
-      "outcome": "skip",
-      "reason": "writ_weekly(6d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 6)",
+      "outcome": "parsed",
+      "reason": "",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -946,12 +956,12 @@
       "court": "Центральный районный суд г. Тюмени",
       "court_domain": "centralny--tum.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-08"
+      "last_checked_at": "2026-10-15"
     },
     {
-      "outcome": "skip",
-      "reason": "writ_weekly(6d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 6)",
+      "outcome": "court_breaker",
+      "reason": "",
+      "reason_ru": "суд снят с обхода предохранителем — карточки не читаются (заглушка/код/сеть), дело перечитается следующим прогоном",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -967,9 +977,9 @@
       "last_checked_at": "2026-10-08"
     },
     {
-      "outcome": "skip",
-      "reason": "writ_weekly(6d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 6)",
+      "outcome": "parsed",
+      "reason": "",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -982,12 +992,12 @@
       "court": "Центральный районный суд г. Тюмени",
       "court_domain": "centralny--tum.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-08"
+      "last_checked_at": "2026-10-15"
     },
     {
-      "outcome": "skip",
-      "reason": "writ_weekly(6d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 6)",
+      "outcome": "court_breaker",
+      "reason": "",
+      "reason_ru": "суд снят с обхода предохранителем — карточки не читаются (заглушка/код/сеть), дело перечитается следующим прогоном",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -1003,9 +1013,9 @@
       "last_checked_at": "2026-10-08"
     },
     {
-      "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "outcome": "parsed",
+      "reason": "",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -1018,12 +1028,12 @@
       "court": "Ленинский районный суд г. Тюмени",
       "court_domain": "leninsky--tum.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-14"
+      "last_checked_at": "2026-10-15"
     },
     {
-      "outcome": "skip",
-      "reason": "writ_weekly(6d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 6)",
+      "outcome": "court_breaker",
+      "reason": "",
+      "reason_ru": "суд снят с обхода предохранителем — карточки не читаются (заглушка/код/сеть), дело перечитается следующим прогоном",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -1039,9 +1049,9 @@
       "last_checked_at": "2026-10-08"
     },
     {
-      "outcome": "skip",
-      "reason": "writ_weekly(6d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 6)",
+      "outcome": "court_breaker",
+      "reason": "",
+      "reason_ru": "суд снят с обхода предохранителем — карточки не читаются (заглушка/код/сеть), дело перечитается следующим прогоном",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -1057,9 +1067,9 @@
       "last_checked_at": "2026-10-08"
     },
     {
-      "outcome": "skip",
-      "reason": "writ_weekly(6d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 6)",
+      "outcome": "court_breaker",
+      "reason": "",
+      "reason_ru": "суд снят с обхода предохранителем — карточки не читаются (заглушка/код/сеть), дело перечитается следующим прогоном",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -1075,13 +1085,15 @@
       "last_checked_at": "2026-10-08"
     },
     {
-      "outcome": "skip",
-      "reason": "writ_weekly(6d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 6)",
+      "outcome": "parsed",
+      "reason": "",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
-      "events": [],
+      "events": [
+        "fi_writ_issued"
+      ],
       "changed": false,
       "left_track": false,
       "archived": false,
@@ -1090,12 +1102,12 @@
       "court": "Центральный районный суд г. Тюмени",
       "court_domain": "centralny--tum.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-08"
+      "last_checked_at": "2026-10-15"
     },
     {
-      "outcome": "skip",
-      "reason": "writ_weekly(6d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 6)",
+      "outcome": "court_breaker",
+      "reason": "",
+      "reason_ru": "суд снят с обхода предохранителем — карточки не читаются (заглушка/код/сеть), дело перечитается следующим прогоном",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -1111,9 +1123,9 @@
       "last_checked_at": "2026-10-08"
     },
     {
-      "outcome": "skip",
-      "reason": "writ_weekly(6d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 6)",
+      "outcome": "parsed",
+      "reason": "",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -1126,7 +1138,7 @@
       "court": "Центральный районный суд г. Тюмени",
       "court_domain": "centralny--tum.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-08"
+      "last_checked_at": "2026-10-15"
     },
     {
       "outcome": "skip",
@@ -1147,9 +1159,9 @@
       "last_checked_at": "2026-10-09"
     },
     {
-      "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "outcome": "court_breaker",
+      "reason": "",
+      "reason_ru": "суд снят с обхода предохранителем — карточки не читаются (заглушка/код/сеть), дело перечитается следующим прогоном",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -1238,8 +1250,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "writ_weekly(1d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -1256,8 +1268,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "writ_weekly(1d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -1273,9 +1285,9 @@
       "last_checked_at": "2026-10-14"
     },
     {
-      "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "outcome": "parsed",
+      "reason": "",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -1288,12 +1300,12 @@
       "court": "Тюменский районный суд",
       "court_domain": "tumensky--tum.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-14"
+      "last_checked_at": "2026-10-15"
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "writ_weekly(1d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -1310,8 +1322,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "writ_weekly(1d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -1328,8 +1340,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "completed_weekly(1d/7d)",
+      "reason_ru": "процессуально завершено — контроль карточки раз в 7 дней",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -1346,8 +1358,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "writ_weekly(1d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -1364,8 +1376,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "writ_weekly(1d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -1382,8 +1394,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "writ_weekly(1d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -1400,8 +1412,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "writ_weekly(1d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -1417,9 +1429,9 @@
       "last_checked_at": "2026-10-14"
     },
     {
-      "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "outcome": "parsed",
+      "reason": "",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -1432,12 +1444,12 @@
       "court": "Тюменский районный суд",
       "court_domain": "tumensky--tum.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-14"
+      "last_checked_at": "2026-10-15"
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "writ_weekly(1d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -1454,8 +1466,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "writ_weekly(1d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -1472,8 +1484,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "writ_weekly(1d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -1490,8 +1502,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "writ_weekly(1d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -1507,9 +1519,9 @@
       "last_checked_at": "2026-10-14"
     },
     {
-      "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "outcome": "parsed",
+      "reason": "",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -1522,12 +1534,12 @@
       "court": "Тюменский районный суд",
       "court_domain": "tumensky--tum.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-14"
+      "last_checked_at": "2026-10-15"
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "writ_weekly(1d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -1544,8 +1556,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "writ_weekly(1d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -1562,8 +1574,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "writ_weekly(1d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -1580,8 +1592,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "writ_weekly(1d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -1598,8 +1610,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "writ_weekly(1d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -1652,8 +1664,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "writ_weekly(1d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -1670,8 +1682,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "writ_weekly(1d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -1688,8 +1700,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "writ_weekly(1d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -1706,8 +1718,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "writ_weekly(1d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -1724,8 +1736,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "writ_weekly(1d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -1742,8 +1754,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "writ_weekly(1d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -1760,8 +1772,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "writ_weekly(1d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -1778,8 +1790,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "run_deadline",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -1796,8 +1808,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "writ_weekly(1d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -1814,8 +1826,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "writ_weekly(1d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -1832,8 +1844,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "writ_weekly(1d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -1850,8 +1862,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "writ_weekly(1d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -1868,8 +1880,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "writ_weekly(1d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -1886,8 +1898,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "writ_weekly(1d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -1904,8 +1916,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "writ_weekly(1d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -1922,8 +1934,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "writ_weekly(1d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -2029,9 +2041,9 @@
       "last_checked_at": "2026-10-01"
     },
     {
-      "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "outcome": "parsed",
+      "reason": "",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -2044,7 +2056,7 @@
       "court": "Ленинский районный суд г. Тюмени",
       "court_domain": "leninsky--tum.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-14"
+      "last_checked_at": "2026-10-15"
     },
     {
       "outcome": "skip",
@@ -2065,9 +2077,9 @@
       "last_checked_at": "2026-09-30"
     },
     {
-      "outcome": "skip",
-      "reason": "future_hearing(14.10.2026)",
-      "reason_ru": "заседание 14.10.2026 ещё впереди",
+      "outcome": "parsed",
+      "reason": "",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -2080,12 +2092,12 @@
       "court": "Тюменский районный суд",
       "court_domain": "tumensky--tum.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-09-30"
+      "last_checked_at": "2026-10-15"
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(1d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
+      "reason": "writ_weekly(2d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -2101,9 +2113,9 @@
       "last_checked_at": "2026-10-13"
     },
     {
-      "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "outcome": "parsed",
+      "reason": "",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -2116,12 +2128,12 @@
       "court": "Калининский районный суд г. Тюмени",
       "court_domain": "kalininsky--tum.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-14"
+      "last_checked_at": "2026-10-15"
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(1d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
+      "reason": "writ_weekly(2d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -2138,8 +2150,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(1d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
+      "reason": "writ_weekly(2d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -2156,8 +2168,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(1d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
+      "reason": "writ_weekly(2d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -2174,8 +2186,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(1d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
+      "reason": "writ_weekly(2d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -2192,8 +2204,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(1d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
+      "reason": "writ_weekly(2d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -2210,8 +2222,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(1d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
+      "reason": "writ_weekly(2d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -2228,8 +2240,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(2d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
+      "reason": "writ_weekly(3d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 3)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -2264,8 +2276,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(2d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
+      "reason": "writ_weekly(3d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 3)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -2300,8 +2312,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(1d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
+      "reason": "writ_weekly(2d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -2318,8 +2330,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(2d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
+      "reason": "writ_weekly(3d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 3)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -2336,8 +2348,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(2d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
+      "reason": "writ_weekly(3d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 3)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -2354,8 +2366,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(2d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
+      "reason": "writ_weekly(3d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 3)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -2372,8 +2384,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(2d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
+      "reason": "writ_weekly(3d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 3)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -2390,8 +2402,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(2d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
+      "reason": "writ_weekly(3d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 3)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -2408,8 +2420,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(2d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
+      "reason": "writ_weekly(3d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 3)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -2426,8 +2438,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(2d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
+      "reason": "writ_weekly(3d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 3)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -2443,9 +2455,9 @@
       "last_checked_at": "2026-10-12"
     },
     {
-      "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "outcome": "parsed",
+      "reason": "",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -2458,12 +2470,12 @@
       "court": "Ленинский районный суд г. Тюмени",
       "court_domain": "leninsky--tum.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-14"
+      "last_checked_at": "2026-10-15"
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(2d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
+      "reason": "writ_weekly(3d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 3)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -2480,8 +2492,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(2d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
+      "reason": "writ_weekly(3d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 3)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -2498,8 +2510,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(2d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
+      "reason": "writ_weekly(3d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 3)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -2516,8 +2528,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(2d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
+      "reason": "writ_weekly(3d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 3)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -2533,9 +2545,9 @@
       "last_checked_at": "2026-10-12"
     },
     {
-      "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "outcome": "court_breaker",
+      "reason": "",
+      "reason_ru": "суд снят с обхода предохранителем — карточки не читаются (заглушка/код/сеть), дело перечитается следующим прогоном",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -2552,8 +2564,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(2d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
+      "reason": "portal_placeholder",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -2570,8 +2582,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(2d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
+      "reason": "writ_weekly(3d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 3)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -2588,8 +2600,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(2d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
+      "reason": "writ_weekly(3d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 3)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -2606,8 +2618,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(2d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
+      "reason": "writ_weekly(3d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 3)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -2624,8 +2636,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(2d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
+      "reason": "writ_weekly(3d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 3)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -2642,8 +2654,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(2d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
+      "reason": "writ_weekly(3d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 3)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -2660,8 +2672,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(2d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
+      "reason": "writ_weekly(3d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 3)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -2678,8 +2690,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(2d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
+      "reason": "writ_weekly(3d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 3)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -2696,8 +2708,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(2d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
+      "reason": "writ_weekly(3d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 3)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -2713,9 +2725,9 @@
       "last_checked_at": "2026-10-12"
     },
     {
-      "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "outcome": "parsed",
+      "reason": "",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -2728,12 +2740,12 @@
       "court": "Ленинский районный суд г. Тюмени",
       "court_domain": "leninsky--tum.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-14"
+      "last_checked_at": "2026-10-15"
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(2d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
+      "reason": "writ_weekly(3d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 3)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -2750,8 +2762,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(2d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
+      "reason": "writ_weekly(3d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 3)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -2768,8 +2780,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(2d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
+      "reason": "writ_weekly(3d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 3)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -2786,8 +2798,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "breaker",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -2804,8 +2816,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(2d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
+      "reason": "writ_weekly(3d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 3)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -2822,8 +2834,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(2d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
+      "reason": "writ_weekly(3d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 3)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -2840,8 +2852,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(2d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
+      "reason": "writ_weekly(3d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 3)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -2858,8 +2870,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(2d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
+      "reason": "writ_weekly(3d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 3)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -2876,8 +2888,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(2d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
+      "reason": "writ_weekly(3d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 3)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -2894,8 +2906,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(1d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
+      "reason": "writ_weekly(2d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -2930,8 +2942,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(2d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
+      "reason": "writ_weekly(3d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 3)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -2948,8 +2960,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(2d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
+      "reason": "writ_weekly(3d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 3)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -2966,8 +2978,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(2d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
+      "reason": "writ_weekly(3d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 3)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -2984,8 +2996,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(2d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
+      "reason": "writ_weekly(3d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 3)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -3020,8 +3032,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(2d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
+      "reason": "writ_weekly(3d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 3)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -3038,8 +3050,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(2d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
+      "reason": "writ_weekly(3d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 3)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -3056,8 +3068,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(1d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
+      "reason": "writ_weekly(2d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -3074,8 +3086,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(2d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
+      "reason": "writ_weekly(3d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 3)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -3110,8 +3122,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(2d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
+      "reason": "writ_weekly(3d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 3)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -3128,8 +3140,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(2d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
+      "reason": "writ_weekly(3d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 3)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -3145,9 +3157,9 @@
       "last_checked_at": "2026-10-12"
     },
     {
-      "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "outcome": "parsed",
+      "reason": "",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -3160,12 +3172,12 @@
       "court": "Ленинский районный суд г. Тюмени",
       "court_domain": "leninsky--tum.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-14"
+      "last_checked_at": "2026-10-15"
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(2d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
+      "reason": "writ_weekly(3d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 3)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -3182,8 +3194,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(2d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
+      "reason": "writ_weekly(3d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 3)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -3200,8 +3212,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(2d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
+      "reason": "writ_weekly(3d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 3)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -3217,9 +3229,9 @@
       "last_checked_at": "2026-10-12"
     },
     {
-      "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "outcome": "parsed",
+      "reason": "",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -3232,12 +3244,12 @@
       "court": "Тобольский городской суд",
       "court_domain": "tobolskygor--tum.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-14"
+      "last_checked_at": "2026-10-15"
     },
     {
-      "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "outcome": "parsed",
+      "reason": "",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -3250,30 +3262,33 @@
       "court": "Тобольский городской суд",
       "court_domain": "tobolskygor--tum.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-14"
+      "last_checked_at": "2026-10-15"
     },
     {
-      "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "outcome": "parsed",
+      "reason": "",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
-      "events": [],
-      "changed": false,
+      "events": [
+        "fi_resolved",
+        "fi_status_change"
+      ],
+      "changed": true,
       "left_track": false,
       "archived": false,
       "key": "tobolskygor--tum.sudrf.ru|2-57/2026 (2-1657/2025;)",
       "number": "2-57/2026 (2-1657/2025;)",
       "court": "Тобольский городской суд",
       "court_domain": "tobolskygor--tum.sudrf.ru",
-      "case_status": "В производстве",
-      "last_checked_at": "2026-10-14"
+      "case_status": "Решено",
+      "last_checked_at": "2026-10-15"
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(2d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
+      "reason": "writ_weekly(3d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 3)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -3290,8 +3305,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(2d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
+      "reason": "writ_weekly(3d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 3)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -3308,8 +3323,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(2d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
+      "reason": "writ_weekly(3d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 3)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -3326,8 +3341,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(2d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
+      "reason": "writ_weekly(3d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 3)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -3344,8 +3359,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(2d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
+      "reason": "writ_weekly(3d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 3)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -3362,8 +3377,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "writ_weekly(1d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -3380,8 +3395,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(2d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
+      "reason": "writ_weekly(3d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 3)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -3398,8 +3413,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(2d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
+      "reason": "writ_weekly(3d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 3)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -3416,8 +3431,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(1d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
+      "reason": "writ_weekly(2d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -3434,8 +3449,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(2d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
+      "reason": "writ_weekly(3d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 3)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -3451,9 +3466,9 @@
       "last_checked_at": "2026-10-12"
     },
     {
-      "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "outcome": "parsed",
+      "reason": "",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -3466,12 +3481,12 @@
       "court": "Центральный районный суд г. Тюмени",
       "court_domain": "centralny--tum.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-14"
+      "last_checked_at": "2026-10-15"
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(2d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
+      "reason": "writ_weekly(3d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 3)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -3488,8 +3503,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(2d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
+      "reason": "breaker",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -3506,8 +3521,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "completed_weekly(1d/7d)",
+      "reason_ru": "процессуально завершено — контроль карточки раз в 7 дней",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -3524,8 +3539,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(2d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
+      "reason": "writ_weekly(3d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 3)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -3542,8 +3557,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(2d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
+      "reason": "writ_weekly(3d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 3)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -3560,8 +3575,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(2d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
+      "reason": "writ_weekly(3d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 3)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -3578,8 +3593,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(2d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
+      "reason": "writ_weekly(3d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 3)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -3596,8 +3611,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(2d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
+      "reason": "breaker",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -3614,8 +3629,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(2d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
+      "reason": "writ_weekly(3d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 3)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -3632,8 +3647,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(2d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
+      "reason": "writ_weekly(3d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 3)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -3650,8 +3665,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "breaker",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -3667,9 +3682,9 @@
       "last_checked_at": "2026-10-14"
     },
     {
-      "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "outcome": "parsed",
+      "reason": "",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -3682,12 +3697,12 @@
       "court": "Центральный районный суд г. Тюмени",
       "court_domain": "centralny--tum.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-14"
+      "last_checked_at": "2026-10-15"
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(2d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
+      "reason": "writ_weekly(3d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 3)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -3721,9 +3736,9 @@
       "last_checked_at": "2026-09-28"
     },
     {
-      "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "outcome": "parsed",
+      "reason": "",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -3736,12 +3751,12 @@
       "court": "Центральный районный суд г. Тюмени",
       "court_domain": "centralny--tum.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-14"
+      "last_checked_at": "2026-10-15"
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "breaker",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -3776,8 +3791,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(2d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
+      "reason": "writ_weekly(3d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 3)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -3794,8 +3809,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(2d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
+      "reason": "writ_weekly(3d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 3)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -3812,8 +3827,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(2d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
+      "reason": "writ_weekly(3d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 3)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -3830,8 +3845,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(2d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
+      "reason": "writ_weekly(3d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 3)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -3848,8 +3863,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "breaker",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -3866,8 +3881,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(2d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
+      "reason": "breaker",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -3884,8 +3899,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(2d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
+      "reason": "writ_weekly(3d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 3)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -3920,8 +3935,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "completed_weekly(1d/7d)",
+      "reason_ru": "процессуально завершено — контроль карточки раз в 7 дней",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -3938,8 +3953,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(2d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
+      "reason": "writ_weekly(3d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 3)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -3956,8 +3971,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "completed_weekly(1d/7d)",
+      "reason_ru": "процессуально завершено — контроль карточки раз в 7 дней",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -3974,8 +3989,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(2d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
+      "reason": "writ_weekly(3d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 3)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -3992,8 +4007,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(2d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
+      "reason": "writ_weekly(3d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 3)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -4010,8 +4025,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(2d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
+      "reason": "writ_weekly(3d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 3)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -4028,8 +4043,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(1d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
+      "reason": "writ_weekly(2d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -4046,8 +4061,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(1d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
+      "reason": "writ_weekly(2d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -4064,8 +4079,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(1d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
+      "reason": "writ_weekly(2d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -4081,9 +4096,9 @@
       "last_checked_at": "2026-10-13"
     },
     {
-      "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "outcome": "parsed",
+      "reason": "",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -4096,12 +4111,12 @@
       "court": "Ленинский районный суд г. Тюмени",
       "court_domain": "leninsky--tum.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-14"
+      "last_checked_at": "2026-10-15"
     },
     {
-      "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "outcome": "parsed",
+      "reason": "",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -4114,12 +4129,12 @@
       "court": "Ленинский районный суд г. Тюмени",
       "court_domain": "leninsky--tum.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-14"
+      "last_checked_at": "2026-10-15"
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(1d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
+      "reason": "writ_weekly(2d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -4136,8 +4151,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(1d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
+      "reason": "writ_weekly(2d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -4154,8 +4169,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(1d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
+      "reason": "writ_weekly(2d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -4172,8 +4187,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(1d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
+      "reason": "writ_weekly(2d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -4190,8 +4205,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(1d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
+      "reason": "writ_weekly(2d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -4208,8 +4223,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(1d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
+      "reason": "run_deadline",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -4226,8 +4241,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(1d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
+      "reason": "writ_weekly(2d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -4244,8 +4259,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(1d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
+      "reason": "run_deadline",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -4262,8 +4277,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(1d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
+      "reason": "writ_weekly(2d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -4280,8 +4295,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(1d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
+      "reason": "writ_weekly(2d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -4298,8 +4313,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "writ_weekly(1d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -4316,8 +4331,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(1d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
+      "reason": "writ_weekly(2d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -4334,8 +4349,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(1d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
+      "reason": "writ_weekly(2d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -4424,8 +4439,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(1d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
+      "reason": "writ_weekly(2d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -4442,15 +4457,15 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(1d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
+      "reason": "writ_weekly(2d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
       "events": [],
       "changed": false,
       "left_track": false,
-      "archived": false,
+      "archived": true,
       "key": "kalininsky--tum.sudrf.ru|2-5618/2026",
       "number": "2-5618/2026",
       "court": "Калининский районный суд г. Тюмени",
@@ -4460,8 +4475,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(1d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
+      "reason": "writ_weekly(2d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -4478,8 +4493,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(5d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 5)",
+      "reason": "run_deadline",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -4496,8 +4511,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "run_deadline",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -4549,9 +4564,9 @@
       "last_checked_at": "2026-09-25"
     },
     {
-      "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "outcome": "parsed",
+      "reason": "",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -4564,12 +4579,12 @@
       "court": "Калининский районный суд г. Тюмени",
       "court_domain": "kalininsky--tum.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-14"
+      "last_checked_at": "2026-10-15"
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "run_deadline",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -4603,9 +4618,9 @@
       "last_checked_at": "2026-10-06"
     },
     {
-      "outcome": "skip",
-      "reason": "future_hearing(14.10.2026)",
-      "reason_ru": "заседание 14.10.2026 ещё впереди",
+      "outcome": "parsed",
+      "reason": "",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -4618,12 +4633,12 @@
       "court": "Калининский районный суд г. Тюмени",
       "court_domain": "kalininsky--tum.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-09-25"
+      "last_checked_at": "2026-10-15"
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(5d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 5)",
+      "reason": "writ_weekly(6d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 6)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -4640,8 +4655,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "run_deadline",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -4658,8 +4673,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "run_deadline",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -4676,8 +4691,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(5d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 5)",
+      "reason": "writ_weekly(6d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 6)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -4712,8 +4727,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(5d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 5)",
+      "reason": "writ_weekly(6d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 6)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -4730,8 +4745,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "run_deadline",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -4748,8 +4763,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(1d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
+      "reason": "writ_weekly(2d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -4766,8 +4781,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(5d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 5)",
+      "reason": "writ_weekly(6d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 6)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -4783,9 +4798,9 @@
       "last_checked_at": "2026-10-09"
     },
     {
-      "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "outcome": "parsed",
+      "reason": "",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -4798,12 +4813,12 @@
       "court": "Калининский районный суд г. Тюмени",
       "court_domain": "kalininsky--tum.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-14"
+      "last_checked_at": "2026-10-15"
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(5d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 5)",
+      "reason": "writ_weekly(6d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 6)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -4820,7 +4835,7 @@
     },
     {
       "outcome": "skip",
-      "reason": "completed_weekly(1d/7d)",
+      "reason": "completed_weekly(2d/7d)",
       "reason_ru": "процессуально завершено — контроль карточки раз в 7 дней",
       "detail": "",
       "degraded": false,
@@ -4856,8 +4871,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "run_deadline",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -4874,8 +4889,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "writ_weekly(1d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -4892,8 +4907,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(5d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 5)",
+      "reason": "writ_weekly(6d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 6)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -4910,8 +4925,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "writ_weekly(1d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -4946,8 +4961,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "writ_weekly(1d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -4964,8 +4979,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "writ_weekly(1d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -4982,8 +4997,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "writ_weekly(1d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -5000,8 +5015,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "writ_weekly(1d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -5018,8 +5033,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "writ_weekly(1d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -5036,8 +5051,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "writ_weekly(1d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -5054,8 +5069,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "writ_weekly(1d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -5072,8 +5087,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "writ_weekly(1d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -5090,7 +5105,7 @@
     },
     {
       "outcome": "skip",
-      "reason": "completed_weekly(5d/7d)",
+      "reason": "completed_weekly(6d/7d)",
       "reason_ru": "процессуально завершено — контроль карточки раз в 7 дней",
       "detail": "",
       "degraded": false,
@@ -5108,8 +5123,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "writ_weekly(1d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -5126,8 +5141,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "writ_weekly(1d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -5144,8 +5159,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "run_deadline",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -5161,9 +5176,9 @@
       "last_checked_at": "2026-10-14"
     },
     {
-      "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "outcome": "parsed",
+      "reason": "",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -5176,12 +5191,12 @@
       "court": "Ленинский районный суд г. Тюмени",
       "court_domain": "leninsky--tum.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-14"
+      "last_checked_at": "2026-10-15"
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "writ_weekly(1d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -5198,8 +5213,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "run_deadline",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -5216,8 +5231,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "writ_weekly(1d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -5252,8 +5267,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "writ_weekly(1d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -5270,8 +5285,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "writ_weekly(1d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -5288,8 +5303,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "writ_weekly(1d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -5306,8 +5321,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "writ_weekly(1d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -5342,8 +5357,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "writ_weekly(1d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -5378,8 +5393,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "run_deadline",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -5396,8 +5411,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "writ_weekly(1d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -5414,8 +5429,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "writ_weekly(1d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -5432,8 +5447,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "writ_weekly(1d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -5450,8 +5465,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "run_deadline",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -5468,8 +5483,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "writ_weekly(1d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -5486,8 +5501,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "writ_weekly(1d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -5504,8 +5519,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "writ_weekly(1d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -5521,9 +5536,9 @@
       "last_checked_at": "2026-10-14"
     },
     {
-      "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "outcome": "parsed",
+      "reason": "",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -5536,12 +5551,12 @@
       "court": "Тобольский городской суд",
       "court_domain": "tobolskygor--tum.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-14"
+      "last_checked_at": "2026-10-15"
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "writ_weekly(1d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -5558,8 +5573,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "writ_weekly(1d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -5575,9 +5590,9 @@
       "last_checked_at": "2026-10-14"
     },
     {
-      "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "outcome": "parsed",
+      "reason": "",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -5590,12 +5605,12 @@
       "court": "Тобольский городской суд",
       "court_domain": "tobolskygor--tum.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-14"
+      "last_checked_at": "2026-10-15"
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(1d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
+      "reason": "writ_weekly(2d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -5612,8 +5627,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "breaker",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -5630,8 +5645,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(1d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
+      "reason": "writ_weekly(2d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -5665,14 +5680,16 @@
       "last_checked_at": "2026-09-23"
     },
     {
-      "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "outcome": "parsed",
+      "reason": "",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
-      "events": [],
-      "changed": false,
+      "events": [
+        "fi_hearing_new"
+      ],
+      "changed": true,
       "left_track": false,
       "archived": false,
       "key": "centralny--tum.sudrf.ru|2-6992/2026",
@@ -5680,17 +5697,17 @@
       "court": "Центральный районный суд г. Тюмени",
       "court_domain": "centralny--tum.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-14"
+      "last_checked_at": "2026-10-15"
     },
     {
-      "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "outcome": "parsed",
+      "reason": "",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
       "events": [],
-      "changed": false,
+      "changed": true,
       "left_track": false,
       "archived": false,
       "key": "centralny--tum.sudrf.ru|2-7283/2026",
@@ -5698,12 +5715,12 @@
       "court": "Центральный районный суд г. Тюмени",
       "court_domain": "centralny--tum.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-14"
+      "last_checked_at": "2026-10-15"
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "writ_weekly(1d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -5720,8 +5737,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "writ_weekly(1d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -5738,8 +5755,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "breaker",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -5756,8 +5773,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "completed_weekly(1d/7d)",
+      "reason_ru": "процессуально завершено — контроль карточки раз в 7 дней",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -5774,8 +5791,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "breaker",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -5792,8 +5809,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "completed_weekly(1d/7d)",
+      "reason_ru": "процессуально завершено — контроль карточки раз в 7 дней",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -5828,8 +5845,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "run_deadline",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -5900,8 +5917,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "run_deadline",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -5917,9 +5934,9 @@
       "last_checked_at": "2026-10-14"
     },
     {
-      "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "outcome": "parsed",
+      "reason": "",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -5932,12 +5949,12 @@
       "court": "Ленинский районный суд г. Тюмени",
       "court_domain": "leninsky--tum.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-14"
+      "last_checked_at": "2026-10-15"
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "run_deadline",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -5953,14 +5970,16 @@
       "last_checked_at": "2026-10-14"
     },
     {
-      "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "outcome": "parsed",
+      "reason": "",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
-      "events": [],
-      "changed": false,
+      "events": [
+        "fi_hearing_recess"
+      ],
+      "changed": true,
       "left_track": false,
       "archived": false,
       "key": "leninsky--tum.sudrf.ru|2-9183/2026",
@@ -5968,12 +5987,12 @@
       "court": "Ленинский районный суд г. Тюмени",
       "court_domain": "leninsky--tum.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-14"
+      "last_checked_at": "2026-10-15"
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "run_deadline",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -5990,8 +6009,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "writ_weekly(1d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -6026,8 +6045,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "breaker",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -6044,8 +6063,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(1d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
+      "reason": "writ_weekly(2d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -6079,9 +6098,9 @@
       "last_checked_at": "2026-09-23"
     },
     {
-      "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "outcome": "parsed",
+      "reason": "",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -6094,17 +6113,19 @@
       "court": "Центральный районный суд г. Тюмени",
       "court_domain": "centralny--tum.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-14"
+      "last_checked_at": "2026-10-15"
     },
     {
-      "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "outcome": "parsed",
+      "reason": "",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
-      "events": [],
-      "changed": false,
+      "events": [
+        "fi_hearing_new"
+      ],
+      "changed": true,
       "left_track": false,
       "archived": false,
       "key": "centralny--tum.sudrf.ru|2-7551/2026",
@@ -6112,7 +6133,7 @@
       "court": "Центральный районный суд г. Тюмени",
       "court_domain": "centralny--tum.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-14"
+      "last_checked_at": "2026-10-15"
     },
     {
       "outcome": "skip",
@@ -6169,9 +6190,9 @@
       "last_checked_at": "2026-09-28"
     },
     {
-      "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "outcome": "parsed",
+      "reason": "",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -6184,12 +6205,12 @@
       "court": "Центральный районный суд г. Тюмени",
       "court_domain": "centralny--tum.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-14"
+      "last_checked_at": "2026-10-15"
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(1d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
+      "reason": "writ_weekly(2d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -6206,8 +6227,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "writ_weekly(1d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -6224,8 +6245,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "writ_weekly(1d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -6260,8 +6281,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "breaker",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -6296,8 +6317,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "breaker",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -6386,8 +6407,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "breaker",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -6422,8 +6443,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(1d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
+      "reason": "writ_weekly(2d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -6511,22 +6532,24 @@
       "last_checked_at": "2026-09-23"
     },
     {
-      "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "outcome": "parsed",
+      "reason": "",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
-      "events": [],
-      "changed": false,
+      "events": [
+        "fi_returned"
+      ],
+      "changed": true,
       "left_track": false,
       "archived": false,
       "key": "centralny--tum.sudrf.ru|2-8117/2026",
       "number": "2-8117/2026",
       "court": "Центральный районный суд г. Тюмени",
       "court_domain": "centralny--tum.sudrf.ru",
-      "case_status": "В производстве",
-      "last_checked_at": "2026-10-14"
+      "case_status": "Решено",
+      "last_checked_at": "2026-10-15"
     },
     {
       "outcome": "skip",
@@ -6548,8 +6571,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(1d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
+      "reason": "writ_weekly(2d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -6584,7 +6607,7 @@
     },
     {
       "outcome": "skip",
-      "reason": "completed_weekly(1d/7d)",
+      "reason": "completed_weekly(2d/7d)",
       "reason_ru": "процессуально завершено — контроль карточки раз в 7 дней",
       "detail": "",
       "degraded": false,
@@ -6602,8 +6625,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "breaker",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -6656,8 +6679,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "writ_weekly(1d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -6872,8 +6895,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "run_deadline",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -6907,9 +6930,9 @@
       "last_checked_at": "2026-09-23"
     },
     {
-      "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "outcome": "parsed",
+      "reason": "",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -6922,7 +6945,7 @@
       "court": "Центральный районный суд г. Тюмени",
       "court_domain": "centralny--tum.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-14"
+      "last_checked_at": "2026-10-15"
     },
     {
       "outcome": "skip",
@@ -6943,9 +6966,9 @@
       "last_checked_at": "2026-10-13"
     },
     {
-      "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "outcome": "parsed",
+      "reason": "",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -6958,7 +6981,7 @@
       "court": "Центральный районный суд г. Тюмени",
       "court_domain": "centralny--tum.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-14"
+      "last_checked_at": "2026-10-15"
     },
     {
       "outcome": "skip",
@@ -7051,14 +7074,16 @@
       "last_checked_at": "2026-10-08"
     },
     {
-      "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "outcome": "parsed",
+      "reason": "",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
-      "events": [],
-      "changed": false,
+      "events": [
+        "fi_hearing_new"
+      ],
+      "changed": true,
       "left_track": false,
       "archived": false,
       "key": "centralny--tum.sudrf.ru|2-8679/2026",
@@ -7066,12 +7091,12 @@
       "court": "Центральный районный суд г. Тюмени",
       "court_domain": "centralny--tum.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-14"
+      "last_checked_at": "2026-10-15"
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "breaker",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -7087,9 +7112,9 @@
       "last_checked_at": "2026-10-14"
     },
     {
-      "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "outcome": "parsed",
+      "reason": "",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -7102,7 +7127,7 @@
       "court": "Центральный районный суд г. Тюмени",
       "court_domain": "centralny--tum.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-14"
+      "last_checked_at": "2026-10-15"
     },
     {
       "outcome": "skip",
@@ -7142,8 +7167,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "writ_weekly(1d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -7159,9 +7184,9 @@
       "last_checked_at": "2026-10-14"
     },
     {
-      "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "outcome": "parsed",
+      "reason": "",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -7174,7 +7199,7 @@
       "court": "Тобольский городской суд",
       "court_domain": "tobolskygor--tum.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-14"
+      "last_checked_at": "2026-10-15"
     },
     {
       "outcome": "skip",
@@ -7249,9 +7274,9 @@
       "last_checked_at": "2026-10-07"
     },
     {
-      "outcome": "skip",
-      "reason": "future_hearing(14.10.2026)",
-      "reason_ru": "заседание 14.10.2026 ещё впереди",
+      "outcome": "fetch_blocked",
+      "reason": "",
+      "reason_ru": "портал суда отдал заглушку/блокировку вместо карточки",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -7267,9 +7292,9 @@
       "last_checked_at": "2026-09-23"
     },
     {
-      "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "outcome": "fetch_blocked",
+      "reason": "",
+      "reason_ru": "портал суда отдал заглушку/блокировку вместо карточки",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -7339,9 +7364,9 @@
       "last_checked_at": "2026-09-30"
     },
     {
-      "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "outcome": "court_breaker",
+      "reason": "",
+      "reason_ru": "суд снят с обхода предохранителем — карточки не читаются (заглушка/код/сеть), дело перечитается следующим прогоном",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -7357,9 +7382,9 @@
       "last_checked_at": "2026-10-14"
     },
     {
-      "outcome": "skip",
-      "reason": "future_hearing(14.10.2026)",
-      "reason_ru": "заседание 14.10.2026 ещё впереди",
+      "outcome": "court_breaker",
+      "reason": "",
+      "reason_ru": "суд снят с обхода предохранителем — карточки не читаются (заглушка/код/сеть), дело перечитается следующим прогоном",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -7411,9 +7436,9 @@
       "last_checked_at": "2026-10-05"
     },
     {
-      "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "outcome": "court_breaker",
+      "reason": "",
+      "reason_ru": "суд снят с обхода предохранителем — карточки не читаются (заглушка/код/сеть), дело перечитается следующим прогоном",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -7447,9 +7472,9 @@
       "last_checked_at": "2026-09-23"
     },
     {
-      "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "outcome": "parsed",
+      "reason": "",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -7462,12 +7487,12 @@
       "court": "Тобольский городской суд",
       "court_domain": "tobolskygor--tum.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-14"
+      "last_checked_at": "2026-10-15"
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "writ_weekly(1d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -7484,8 +7509,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "writ_weekly(1d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -7502,8 +7527,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "writ_weekly(1d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -7520,8 +7545,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "writ_weekly(1d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -7538,8 +7563,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "writ_weekly(1d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -7556,8 +7581,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "writ_weekly(1d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -7574,8 +7599,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "writ_weekly(1d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -7592,8 +7617,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "writ_weekly(1d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -7610,8 +7635,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "writ_weekly(1d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -7628,8 +7653,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "writ_weekly(1d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -7646,8 +7671,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "writ_weekly(1d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -7664,8 +7689,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "writ_weekly(1d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -7682,8 +7707,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "writ_weekly(1d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -7700,8 +7725,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "writ_weekly(1d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -7718,8 +7743,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "writ_weekly(1d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -7736,8 +7761,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "writ_weekly(1d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -7754,8 +7779,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "writ_weekly(1d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -7772,8 +7797,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "writ_weekly(1d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -7790,8 +7815,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "writ_weekly(1d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -7808,8 +7833,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "run_deadline",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -7826,8 +7851,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "writ_weekly(1d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -7844,8 +7869,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "writ_weekly(1d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -7862,8 +7887,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "run_deadline",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -7880,8 +7905,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "writ_weekly(1d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -7898,8 +7923,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "writ_weekly(1d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -7916,8 +7941,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "writ_weekly(1d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -7970,8 +7995,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "writ_weekly(1d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -7988,8 +8013,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "writ_weekly(1d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -8006,8 +8031,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "completed_weekly(1d/7d)",
+      "reason_ru": "процессуально завершено — контроль карточки раз в 7 дней",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -8024,8 +8049,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "writ_weekly(1d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -8042,8 +8067,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "writ_weekly(1d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -8060,8 +8085,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "run_deadline",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -8077,9 +8102,9 @@
       "last_checked_at": "2026-10-14"
     },
     {
-      "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "outcome": "parsed",
+      "reason": "",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -8092,12 +8117,12 @@
       "court": "Тобольский городской суд",
       "court_domain": "tobolskygor--tum.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-14"
+      "last_checked_at": "2026-10-15"
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "writ_weekly(1d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -8114,8 +8139,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "writ_weekly(1d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -8132,8 +8157,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "writ_weekly(1d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -8150,15 +8175,15 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "writ_weekly(1d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
       "events": [],
       "changed": false,
       "left_track": false,
-      "archived": false,
+      "archived": true,
       "key": "tobolskygor--tum.sudrf.ru|2-1860/2026",
       "number": "2-1860/2026",
       "court": "Тобольский городской суд",
@@ -8168,8 +8193,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "writ_weekly(1d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -8185,27 +8210,30 @@
       "last_checked_at": "2026-10-14"
     },
     {
-      "outcome": "skip",
-      "reason": "future_hearing(14.10.2026)",
-      "reason_ru": "заседание 14.10.2026 ещё впереди",
+      "outcome": "parsed",
+      "reason": "",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
-      "events": [],
-      "changed": false,
+      "events": [
+        "fi_resolved",
+        "fi_status_change"
+      ],
+      "changed": true,
       "left_track": false,
       "archived": false,
       "key": "tobolskygor--tum.sudrf.ru|2-1818/2026",
       "number": "2-1818/2026",
       "court": "Тобольский городской суд",
       "court_domain": "tobolskygor--tum.sudrf.ru",
-      "case_status": "В производстве",
-      "last_checked_at": "2026-09-23"
+      "case_status": "Решено",
+      "last_checked_at": "2026-10-15"
     },
     {
-      "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "outcome": "parsed",
+      "reason": "",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -8218,7 +8246,7 @@
       "court": "Тюменский районный суд",
       "court_domain": "tumensky--tum.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-14"
+      "last_checked_at": "2026-10-15"
     },
     {
       "outcome": "skip",
@@ -8257,9 +8285,9 @@
       "last_checked_at": "2026-10-08"
     },
     {
-      "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "outcome": "parsed",
+      "reason": "",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -8272,12 +8300,12 @@
       "court": "Тюменский районный суд",
       "court_domain": "tumensky--tum.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-14"
+      "last_checked_at": "2026-10-15"
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "run_deadline",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -8294,8 +8322,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "run_deadline",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -8312,8 +8340,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "run_deadline",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -8330,8 +8358,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "run_deadline",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -8348,7 +8376,7 @@
     },
     {
       "outcome": "skip",
-      "reason": "completed_weekly(5d/7d)",
+      "reason": "completed_weekly(6d/7d)",
       "reason_ru": "процессуально завершено — контроль карточки раз в 7 дней",
       "detail": "",
       "degraded": false,
@@ -8366,8 +8394,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(5d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 5)",
+      "reason": "writ_weekly(6d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 6)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -8384,8 +8412,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(1d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
+      "reason": "writ_weekly(2d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -8402,8 +8430,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(5d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 5)",
+      "reason": "writ_weekly(6d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 6)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -8419,14 +8447,16 @@
       "last_checked_at": "2026-10-09"
     },
     {
-      "outcome": "skip",
-      "reason": "future_hearing(14.10.2026)",
-      "reason_ru": "заседание 14.10.2026 ещё впереди",
+      "outcome": "parsed",
+      "reason": "",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
-      "events": [],
-      "changed": false,
+      "events": [
+        "fi_hearing_new"
+      ],
+      "changed": true,
       "left_track": false,
       "archived": false,
       "key": "tumensky--tum.sudrf.ru|2-3721/2026",
@@ -8434,7 +8464,7 @@
       "court": "Тюменский районный суд",
       "court_domain": "tumensky--tum.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-09-23"
+      "last_checked_at": "2026-10-15"
     },
     {
       "outcome": "skip",
@@ -8492,8 +8522,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(1d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
+      "reason": "writ_weekly(2d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -8510,8 +8540,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(1d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
+      "reason": "writ_weekly(2d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -8528,8 +8558,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(1d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
+      "reason": "writ_weekly(2d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -8546,8 +8576,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(1d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
+      "reason": "writ_weekly(2d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -8582,8 +8612,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "future_hearing(19.11.2026)",
+      "reason_ru": "заседание 19.11.2026 ещё впереди",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -8636,8 +8666,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(1d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
+      "reason": "writ_weekly(2d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -8654,8 +8684,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(1d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
+      "reason": "writ_weekly(2d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -8672,8 +8702,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(1d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
+      "reason": "writ_weekly(2d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -8690,8 +8720,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(1d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
+      "reason": "writ_weekly(2d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -8708,8 +8738,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(1d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
+      "reason": "writ_weekly(2d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -8726,8 +8756,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(1d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
+      "reason": "writ_weekly(2d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -8743,9 +8773,9 @@
       "last_checked_at": "2026-10-13"
     },
     {
-      "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "outcome": "parsed",
+      "reason": "",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -8758,12 +8788,12 @@
       "court": "Ялуторовский районный суд",
       "court_domain": "yalutorovsky--tum.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-14"
+      "last_checked_at": "2026-10-15"
     },
     {
-      "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "outcome": "parsed",
+      "reason": "",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -8776,12 +8806,12 @@
       "court": "Ялуторовский районный суд",
       "court_domain": "yalutorovsky--tum.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-14"
+      "last_checked_at": "2026-10-15"
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "future_hearing(19.10.2026)",
+      "reason_ru": "заседание 19.10.2026 ещё впереди",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -8816,8 +8846,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(1d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
+      "reason": "writ_weekly(2d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -8905,9 +8935,9 @@
       "last_checked_at": "2026-09-22"
     },
     {
-      "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "outcome": "parsed",
+      "reason": "",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -8920,12 +8950,12 @@
       "court": "Калининский районный суд г. Тюмени",
       "court_domain": "kalininsky--tum.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-14"
+      "last_checked_at": "2026-10-15"
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "run_deadline",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -8941,9 +8971,9 @@
       "last_checked_at": "2026-10-14"
     },
     {
-      "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "outcome": "parsed",
+      "reason": "",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -8956,7 +8986,7 @@
       "court": "Тобольский районный суд",
       "court_domain": "tobolsky--tum.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-14"
+      "last_checked_at": "2026-10-15"
     },
     {
       "outcome": "skip",
@@ -8978,8 +9008,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "run_deadline",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -8995,9 +9025,9 @@
       "last_checked_at": "2026-10-14"
     },
     {
-      "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "outcome": "parsed",
+      "reason": "",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -9010,12 +9040,12 @@
       "court": "Ишимский районный суд",
       "court_domain": "ishimsky--tum.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-14"
+      "last_checked_at": "2026-10-15"
     },
     {
-      "outcome": "skip",
-      "reason": "future_hearing(14.10.2026)",
-      "reason_ru": "заседание 14.10.2026 ещё впереди",
+      "outcome": "parsed",
+      "reason": "",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -9028,7 +9058,7 @@
       "court": "Ишимский районный суд",
       "court_domain": "ishimsky--tum.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-09-22"
+      "last_checked_at": "2026-10-15"
     },
     {
       "outcome": "skip",
@@ -9103,9 +9133,9 @@
       "last_checked_at": "2026-09-24"
     },
     {
-      "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "outcome": "parsed",
+      "reason": "",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -9118,7 +9148,7 @@
       "court": "Ишимский районный суд",
       "court_domain": "ishimsky--tum.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-14"
+      "last_checked_at": "2026-10-15"
     },
     {
       "outcome": "skip",
@@ -9139,9 +9169,9 @@
       "last_checked_at": "2026-09-24"
     },
     {
-      "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "outcome": "parsed",
+      "reason": "",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -9154,12 +9184,12 @@
       "court": "Ишимский районный суд",
       "court_domain": "ishimsky--tum.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-14"
+      "last_checked_at": "2026-10-15"
     },
     {
-      "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "outcome": "parsed",
+      "reason": "",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -9172,7 +9202,7 @@
       "court": "Ишимский районный суд",
       "court_domain": "ishimsky--tum.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-14"
+      "last_checked_at": "2026-10-15"
     },
     {
       "outcome": "skip",
@@ -9211,9 +9241,9 @@
       "last_checked_at": "2026-09-24"
     },
     {
-      "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "outcome": "fetch_http",
+      "reason": "",
+      "reason_ru": "HTTP-ошибка при загрузке карточки",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -9266,8 +9296,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "run_deadline",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -9284,8 +9314,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "breaker",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -9320,8 +9350,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(1d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
+      "reason": "read_timeout",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -9338,8 +9368,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(1d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
+      "reason": "writ_weekly(2d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -9374,8 +9404,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(1d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
+      "reason": "writ_weekly(2d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -9392,8 +9422,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "run_deadline",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -9410,8 +9440,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "run_deadline",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -9428,8 +9458,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(5d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 5)",
+      "reason": "writ_weekly(6d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 6)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -9446,8 +9476,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(1d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
+      "reason": "writ_weekly(2d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -9464,8 +9494,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "run_deadline",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -9482,8 +9512,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(1d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
+      "reason": "writ_weekly(2d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -9500,8 +9530,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(1d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
+      "reason": "writ_weekly(2d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -9517,9 +9547,9 @@
       "last_checked_at": "2026-10-13"
     },
     {
-      "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "outcome": "fetch_http",
+      "reason": "",
+      "reason_ru": "HTTP-ошибка при загрузке карточки",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -9536,8 +9566,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(1d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
+      "reason": "writ_weekly(2d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -9554,8 +9584,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(1d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
+      "reason": "writ_weekly(2d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -9572,8 +9602,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(1d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
+      "reason": "writ_weekly(2d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -9590,8 +9620,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(1d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
+      "reason": "writ_weekly(2d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -9608,8 +9638,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(1d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
+      "reason": "writ_weekly(2d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -9626,8 +9656,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(1d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
+      "reason": "writ_weekly(2d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -9644,8 +9674,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "writ_weekly(1d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -9679,9 +9709,9 @@
       "last_checked_at": "2026-10-09"
     },
     {
-      "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "outcome": "fetch_http",
+      "reason": "",
+      "reason_ru": "HTTP-ошибка при загрузке карточки",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -9698,8 +9728,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(1d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
+      "reason": "writ_weekly(2d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -9716,8 +9746,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(1d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
+      "reason": "writ_weekly(2d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -9751,9 +9781,9 @@
       "last_checked_at": "2026-10-13"
     },
     {
-      "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "outcome": "fetch_http",
+      "reason": "",
+      "reason_ru": "HTTP-ошибка при загрузке карточки",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -9770,8 +9800,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "run_deadline",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -9788,8 +9818,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(1d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
+      "reason": "writ_weekly(2d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -9806,8 +9836,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "writ_weekly(1d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -9824,8 +9854,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(1d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
+      "reason": "writ_weekly(2d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -9859,9 +9889,9 @@
       "last_checked_at": "2026-10-09"
     },
     {
-      "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "outcome": "fetch_http",
+      "reason": "",
+      "reason_ru": "HTTP-ошибка при загрузке карточки",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -9895,9 +9925,9 @@
       "last_checked_at": "2026-09-29"
     },
     {
-      "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "outcome": "unknown",
+      "reason": "",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -9913,9 +9943,9 @@
       "last_checked_at": "2026-10-14"
     },
     {
-      "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "outcome": "unknown",
+      "reason": "",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -9932,8 +9962,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(1d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
+      "reason": "writ_weekly(2d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -9968,8 +9998,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(1d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
+      "reason": "run_deadline",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -9986,8 +10016,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(1d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
+      "reason": "writ_weekly(2d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -10004,8 +10034,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "run_deadline",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -10022,8 +10052,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "run_deadline",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -10040,8 +10070,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "run_deadline",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -10075,9 +10105,9 @@
       "last_checked_at": "2026-09-28"
     },
     {
-      "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "outcome": "unknown",
+      "reason": "",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -10112,8 +10142,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "run_deadline",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -10130,8 +10160,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(1d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
+      "reason": "run_deadline",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -10148,8 +10178,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "writ_weekly(1d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -10166,8 +10196,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(1d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
+      "reason": "writ_weekly(2d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -10184,8 +10214,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(1d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
+      "reason": "writ_weekly(2d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -10202,8 +10232,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(1d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
+      "reason": "writ_weekly(2d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -10220,8 +10250,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(1d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
+      "reason": "writ_weekly(2d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -10238,8 +10268,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "run_deadline",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -10256,8 +10286,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(1d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
+      "reason": "writ_weekly(2d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -10328,8 +10358,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(1d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
+      "reason": "writ_weekly(2d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -10364,8 +10394,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "run_deadline",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -10400,8 +10430,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "writ_weekly(1d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -10436,8 +10466,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(1d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
+      "reason": "writ_weekly(2d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -10453,9 +10483,9 @@
       "last_checked_at": "2026-10-13"
     },
     {
-      "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "outcome": "unknown",
+      "reason": "",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -10472,8 +10502,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(1d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
+      "reason": "writ_weekly(2d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -10490,8 +10520,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "reason": "read_timeout",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -10507,9 +10537,9 @@
       "last_checked_at": "2026-10-14"
     },
     {
-      "outcome": "skip",
-      "reason": "future_hearing(14.10.2026)",
-      "reason_ru": "заседание 14.10.2026 ещё впереди",
+      "outcome": "unknown",
+      "reason": "",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -10526,8 +10556,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "writ_weekly(1d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
+      "reason": "writ_weekly(2d/7d)",
+      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -10543,9 +10573,9 @@
       "last_checked_at": "2026-10-13"
     },
     {
-      "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "outcome": "unknown",
+      "reason": "",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -10561,9 +10591,9 @@
       "last_checked_at": "2026-10-14"
     },
     {
-      "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "outcome": "unknown",
+      "reason": "",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -10580,7 +10610,7 @@
     },
     {
       "outcome": "skip",
-      "reason": "backfill_daily_card_limit",
+      "reason": "run_deadline",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
@@ -10595,7 +10625,25 @@
       "court_domain": "zavodoukovsky--tum.sudrf.ru",
       "case_status": "Решено",
       "last_checked_at": "2026-10-05"
+    },
+    {
+      "outcome": "skip",
+      "reason": "read_timeout",
+      "reason_ru": "",
+      "detail": "",
+      "degraded": false,
+      "force_parsed": false,
+      "events": [],
+      "changed": false,
+      "left_track": false,
+      "archived": false,
+      "key": "ishimskygor--tum.sudrf.ru|2-236/2026 (2-1606/2025;)",
+      "number": "2-236/2026 (2-1606/2025;)",
+      "court": "Ишимский городской суд",
+      "court_domain": "ishimskygor--tum.sudrf.ru",
+      "case_status": "Решено",
+      "last_checked_at": "2026-10-13"
     }
   ],
-  "updated_at": "2026-10-14T16:10:18+05:00"
+  "updated_at": "2026-10-15T07:06:01+05:00"
 }
