@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated_at": "2026-10-15T12:11:59+05:00",
+ "updated_at": "2026-10-15T16:10:24+05:00",
  "sources": {
   "cassation:7kas:total": {
    "counts": [
@@ -100,20 +100,20 @@
   }
  },
  "last_run": {
-  "at": "2026-10-15T12:11:59",
+  "at": "2026-10-15T16:10:24",
   "alerts": [],
-  "requests_ok": 3,
-  "requests_failed": 1,
+  "requests_ok": 0,
+  "requests_failed": 0,
   "requests_retried": 0,
   "cards_breaker_skipped": 0,
   "cards_breaker_unrequested": 0,
   "cards_breaker_recovered": 0,
   "cards_blocked": 0,
-  "cards_read": 3,
-  "cards_planned": 14,
+  "cards_read": 0,
+  "cards_planned": 11,
   "cards_read_today": 290,
   "cards_planned_today": 302,
-  "daily_attempts": 4,
+  "daily_attempts": 5,
   "instances": {
    "first_instance": {
     "read": 0,
@@ -122,8 +122,8 @@
     "planned_today": 236
    },
    "appeal": {
-    "read": 3,
-    "planned": 3,
+    "read": 0,
+    "planned": 0,
     "read_today": 50,
     "planned_today": 50
    },
@@ -134,23 +134,9 @@
     "planned_today": 16
    }
   },
-  "latency": {
-   "n": 3,
-   "p50": 23.3,
-   "p90": 33.4,
-   "max": 33.4
-  },
-  "failure_latency": {
-   "connect_timeout": {
-    "n": 1,
-    "p50": 15.2,
-    "p90": 15.2,
-    "max": 15.2
-   }
-  },
-  "fail_kinds": {
-   "connect_timeout": 1
-  },
+  "latency": {},
+  "failure_latency": {},
+  "fail_kinds": {},
   "breaker": {
    "mode": "time",
    "opened_hosts": 0,
@@ -236,9 +222,9 @@
   "date": "2026-10-15",
   "region": "tyumen",
   "waiting": 51,
-  "due": 3,
-  "planned": 3,
-  "read": 3,
+  "due": 0,
+  "planned": 0,
+  "read": 0,
   "unread": 0,
   "published": 0,
   "backfilled": 0,
@@ -328,8 +314,8 @@
    {
     "key": "oblsud--tum.sudrf.ru|5|1|33-5395/2026",
     "number": "33-5395/2026",
-    "next_check_at": "2026-10-15",
-    "reason": "checked"
+    "next_check_at": "2026-10-22",
+    "reason": "scheduled"
    },
    {
     "key": "oblsud--tum.sudrf.ru|5|1|33-5399/2026",
@@ -418,8 +404,8 @@
    {
     "key": "oblsud--tum.sudrf.ru|5|1|33-6150/2026",
     "number": "33-6150/2026",
-    "next_check_at": "2026-10-15",
-    "reason": "checked"
+    "next_check_at": "2026-10-22",
+    "reason": "scheduled"
    },
    {
     "key": "oblsud--tum.sudrf.ru|5|1|33-6182/2026",
@@ -514,8 +500,8 @@
    {
     "key": "oblsud--tum.sudrf.ru|5|1|33-5141/2026",
     "number": "33-5141/2026",
-    "next_check_at": "2026-10-15",
-    "reason": "checked"
+    "next_check_at": "2026-10-22",
+    "reason": "scheduled"
    },
    {
     "key": "oblsud--tum.sudrf.ru|5|1|33-7106/2026",
@@ -1474,7 +1460,7 @@
     "key": "zavodoukovsky--tum.sudrf.ru|1540005|1|2-515/2026|2026-08-11",
     "number": "2-515/2026",
     "next_check_at": "2026-10-08",
-    "reason": "connect_timeout"
+    "reason": "daily_retry_limit"
    },
    {
     "key": "zavodoukovsky--tum.sudrf.ru|1540005|1|2-1017/2026|2026-08-13",
@@ -4309,8 +4295,8 @@
  "card_refresh": {
   "date": "2026-10-15",
   "region": "tyumen",
-  "planned": 14,
-  "read": 3,
+  "planned": 11,
+  "read": 0,
   "items": [
    {
     "key": "first_instance|https://centralny--tum.sudrf.ru/modules.php?case_id=245877043&case_uid=7beb24eb-c317-45f6-b52b-05449b48dab9&delo_id=1540005&name=sud_delo&name_op=case&new=0&srv_num=1",
@@ -4393,36 +4379,12 @@
     "reason": "daily_retry_limit"
    },
    {
-    "key": "appeal|https://oblsud--tum.sudrf.ru/modules.php?case_id=11545099&case_uid=e68a633d-e0d6-43f9-a838-fbfc41715b64&delo_id=5&name=sud_delo&name_op=case&new=5&srv_num=1",
-    "stage": "appeal",
-    "reasons": [
-     "text_waiting"
-    ],
-    "reason": "checked"
-   },
-   {
-    "key": "appeal|https://oblsud--tum.sudrf.ru/modules.php?case_id=11609820&case_uid=1917abf1-c44c-4ae9-b93a-8c0e69bf47a0&delo_id=5&name=sud_delo&name_op=case&new=5&srv_num=1",
-    "stage": "appeal",
-    "reasons": [
-     "text_waiting"
-    ],
-    "reason": "checked"
-   },
-   {
-    "key": "appeal|https://oblsud--tum.sudrf.ru/modules.php?case_id=11759191&case_uid=6a671289-4274-4ef5-a8bc-8e88e06f2c68&delo_id=5&name=sud_delo&name_op=case&new=5&srv_num=1",
-    "stage": "appeal",
-    "reasons": [
-     "text_waiting"
-    ],
-    "reason": "checked"
-   },
-   {
     "key": "first_instance|https://zavodoukovsky--tum.sudrf.ru/modules.php?case_id=242056368&case_uid=262a246c-5c30-4ff0-a547-818b642b1f54&delo_id=1540005&name=sud_delo&name_op=case&new=0&srv_num=1",
     "stage": "first_instance",
     "reasons": [
      "text_missing"
     ],
-    "reason": "connect_timeout"
+    "reason": "daily_retry_limit"
    }
   ],
   "instances": {
@@ -4431,8 +4393,8 @@
     "read": 0
    },
    "appeal": {
-    "planned": 3,
-    "read": 3
+    "planned": 0,
+    "read": 0
    },
    "first_instance": {
     "planned": 11,
@@ -4816,7 +4778,7 @@
    },
    "first_instance|https://zavodoukovsky--tum.sudrf.ru/modules.php?case_id=242056368&case_uid=262a246c-5c30-4ff0-a547-818b642b1f54&delo_id=1540005&name=sud_delo&name_op=case&new=0&srv_num=1": {
     "stage": "first_instance",
-    "reason": "connect_timeout"
+    "reason": "daily_retry_limit"
    }
   }
  }
