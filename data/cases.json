@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-15T08:47:21+05:00",
+  "updated_at": "2026-10-15T03:47:53+00:00",
   "cases": [
     {
       "id": "33-7415/2026",
@@ -21498,7 +21498,29 @@
         "act_decision_date": "22.09.2026",
         "act_notification_kind": "new_publication",
         "act_source_url": "https://7kas.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=15861371&case_uid=f845b7f4-47db-414e-8054-a2c11a0ed50e&delo_id=2800001&new=2800001",
-        "act_received_at": "2026-10-14T03:14:57+00:00"
+        "act_received_at": "2026-10-14T03:14:57+00:00",
+        "act_analysis": {
+          "html": "<p><b>Почему:</b> Кассационный суд отменил апелляционное определение, так как нижестоящая инстанция не оценила доводы ответчика о встречных переводах 700 000 рублей и не выяснила обстоятельства получения истцом этих средств, что могло изменить вывод о неосновательном обогащении. Дело направлено на новое рассмотрение для установления всех юридически значимых обстоятельств и надлежащего исследования доказательств.</p>",
+          "source": "llm_summary",
+          "act_date": "22.09.2026",
+          "generated_at": "2026-10-15T03:47:50+00:00",
+          "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+          "source_hash": "cbc88d28151d34069d2428b9e81e7f0869016b2188fd3a9b4da6dc9bd354942e",
+          "preparation": {
+            "version": "full-act-v1",
+            "source_hash": "cbc88d28151d34069d2428b9e81e7f0869016b2188fd3a9b4da6dc9bd354942e",
+            "raw_chars": 18988,
+            "prepared_chars": 18988,
+            "source_url": "https://7kas.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=15861371&case_uid=f845b7f4-47db-414e-8054-a2c11a0ed50e&delo_id=2800001&new=2800001",
+            "court_domain": "7kas.sudrf.ru",
+            "received_at": "2026-10-14T03:14:57+00:00",
+            "case_number": "8Г-13376/2026",
+            "stage": "cassation",
+            "judicial_uid": "77RS0004-02-2024-015231-71",
+            "identity_check": "matched_uid",
+            "status": "ready"
+          }
+        }
       },
       "import": {
         "operator": "Селиванов А.С.",
@@ -21806,7 +21828,29 @@
         "act_decision_date": "15.09.2026",
         "act_notification_kind": "new_publication",
         "act_source_url": "https://7kas.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=15851727&case_uid=2e8709e1-d235-4e83-8c9c-93fd1ecd3b73&delo_id=2800001&new=2800001",
-        "act_received_at": "2026-10-14T03:14:04+00:00"
+        "act_received_at": "2026-10-14T03:14:04+00:00",
+        "act_analysis": {
+          "html": "<p><b>Почему:</b> Кассационный суд подтвердил отказ в удовлетворении иска, так как экспертиза установила отсутствие у истца психических расстройств в период заключения договоров, а её волеизъявление направлено именно на оформление кредитов. Заблуждение по мотивам сделки, вызванное действиями третьих лиц (мошенников), без доказанной недобросовестности банков не является основанием для признания сделок недействительными по ст. 179 ГК РФ.</p>",
+          "source": "llm_summary",
+          "act_date": "15.09.2026",
+          "generated_at": "2026-10-15T03:47:48+00:00",
+          "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+          "source_hash": "8aa8b66827c2824cd7208e7324de9f23c8b9c02f81bbe366abfec7cc89777c59",
+          "preparation": {
+            "version": "full-act-v1",
+            "source_hash": "8aa8b66827c2824cd7208e7324de9f23c8b9c02f81bbe366abfec7cc89777c59",
+            "raw_chars": 19467,
+            "prepared_chars": 19467,
+            "source_url": "https://7kas.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=15851727&case_uid=2e8709e1-d235-4e83-8c9c-93fd1ecd3b73&delo_id=2800001&new=2800001",
+            "court_domain": "7kas.sudrf.ru",
+            "received_at": "2026-10-14T03:14:04+00:00",
+            "case_number": "8Г-12554/2026",
+            "stage": "cassation",
+            "judicial_uid": "72RS0010-01-2024-002752-20",
+            "identity_check": "matched_uid",
+            "status": "ready"
+          }
+        }
       },
       "import": {
         "operator": "Селиванов А.С.",
