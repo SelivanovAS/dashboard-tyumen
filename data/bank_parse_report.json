@@ -3,15 +3,69 @@
   "run_date": "2026-10-16",
   "smart_skip": true,
   "totals": {
-    "total": 585,
-    "parsed": 5,
-    "skip": 580,
+    "total": 587,
+    "parsed": 0,
+    "skip": 587,
     "failed": 0,
     "no_card": 0,
     "not_in_queue": 0,
     "intake_new": 0
   },
   "cases": [
+    {
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "detail": "",
+      "degraded": false,
+      "force_parsed": false,
+      "events": [],
+      "changed": false,
+      "left_track": false,
+      "archived": false,
+      "key": "ishimskygor--tum.sudrf.ru|2-1326/2026",
+      "number": "2-1326/2026",
+      "court": "Ишимский городской суд",
+      "court_domain": "ishimskygor--tum.sudrf.ru",
+      "case_status": "В производстве",
+      "last_checked_at": "2026-10-16"
+    },
+    {
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "detail": "",
+      "degraded": false,
+      "force_parsed": false,
+      "events": [],
+      "changed": false,
+      "left_track": false,
+      "archived": false,
+      "key": "zavodoukovsky--tum.sudrf.ru|М-1048/2026",
+      "number": "М-1048/2026",
+      "court": "Заводоуковский районный суд",
+      "court_domain": "zavodoukovsky--tum.sudrf.ru",
+      "case_status": "В производстве",
+      "last_checked_at": "2026-10-16"
+    },
+    {
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "detail": "",
+      "degraded": false,
+      "force_parsed": false,
+      "events": [],
+      "changed": false,
+      "left_track": false,
+      "archived": false,
+      "key": "zavodoukovsky--tum.sudrf.ru|2-1288/2026",
+      "number": "2-1288/2026",
+      "court": "Заводоуковский районный суд",
+      "court_domain": "zavodoukovsky--tum.sudrf.ru",
+      "case_status": "В производстве",
+      "last_checked_at": "2026-10-16"
+    },
     {
       "outcome": "skip",
       "reason": "checked_today",
@@ -8474,7 +8528,7 @@
     },
     {
       "outcome": "skip",
-      "reason": "connect_timeout",
+      "reason": "daily_retry_limit",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
@@ -9409,9 +9463,9 @@
       "last_checked_at": "2026-10-13"
     },
     {
-      "outcome": "parsed",
-      "reason": "",
-      "reason_ru": "",
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -9949,9 +10003,9 @@
       "last_checked_at": "2026-10-13"
     },
     {
-      "outcome": "parsed",
-      "reason": "",
-      "reason_ru": "",
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -9967,9 +10021,9 @@
       "last_checked_at": "2026-10-16"
     },
     {
-      "outcome": "parsed",
-      "reason": "",
-      "reason_ru": "",
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -9986,7 +10040,7 @@
     },
     {
       "outcome": "skip",
-      "reason": "connect_timeout",
+      "reason": "daily_retry_limit",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
@@ -10057,9 +10111,9 @@
       "last_checked_at": "2026-10-01"
     },
     {
-      "outcome": "parsed",
-      "reason": "",
-      "reason_ru": "",
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -10523,25 +10577,7 @@
       "court_domain": "isetsky--tum.sudrf.ru",
       "case_status": "В производстве",
       "last_checked_at": "2026-10-16"
-    },
-    {
-      "outcome": "parsed",
-      "reason": "",
-      "reason_ru": "",
-      "detail": "",
-      "degraded": false,
-      "force_parsed": false,
-      "events": [],
-      "changed": false,
-      "left_track": false,
-      "archived": false,
-      "key": "zavodoukovsky--tum.sudrf.ru|2-515/2026",
-      "number": "2-515/2026",
-      "court": "Заводоуковский районный суд",
-      "court_domain": "zavodoukovsky--tum.sudrf.ru",
-      "case_status": "Решено",
-      "last_checked_at": "2026-10-16"
     }
   ],
-  "updated_at": "2026-10-16T12:12:13+05:00"
+  "updated_at": "2026-10-16T16:10:24+05:00"
 }
