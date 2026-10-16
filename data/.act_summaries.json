@@ -340,5 +340,169 @@
       "status": "ready"
     },
     "generated_at": "2026-10-15T03:47:53+00:00"
+  },
+  "04dd625499a8c565": {
+    "summary": "Апелляционный суд подтвердил правопреемство, установив, что исполнительное производство было возбуждено на сумму 638 612,30 руб., совпадающую с переданным по договору уступки требованием, а разница в 1 копейку с решением суда несущественна. Срок предъявления исполнительного документа не истёк, так как производство окончено 19.10.2023, а заявление подано 04.07.2024, а доводы о недоказанности тождества требований и неверном распределении бремени доказывания признаны необоснованными.",
+    "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+    "attempts": [
+      {
+        "provider": "openrouter",
+        "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "status": "invalid_response",
+        "context_limit": 1000000,
+        "input_token_upper_bound": 47036,
+        "output_reserve": 1024,
+        "token_estimate": "utf8_bytes_upper_bound"
+      },
+      {
+        "provider": "openrouter",
+        "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "status": "ready",
+        "context_limit": 1000000,
+        "input_token_upper_bound": 47036,
+        "output_reserve": 1024,
+        "token_estimate": "utf8_bytes_upper_bound"
+      }
+    ],
+    "fallback": false,
+    "stage": "appeal",
+    "preparation": {
+      "version": "full-act-v1",
+      "source_hash": "95cbee66bd8f7a57222e61bf3ca495adc1640e7cc97ceb7cfc7c439e317bba77",
+      "raw_chars": 23349,
+      "prepared_chars": 23349,
+      "source_url": "https://oblsud--tum.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=11759716&case_uid=d5aa2768-6baa-46e2-bf03-d75afad85243&delo_id=5&new=5",
+      "court_domain": "oblsud--tum.sudrf.ru",
+      "received_at": "2026-10-16T01:23:56+00:00",
+      "case_number": "33-6182/2026",
+      "stage": "appeal",
+      "judicial_uid": "",
+      "identity_check": "matched_header",
+      "status": "ready"
+    },
+    "generated_at": "2026-10-16T03:45:45+00:00"
+  },
+  "6c822ff3bb35a63d": {
+    "summary": "Апелляционный суд подтвердил законность отказа в удовлетворении иска, так как квартира соответствует условиям договора, проектной документации и обязательным нормативным требованиям (СанПиН, СП), а нависающая конструкция предусмотрена архитектурным решением и не является отступлением от проекта. Истец не доказал предоставление застройщиком недостоверной информации или скрытие недостатка: проектная декларация с указанием особенности фасада была общедоступна в ЕИСЖС, а при приёмке квартиры участник долевого строительства подписал акт без претензий к качеству и освещённости.",
+    "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+    "attempts": [
+      {
+        "provider": "openrouter",
+        "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "status": "ready",
+        "context_limit": 1000000,
+        "input_token_upper_bound": 77022,
+        "output_reserve": 1024,
+        "token_estimate": "utf8_bytes_upper_bound"
+      }
+    ],
+    "fallback": false,
+    "stage": "appeal",
+    "preparation": {
+      "version": "full-act-v1",
+      "source_hash": "0ad3273d953067dc11f14fc544bf6b54dec76b0512e06fbdb0538a217971b09d",
+      "raw_chars": 39874,
+      "prepared_chars": 39874,
+      "source_url": "https://oblsud--tum.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=11808179&case_uid=ccf4602e-20ad-43bd-9144-0688c6f117a2&delo_id=5&new=5",
+      "court_domain": "oblsud--tum.sudrf.ru",
+      "received_at": "2026-10-16T01:28:25+00:00",
+      "case_number": "33-6385/2026",
+      "stage": "appeal",
+      "judicial_uid": "",
+      "identity_check": "header_unavailable",
+      "status": "ready"
+    },
+    "generated_at": "2026-10-16T03:45:51+00:00"
+  },
+  "a43030f7316ef482": {
+    "summary": "Кассационный суд подтвердил отмену решения первой инстанции, так как иск о признании результатов оценки недействительными был принят к производству только после продажи арестованного автомобиля на торгах. Поскольку истец не оспаривал постановление о передаче имущества на реализацию, а состоявшиеся торги определили действительную рыночную стоимость, оспаривание расчетной стоимости в отчете оценщика после отчуждения имущества оснований не имеет.",
+    "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+    "attempts": [
+      {
+        "provider": "openrouter",
+        "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "status": "invalid_response",
+        "context_limit": 1000000,
+        "input_token_upper_bound": 47153,
+        "output_reserve": 1024,
+        "token_estimate": "utf8_bytes_upper_bound"
+      },
+      {
+        "provider": "openrouter",
+        "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "status": "invalid_response",
+        "context_limit": 1000000,
+        "input_token_upper_bound": 47153,
+        "output_reserve": 1024,
+        "token_estimate": "utf8_bytes_upper_bound"
+      },
+      {
+        "provider": "openrouter",
+        "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "status": "ready",
+        "context_limit": 1000000,
+        "input_token_upper_bound": 47153,
+        "output_reserve": 1024,
+        "token_estimate": "utf8_bytes_upper_bound"
+      }
+    ],
+    "fallback": false,
+    "stage": "cassation",
+    "preparation": {
+      "version": "full-act-v1",
+      "source_hash": "00acba4a09af850620cb61da4108b6775cb3fca0df6c344ff7135d6754b22d70",
+      "raw_chars": 23061,
+      "prepared_chars": 23061,
+      "source_url": "https://7kas.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=15855730&case_uid=3319ed2f-ee5b-4111-b377-e8e41b922b4d&delo_id=2800001&new=2800001",
+      "court_domain": "7kas.sudrf.ru",
+      "received_at": "2026-10-16T02:05:17+00:00",
+      "case_number": "8Г-13177/2026",
+      "stage": "cassation",
+      "judicial_uid": "72RS0025-01-2022-011752-32",
+      "identity_check": "matched_uid",
+      "status": "ready"
+    },
+    "generated_at": "2026-10-16T03:46:12+00:00"
+  },
+  "902952bbdf3d6350": {
+    "summary": "Суд отказал в иске, так как истец не доказал наличие наследственного имущества: по ответам банков, Росреестра и МВД активы умершего отсутствуют, а наследники первой очереди не совершили действий по его фактическому принятию. Поскольку наследственное имущество не выявлено, взыскать задолженность не за счет чего, а государственная пошлина с ответчика не взыскивается в силу ст. 98 ГПК РФ при отказе в удовлетворении иска.",
+    "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+    "attempts": [
+      {
+        "provider": "openrouter",
+        "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "status": "invalid_response",
+        "context_limit": 1000000,
+        "input_token_upper_bound": 20921,
+        "output_reserve": 1024,
+        "token_estimate": "utf8_bytes_upper_bound"
+      },
+      {
+        "provider": "openrouter",
+        "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "status": "ready",
+        "context_limit": 1000000,
+        "input_token_upper_bound": 20921,
+        "output_reserve": 1024,
+        "token_estimate": "utf8_bytes_upper_bound"
+      }
+    ],
+    "fallback": false,
+    "stage": "first_instance",
+    "preparation": {
+      "version": "full-act-v1",
+      "source_hash": "0091dc2aa3c06c62882bf9b197f53c3e21f5cbe3052111cabafd455fc44e2fe4",
+      "raw_chars": 8738,
+      "prepared_chars": 8738,
+      "source_url": "https://centralny--tum.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=237956366&case_uid=71810a58-5784-454c-a527-9522b2b823ed&delo_id=1540005&new=0",
+      "court_domain": "centralny--tum.sudrf.ru",
+      "received_at": "2026-10-16T02:22:11+00:00",
+      "case_number": "2-3711/2026",
+      "stage": "first_instance",
+      "judicial_uid": "",
+      "identity_check": "matched_header",
+      "status": "ready"
+    },
+    "generated_at": "2026-10-16T03:46:22+00:00"
   }
 }
