@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-19T13:14:00+05:00",
+  "updated_at": "2026-10-19T16:10:27+05:00",
   "cases": [
     {
       "id": "М-9438/2026",
@@ -53,7 +53,8 @@
       "import": {
         "operator": "Виктор",
         "at": "2026-10-19T13:12:35",
-        "source": "dump"
+        "source": "dump",
+        "announced": true
       }
     },
     {
@@ -107,7 +108,8 @@
       "import": {
         "operator": "Виктор",
         "at": "2026-10-19T13:11:18",
-        "source": "dump"
+        "source": "dump",
+        "announced": true
       }
     },
     {
@@ -138922,7 +138924,7 @@
     }
   },
   "pending_retry_context": {
-    "saved_at": "2026-10-19T12:10:31",
+    "saved_at": "2026-10-19T16:10:27",
     "new_cases": [],
     "changes": [],
     "cases": [
@@ -140558,16 +140560,126 @@
           "source": "targeted",
           "announced": true
         }
+      },
+      {
+        "id": "М-9438/2026",
+        "current_stage": "first_instance",
+        "plaintiff": "Аршакян Кристина Вазгеновна",
+        "defendant": "ПАО Сбербанк в лице филиала - Западно-Сибирское отделение № 8647, Центральный Банк Российской Федерации",
+        "category": "Отношения, связанные с защитой прав потребителей → О защите прав потребителей → - из договоров с финансово-кредитными учреждениями в сфере: → иные договоры с финансово-кредитными учреждениями",
+        "bank_role": "Ответчик",
+        "initial_bank_role": "Ответчик",
+        "notes": "",
+        "first_instance": {
+          "case_number": "М-9438/2026",
+          "court": "Ленинский районный суд г. Тюмени",
+          "court_domain": "leninsky--tum.sudrf.ru",
+          "delo_id": 1540005,
+          "srv_num": 1,
+          "judge": "Межецкий А.Н.",
+          "filing_date": "15.10.2026",
+          "status": "В производстве",
+          "result": "",
+          "last_event": "Передача материалов судье. 08:04. 16.10.2026",
+          "event_date": "16.10.2026",
+          "hearing_date": "",
+          "hearing_time": "",
+          "link": "252742195|bec1c477-6405-4bad-ad29-d407c8ee2c4e",
+          "act_published": false,
+          "act_date": "",
+          "act_text": "",
+          "events": [
+            {
+              "date": "15.10.2026",
+              "time": "12:24",
+              "text": "Регистрация иска (заявления, жалобы) в суде. 12:24. 15.10.2026",
+              "name": "Регистрация иска (заявления, жалобы) в суде",
+              "posted_at": "15.10.2026"
+            },
+            {
+              "date": "16.10.2026",
+              "time": "08:04",
+              "text": "Передача материалов судье. 08:04. 16.10.2026",
+              "name": "Передача материалов судье",
+              "posted_at": "16.10.2026"
+            }
+          ],
+          "judicial_uid": "72RS0014-01-2026-015688-26",
+          "last_checked_at": "2026-10-19",
+          "intake_card_parse": true
+        },
+        "appeal": null,
+        "import": {
+          "operator": "Виктор",
+          "at": "2026-10-19T13:12:35",
+          "source": "dump",
+          "announced": true
+        }
+      },
+      {
+        "id": "М-8000/2026",
+        "current_stage": "first_instance",
+        "plaintiff": "МТУ Росимущества в ТО, ХМАО-Югре, ЯНАО (наслед.имущество Тайбери Дмитрий Юрьевич)",
+        "defendant": "ПАО Сбербанк",
+        "category": "Споры, связанные с наследственными отношениями → Споры, связанные с наследованием имущества → иные, связанные с наследованием имущества",
+        "bank_role": "Ответчик",
+        "initial_bank_role": "Ответчик",
+        "notes": "",
+        "first_instance": {
+          "case_number": "М-8000/2026",
+          "court": "Центральный районный суд г. Тюмени",
+          "court_domain": "centralny--tum.sudrf.ru",
+          "delo_id": 1540005,
+          "srv_num": 1,
+          "judge": "Мелякова Н.В.",
+          "filing_date": "13.10.2026",
+          "status": "В производстве",
+          "result": "",
+          "last_event": "Передача материалов судье. 17:13. 14.10.2026",
+          "event_date": "13.10.2026",
+          "hearing_date": "",
+          "hearing_time": "",
+          "link": "252643448|b6e722a3-f76a-41f2-b487-b095abced87e",
+          "act_published": false,
+          "act_date": "",
+          "act_text": "",
+          "events": [
+            {
+              "date": "13.10.2026",
+              "time": "14:49",
+              "text": "Регистрация иска (заявления, жалобы) в суде. 14:49. 14.10.2026",
+              "name": "Регистрация иска (заявления, жалобы) в суде",
+              "posted_at": "14.10.2026"
+            },
+            {
+              "date": "13.10.2026",
+              "time": "17:13",
+              "text": "Передача материалов судье. 17:13. 14.10.2026",
+              "name": "Передача материалов судье",
+              "posted_at": "14.10.2026"
+            }
+          ],
+          "judicial_uid": "72RS0025-01-2026-012650-21",
+          "last_checked_at": "2026-10-19",
+          "intake_card_parse": true
+        },
+        "appeal": null,
+        "import": {
+          "operator": "Виктор",
+          "at": "2026-10-19T13:11:18",
+          "source": "dump",
+          "announced": true
+        }
       }
     ],
     "stage_transitions": [],
     "fi_changes": [],
     "total_active_appeal": 37,
-    "total_active_fi": 37,
+    "total_active_fi": 39,
     "total_active_cassation": 13,
-    "total_active_bank": 232,
+    "total_active_bank": 250,
     "cass_changes": [],
     "cass_discovered": [],
-    "issue_key": "retry:2026-10-19T12:10:31"
+    "issue_key": "retry:2026-10-19T16:10:27"
   }
 }
