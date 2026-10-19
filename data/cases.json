@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-19T08:14:46+05:00",
+  "updated_at": "2026-10-19T04:43:49+00:00",
   "cases": [
     {
       "id": "33-7481/2026",
@@ -8581,7 +8581,29 @@
         "act_notification_kind": "new_publication",
         "act_received_at": "2026-10-19T01:48:56+00:00",
         "act_source_url": "https://leninsky--tum.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=245489291&case_uid=fdc05235-bc68-41c3-9f4e-25e0d7989f63&delo_id=1540005&new=0",
-        "act_decision_date": "09.09.2026"
+        "act_decision_date": "09.09.2026",
+        "act_analysis": {
+          "html": "<p><b>Почему:</b> Суд отказал в иске, установив отсутствие противоправного поведения банка: задержка замены залогового имущества обусловлена отказом истца от предложенного дополнительного соглашения, а ранее вступившее в силу решение подтвердило законность действий кредитора. Доказанная истцом история просрочек по кредитному договору исключает основания для признания сведений в кредитной истории недостоверными, а включенные в убытки полученные заемные средства по своей правовой природе таковыми не являются.</p>",
+          "source": "llm_summary",
+          "act_date": "09.09.2026",
+          "generated_at": "2026-10-19T04:43:46+00:00",
+          "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+          "source_hash": "3aee2a44c9813b9f82d43f4d2b83c6c6053b8a23a4ff8b9a39942aefb28581ef",
+          "preparation": {
+            "version": "full-act-v1",
+            "source_hash": "3aee2a44c9813b9f82d43f4d2b83c6c6053b8a23a4ff8b9a39942aefb28581ef",
+            "raw_chars": 19935,
+            "prepared_chars": 19935,
+            "source_url": "https://leninsky--tum.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=245489291&case_uid=fdc05235-bc68-41c3-9f4e-25e0d7989f63&delo_id=1540005&new=0",
+            "court_domain": "leninsky--tum.sudrf.ru",
+            "received_at": "2026-10-19T01:48:56+00:00",
+            "case_number": "2-7212/2026",
+            "stage": "first_instance",
+            "judicial_uid": "72RS0014-01-2026-007081-45",
+            "identity_check": "matched_uid",
+            "status": "ready"
+          }
+        }
       },
       "appeal": null,
       "import": {
