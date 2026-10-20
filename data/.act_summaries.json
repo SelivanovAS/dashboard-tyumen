@@ -536,5 +536,101 @@
       "status": "ready"
     },
     "generated_at": "2026-10-19T04:43:48+00:00"
+  },
+  "d2667d04096fa827": {
+    "summary": "Судебная коллегия подтвердила взыскание госпошлины с МТУ Росимущества, так как судебные расходы кредитора, возникшие после смерти заемщика, не входят в состав долгов наследодателя по ст. 1175 ГК РФ и возмещаются за счет средств, не входящих в стоимость наследственного имущества. Отклонен довод ответчика о применении п. 19 Постановления Пленума ВС РФ № 1, поскольку иск вытекает из договора займа, требования по которому правопреемником не признаются, а спор не относится к случаям, когда расходы отнесены на истца.",
+    "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+    "attempts": [
+      {
+        "provider": "openrouter",
+        "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "status": "ready",
+        "context_limit": 1000000,
+        "input_token_upper_bound": 37639,
+        "output_reserve": 1024,
+        "token_estimate": "utf8_bytes_upper_bound"
+      }
+    ],
+    "fallback": false,
+    "stage": "appeal",
+    "preparation": {
+      "version": "full-act-v1",
+      "source_hash": "259ce6848fb78ff0ed213c6f2027d2d7337a62c71580849ef3ed525725ec1f47",
+      "raw_chars": 18084,
+      "prepared_chars": 18084,
+      "source_url": "https://oblsud--tum.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=11652420&case_uid=e2811f33-4df5-4ae1-bd3a-f04e343dab69&delo_id=5&new=5",
+      "court_domain": "",
+      "received_at": "2026-10-20T03:07:18+00:00",
+      "case_number": "33-5571/2026",
+      "stage": "appeal",
+      "judicial_uid": "",
+      "identity_check": "matched_header",
+      "status": "ready"
+    },
+    "generated_at": "2026-10-20T03:45:30+00:00"
+  },
+  "0ba9c4a51740ac12": {
+    "summary": "Апелляционный суд подтвердил отказ в обеспечении иска, так как истец не доказал реальной угрозы невозможности исполнения решения: средства на счетах эскроу защищены законом и могут быть переведены застройщику только после ввода дома в эксплуатацию, что исключает риск их отчуждения или скрытия. Обеспечительные меры не соразмерны требованию о расторжении договоров, поскольку арест эскроу-счетов создаст необоснованные препятствия законной деятельности застройщика и нарушит баланс интересов сторон.",
+    "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+    "attempts": [
+      {
+        "provider": "openrouter",
+        "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "status": "ready",
+        "context_limit": 1000000,
+        "input_token_upper_bound": 39033,
+        "output_reserve": 1024,
+        "token_estimate": "utf8_bytes_upper_bound"
+      }
+    ],
+    "fallback": false,
+    "stage": "appeal",
+    "preparation": {
+      "version": "full-act-v1",
+      "source_hash": "879b689f9d228551009536b8294bfac4e03e54c1f661dd17747851fc2cda4008",
+      "raw_chars": 18738,
+      "prepared_chars": 18738,
+      "source_url": "https://oblsud--tum.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=11722490&case_uid=5013d9ad-d83c-4601-bef9-6199bf9bf1f3&delo_id=5&new=5",
+      "court_domain": "",
+      "received_at": "2026-10-20T03:07:46+00:00",
+      "case_number": "33-5961/2026",
+      "stage": "appeal",
+      "judicial_uid": "",
+      "identity_check": "header_unavailable",
+      "status": "ready"
+    },
+    "generated_at": "2026-10-20T03:45:32+00:00"
+  },
+  "6a3d81f5637e8973": {
+    "summary": "Кассационный суд подтвердил отказ в иске, так как истец не доказал свою правопреемственность по вкладу и не обладает процессуальной легитимцией для защиты прав неопределённого круга потребителей. Дополнительным основанием стало истечение срока исковой давности, заявленное ответчиком, а доводы о фальсификации доказательств и предвзятости судьи судом не подтверждены.",
+    "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+    "attempts": [
+      {
+        "provider": "openrouter",
+        "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "status": "ready",
+        "context_limit": 1000000,
+        "input_token_upper_bound": 29966,
+        "output_reserve": 1024,
+        "token_estimate": "utf8_bytes_upper_bound"
+      }
+    ],
+    "fallback": false,
+    "stage": "cassation",
+    "preparation": {
+      "version": "full-act-v1",
+      "source_hash": "ab46959a6cca4b3d6d5ffb3919d7d1c0525222654b7d1acdf3024452aedb1c50",
+      "raw_chars": 13496,
+      "prepared_chars": 13496,
+      "source_url": "https://7kas.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=15835315&case_uid=7243b2cd-28e6-46ed-a2d4-3f18f9f6be72&delo_id=2800001&new=2800001",
+      "court_domain": "7kas.sudrf.ru",
+      "received_at": "2026-10-20T03:16:10+00:00",
+      "case_number": "8Г-13822/2026",
+      "stage": "cassation",
+      "judicial_uid": "72RS0025-01-2024-014902-23",
+      "identity_check": "matched_uid",
+      "status": "ready"
+    },
+    "generated_at": "2026-10-20T03:45:35+00:00"
   }
 }
