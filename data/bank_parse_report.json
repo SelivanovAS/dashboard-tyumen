@@ -4,9 +4,9 @@
   "smart_skip": true,
   "totals": {
     "total": 605,
-    "parsed": 52,
-    "skip": 544,
-    "failed": 9,
+    "parsed": 35,
+    "skip": 570,
+    "failed": 0,
     "no_card": 0,
     "not_in_queue": 0,
     "intake_new": 0
@@ -211,9 +211,9 @@
       "last_checked_at": "2026-10-20"
     },
     {
-      "outcome": "parsed",
-      "reason": "",
-      "reason_ru": "",
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -229,9 +229,9 @@
       "last_checked_at": "2026-10-20"
     },
     {
-      "outcome": "fetch_blocked",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "портал суда отдал заглушку/блокировку вместо карточки",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -244,12 +244,12 @@
       "court": "Центральный районный суд г. Тюмени",
       "court_domain": "centralny--tum.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-19"
+      "last_checked_at": "2026-10-20"
     },
     {
-      "outcome": "parsed",
-      "reason": "",
-      "reason_ru": "",
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -283,9 +283,9 @@
       "last_checked_at": "2026-10-19"
     },
     {
-      "outcome": "parsed",
-      "reason": "",
-      "reason_ru": "",
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -301,9 +301,9 @@
       "last_checked_at": "2026-10-20"
     },
     {
-      "outcome": "fetch_blocked",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "портал суда отдал заглушку/блокировку вместо карточки",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -316,12 +316,12 @@
       "court": "Калининский районный суд г. Тюмени",
       "court_domain": "kalininsky--tum.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-19"
+      "last_checked_at": "2026-10-20"
     },
     {
-      "outcome": "fetch_blocked",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "портал суда отдал заглушку/блокировку вместо карточки",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -334,12 +334,12 @@
       "court": "Калининский районный суд г. Тюмени",
       "court_domain": "kalininsky--tum.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-19"
+      "last_checked_at": "2026-10-20"
     },
     {
-      "outcome": "parsed",
-      "reason": "",
-      "reason_ru": "",
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -445,9 +445,9 @@
       "last_checked_at": "2026-10-19"
     },
     {
-      "outcome": "parsed",
-      "reason": "",
-      "reason_ru": "",
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -481,9 +481,9 @@
       "last_checked_at": "2026-10-19"
     },
     {
-      "outcome": "parsed",
-      "reason": "",
-      "reason_ru": "",
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -499,9 +499,9 @@
       "last_checked_at": "2026-10-20"
     },
     {
-      "outcome": "parsed",
-      "reason": "",
-      "reason_ru": "",
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -553,9 +553,9 @@
       "last_checked_at": "2026-10-16"
     },
     {
-      "outcome": "fetch_blocked",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "портал суда отдал заглушку/блокировку вместо карточки",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -568,7 +568,7 @@
       "court": "Центральный районный суд г. Тюмени",
       "court_domain": "centralny--tum.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-19"
+      "last_checked_at": "2026-10-20"
     },
     {
       "outcome": "skip",
@@ -877,9 +877,9 @@
       "last_checked_at": "2026-10-16"
     },
     {
-      "outcome": "fetch_blocked",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "портал суда отдал заглушку/блокировку вместо карточки",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -892,7 +892,7 @@
       "court": "Центральный районный суд г. Тюмени",
       "court_domain": "centralny--tum.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-19"
+      "last_checked_at": "2026-10-20"
     },
     {
       "outcome": "skip",
@@ -1561,9 +1561,9 @@
       "last_checked_at": "2026-10-09"
     },
     {
-      "outcome": "court_breaker",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "суд снят с обхода предохранителем — карточки не читаются (заглушка/код/сеть), дело перечитается следующим прогоном",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -1576,7 +1576,7 @@
       "court": "Центральный районный суд г. Тюмени",
       "court_domain": "centralny--tum.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-19"
+      "last_checked_at": "2026-10-20"
     },
     {
       "outcome": "skip",
@@ -2191,9 +2191,9 @@
       "last_checked_at": "2026-10-14"
     },
     {
-      "outcome": "parsed",
-      "reason": "",
-      "reason_ru": "",
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -2497,9 +2497,9 @@
       "last_checked_at": "2026-10-20"
     },
     {
-      "outcome": "court_breaker",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "суд снят с обхода предохранителем — карточки не читаются (заглушка/код/сеть), дело перечитается следующим прогоном",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -2512,7 +2512,7 @@
       "court": "Калининский районный суд г. Тюмени",
       "court_domain": "kalininsky--tum.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-19"
+      "last_checked_at": "2026-10-20"
     },
     {
       "outcome": "skip",
@@ -2551,9 +2551,9 @@
       "last_checked_at": "2026-10-16"
     },
     {
-      "outcome": "court_breaker",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "суд снят с обхода предохранителем — карточки не читаются (заглушка/код/сеть), дело перечитается следующим прогоном",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -2566,7 +2566,7 @@
       "court": "Калининский районный суд г. Тюмени",
       "court_domain": "kalininsky--tum.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-13"
+      "last_checked_at": "2026-10-20"
     },
     {
       "outcome": "skip",
@@ -3631,9 +3631,9 @@
       "last_checked_at": "2026-10-20"
     },
     {
-      "outcome": "parsed",
-      "reason": "",
-      "reason_ru": "",
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -4117,8 +4117,8 @@
       "last_checked_at": "2026-10-20"
     },
     {
-      "outcome": "skip",
-      "reason": "breaker",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
@@ -4132,7 +4132,7 @@
       "court": "Центральный районный суд г. Тюмени",
       "court_domain": "centralny--tum.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-19"
+      "last_checked_at": "2026-10-20"
     },
     {
       "outcome": "skip",
@@ -4225,8 +4225,8 @@
       "last_checked_at": "2026-10-19"
     },
     {
-      "outcome": "skip",
-      "reason": "breaker",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
@@ -4240,7 +4240,7 @@
       "court": "Центральный районный суд г. Тюмени",
       "court_domain": "centralny--tum.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-19"
+      "last_checked_at": "2026-10-20"
     },
     {
       "outcome": "skip",
@@ -4855,8 +4855,8 @@
       "last_checked_at": "2026-10-15"
     },
     {
-      "outcome": "skip",
-      "reason": "breaker",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
@@ -4870,7 +4870,7 @@
       "court": "Калининский районный суд г. Тюмени",
       "court_domain": "kalininsky--tum.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-19"
+      "last_checked_at": "2026-10-20"
     },
     {
       "outcome": "skip",
@@ -4927,8 +4927,8 @@
       "last_checked_at": "2026-10-20"
     },
     {
-      "outcome": "skip",
-      "reason": "breaker",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
@@ -4942,7 +4942,7 @@
       "court": "Калининский районный суд г. Тюмени",
       "court_domain": "kalininsky--tum.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-19"
+      "last_checked_at": "2026-10-20"
     },
     {
       "outcome": "skip",
@@ -4963,8 +4963,8 @@
       "last_checked_at": "2026-10-06"
     },
     {
-      "outcome": "skip",
-      "reason": "breaker",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
@@ -4978,7 +4978,7 @@
       "court": "Калининский районный суд г. Тюмени",
       "court_domain": "kalininsky--tum.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-19"
+      "last_checked_at": "2026-10-20"
     },
     {
       "outcome": "skip",
@@ -4999,8 +4999,8 @@
       "last_checked_at": "2026-10-16"
     },
     {
-      "outcome": "skip",
-      "reason": "breaker",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
@@ -5014,7 +5014,7 @@
       "court": "Калининский районный суд г. Тюмени",
       "court_domain": "kalininsky--tum.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-19"
+      "last_checked_at": "2026-10-20"
     },
     {
       "outcome": "skip",
@@ -5089,8 +5089,8 @@
       "last_checked_at": "2026-10-16"
     },
     {
-      "outcome": "skip",
-      "reason": "breaker",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
@@ -5104,7 +5104,7 @@
       "court": "Калининский районный суд г. Тюмени",
       "court_domain": "kalininsky--tum.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-19"
+      "last_checked_at": "2026-10-20"
     },
     {
       "outcome": "skip",
@@ -5215,8 +5215,8 @@
       "last_checked_at": "2026-10-06"
     },
     {
-      "outcome": "skip",
-      "reason": "breaker",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
@@ -5230,7 +5230,7 @@
       "court": "Ленинский районный суд г. Тюмени",
       "court_domain": "leninsky--tum.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-19"
+      "last_checked_at": "2026-10-20"
     },
     {
       "outcome": "skip",
@@ -5305,8 +5305,8 @@
       "last_checked_at": "2026-09-23"
     },
     {
-      "outcome": "skip",
-      "reason": "breaker",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
@@ -5320,7 +5320,7 @@
       "court": "Ленинский районный суд г. Тюмени",
       "court_domain": "leninsky--tum.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-14"
+      "last_checked_at": "2026-10-20"
     },
     {
       "outcome": "skip",
@@ -5395,9 +5395,9 @@
       "last_checked_at": "2026-10-14"
     },
     {
-      "outcome": "parsed",
-      "reason": "",
-      "reason_ru": "",
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -5467,9 +5467,9 @@
       "last_checked_at": "2026-10-16"
     },
     {
-      "outcome": "parsed",
-      "reason": "",
-      "reason_ru": "",
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -5503,8 +5503,8 @@
       "last_checked_at": "2026-10-14"
     },
     {
-      "outcome": "skip",
-      "reason": "breaker",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
@@ -5518,11 +5518,11 @@
       "court": "Ленинский районный суд г. Тюмени",
       "court_domain": "leninsky--tum.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-19"
+      "last_checked_at": "2026-10-20"
     },
     {
       "outcome": "skip",
-      "reason": "portal_placeholder",
+      "reason": "http_504",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
@@ -5629,8 +5629,8 @@
       "last_checked_at": "2026-10-14"
     },
     {
-      "outcome": "skip",
-      "reason": "breaker",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
@@ -5644,7 +5644,7 @@
       "court": "Ленинский районный суд г. Тюмени",
       "court_domain": "leninsky--tum.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-14"
+      "last_checked_at": "2026-10-20"
     },
     {
       "outcome": "skip",
@@ -5737,8 +5737,8 @@
       "last_checked_at": "2026-09-23"
     },
     {
-      "outcome": "skip",
-      "reason": "portal_placeholder",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
@@ -5752,7 +5752,7 @@
       "court": "Ленинский районный суд г. Тюмени",
       "court_domain": "leninsky--tum.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-19"
+      "last_checked_at": "2026-10-20"
     },
     {
       "outcome": "skip",
@@ -5809,9 +5809,9 @@
       "last_checked_at": "2026-10-14"
     },
     {
-      "outcome": "parsed",
-      "reason": "",
-      "reason_ru": "",
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -5971,8 +5971,8 @@
       "last_checked_at": "2026-10-20"
     },
     {
-      "outcome": "skip",
-      "reason": "breaker",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
@@ -5986,7 +5986,7 @@
       "court": "Центральный районный суд г. Тюмени",
       "court_domain": "centralny--tum.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-19"
+      "last_checked_at": "2026-10-20"
     },
     {
       "outcome": "skip",
@@ -6007,8 +6007,8 @@
       "last_checked_at": "2026-10-19"
     },
     {
-      "outcome": "skip",
-      "reason": "breaker",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
@@ -6022,7 +6022,7 @@
       "court": "Центральный районный суд г. Тюмени",
       "court_domain": "centralny--tum.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-19"
+      "last_checked_at": "2026-10-20"
     },
     {
       "outcome": "skip",
@@ -6097,8 +6097,8 @@
       "last_checked_at": "2026-10-14"
     },
     {
-      "outcome": "skip",
-      "reason": "breaker",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
@@ -6112,7 +6112,7 @@
       "court": "Центральный районный суд г. Тюмени",
       "court_domain": "centralny--tum.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-19"
+      "last_checked_at": "2026-10-20"
     },
     {
       "outcome": "skip",
@@ -6260,7 +6260,7 @@
     },
     {
       "outcome": "skip",
-      "reason": "breaker",
+      "reason": "portal_placeholder",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
@@ -6296,7 +6296,7 @@
     },
     {
       "outcome": "skip",
-      "reason": "breaker",
+      "reason": "portal_placeholder",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
@@ -6313,8 +6313,8 @@
       "last_checked_at": "2026-10-19"
     },
     {
-      "outcome": "skip",
-      "reason": "breaker",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
@@ -6328,11 +6328,11 @@
       "court": "Ленинский районный суд г. Тюмени",
       "court_domain": "leninsky--tum.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-19"
+      "last_checked_at": "2026-10-20"
     },
     {
-      "outcome": "skip",
-      "reason": "breaker",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
@@ -6346,7 +6346,7 @@
       "court": "Ленинский районный суд г. Тюмени",
       "court_domain": "leninsky--tum.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-19"
+      "last_checked_at": "2026-10-20"
     },
     {
       "outcome": "skip",
@@ -6385,8 +6385,8 @@
       "last_checked_at": "2026-09-23"
     },
     {
-      "outcome": "skip",
-      "reason": "breaker",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
@@ -6400,7 +6400,7 @@
       "court": "Центральный районный суд г. Тюмени",
       "court_domain": "centralny--tum.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-19"
+      "last_checked_at": "2026-10-20"
     },
     {
       "outcome": "skip",
@@ -6475,8 +6475,8 @@
       "last_checked_at": "2026-10-15"
     },
     {
-      "outcome": "skip",
-      "reason": "breaker",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
@@ -6490,7 +6490,7 @@
       "court": "Центральный районный суд г. Тюмени",
       "court_domain": "centralny--tum.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-19"
+      "last_checked_at": "2026-10-20"
     },
     {
       "outcome": "skip",
@@ -6637,8 +6637,8 @@
       "last_checked_at": "2026-10-16"
     },
     {
-      "outcome": "skip",
-      "reason": "breaker",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
@@ -6652,11 +6652,11 @@
       "court": "Центральный районный суд г. Тюмени",
       "court_domain": "centralny--tum.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-19"
+      "last_checked_at": "2026-10-20"
     },
     {
-      "outcome": "skip",
-      "reason": "breaker",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
@@ -6670,7 +6670,7 @@
       "court": "Центральный районный суд г. Тюмени",
       "court_domain": "centralny--tum.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-19"
+      "last_checked_at": "2026-10-20"
     },
     {
       "outcome": "skip",
@@ -6943,9 +6943,9 @@
       "last_checked_at": "2026-09-29"
     },
     {
-      "outcome": "court_breaker",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "суд снят с обхода предохранителем — карточки не читаются (заглушка/код/сеть), дело перечитается следующим прогоном",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -6958,11 +6958,11 @@
       "court": "Центральный районный суд г. Тюмени",
       "court_domain": "centralny--tum.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-13"
+      "last_checked_at": "2026-10-20"
     },
     {
-      "outcome": "skip",
-      "reason": "breaker",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
@@ -6976,7 +6976,7 @@
       "court": "Центральный районный суд г. Тюмени",
       "court_domain": "centralny--tum.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-19"
+      "last_checked_at": "2026-10-20"
     },
     {
       "outcome": "skip",
@@ -8221,9 +8221,9 @@
       "last_checked_at": "2026-10-14"
     },
     {
-      "outcome": "parsed",
-      "reason": "",
-      "reason_ru": "",
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -8347,9 +8347,9 @@
       "last_checked_at": "2026-10-14"
     },
     {
-      "outcome": "parsed",
-      "reason": "",
-      "reason_ru": "",
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -8419,9 +8419,9 @@
       "last_checked_at": "2026-10-14"
     },
     {
-      "outcome": "parsed",
-      "reason": "",
-      "reason_ru": "",
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -8527,9 +8527,9 @@
       "last_checked_at": "2026-10-14"
     },
     {
-      "outcome": "parsed",
-      "reason": "",
-      "reason_ru": "",
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -8599,9 +8599,9 @@
       "last_checked_at": "2026-10-08"
     },
     {
-      "outcome": "parsed",
-      "reason": "",
-      "reason_ru": "",
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -8617,9 +8617,9 @@
       "last_checked_at": "2026-10-20"
     },
     {
-      "outcome": "parsed",
-      "reason": "",
-      "reason_ru": "",
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -8635,9 +8635,9 @@
       "last_checked_at": "2026-10-20"
     },
     {
-      "outcome": "parsed",
-      "reason": "",
-      "reason_ru": "",
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -8653,9 +8653,9 @@
       "last_checked_at": "2026-10-20"
     },
     {
-      "outcome": "parsed",
-      "reason": "",
-      "reason_ru": "",
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -8671,9 +8671,9 @@
       "last_checked_at": "2026-10-20"
     },
     {
-      "outcome": "parsed",
-      "reason": "",
-      "reason_ru": "",
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -9265,8 +9265,8 @@
       "last_checked_at": "2026-10-20"
     },
     {
-      "outcome": "skip",
-      "reason": "breaker",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
@@ -9280,7 +9280,7 @@
       "court": "Калининский районный суд г. Тюмени",
       "court_domain": "kalininsky--tum.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-19"
+      "last_checked_at": "2026-10-20"
     },
     {
       "outcome": "skip",
@@ -9337,9 +9337,9 @@
       "last_checked_at": "2026-10-16"
     },
     {
-      "outcome": "parsed",
-      "reason": "",
-      "reason_ru": "",
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -9355,9 +9355,9 @@
       "last_checked_at": "2026-10-20"
     },
     {
-      "outcome": "parsed",
-      "reason": "",
-      "reason_ru": "",
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -9409,16 +9409,14 @@
       "last_checked_at": "2026-09-28"
     },
     {
-      "outcome": "parsed",
-      "reason": "",
-      "reason_ru": "",
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
-      "events": [
-        "fi_final_event"
-      ],
-      "changed": true,
+      "events": [],
+      "changed": false,
       "left_track": false,
       "archived": false,
       "key": "ishimsky--tum.sudrf.ru|2-270/2026",
@@ -9447,9 +9445,9 @@
       "last_checked_at": "2026-09-24"
     },
     {
-      "outcome": "parsed",
-      "reason": "",
-      "reason_ru": "",
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -9483,9 +9481,9 @@
       "last_checked_at": "2026-09-24"
     },
     {
-      "outcome": "parsed",
-      "reason": "",
-      "reason_ru": "",
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -9501,9 +9499,9 @@
       "last_checked_at": "2026-10-20"
     },
     {
-      "outcome": "parsed",
-      "reason": "",
-      "reason_ru": "",
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -9519,9 +9517,9 @@
       "last_checked_at": "2026-10-20"
     },
     {
-      "outcome": "parsed",
-      "reason": "",
-      "reason_ru": "",
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -9555,9 +9553,9 @@
       "last_checked_at": "2026-09-24"
     },
     {
-      "outcome": "parsed",
-      "reason": "",
-      "reason_ru": "",
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -9609,9 +9607,9 @@
       "last_checked_at": "2026-09-28"
     },
     {
-      "outcome": "parsed",
-      "reason": "",
-      "reason_ru": "",
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -9627,9 +9625,9 @@
       "last_checked_at": "2026-10-20"
     },
     {
-      "outcome": "parsed",
-      "reason": "",
-      "reason_ru": "",
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -9735,9 +9733,9 @@
       "last_checked_at": "2026-10-20"
     },
     {
-      "outcome": "parsed",
-      "reason": "",
-      "reason_ru": "",
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -9753,9 +9751,9 @@
       "last_checked_at": "2026-10-20"
     },
     {
-      "outcome": "parsed",
-      "reason": "",
-      "reason_ru": "",
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -9789,9 +9787,9 @@
       "last_checked_at": "2026-10-19"
     },
     {
-      "outcome": "parsed",
-      "reason": "",
-      "reason_ru": "",
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -9807,9 +9805,9 @@
       "last_checked_at": "2026-10-20"
     },
     {
-      "outcome": "parsed",
-      "reason": "",
-      "reason_ru": "",
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -9861,9 +9859,9 @@
       "last_checked_at": "2026-10-20"
     },
     {
-      "outcome": "parsed",
-      "reason": "",
-      "reason_ru": "",
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -9969,9 +9967,9 @@
       "last_checked_at": "2026-10-20"
     },
     {
-      "outcome": "parsed",
-      "reason": "",
-      "reason_ru": "",
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -10005,16 +10003,14 @@
       "last_checked_at": "2026-10-14"
     },
     {
-      "outcome": "parsed",
-      "reason": "",
-      "reason_ru": "",
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
-      "events": [
-        "fi_hearing_postponed"
-      ],
-      "changed": true,
+      "events": [],
+      "changed": false,
       "left_track": false,
       "archived": false,
       "key": "kazansky--tum.sudrf.ru|2-1/2026 (2-1/2025; 2-167/2024;)",
@@ -10025,9 +10021,9 @@
       "last_checked_at": "2026-10-20"
     },
     {
-      "outcome": "parsed",
-      "reason": "",
-      "reason_ru": "",
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -10061,9 +10057,9 @@
       "last_checked_at": "2026-10-19"
     },
     {
-      "outcome": "parsed",
-      "reason": "",
-      "reason_ru": "",
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -10097,9 +10093,9 @@
       "last_checked_at": "2026-10-13"
     },
     {
-      "outcome": "parsed",
-      "reason": "",
-      "reason_ru": "",
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -10205,9 +10201,9 @@
       "last_checked_at": "2026-10-09"
     },
     {
-      "outcome": "parsed",
-      "reason": "",
-      "reason_ru": "",
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -10241,9 +10237,9 @@
       "last_checked_at": "2026-09-29"
     },
     {
-      "outcome": "parsed",
-      "reason": "",
-      "reason_ru": "",
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -10259,9 +10255,9 @@
       "last_checked_at": "2026-10-20"
     },
     {
-      "outcome": "parsed",
-      "reason": "",
-      "reason_ru": "",
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -10331,8 +10327,8 @@
       "last_checked_at": "2026-10-15"
     },
     {
-      "outcome": "skip",
-      "reason": "read_timeout",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
@@ -10346,11 +10342,11 @@
       "court": "Заводоуковский районный суд",
       "court_domain": "zavodoukovsky--tum.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-19"
+      "last_checked_at": "2026-10-20"
     },
     {
-      "outcome": "skip",
-      "reason": "read_timeout",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
@@ -10364,12 +10360,12 @@
       "court": "Заводоуковский районный суд",
       "court_domain": "zavodoukovsky--tum.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-19"
+      "last_checked_at": "2026-10-20"
     },
     {
-      "outcome": "parsed",
-      "reason": "",
-      "reason_ru": "",
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -10403,9 +10399,9 @@
       "last_checked_at": "2026-09-28"
     },
     {
-      "outcome": "parsed",
-      "reason": "",
-      "reason_ru": "",
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -10439,9 +10435,9 @@
       "last_checked_at": "2026-10-01"
     },
     {
-      "outcome": "parsed",
-      "reason": "",
-      "reason_ru": "",
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -10565,9 +10561,9 @@
       "last_checked_at": "2026-10-20"
     },
     {
-      "outcome": "parsed",
-      "reason": "",
-      "reason_ru": "",
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -10691,8 +10687,8 @@
       "last_checked_at": "2026-10-07"
     },
     {
-      "outcome": "skip",
-      "reason": "http_504",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
@@ -10706,20 +10702,17 @@
       "court": "Уватский районный суд",
       "court_domain": "uvatsky--tum.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-19"
+      "last_checked_at": "2026-10-20"
     },
     {
-      "outcome": "parsed",
-      "reason": "",
-      "reason_ru": "",
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
-      "events": [
-        "fi_resolved",
-        "fi_status_change"
-      ],
-      "changed": true,
+      "events": [],
+      "changed": false,
       "left_track": false,
       "archived": false,
       "key": "uvatsky--tum.sudrf.ru|2-256/2026",
@@ -10784,9 +10777,9 @@
       "last_checked_at": "2026-10-20"
     },
     {
-      "outcome": "parsed",
-      "reason": "",
-      "reason_ru": "",
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -10874,9 +10867,9 @@
       "last_checked_at": "2026-10-20"
     },
     {
-      "outcome": "parsed",
-      "reason": "",
-      "reason_ru": "",
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -10892,9 +10885,9 @@
       "last_checked_at": "2026-10-20"
     },
     {
-      "outcome": "parsed",
-      "reason": "",
-      "reason_ru": "",
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -10910,5 +10903,5 @@
       "last_checked_at": "2026-10-20"
     }
   ],
-  "updated_at": "2026-10-20T07:33:22+05:00"
+  "updated_at": "2026-10-20T08:16:35+05:00"
 }
