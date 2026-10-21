@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-21T08:38:56+05:00",
+  "updated_at": "2026-10-21T03:45:31+00:00",
   "cases": [
     {
       "id": "33-7535/2026",
@@ -22156,7 +22156,29 @@
             "act_decision_date": "23.09.2026",
             "act_notification_kind": "new_publication",
             "act_source_url": "https://7kas.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=15861234&case_uid=07e26492-bff9-494e-85ef-beb548caa94e&delo_id=2800001&new=2800001",
-            "act_received_at": "2026-10-21T02:57:50+00:00"
+            "act_received_at": "2026-10-21T02:57:50+00:00",
+            "act_analysis": {
+              "html": "<p><b>Почему:</b> Кассационный суд отменил апелляционное определение в части отказа в признании договора дарения недействительным, так как нижестоящие инстанции не исследовали обстоятельства, указывающие на мнимость сделки: отсутствие фактического исполнения, незнание сторон друг друга и удержание дарителем владения и проживания в квартире. Суд также указал на неправильное применение норм о сроке исковой давности для ничтожной сделки, поскольку исполнение договора не началось, а суды приняли за его начало лишь государственную регистрацию перехода права.</p>",
+              "source": "llm_summary",
+              "act_date": "23.09.2026",
+              "generated_at": "2026-10-21T03:45:26+00:00",
+              "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+              "source_hash": "540617a8fb25b42cad7ee75074a1900b4e699b8589aa2f0b8f48218f7ca8f858",
+              "preparation": {
+                "version": "full-act-v1",
+                "source_hash": "540617a8fb25b42cad7ee75074a1900b4e699b8589aa2f0b8f48218f7ca8f858",
+                "raw_chars": 31118,
+                "prepared_chars": 31118,
+                "source_url": "https://7kas.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=15861234&case_uid=07e26492-bff9-494e-85ef-beb548caa94e&delo_id=2800001&new=2800001",
+                "court_domain": "7kas.sudrf.ru",
+                "received_at": "2026-10-21T02:57:50+00:00",
+                "case_number": "8Г-13639/2026",
+                "stage": "cassation",
+                "judicial_uid": "72RS0010-01-2025-001059-71",
+                "identity_check": "matched_uid",
+                "status": "ready"
+              }
+            }
           },
           "plaintiff": "Драчёва Татьяна Анатольевна",
           "defendant": "Кородян Сергей Анатольевич",
