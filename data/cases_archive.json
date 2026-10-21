@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-21T08:38:55+05:00",
+  "updated_at": "2026-10-21T03:45:32+00:00",
   "cases": [
     {
       "id": "2-417/2025",
@@ -14046,7 +14046,29 @@
         "act_notification_kind": "new_publication",
         "act_received_at": "2026-10-21T03:34:34+00:00",
         "act_source_url": "https://centralny--tum.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=243950177&case_uid=672bd6ac-9723-4c98-81a0-28cb2d680e51&delo_id=1540005&new=0",
-        "act_decision_date": "13.07.2026"
+        "act_decision_date": "13.07.2026",
+        "act_analysis": {
+          "html": "<p><b>Почему:</b> Суд признал денежные средства на счете умершего выморочным имуществом, так как наследственное дело не заводилось, наследники не установлены, а со дня открытия наследства прошло более трёх лет без заявлений о принятии. На основании ст. 1151 ГК РФ имущество перешло в собственность РФ без акта принятия, что подтверждается отсутствием сведений в реестре ФНП и ответе областной нотариальной палаты.</p>",
+          "source": "llm_summary",
+          "act_date": "13.07.2026",
+          "generated_at": "2026-10-21T03:45:24+00:00",
+          "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+          "source_hash": "77194fc3a9d2200e717a09111b1935a3f886328b2281b31f0b630dda8b55af87",
+          "preparation": {
+            "version": "full-act-v1",
+            "source_hash": "77194fc3a9d2200e717a09111b1935a3f886328b2281b31f0b630dda8b55af87",
+            "raw_chars": 14828,
+            "prepared_chars": 14828,
+            "source_url": "https://centralny--tum.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=243950177&case_uid=672bd6ac-9723-4c98-81a0-28cb2d680e51&delo_id=1540005&new=0",
+            "court_domain": "centralny--tum.sudrf.ru",
+            "received_at": "2026-10-21T03:34:34+00:00",
+            "case_number": "2-5420/2026",
+            "stage": "first_instance",
+            "judicial_uid": "72RS0025-01-2026-004488-63",
+            "identity_check": "matched_uid",
+            "status": "ready"
+          }
+        }
       },
       "appeal": null,
       "import": {
