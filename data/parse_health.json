@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated_at": "2026-10-22T08:27:03+05:00",
+ "updated_at": "2026-10-22T08:40:35+05:00",
  "sources": {
   "cassation:7kas:total": {
    "counts": [
@@ -100,24 +100,24 @@
   }
  },
  "last_run": {
-  "at": "2026-10-22T08:27:03",
+  "at": "2026-10-22T08:40:35",
   "alerts": [],
-  "requests_ok": 2,
+  "requests_ok": 0,
   "requests_failed": 0,
   "requests_retried": 0,
   "cards_breaker_skipped": 0,
   "cards_breaker_unrequested": 0,
   "cards_breaker_recovered": 0,
   "cards_blocked": 0,
-  "cards_read": 2,
-  "cards_planned": 4,
+  "cards_read": 0,
+  "cards_planned": 2,
   "cards_read_today": 304,
   "cards_planned_today": 306,
-  "daily_attempts": 4,
+  "daily_attempts": 5,
   "instances": {
    "first_instance": {
-    "read": 2,
-    "planned": 4,
+    "read": 0,
+    "planned": 2,
     "read_today": 238,
     "planned_today": 240
    },
@@ -134,12 +134,7 @@
     "planned_today": 15
    }
   },
-  "latency": {
-   "n": 2,
-   "p50": 1.9,
-   "p90": 6.5,
-   "max": 6.5
-  },
+  "latency": {},
   "failure_latency": {},
   "fail_kinds": {},
   "breaker": {
@@ -162,7 +157,7 @@
   "cards_unreachable": 0,
   "cards_unread_other": 2,
   "run_deadline_seconds": 3300.0,
-  "run_deadline_reached": false
+  "run_deadline_reached": true
  },
  "act_publication_watch": {
   "date": "2026-10-22",
@@ -580,9 +575,9 @@
   "date": "2026-10-22",
   "region": "tyumen",
   "waiting": 154,
-  "due": 4,
-  "planned": 4,
-  "read": 2,
+  "due": 2,
+  "planned": 2,
+  "read": 0,
   "unread": 2,
   "published": 0,
   "backfilled": 0,
@@ -1242,8 +1237,8 @@
    {
     "key": "leninsky--tum.sudrf.ru|1540005|1|2-9315/2026|2026-10-05",
     "number": "2-9315/2026",
-    "next_check_at": "2026-10-22",
-    "reason": "checked"
+    "next_check_at": "2026-10-23",
+    "reason": "scheduled"
    },
    {
     "key": "leninsky--tum.sudrf.ru|1540005|1|2-9198/2026|2026-10-05",
@@ -1771,7 +1766,7 @@
     "key": "leninsky--tum.sudrf.ru|1540005|1|2-9772/2026|2026-10-06",
     "number": "2-9772/2026",
     "next_check_at": "2026-10-22",
-    "reason": "retry_cooldown"
+    "reason": "run_deadline"
    },
    {
     "key": "centralny--tum.sudrf.ru|1540005|1|2-7715/2026|2026-10-07",
@@ -1938,8 +1933,8 @@
    {
     "key": "leninsky--tum.sudrf.ru|1540005|1|9-10228/2026|2026-10-16",
     "number": "9-10228/2026",
-    "next_check_at": "2026-10-22",
-    "reason": "checked"
+    "next_check_at": "2026-10-23",
+    "reason": "scheduled"
    },
    {
     "key": "centralny--tum.sudrf.ru|1540005|1|2-7147/2026|2026-10-15",
@@ -1981,7 +1976,7 @@
     "key": "leninsky--tum.sudrf.ru|1540005|1|2-9917/2026|2026-10-19",
     "number": "2-9917/2026",
     "next_check_at": "2026-10-22",
-    "reason": "retry_cooldown"
+    "reason": "run_deadline"
    },
    {
     "key": "ishimsky--tum.sudrf.ru|1540005|1|2-264/2026|2026-10-20",
@@ -3407,7 +3402,7 @@
    {
     "key": "leninsky--tum.sudrf.ru|1|2-9315/2026|05.10.2026",
     "number": "2-9315/2026",
-    "next_check_at": "2026-10-28",
+    "next_check_at": "2026-10-29",
     "reason": "scheduled"
    },
    {
@@ -4399,8 +4394,8 @@
  "card_refresh": {
   "date": "2026-10-22",
   "region": "tyumen",
-  "planned": 4,
-  "read": 2,
+  "planned": 2,
+  "read": 0,
   "items": [
    {
     "key": "first_instance|https://leninsky--tum.sudrf.ru/modules.php?case_id=249958375&case_uid=ab513667-c5a0-4553-9377-6cc4259cfe93&delo_id=1540005&name=sud_delo&name_op=case&new=0&srv_num=1",
@@ -4408,7 +4403,7 @@
     "reasons": [
      "text_waiting"
     ],
-    "reason": "retry_cooldown"
+    "reason": "run_deadline"
    },
    {
     "key": "first_instance|https://leninsky--tum.sudrf.ru/modules.php?case_id=250089054&case_uid=193b095c-3beb-4087-a4cd-7c7da8735a60&delo_id=1540005&name=sud_delo&name_op=case&new=0&srv_num=1",
@@ -4416,23 +4411,7 @@
     "reasons": [
      "text_waiting"
     ],
-    "reason": "retry_cooldown"
-   },
-   {
-    "key": "first_instance|https://leninsky--tum.sudrf.ru/modules.php?case_id=250146308&case_uid=6d0e29ad-c010-4d0e-acbe-305fd280b3cc&delo_id=1540005&name=sud_delo&name_op=case&new=0&srv_num=1",
-    "stage": "first_instance",
-    "reasons": [
-     "text_waiting"
-    ],
-    "reason": "checked"
-   },
-   {
-    "key": "first_instance|https://leninsky--tum.sudrf.ru/modules.php?case_id=250652783&case_uid=9c2ea139-ec60-4e56-963f-72acb9b93967&delo_id=1540005&name=sud_delo&name_op=case&new=0&srv_num=1",
-    "stage": "first_instance",
-    "reasons": [
-     "text_waiting"
-    ],
-    "reason": "checked"
+    "reason": "run_deadline"
    }
   ],
   "instances": {
@@ -4445,8 +4424,8 @@
     "read": 0
    },
    "first_instance": {
-    "planned": 4,
-    "read": 2
+    "planned": 2,
+    "read": 0
    }
   },
   "unread": 2
@@ -4666,11 +4645,11 @@
    },
    "first_instance|https://leninsky--tum.sudrf.ru/modules.php?case_id=249958375&case_uid=ab513667-c5a0-4553-9377-6cc4259cfe93&delo_id=1540005&name=sud_delo&name_op=case&new=0&srv_num=1": {
     "stage": "first_instance",
-    "reason": "retry_cooldown"
+    "reason": "run_deadline"
    },
    "first_instance|https://leninsky--tum.sudrf.ru/modules.php?case_id=250089054&case_uid=193b095c-3beb-4087-a4cd-7c7da8735a60&delo_id=1540005&name=sud_delo&name_op=case&new=0&srv_num=1": {
     "stage": "first_instance",
-    "reason": "retry_cooldown"
+    "reason": "run_deadline"
    },
    "first_instance|https://leninsky--tum.sudrf.ru/modules.php?case_id=250146308&case_uid=6d0e29ad-c010-4d0e-acbe-305fd280b3cc&delo_id=1540005&name=sud_delo&name_op=case&new=0&srv_num=1": {
     "stage": "first_instance",
