@@ -696,5 +696,37 @@
       "status": "ready"
     },
     "generated_at": "2026-10-21T03:45:30+00:00"
+  },
+  "264450a9adbf8381": {
+    "summary": "Суд апелляционной инстанции подтвердил отказ в иске Райффайзенбанка к наследственному имуществу, так как смерть заемщика через 4 года после страхования не освобождает страховщика от выплаты по п. 2.7.4. условий программы, следовательно, имеет место страховой случай, и банк должен обратиться к страховщику. Привлечение страховой организации в качестве соответчика по инициативе суда необязательно, поскольку истец, знавший о страховом случае, не предъявил требований к страховщику и не ходатайствовал о его привлечении.",
+    "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+    "attempts": [
+      {
+        "provider": "openrouter",
+        "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "status": "ready",
+        "context_limit": 1000000,
+        "input_token_upper_bound": 84460,
+        "output_reserve": 1024,
+        "token_estimate": "utf8_bytes_upper_bound"
+      }
+    ],
+    "fallback": false,
+    "stage": "appeal",
+    "preparation": {
+      "version": "full-act-v1",
+      "source_hash": "a9339bec1ec11198f896f83446239885b6783f13efdd1c20c063f0d7571f8fc6",
+      "raw_chars": 44821,
+      "prepared_chars": 44821,
+      "source_url": "https://oblsud--tum.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=11545099&case_uid=e68a633d-e0d6-43f9-a838-fbfc41715b64&delo_id=5&new=5",
+      "court_domain": "",
+      "received_at": "2026-10-22T02:20:35+00:00",
+      "case_number": "33-5141/2026",
+      "stage": "appeal",
+      "judicial_uid": "",
+      "identity_check": "header_unavailable",
+      "status": "ready"
+    },
+    "generated_at": "2026-10-22T03:45:31+00:00"
   }
 }
