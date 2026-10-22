@@ -1074,8 +1074,8 @@
     },
     "source_hash": "a9339bec1ec11198f896f83446239885b6783f13efdd1c20c063f0d7571f8fc6",
     "created_at": "2026-10-22T02:31:28+00:00",
-    "runs": 0,
-    "status": "missing_keys",
+    "runs": 1,
+    "status": "ready",
     "preparation": {
       "version": "full-act-v1",
       "source_hash": "a9339bec1ec11198f896f83446239885b6783f13efdd1c20c063f0d7571f8fc6",
@@ -1090,8 +1090,23 @@
       "identity_check": "header_unavailable",
       "status": "ready"
     },
-    "attempts": [],
+    "attempts": [
+      {
+        "provider": "openrouter",
+        "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "status": "ready",
+        "context_limit": 1000000,
+        "input_token_upper_bound": 84460,
+        "output_reserve": 1024,
+        "token_estimate": "utf8_bytes_upper_bound"
+      }
+    ],
     "refusal_rechecked": false,
-    "updated_at": "2026-10-22T02:31:28+00:00"
+    "updated_at": "2026-10-22T03:45:27+00:00",
+    "retry_after": "2026-10-23T03:45:27+00:00",
+    "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+    "fallback": false,
+    "cached": false,
+    "summary": "Суд апелляционной инстанции подтвердил отказ в иске Райффайзенбанка к наследственному имуществу, так как смерть заемщика через 4 года после страхования не освобождает страховщика от выплаты по п. 2.7.4. условий программы, следовательно, имеет место страховой случай, и банк должен обратиться к страховщику. Привлечение страховой организации в качестве соответчика по инициативе суда необязательно, поскольку истец, знавший о страховом случае, не предъявил требований к страховщику и не ходатайствовал о его привлечении."
   }
 }
