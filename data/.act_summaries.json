@@ -728,5 +728,110 @@
       "status": "ready"
     },
     "generated_at": "2026-10-22T03:45:31+00:00"
+  },
+  "e0d9015dfea6496b": {
+    "summary": "Апелляционный суд отменил определение в части наименования экспертизы, установив, что вопросы, поставленные первой инстанцией, по существу относятся к компетенции психиатров и психологов, поэтому назначена дополнительная комплексная судебная психолого-психиатрическая экспертиза. Доводы об отмене приостановления производства отклонены как несостоятельные, так как приостановление вызвано необходимостью проведения экспертизы и не противоречит ст. 216 и 86 ГПК РФ, а ходатайства об истребовании доказательств были удовлетворены или могут быть рассмотрены экспертным учреждением.",
+    "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+    "attempts": [
+      {
+        "provider": "openrouter",
+        "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "status": "answer_too_long",
+        "context_limit": 1000000,
+        "input_token_upper_bound": 38620,
+        "output_reserve": 1024,
+        "token_estimate": "utf8_bytes_upper_bound"
+      },
+      {
+        "provider": "openrouter",
+        "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "status": "ready",
+        "context_limit": 1000000,
+        "input_token_upper_bound": 38620,
+        "output_reserve": 1024,
+        "token_estimate": "utf8_bytes_upper_bound"
+      }
+    ],
+    "fallback": false,
+    "stage": "appeal",
+    "preparation": {
+      "version": "full-act-v1",
+      "source_hash": "d924d9c2f8a097bc3e81ae223aa33882917ca684abe9385f2f3a121199970412",
+      "raw_chars": 18361,
+      "prepared_chars": 18361,
+      "source_url": "https://oblsud--tum.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=11851777&case_uid=c52d0797-3881-4efc-88ba-0e30b92080a1&delo_id=5&new=5",
+      "court_domain": "oblsud--tum.sudrf.ru",
+      "received_at": "2026-10-26T01:18:50+00:00",
+      "case_number": "33-6561/2026",
+      "stage": "appeal",
+      "judicial_uid": "",
+      "identity_check": "matched_header",
+      "status": "ready"
+    },
+    "generated_at": "2026-10-26T03:45:37+00:00"
+  },
+  "7082ce4820c59b11": {
+    "summary": "Судебная коллегия признала кредитный договор недействительным по основанию ст. 178 ГК РФ (существенное заблуждение истца, сформированное под влиянием третьего лица), так как экспертизы подтвердили, что Деменев не мог критически оценивать ситуацию, а банк добросовестно предупреждал его о мошенничестве. Одновременно суд применил двустороннюю реституцию, взыскав с заемщика остаток основного долга 148 326,57 руб., поскольку банк не знал об обмане, а истец физически получил и распорядился деньгами.",
+    "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+    "attempts": [
+      {
+        "provider": "openrouter",
+        "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "status": "ready",
+        "context_limit": 1000000,
+        "input_token_upper_bound": 85278,
+        "output_reserve": 1024,
+        "token_estimate": "utf8_bytes_upper_bound"
+      }
+    ],
+    "fallback": false,
+    "stage": "appeal",
+    "preparation": {
+      "version": "full-act-v1",
+      "source_hash": "4bbec21007429eeb62e36560f6128088e627b1789a3b111400e27c71f2a3285d",
+      "raw_chars": 44413,
+      "prepared_chars": 44413,
+      "source_url": "https://oblsud--tum.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=11862167&case_uid=43fcdf23-7aec-4ce2-bf59-2046f3089a5c&delo_id=5&new=5",
+      "court_domain": "oblsud--tum.sudrf.ru",
+      "received_at": "2026-10-26T01:18:30+00:00",
+      "case_number": "33-6609/2026",
+      "stage": "appeal",
+      "judicial_uid": "",
+      "identity_check": "matched_header",
+      "status": "ready"
+    },
+    "generated_at": "2026-10-26T03:45:48+00:00"
+  },
+  "a562e12db4b2d457": {
+    "summary": "Апелляционный суд отменил приостановление производства, так как банкротство основного должника не влечет прекращения обязательства поручителя и не создает преюдициальной зависимости для иска к гаранту. Рассмотрение дела о банкротстве не делает невозможным разрешение спора с поручителем, поскольку результат банкротства не влияет на объем и основание ответственности поручителя перед кредитором.",
+    "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+    "attempts": [
+      {
+        "provider": "openrouter",
+        "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "status": "ready",
+        "context_limit": 1000000,
+        "input_token_upper_bound": 23820,
+        "output_reserve": 1024,
+        "token_estimate": "utf8_bytes_upper_bound"
+      }
+    ],
+    "fallback": false,
+    "stage": "appeal",
+    "preparation": {
+      "version": "full-act-v1",
+      "source_hash": "73e94675583e9d1e2bb3da7f4810fe5b0b43b603f1e69f0ebd9b9c88983a9316",
+      "raw_chars": 10329,
+      "prepared_chars": 10329,
+      "source_url": "https://oblsud--tum.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=11880724&case_uid=a984267b-fbe8-4618-917d-4eece3679ea5&delo_id=5&new=5",
+      "court_domain": "oblsud--tum.sudrf.ru",
+      "received_at": "2026-10-26T01:18:07+00:00",
+      "case_number": "33-6728/2026",
+      "stage": "appeal",
+      "judicial_uid": "",
+      "identity_check": "matched_header",
+      "status": "ready"
+    },
+    "generated_at": "2026-10-26T03:45:51+00:00"
   }
 }
