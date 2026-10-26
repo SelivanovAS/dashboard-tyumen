@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-26T08:06:46+05:00",
+  "updated_at": "2026-10-26T08:35:14+05:00",
   "cases": [
     {
       "id": "2-7059/2026",
@@ -86831,8 +86831,8 @@
       "policy_version": 2,
       "next_check_at": "2026-10-23",
       "attempt_day": "2026-10-26",
-      "attempt_count": 1,
-      "last_attempt_at": "2026-10-26T07:28:41"
+      "attempt_count": 2,
+      "last_attempt_at": "2026-10-26T08:31:50"
     },
     "tumensky--tum.sudrf.ru|1540005|1|2-4046/2026|2026-10-12": {
       "status": "complete",
@@ -105460,6 +105460,9 @@
         "fi_act_watch_baseline_version": 1,
         "fi_act_checked_at": "2026-10-12",
         "legal_force_emitted": "2026-10-22",
+        "default_copy_returned_emitted": "01.10.2026",
+        "default_copy_returned": true,
+        "default_copy_returned_date": "01.10.2026",
         "events": [
           {
             "date": "18.02.2026",
@@ -105562,8 +105565,7 @@
             "name": "Копия заочного решения возвратилась невручённой",
             "posted_at": "25.10.2026"
           }
-        ],
-        "default_copy_returned_emitted": "01.10.2026"
+        ]
       },
       "status": "waiting",
       "reason": "awaiting_writ",
@@ -144798,7 +144800,7 @@
     "1": {
       "stage": "first_instance",
       "keys": {
-        "first_instance": "first_instance|https://centralny--tum.sudrf.ru/modules.php?case_id=247368834&case_uid=2e752b62-c3a7-4384-94aa-39900fc6af2b&delo_id=1540005&name=sud_delo&name_op=case&new=0&srv_num=1",
+        "first_instance": "first_instance|https://leninsky--tum.sudrf.ru/modules.php?case_id=249703314&case_uid=0bc54361-7ceb-4b7a-b7aa-8275d6961f4c&delo_id=1540005&name=sud_delo&name_op=case&new=0&srv_num=1",
         "cassation": "cassation|https://7kas.sudrf.ru/modules.php?case_id=15869014&case_uid=fa025237-662b-4d71-ac31-4bc49d846871&delo_id=2800001&name=sud_delo&name_op=case&new=2800001&srv_num=1",
         "appeal": "appeal|https://oblsud--tum.sudrf.ru/modules.php?case_id=11654904&case_uid=c711328f-b0bc-4d82-ad63-edbb743142b8&delo_id=5&name=sud_delo&name_op=case&new=5&srv_num=1"
       }
