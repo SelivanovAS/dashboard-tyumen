@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated_at": "2026-10-27T08:11:25+05:00",
+ "updated_at": "2026-10-27T08:40:24+05:00",
  "sources": {
   "cassation:7kas:total": {
    "counts": [
@@ -100,24 +100,24 @@
   }
  },
  "last_run": {
-  "at": "2026-10-27T08:11:25",
+  "at": "2026-10-27T08:40:24",
   "alerts": [],
-  "requests_ok": 12,
+  "requests_ok": 0,
   "requests_failed": 0,
   "requests_retried": 0,
   "cards_breaker_skipped": 0,
   "cards_breaker_unrequested": 0,
   "cards_breaker_recovered": 0,
   "cards_blocked": 0,
-  "cards_read": 12,
-  "cards_planned": 12,
+  "cards_read": 0,
+  "cards_planned": 0,
   "cards_read_today": 322,
   "cards_planned_today": 327,
-  "daily_attempts": 4,
+  "daily_attempts": 5,
   "instances": {
    "first_instance": {
-    "read": 12,
-    "planned": 12,
+    "read": 0,
+    "planned": 0,
     "read_today": 264,
     "planned_today": 269
    },
@@ -134,12 +134,7 @@
     "planned_today": 11
    }
   },
-  "latency": {
-   "n": 12,
-   "p50": 3.3,
-   "p90": 4.5,
-   "max": 5.4
-  },
+  "latency": {},
   "failure_latency": {},
   "fail_kinds": {},
   "breaker": {
@@ -162,7 +157,7 @@
   "cards_unreachable": 0,
   "cards_unread_other": 0,
   "run_deadline_seconds": 3300.0,
-  "run_deadline_reached": false
+  "run_deadline_reached": true
  },
  "act_publication_watch": {
   "date": "2026-10-27",
