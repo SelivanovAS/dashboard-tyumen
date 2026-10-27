@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-27T08:40:26+05:00",
+  "updated_at": "2026-10-27T03:45:33+00:00",
   "cases": [
     {
       "id": "2-7059/2026",
@@ -12979,7 +12979,29 @@
         "act_notification_kind": "new_publication",
         "act_received_at": "2026-10-27T01:31:42+00:00",
         "act_source_url": "https://tumensky--tum.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=248621223&case_uid=739123d3-6a12-4109-a81f-f14139651dbd&delo_id=1540005&new=0",
-        "act_decision_date": "08.09.2026"
+        "act_decision_date": "08.09.2026",
+        "act_analysis": {
+          "html": "<p><b>Почему:</b> Суд признал договор страхования недействительным, так как застрахованный при заключении заведомо сообщил недостоверные сведения о своем здоровье, скрыв диагноз, установленный до страхования. Ответчик признал иск, поэтому суд применил последствия недействительной сделки, взыскав с страховщика в пользу застрахованного уплаченную страховую премию.</p>",
+          "source": "llm_summary",
+          "act_date": "08.09.2026",
+          "generated_at": "2026-10-27T03:45:28+00:00",
+          "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+          "source_hash": "8b36276ac6ace059cbc879c8e2985d18693c4fb826037829c7c46852d899b990",
+          "preparation": {
+            "version": "full-act-v1",
+            "source_hash": "8b36276ac6ace059cbc879c8e2985d18693c4fb826037829c7c46852d899b990",
+            "raw_chars": 13125,
+            "prepared_chars": 13125,
+            "source_url": "https://tumensky--tum.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=248621223&case_uid=739123d3-6a12-4109-a81f-f14139651dbd&delo_id=1540005&new=0",
+            "court_domain": "tumensky--tum.sudrf.ru",
+            "received_at": "2026-10-27T01:31:42+00:00",
+            "case_number": "2-3655/2026",
+            "stage": "first_instance",
+            "judicial_uid": "72RS0021-01-2026-004318-09",
+            "identity_check": "matched_uid",
+            "status": "ready"
+          }
+        }
       },
       "appeal": null,
       "import": {

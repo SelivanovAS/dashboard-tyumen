@@ -1299,8 +1299,8 @@
     },
     "source_hash": "8b36276ac6ace059cbc879c8e2985d18693c4fb826037829c7c46852d899b990",
     "created_at": "2026-10-27T01:46:08+00:00",
-    "runs": 0,
-    "status": "missing_keys",
+    "runs": 1,
+    "status": "ready",
     "preparation": {
       "version": "full-act-v1",
       "source_hash": "8b36276ac6ace059cbc879c8e2985d18693c4fb826037829c7c46852d899b990",
@@ -1315,8 +1315,23 @@
       "identity_check": "matched_uid",
       "status": "ready"
     },
-    "attempts": [],
+    "attempts": [
+      {
+        "provider": "openrouter",
+        "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "status": "ready",
+        "context_limit": 1000000,
+        "input_token_upper_bound": 28999,
+        "output_reserve": 1024,
+        "token_estimate": "utf8_bytes_upper_bound"
+      }
+    ],
     "refusal_rechecked": false,
-    "updated_at": "2026-10-27T01:46:08+00:00"
+    "updated_at": "2026-10-27T03:45:28+00:00",
+    "retry_after": "2026-10-28T03:45:28+00:00",
+    "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+    "fallback": false,
+    "cached": false,
+    "summary": "Суд признал договор страхования недействительным, так как застрахованный при заключении заведомо сообщил недостоверные сведения о своем здоровье, скрыв диагноз, установленный до страхования. Ответчик признал иск, поэтому суд применил последствия недействительной сделки, взыскав с страховщика в пользу застрахованного уплаченную страховую премию."
   }
 }
