@@ -833,5 +833,37 @@
       "status": "ready"
     },
     "generated_at": "2026-10-26T03:45:51+00:00"
+  },
+  "54515e7dfa8ccaaf": {
+    "summary": "Суд признал договор страхования недействительным, так как застрахованный при заключении заведомо сообщил недостоверные сведения о своем здоровье, скрыв диагноз, установленный до страхования. Ответчик признал иск, поэтому суд применил последствия недействительной сделки, взыскав с страховщика в пользу застрахованного уплаченную страховую премию.",
+    "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+    "attempts": [
+      {
+        "provider": "openrouter",
+        "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "status": "ready",
+        "context_limit": 1000000,
+        "input_token_upper_bound": 28999,
+        "output_reserve": 1024,
+        "token_estimate": "utf8_bytes_upper_bound"
+      }
+    ],
+    "fallback": false,
+    "stage": "first_instance",
+    "preparation": {
+      "version": "full-act-v1",
+      "source_hash": "8b36276ac6ace059cbc879c8e2985d18693c4fb826037829c7c46852d899b990",
+      "raw_chars": 13125,
+      "prepared_chars": 13125,
+      "source_url": "https://tumensky--tum.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=248621223&case_uid=739123d3-6a12-4109-a81f-f14139651dbd&delo_id=1540005&new=0",
+      "court_domain": "tumensky--tum.sudrf.ru",
+      "received_at": "2026-10-27T01:31:42+00:00",
+      "case_number": "2-3655/2026",
+      "stage": "first_instance",
+      "judicial_uid": "72RS0021-01-2026-004318-09",
+      "identity_check": "matched_uid",
+      "status": "ready"
+    },
+    "generated_at": "2026-10-27T03:45:31+00:00"
   }
 }
