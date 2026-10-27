@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-27T07:19:42+05:00",
+  "updated_at": "2026-10-27T07:40:37+05:00",
   "cases": [
     {
       "id": "2-7059/2026",
@@ -107579,7 +107579,6 @@
         "decision_date": "21.04.2026",
         "legal_force_emitted": "2026-05-22",
         "writ_overdue_emitted": "2026-05-22|150",
-        "court_archived_at": "10.08.2026",
         "legal_force_est": "2026-05-22",
         "writ_awaited_since": "2026-05-22",
         "motivirovka_date": "21.04.2026",
@@ -107592,6 +107591,15 @@
         "act_decision_date": "21.04.2026",
         "fi_act_watch_baseline_version": 1,
         "fi_act_checked_at": "2026-10-12",
+        "writs": [
+          {
+            "issue_date": "26.10.2026",
+            "blank_number": "ФС № 054216067",
+            "electronic_id": "",
+            "recipient": "Взыскатель",
+            "status": "Выдан"
+          }
+        ],
         "events": [
           {
             "date": "20.01.2026",
@@ -107683,15 +107691,6 @@
             "text": "Дело передано в архив. 12:25. 13.08.2026",
             "name": "Дело передано в архив",
             "posted_at": "13.08.2026"
-          }
-        ],
-        "writs": [
-          {
-            "issue_date": "26.10.2026",
-            "blank_number": "ФС № 054216067",
-            "electronic_id": "",
-            "recipient": "Взыскатель",
-            "status": "Выдан"
           }
         ]
       },
@@ -108223,6 +108222,7 @@
         "act_decision_date": "08.04.2026",
         "fi_act_watch_baseline_version": 1,
         "fi_act_checked_at": "2026-10-12",
+        "court_archived_at": "21.10.2026",
         "events": [
           {
             "date": "16.01.2026",
@@ -145843,6 +145843,12 @@
         "act_absent_checked_at": "2026-10-27",
         "fi_act_watch_baseline_version": 1,
         "fi_act_checked_at": "2026-10-27",
+        "decision_date": "21.10.2026",
+        "resolved_emitted": true,
+        "writ_watch_status": "waiting",
+        "writ_watch_reason": "awaiting_writ",
+        "legal_force_est": "2026-12-08",
+        "writ_awaited_since": "2026-12-08",
         "events": [
           {
             "date": "25.06.2026",
@@ -145889,11 +145895,7 @@
             "ground": "Иск (заявление, жалоба) УДОВЛЕТВОРЕН",
             "posted_at": "21.08.2026"
           }
-        ],
-        "decision_date": "21.10.2026",
-        "resolved_emitted": true,
-        "writ_watch_status": "waiting",
-        "writ_watch_reason": "awaiting_writ"
+        ]
       },
       "status": "waiting",
       "reason": "awaiting_writ",
@@ -145934,6 +145936,13 @@
         "act_absent_checked_at": "2026-10-27",
         "fi_act_watch_baseline_version": 1,
         "fi_act_checked_at": "2026-10-27",
+        "decision_date": "21.10.2026",
+        "resolved_emitted": true,
+        "writ_watch_status": "waiting",
+        "writ_watch_reason": "awaiting_writ",
+        "legal_force_est": "2026-12-08",
+        "writ_awaited_since": "2026-12-08",
+        "default_judgment": true,
         "events": [
           {
             "date": "11.08.2026",
@@ -145988,11 +145997,7 @@
             "ground": "Иск (заявление, жалоба) УДОВЛЕТВОРЕН",
             "posted_at": "08.10.2026"
           }
-        ],
-        "decision_date": "21.10.2026",
-        "resolved_emitted": true,
-        "writ_watch_status": "waiting",
-        "writ_watch_reason": "awaiting_writ"
+        ]
       },
       "status": "waiting",
       "reason": "awaiting_writ",
