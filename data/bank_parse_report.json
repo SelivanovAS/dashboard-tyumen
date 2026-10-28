@@ -4,8 +4,8 @@
   "smart_skip": true,
   "totals": {
     "total": 618,
-    "parsed": 1,
-    "skip": 617,
+    "parsed": 0,
+    "skip": 618,
     "failed": 0,
     "no_card": 0,
     "not_in_queue": 0,
@@ -265,16 +265,14 @@
       "last_checked_at": "2026-10-28"
     },
     {
-      "outcome": "parsed",
-      "reason": "",
-      "reason_ru": "",
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
-      "events": [
-        "fi_hearing_new"
-      ],
-      "changed": true,
+      "events": [],
+      "changed": false,
       "left_track": false,
       "archived": false,
       "key": "centralny--tum.sudrf.ru|2-10387/2026",
@@ -11139,5 +11137,5 @@
       "last_checked_at": "2026-10-28"
     }
   ],
-  "updated_at": "2026-10-28T07:15:08+05:00"
+  "updated_at": "2026-10-28T07:40:45+05:00"
 }
