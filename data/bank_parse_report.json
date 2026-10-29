@@ -4,8 +4,8 @@
   "smart_skip": true,
   "totals": {
     "total": 615,
-    "parsed": 1,
-    "skip": 614,
+    "parsed": 0,
+    "skip": 615,
     "failed": 0,
     "no_card": 0,
     "not_in_queue": 0,
@@ -481,16 +481,14 @@
       "last_checked_at": "2026-10-29"
     },
     {
-      "outcome": "parsed",
-      "reason": "",
-      "reason_ru": "",
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
-      "events": [
-        "fi_hearing_new"
-      ],
-      "changed": true,
+      "events": [],
+      "changed": false,
       "left_track": false,
       "archived": false,
       "key": "kalininsky--tum.sudrf.ru|2-7599/2026",
@@ -11085,5 +11083,5 @@
       "last_checked_at": "2026-10-29"
     }
   ],
-  "updated_at": "2026-10-29T07:15:34+05:00"
+  "updated_at": "2026-10-29T07:40:39+05:00"
 }
