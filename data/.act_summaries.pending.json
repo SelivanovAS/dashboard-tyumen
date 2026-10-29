@@ -1353,8 +1353,8 @@
     },
     "source_hash": "a157f66b0ceee4619e815fa912adcc0a3fce4003a10933a0fa003e84450d193d",
     "created_at": "2026-10-29T01:53:08+00:00",
-    "runs": 0,
-    "status": "missing_keys",
+    "runs": 1,
+    "status": "ready",
     "preparation": {
       "version": "full-act-v1",
       "source_hash": "a157f66b0ceee4619e815fa912adcc0a3fce4003a10933a0fa003e84450d193d",
@@ -1369,8 +1369,23 @@
       "identity_check": "matched_header",
       "status": "ready"
     },
-    "attempts": [],
+    "attempts": [
+      {
+        "provider": "openrouter",
+        "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "status": "ready",
+        "context_limit": 1000000,
+        "input_token_upper_bound": 22121,
+        "output_reserve": 1024,
+        "token_estimate": "utf8_bytes_upper_bound"
+      }
+    ],
     "refusal_rechecked": false,
-    "updated_at": "2026-10-29T01:53:08+00:00"
+    "updated_at": "2026-10-29T03:45:28+00:00",
+    "retry_after": "2026-10-30T03:45:28+00:00",
+    "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+    "fallback": false,
+    "cached": false,
+    "summary": "Суд отказал в иске, так как по справке банка и выписке из ЕГРН установлено полное погашение кредита ответчиком в 2024 году вследствие продажи заложенного имущества с согласия кредитора. На момент рассмотрения дела задолженность по договору отсутствует, а обременение на недвижимость снято."
   }
 }
