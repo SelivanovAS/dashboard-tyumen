@@ -1466,8 +1466,8 @@
     },
     "source_hash": "7cbc4721392fc62d94c1694e5751a5156ec7b43edb03a9904c77fe06b4c95392",
     "created_at": "2026-11-05T02:18:28+00:00",
-    "runs": 0,
-    "status": "missing_keys",
+    "runs": 1,
+    "status": "ready",
     "preparation": {
       "version": "full-act-v1",
       "source_hash": "7cbc4721392fc62d94c1694e5751a5156ec7b43edb03a9904c77fe06b4c95392",
@@ -1482,8 +1482,23 @@
       "identity_check": "matched_uid",
       "status": "ready"
     },
-    "attempts": [],
+    "attempts": [
+      {
+        "provider": "openrouter",
+        "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "status": "ready",
+        "context_limit": 1000000,
+        "input_token_upper_bound": 24642,
+        "output_reserve": 1024,
+        "token_estimate": "utf8_bytes_upper_bound"
+      }
+    ],
     "refusal_rechecked": false,
-    "updated_at": "2026-11-05T02:18:28+00:00"
+    "updated_at": "2026-11-05T03:45:26+00:00",
+    "retry_after": "2026-11-06T03:45:26+00:00",
+    "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+    "fallback": false,
+    "cached": false,
+    "summary": "Суд установил, что наследственное дело не заводилось, а наследники по закону и завещанию отсутствуют, поэтому денежные средства на счетах умершей признаются выморочным имуществом, переходящим в собственность РФ. Банк не оспорил статус имущества, а подтвердил необходимость судебного акта для списания средств в бюджет, что обосновывает обязанность перечисления."
   }
 }

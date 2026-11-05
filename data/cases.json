@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-05T08:40:29+05:00",
+  "updated_at": "2026-11-05T03:47:06+00:00",
   "cases": [
     {
       "id": "33-7800/2026",
@@ -11728,7 +11728,29 @@
         "act_notification_kind": "new_publication",
         "act_received_at": "2026-11-05T02:13:30+00:00",
         "act_source_url": "https://centralny--tum.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=247368834&case_uid=2e752b62-c3a7-4384-94aa-39900fc6af2b&delo_id=1540005&new=0",
-        "act_decision_date": "23.09.2026"
+        "act_decision_date": "23.09.2026",
+        "act_analysis": {
+          "html": "<p><b>Почему:</b> Суд установил, что наследственное дело не заводилось, а наследники по закону и завещанию отсутствуют, поэтому денежные средства на счетах умершей признаются выморочным имуществом, переходящим в собственность РФ. Банк не оспорил статус имущества, а подтвердил необходимость судебного акта для списания средств в бюджет, что обосновывает обязанность перечисления.</p>",
+          "source": "llm_summary",
+          "act_date": "23.09.2026",
+          "generated_at": "2026-11-05T03:45:26+00:00",
+          "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+          "source_hash": "7cbc4721392fc62d94c1694e5751a5156ec7b43edb03a9904c77fe06b4c95392",
+          "preparation": {
+            "version": "full-act-v1",
+            "source_hash": "7cbc4721392fc62d94c1694e5751a5156ec7b43edb03a9904c77fe06b4c95392",
+            "raw_chars": 10704,
+            "prepared_chars": 10704,
+            "source_url": "https://centralny--tum.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=247368834&case_uid=2e752b62-c3a7-4384-94aa-39900fc6af2b&delo_id=1540005&new=0",
+            "court_domain": "centralny--tum.sudrf.ru",
+            "received_at": "2026-11-05T02:13:30+00:00",
+            "case_number": "2-7361/2026",
+            "stage": "first_instance",
+            "judicial_uid": "72RS0025-01-2026-007982-57",
+            "identity_check": "matched_uid",
+            "status": "ready"
+          }
+        }
       },
       "appeal": null,
       "import": {
