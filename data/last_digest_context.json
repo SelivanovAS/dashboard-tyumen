@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-11-05T07:18:28",
+  "saved_at": "2026-11-05T07:42:03",
   "new_cases": [
     {
       "Номер дела": "33-7800/2026",
@@ -2765,12 +2765,42 @@
         "new_status": "Решено"
       },
       "track": "plaintiff_light"
+    },
+    {
+      "case": "2-996/2026",
+      "court": "Ишимский городской суд",
+      "plaintiff": "ПАО Сбербанк",
+      "defendant": "Корсунский Сергей Михайлович",
+      "bank_role": "Истец",
+      "category": "Споры, связанные с имущественными правами → Иски о взыскании сумм по договору займа, кредитному договору",
+      "type": [
+        "fi_resolved",
+        "fi_status_change",
+        "fi_final_event"
+      ],
+      "details": {
+        "link": "248007664|88bee5a1-d894-4a48-a6e4-252da9346790",
+        "court_domain": "ishimskygor--tum.sudrf.ru",
+        "raw_result": "Иск (заявление, жалоба) УДОВЛЕТВОРЕН",
+        "verdict_label": "удовлетворено",
+        "bank_outcome": "в пользу банка",
+        "decision_date": "02.11.2026",
+        "last_event": "Изготовлено мотивированное решение в окончательной форме. 13:15. 03.11.2026",
+        "category": "Споры, связанные с имущественными правами → Иски о взыскании сумм по договору займа, кредитному договору",
+        "old_status": "В производстве",
+        "new_status": "Решено",
+        "event": "Изготовлено мотивированное решение в окончательной форме. 13:15. 03.11.2026",
+        "event_date": "02.11.2026",
+        "scheduled_hearing_date": "02.11.2026",
+        "scheduled_hearing_time": "09:00"
+      },
+      "track": "plaintiff_light"
     }
   ],
   "total_active_appeal": 33,
   "total_active_fi": 39,
   "total_active_cassation": 18,
-  "total_active_bank": 222,
+  "total_active_bank": 221,
   "cass_changes": [
     {
       "case": "2-64/2025",
@@ -2877,5 +2907,5 @@
     }
   ],
   "issue_key": "2026-11-05T06:49:12",
-  "updated_at": "2026-11-05T07:18:28+05:00"
+  "updated_at": "2026-11-05T07:42:03+05:00"
 }
