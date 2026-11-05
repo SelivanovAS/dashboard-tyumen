@@ -3,15 +3,69 @@
   "run_date": "2026-11-05",
   "smart_skip": true,
   "totals": {
-    "total": 611,
-    "parsed": 0,
-    "skip": 567,
-    "failed": 44,
+    "total": 614,
+    "parsed": 2,
+    "skip": 570,
+    "failed": 42,
     "no_card": 0,
     "not_in_queue": 0,
     "intake_new": 0
   },
   "cases": [
+    {
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "detail": "",
+      "degraded": false,
+      "force_parsed": false,
+      "events": [],
+      "changed": false,
+      "left_track": false,
+      "archived": false,
+      "key": "kalininsky--tum.sudrf.ru|М-6257/2026",
+      "number": "М-6257/2026",
+      "court": "Калининский районный суд г. Тюмени",
+      "court_domain": "kalininsky--tum.sudrf.ru",
+      "case_status": "В производстве",
+      "last_checked_at": "2026-11-05"
+    },
+    {
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "detail": "",
+      "degraded": false,
+      "force_parsed": false,
+      "events": [],
+      "changed": false,
+      "left_track": false,
+      "archived": false,
+      "key": "kalininsky--tum.sudrf.ru|М-6210/2026",
+      "number": "М-6210/2026",
+      "court": "Калининский районный суд г. Тюмени",
+      "court_domain": "kalininsky--tum.sudrf.ru",
+      "case_status": "В производстве",
+      "last_checked_at": "2026-11-05"
+    },
+    {
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "detail": "",
+      "degraded": false,
+      "force_parsed": false,
+      "events": [],
+      "changed": false,
+      "left_track": false,
+      "archived": false,
+      "key": "kalininsky--tum.sudrf.ru|2-7576/2026",
+      "number": "2-7576/2026",
+      "court": "Калининский районный суд г. Тюмени",
+      "court_domain": "kalininsky--tum.sudrf.ru",
+      "case_status": "В производстве",
+      "last_checked_at": "2026-11-05"
+    },
     {
       "outcome": "skip",
       "reason": "checked_today",
@@ -1759,9 +1813,9 @@
       "last_checked_at": "2026-11-05"
     },
     {
-      "outcome": "fetch_blocked",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "портал суда отдал заглушку/блокировку вместо карточки",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -1774,12 +1828,12 @@
       "court": "Центральный районный суд г. Тюмени",
       "court_domain": "centralny--tum.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-29"
+      "last_checked_at": "2026-11-05"
     },
     {
-      "outcome": "fetch_blocked",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "портал суда отдал заглушку/блокировку вместо карточки",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -1792,12 +1846,12 @@
       "court": "Центральный районный суд г. Тюмени",
       "court_domain": "centralny--tum.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-29"
+      "last_checked_at": "2026-11-05"
     },
     {
-      "outcome": "court_breaker",
+      "outcome": "fetch_blocked",
       "reason": "",
-      "reason_ru": "суд снят с обхода предохранителем — карточки не читаются (заглушка/код/сеть), дело перечитается следующим прогоном",
+      "reason_ru": "портал суда отдал заглушку/блокировку вместо карточки",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -1813,9 +1867,9 @@
       "last_checked_at": "2026-10-29"
     },
     {
-      "outcome": "court_breaker",
+      "outcome": "fetch_blocked",
       "reason": "",
-      "reason_ru": "суд снят с обхода предохранителем — карточки не читаются (заглушка/код/сеть), дело перечитается следующим прогоном",
+      "reason_ru": "портал суда отдал заглушку/блокировку вместо карточки",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -5882,7 +5936,7 @@
     },
     {
       "outcome": "skip",
-      "reason": "portal_placeholder",
+      "reason": "daily_retry_limit",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
@@ -6674,7 +6728,7 @@
     },
     {
       "outcome": "skip",
-      "reason": "breaker",
+      "reason": "portal_placeholder",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
@@ -7412,7 +7466,7 @@
     },
     {
       "outcome": "skip",
-      "reason": "breaker",
+      "reason": "portal_placeholder",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
@@ -11011,5 +11065,5 @@
       "last_checked_at": "2026-11-02"
     }
   ],
-  "updated_at": "2026-11-05T12:11:10+05:00"
+  "updated_at": "2026-11-05T16:12:49+05:00"
 }
