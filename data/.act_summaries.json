@@ -929,5 +929,37 @@
       "status": "ready"
     },
     "generated_at": "2026-11-05T03:47:03+00:00"
+  },
+  "34c600b5b05f4005": {
+    "summary": "Судебная коллегия оставила апелляционное определение в силе, согласившись с выводами эксперта о соответствии гаража противопожарным нормам (I степень огнестойкости, наличие систем пожаротушения) и отсутствии угрозы жизни и здоровью истца. Доводы жалобы о нарушениях при производстве экспертизе и ссылке на утративший силу СП 4.13130.2013 отклонены как не влияющие на достоверность заключения и не входящие в компетенцию кассационной инстанции.",
+    "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+    "attempts": [
+      {
+        "provider": "openrouter",
+        "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "status": "ready",
+        "context_limit": 1000000,
+        "input_token_upper_bound": 35890,
+        "output_reserve": 1024,
+        "token_estimate": "utf8_bytes_upper_bound"
+      }
+    ],
+    "fallback": false,
+    "stage": "cassation",
+    "preparation": {
+      "version": "full-act-v1",
+      "source_hash": "1385050e5bdaf4115659aaf8ffff12f9f359a88adb2693e213e493dcf38c650f",
+      "raw_chars": 16812,
+      "prepared_chars": 16812,
+      "source_url": "https://7kas.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=16460364&case_uid=687427e5-2fcb-4bc8-a33b-7092842342f4&delo_id=2800001&new=2800001",
+      "court_domain": "7kas.sudrf.ru",
+      "received_at": "2026-11-06T01:31:15+00:00",
+      "case_number": "8Г-16267/2026",
+      "stage": "cassation",
+      "judicial_uid": "72RS0010-01-2024-002635-80",
+      "identity_check": "matched_uid",
+      "status": "ready"
+    },
+    "generated_at": "2026-11-06T03:45:37+00:00"
   }
 }
