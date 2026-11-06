@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-06T08:40:19+05:00",
+  "updated_at": "2026-11-06T03:45:40+00:00",
   "cases": [
     {
       "id": "2-158/2026",
@@ -21607,7 +21607,29 @@
         "act_decision_date": "21.10.2026",
         "act_notification_kind": "new_publication",
         "act_source_url": "https://7kas.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=16460364&case_uid=687427e5-2fcb-4bc8-a33b-7092842342f4&delo_id=2800001&new=2800001",
-        "act_received_at": "2026-11-06T01:31:15+00:00"
+        "act_received_at": "2026-11-06T01:31:15+00:00",
+        "act_analysis": {
+          "html": "<p><b>Почему:</b> Судебная коллегия оставила апелляционное определение в силе, согласившись с выводами эксперта о соответствии гаража противопожарным нормам (I степень огнестойкости, наличие систем пожаротушения) и отсутствии угрозы жизни и здоровью истца. Доводы жалобы о нарушениях при производстве экспертизе и ссылке на утративший силу СП 4.13130.2013 отклонены как не влияющие на достоверность заключения и не входящие в компетенцию кассационной инстанции.</p>",
+          "source": "llm_summary",
+          "act_date": "21.10.2026",
+          "generated_at": "2026-11-06T03:45:29+00:00",
+          "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+          "source_hash": "1385050e5bdaf4115659aaf8ffff12f9f359a88adb2693e213e493dcf38c650f",
+          "preparation": {
+            "version": "full-act-v1",
+            "source_hash": "1385050e5bdaf4115659aaf8ffff12f9f359a88adb2693e213e493dcf38c650f",
+            "raw_chars": 16812,
+            "prepared_chars": 16812,
+            "source_url": "https://7kas.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=16460364&case_uid=687427e5-2fcb-4bc8-a33b-7092842342f4&delo_id=2800001&new=2800001",
+            "court_domain": "7kas.sudrf.ru",
+            "received_at": "2026-11-06T01:31:15+00:00",
+            "case_number": "8Г-16267/2026",
+            "stage": "cassation",
+            "judicial_uid": "72RS0010-01-2024-002635-80",
+            "identity_check": "matched_uid",
+            "status": "ready"
+          }
+        }
       },
       "import": {
         "operator": "Селиванов А.С.",

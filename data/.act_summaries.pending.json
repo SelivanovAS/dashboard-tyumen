@@ -1520,8 +1520,8 @@
     },
     "source_hash": "1385050e5bdaf4115659aaf8ffff12f9f359a88adb2693e213e493dcf38c650f",
     "created_at": "2026-11-06T01:40:02+00:00",
-    "runs": 0,
-    "status": "missing_keys",
+    "runs": 1,
+    "status": "ready",
     "preparation": {
       "version": "full-act-v1",
       "source_hash": "1385050e5bdaf4115659aaf8ffff12f9f359a88adb2693e213e493dcf38c650f",
@@ -1536,8 +1536,23 @@
       "identity_check": "matched_uid",
       "status": "ready"
     },
-    "attempts": [],
+    "attempts": [
+      {
+        "provider": "openrouter",
+        "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "status": "ready",
+        "context_limit": 1000000,
+        "input_token_upper_bound": 35890,
+        "output_reserve": 1024,
+        "token_estimate": "utf8_bytes_upper_bound"
+      }
+    ],
     "refusal_rechecked": false,
-    "updated_at": "2026-11-06T01:40:02+00:00"
+    "updated_at": "2026-11-06T03:45:29+00:00",
+    "retry_after": "2026-11-07T03:45:29+00:00",
+    "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+    "fallback": false,
+    "cached": false,
+    "summary": "Судебная коллегия оставила апелляционное определение в силе, согласившись с выводами эксперта о соответствии гаража противопожарным нормам (I степень огнестойкости, наличие систем пожаротушения) и отсутствии угрозы жизни и здоровью истца. Доводы жалобы о нарушениях при производстве экспертизе и ссылке на утративший силу СП 4.13130.2013 отклонены как не влияющие на достоверность заключения и не входящие в компетенцию кассационной инстанции."
   }
 }
