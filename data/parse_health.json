@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated_at": "2026-11-09T07:17:56+05:00",
+ "updated_at": "2026-11-09T07:40:40+05:00",
  "sources": {
   "cassation:7kas:total": {
    "counts": [
@@ -100,24 +100,24 @@
   }
  },
  "last_run": {
-  "at": "2026-11-09T07:17:56",
+  "at": "2026-11-09T07:40:40",
   "alerts": [],
-  "requests_ok": 10,
+  "requests_ok": 0,
   "requests_failed": 0,
   "requests_retried": 0,
   "cards_breaker_skipped": 0,
   "cards_breaker_unrequested": 0,
   "cards_breaker_recovered": 0,
   "cards_blocked": 0,
-  "cards_read": 10,
-  "cards_planned": 10,
+  "cards_read": 0,
+  "cards_planned": 0,
   "cards_read_today": 322,
   "cards_planned_today": 322,
-  "daily_attempts": 3,
+  "daily_attempts": 4,
   "instances": {
    "first_instance": {
-    "read": 10,
-    "planned": 10,
+    "read": 0,
+    "planned": 0,
     "read_today": 273,
     "planned_today": 273
    },
@@ -134,12 +134,7 @@
     "planned_today": 10
    }
   },
-  "latency": {
-   "n": 10,
-   "p50": 0.5,
-   "p90": 2.6,
-   "max": 2.8
-  },
+  "latency": {},
   "failure_latency": {},
   "fail_kinds": {},
   "breaker": {
@@ -616,9 +611,9 @@
   "date": "2026-11-09",
   "region": "tyumen",
   "waiting": 170,
-  "due": 4,
-  "planned": 3,
-  "read": 3,
+  "due": 1,
+  "planned": 0,
+  "read": 0,
   "unread": 0,
   "published": 0,
   "backfilled": 0,
@@ -1740,14 +1735,14 @@
    {
     "key": "tumensky--tum.sudrf.ru|1540005|1|2-3976/2026|2026-10-12",
     "number": "2-3976/2026",
-    "next_check_at": "2026-11-09",
-    "reason": "checked"
+    "next_check_at": "2026-11-10",
+    "reason": "scheduled"
    },
    {
     "key": "tumensky--tum.sudrf.ru|1540005|1|2-3980/2026|2026-10-13",
     "number": "2-3980/2026",
-    "next_check_at": "2026-11-09",
-    "reason": "checked"
+    "next_check_at": "2026-11-10",
+    "reason": "scheduled"
    },
    {
     "key": "ishimskygor--tum.sudrf.ru|1540005|1|2-83/2026|2026-10-14",
@@ -2166,8 +2161,8 @@
    {
     "key": "tumensky--tum.sudrf.ru|1540005|1|2-3894/2026|2026-10-08",
     "number": "2-3894/2026",
-    "next_check_at": "2026-11-09",
-    "reason": "checked"
+    "next_check_at": "2026-11-16",
+    "reason": "scheduled"
    }
   ]
  },
@@ -4791,34 +4786,9 @@
  "card_refresh": {
   "date": "2026-11-09",
   "region": "tyumen",
-  "planned": 3,
-  "read": 3,
-  "items": [
-   {
-    "key": "first_instance|https://tumensky--tum.sudrf.ru/modules.php?case_id=249928912&case_uid=20c1050f-20d4-496c-bcdc-103610730ce0&delo_id=1540005&name=sud_delo&name_op=case&new=0&srv_num=1",
-    "stage": "first_instance",
-    "reasons": [
-     "text_waiting"
-    ],
-    "reason": "checked"
-   },
-   {
-    "key": "first_instance|https://tumensky--tum.sudrf.ru/modules.php?case_id=250166383&case_uid=fe9642cd-a49c-4188-9159-d9541badae1c&delo_id=1540005&name=sud_delo&name_op=case&new=0&srv_num=1",
-    "stage": "first_instance",
-    "reasons": [
-     "text_waiting"
-    ],
-    "reason": "checked"
-   },
-   {
-    "key": "first_instance|https://tumensky--tum.sudrf.ru/modules.php?case_id=250307232&case_uid=adb8dd7c-a651-42ff-95cc-488964ca3524&delo_id=1540005&name=sud_delo&name_op=case&new=0&srv_num=1",
-    "stage": "first_instance",
-    "reasons": [
-     "text_waiting"
-    ],
-    "reason": "checked"
-   }
-  ],
+  "planned": 0,
+  "read": 0,
+  "items": [],
   "instances": {
    "cassation": {
     "planned": 0,
@@ -4829,8 +4799,8 @@
     "read": 0
    },
    "first_instance": {
-    "planned": 3,
-    "read": 3
+    "planned": 0,
+    "read": 0
    }
   },
   "unread": 0
