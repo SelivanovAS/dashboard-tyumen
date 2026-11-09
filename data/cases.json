@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-09T08:40:26+05:00",
+  "updated_at": "2026-11-09T03:45:33+00:00",
   "cases": [
     {
       "id": "2-158/2026",
@@ -7386,7 +7386,29 @@
         "act_notification_kind": "new_publication",
         "act_received_at": "2026-11-09T02:04:14+00:00",
         "act_source_url": "https://leninsky--tum.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=240946962&case_uid=05ef95b2-9e1c-4b3d-8dee-04e0ffc7f11e&delo_id=1540005&new=0",
-        "act_decision_date": "19.02.2026"
+        "act_decision_date": "19.02.2026",
+        "act_analysis": {
+          "html": "<p><b>Почему:</b> Суд отказал в удовлетворении иска о признании ипотеки недействительной, так как обременение возникло в силу закона (ст. 77 ФЗ «Об ипотеке») при приобретении совместно нажитой квартиры за кредитные средства, а истец не оспаривал сам договор купли-продажи, ставший основанием для регистрации залога. Независимое основание отказа — пропуск истцом годового срока исковой давности (ст. 181 ГК РФ) и десятилетнего предельного срока (п. 2 ст. 196 ГК РФ), поскольку она знала или должна была узнать об ипотеке не позднее 09.08.2010.</p>",
+          "source": "llm_summary",
+          "act_date": "19.02.2026",
+          "generated_at": "2026-11-09T03:45:28+00:00",
+          "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+          "source_hash": "9a0d5c7d8fbbaa9dd2ae4bbf30ea1dc3db121a69c957f8240413b6b9d2ff69e2",
+          "preparation": {
+            "version": "full-act-v1",
+            "source_hash": "9a0d5c7d8fbbaa9dd2ae4bbf30ea1dc3db121a69c957f8240413b6b9d2ff69e2",
+            "raw_chars": 31217,
+            "prepared_chars": 31217,
+            "source_url": "https://leninsky--tum.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=240946962&case_uid=05ef95b2-9e1c-4b3d-8dee-04e0ffc7f11e&delo_id=1540005&new=0",
+            "court_domain": "leninsky--tum.sudrf.ru",
+            "received_at": "2026-11-09T02:04:14+00:00",
+            "case_number": "2-1501/2026",
+            "stage": "first_instance",
+            "judicial_uid": "72RS0014-01-2025-015578-49",
+            "identity_check": "matched_uid",
+            "status": "ready"
+          }
+        }
       },
       "appeal": {
         "case_number": "33-3709/2026",
