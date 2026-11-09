@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-09T07:06:35+05:00",
+  "updated_at": "2026-11-09T07:17:57+05:00",
   "cases": [
     {
       "id": "2-158/2026",
@@ -57218,8 +57218,8 @@
         "writ_awaited_since": "2026-04-14",
         "default_judgment": true,
         "motivirovka_date": "25.02.2026",
-        "writ_watch_status": "waiting",
-        "writ_watch_reason": "awaiting_writ",
+        "writ_watch_status": "monitoring",
+        "writ_watch_reason": "issued_status_observation",
         "writ_checked_at": "2026-11-09",
         "act_detected_at": "2026-10-08",
         "act_notification_kind": "backfill",
@@ -57229,6 +57229,16 @@
         "act_decision_date": "10.02.2026",
         "fi_act_watch_baseline_version": 1,
         "fi_act_checked_at": "2026-10-08",
+        "writs": [
+          {
+            "issue_date": "28.10.2026",
+            "blank_number": "ФС № 054216079",
+            "electronic_id": "",
+            "recipient": "Взыскатель",
+            "status": "Выдан"
+          }
+        ],
+        "default_copy_served_emitted": "30.04.2026",
         "events": [
           {
             "date": "13.10.2025",
@@ -57325,17 +57335,7 @@
             "name": "Дело передано в архив",
             "posted_at": "15.10.2026"
           }
-        ],
-        "writs": [
-          {
-            "issue_date": "28.10.2026",
-            "blank_number": "ФС № 054216079",
-            "electronic_id": "",
-            "recipient": "Взыскатель",
-            "status": "Выдан"
-          }
-        ],
-        "default_copy_served_emitted": "30.04.2026"
+        ]
       },
       "parent": {
         "id": "2-1158/2026 (2-9721/2025;)",
@@ -86903,11 +86903,11 @@
         "judicial_uid": "72RS0025-01-2026-006679-86",
         "delo_id": 1540005,
         "srv_num": 1,
-        "last_checked_at": "2026-11-06",
-        "writ_checked_at": "2026-11-06",
-        "act_absent_checked_at": "2026-11-06",
+        "last_checked_at": "2026-11-09",
+        "writ_checked_at": "2026-11-09",
+        "act_absent_checked_at": "2026-11-09",
         "fi_act_watch_baseline_version": 1,
-        "fi_act_checked_at": "2026-11-06",
+        "fi_act_checked_at": "2026-11-09",
         "decision_date": "12.10.2026",
         "resolved_emitted": true,
         "writ_expected": false,
@@ -86955,10 +86955,10 @@
         "track_origin": null
       },
       "policy_version": 2,
-      "next_check_at": "2026-11-09",
-      "attempt_day": "2026-11-06",
+      "next_check_at": "2026-11-10",
+      "attempt_day": "2026-11-09",
       "attempt_count": 1,
-      "last_attempt_at": "2026-11-06T07:15:13"
+      "last_attempt_at": "2026-11-09T07:17:39"
     },
     "tumensky--tum.sudrf.ru|1540005|1|2-3981/2026|2026-10-13": {
       "status": "complete",
@@ -87110,13 +87110,13 @@
         "judicial_uid": "72RS0021-01-2026-005030-07",
         "delo_id": 1540005,
         "srv_num": 1,
-        "last_checked_at": "2026-11-06",
-        "writ_checked_at": "2026-11-06",
+        "last_checked_at": "2026-11-09",
+        "writ_checked_at": "2026-11-09",
         "decision_date": "13.10.2026",
         "resolved_emitted": true,
-        "act_absent_checked_at": "2026-11-06",
+        "act_absent_checked_at": "2026-11-09",
         "fi_act_watch_baseline_version": 1,
-        "fi_act_checked_at": "2026-11-06",
+        "fi_act_checked_at": "2026-11-09",
         "writ_watch_status": "closed",
         "writ_watch_reason": "writ_not_required",
         "writ_source_review_reason": "fi_production_reopened",
@@ -87195,10 +87195,10 @@
         "track_origin": null
       },
       "policy_version": 2,
-      "next_check_at": "2026-11-09",
+      "next_check_at": "2026-11-10",
       "attempt_day": "2026-11-09",
-      "attempt_count": 1,
-      "last_attempt_at": "2026-11-09T06:24:37"
+      "attempt_count": 2,
+      "last_attempt_at": "2026-11-09T07:17:39"
     },
     "tumensky--tum.sudrf.ru|1540005|1|2-3982/2026|2026-10-13": {
       "status": "complete",
@@ -96891,6 +96891,12 @@
         "decision_date": "03.11.2026",
         "termination_date": "03.11.2026",
         "writ_expected": false,
+        "act_detected_at": "2026-11-09",
+        "act_notification_kind": "new_publication",
+        "act_text": "№\n\n№\n\nО П Р Е Д Е Л Е Н И Е\n\n<адрес> ДД.ММ.ГГГГ\n\nОмутинский районный суд <адрес> в составе:\n\nпредседательствующего судьи Оглоблиной Т.А.,\n\nпри секретаре ФИО2,\n\nрассмотрев в открытом судебном заседании гражданское дело по иску Публичного акционерного общества «Сбербанк России» в лице филиала Уральский банк к ФИО1 о взыскании задолженности по кредитному договору,\n\nу с т а н о в и л:\n\nПубличное акционерное общество «Сбербанк России» в лице филиала Уральский банк обратились в суд с иском к ФИО1 о взыскании задолженности по кредитному договору.\n\nВ судебное заседание Публичное акционерное общество «Сбербанк России» в лице филиала Уральский банк в судебное заседание не явились, о времени и месте судебного заседания были извещены надлежащим образом.\n\nОтветчик ФИО1 в судебное заседание не явился, о времени и месте судебного заседания был извещен надлежащим образом, представил в суд заявление, в котором просит дело рассмотреть без его участия, требования ходатайства о заключении мирового соглашения поддерживает в полном объеме, в заявлении ФИО1 указывает, что зарегистрирован и проживает по адресу: <адрес>.\n\nИз информации МВД России проживает по адресу: <адрес>.\n\nСуд, изучив материалы дела, полагает, что дело подлежит передаче на рассмотрение в суд по месту жительства ответчика.\n\nВ соответствии со ст.28 ГПК РФ иск предъявляется в суд по месту жительства ответчика.\n\nВ соответствии со ст.20 ГК РФ местом жительства признается место, где гражданин постоянно или преимущественно проживает.\n\nУстановление места жительства ответчика судом не производится, за исключением случаев розыска ответчика, в связи, с чем <адрес> районным судом <адрес> было принято к производству исковое заявление, в котором место жительства ответчика было указано: <адрес>.\n\nСогласно п.3 ч.2 ст.33 ГПК РФ суд передает дело на рассмотрение другого суда, если при рассмотрении дела в данном суде выявилось, что оно было принято к производству с нарушением правил подсудности.\n\nВ силу ст.47 Конституции РФ никто не может быть лишен права на рассмотрение его дела в том суде и тем судьей, к подсудности которых оно отнесено законом.\n\nПри таких обстоятельствах дело подлежит направлению в Центральный районный суд <адрес> по месту жительства ответчика.\n\nРуководствуясь ст.20 Гражданского кодекса Российской Федерации, ст.ст.28, 33 Гражданского процессуального кодекса Российской Федерации, суд,\n\nо п р е д е л и л:\n\nГражданское дело по иску Публичного акционерного общества «Сбербанк России» в лице филиала Уральский банк к ФИО1 о взыскании задолженности по кредитному договору, передать в Центральный районный суд <адрес> <адрес> <адрес>) для рассмотрения по подсудности.\n\nНа определение может быть подана частная жалоба в <адрес> областной суд через <адрес> районный суд <адрес> в течение 15 дней.\n\nСудья Т.А.Оглоблина",
+        "act_received_at": "2026-11-09T02:06:03+00:00",
+        "act_source_url": "https://omutinsky--tum.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=250606677&case_uid=ba5d0c19-ccdd-4f22-90e6-dffdd0a1ef8f&delo_id=1540005&new=0",
+        "act_decision_date": "03.11.2026",
         "events": [
           {
             "date": "09.09.2026",
@@ -96946,13 +96952,7 @@
             "result_event": "Дело передано на рассмотрение другого суда",
             "posted_at": "12.10.2026"
           }
-        ],
-        "act_detected_at": "2026-11-09",
-        "act_notification_kind": "new_publication",
-        "act_text": "№\n\n№\n\nО П Р Е Д Е Л Е Н И Е\n\n<адрес> ДД.ММ.ГГГГ\n\nОмутинский районный суд <адрес> в составе:\n\nпредседательствующего судьи Оглоблиной Т.А.,\n\nпри секретаре ФИО2,\n\nрассмотрев в открытом судебном заседании гражданское дело по иску Публичного акционерного общества «Сбербанк России» в лице филиала Уральский банк к ФИО1 о взыскании задолженности по кредитному договору,\n\nу с т а н о в и л:\n\nПубличное акционерное общество «Сбербанк России» в лице филиала Уральский банк обратились в суд с иском к ФИО1 о взыскании задолженности по кредитному договору.\n\nВ судебное заседание Публичное акционерное общество «Сбербанк России» в лице филиала Уральский банк в судебное заседание не явились, о времени и месте судебного заседания были извещены надлежащим образом.\n\nОтветчик ФИО1 в судебное заседание не явился, о времени и месте судебного заседания был извещен надлежащим образом, представил в суд заявление, в котором просит дело рассмотреть без его участия, требования ходатайства о заключении мирового соглашения поддерживает в полном объеме, в заявлении ФИО1 указывает, что зарегистрирован и проживает по адресу: <адрес>.\n\nИз информации МВД России проживает по адресу: <адрес>.\n\nСуд, изучив материалы дела, полагает, что дело подлежит передаче на рассмотрение в суд по месту жительства ответчика.\n\nВ соответствии со ст.28 ГПК РФ иск предъявляется в суд по месту жительства ответчика.\n\nВ соответствии со ст.20 ГК РФ местом жительства признается место, где гражданин постоянно или преимущественно проживает.\n\nУстановление места жительства ответчика судом не производится, за исключением случаев розыска ответчика, в связи, с чем <адрес> районным судом <адрес> было принято к производству исковое заявление, в котором место жительства ответчика было указано: <адрес>.\n\nСогласно п.3 ч.2 ст.33 ГПК РФ суд передает дело на рассмотрение другого суда, если при рассмотрении дела в данном суде выявилось, что оно было принято к производству с нарушением правил подсудности.\n\nВ силу ст.47 Конституции РФ никто не может быть лишен права на рассмотрение его дела в том суде и тем судьей, к подсудности которых оно отнесено законом.\n\nПри таких обстоятельствах дело подлежит направлению в Центральный районный суд <адрес> по месту жительства ответчика.\n\nРуководствуясь ст.20 Гражданского кодекса Российской Федерации, ст.ст.28, 33 Гражданского процессуального кодекса Российской Федерации, суд,\n\nо п р е д е л и л:\n\nГражданское дело по иску Публичного акционерного общества «Сбербанк России» в лице филиала Уральский банк к ФИО1 о взыскании задолженности по кредитному договору, передать в Центральный районный суд <адрес> <адрес> <адрес>) для рассмотрения по подсудности.\n\nНа определение может быть подана частная жалоба в <адрес> областной суд через <адрес> районный суд <адрес> в течение 15 дней.\n\nСудья Т.А.Оглоблина",
-        "act_received_at": "2026-11-09T02:06:03+00:00",
-        "act_source_url": "https://omutinsky--tum.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=250606677&case_uid=ba5d0c19-ccdd-4f22-90e6-dffdd0a1ef8f&delo_id=1540005&new=0",
-        "act_decision_date": "03.11.2026"
+        ]
       },
       "parent": {
         "id": "2-543/2026",
@@ -96992,12 +96992,14 @@
         "judicial_uid": "72RS0021-01-2026-003231-69",
         "delo_id": 1540005,
         "srv_num": 1,
-        "last_checked_at": "2026-11-06",
-        "writ_checked_at": "2026-11-06",
-        "act_absent_checked_at": "2026-11-06",
+        "last_checked_at": "2026-11-09",
+        "writ_checked_at": "2026-11-09",
+        "act_absent_checked_at": "2026-11-09",
         "fi_act_watch_baseline_version": 1,
-        "fi_act_checked_at": "2026-11-06",
+        "fi_act_checked_at": "2026-11-09",
         "writ_expected": false,
+        "decision_date": "08.10.2026",
+        "resolved_emitted": true,
         "events": [
           {
             "date": "21.08.2026",
@@ -97070,9 +97072,7 @@
             "name": "Дело сдано в отдел судебного делопроизводства",
             "posted_at": "30.10.2026"
           }
-        ],
-        "decision_date": "08.10.2026",
-        "resolved_emitted": true
+        ]
       },
       "parent": {
         "id": "2-3894/2026",
@@ -97084,10 +97084,10 @@
         "track_origin": null
       },
       "policy_version": 2,
-      "next_check_at": "2026-11-09",
+      "next_check_at": "2026-11-16",
       "attempt_day": "2026-11-09",
-      "attempt_count": 1,
-      "last_attempt_at": "2026-11-09T06:24:37"
+      "attempt_count": 2,
+      "last_attempt_at": "2026-11-09T07:17:39"
     }
   },
   "writ_watch": {
@@ -101946,8 +101946,8 @@
         "writ_awaited_since": "2026-04-14",
         "default_judgment": true,
         "motivirovka_date": "25.02.2026",
-        "writ_watch_status": "waiting",
-        "writ_watch_reason": "awaiting_writ",
+        "writ_watch_status": "monitoring",
+        "writ_watch_reason": "issued_status_observation",
         "writ_checked_at": "2026-11-09",
         "act_detected_at": "2026-10-08",
         "act_notification_kind": "backfill",
@@ -101957,6 +101957,16 @@
         "act_decision_date": "10.02.2026",
         "fi_act_watch_baseline_version": 1,
         "fi_act_checked_at": "2026-10-08",
+        "writs": [
+          {
+            "issue_date": "28.10.2026",
+            "blank_number": "ФС № 054216079",
+            "electronic_id": "",
+            "recipient": "Взыскатель",
+            "status": "Выдан"
+          }
+        ],
+        "default_copy_served_emitted": "30.04.2026",
         "events": [
           {
             "date": "13.10.2025",
@@ -102053,17 +102063,7 @@
             "name": "Дело передано в архив",
             "posted_at": "15.10.2026"
           }
-        ],
-        "writs": [
-          {
-            "issue_date": "28.10.2026",
-            "blank_number": "ФС № 054216079",
-            "electronic_id": "",
-            "recipient": "Взыскатель",
-            "status": "Выдан"
-          }
-        ],
-        "default_copy_served_emitted": "30.04.2026"
+        ]
       },
       "status": "monitoring",
       "reason": "issued_status_observation",
@@ -107978,7 +107978,7 @@
         "judicial_uid": "72RS0021-01-2025-005935-89",
         "delo_id": 1540005,
         "srv_num": 1,
-        "last_checked_at": "2026-11-06",
+        "last_checked_at": "2026-11-09",
         "resolved_emitted": false,
         "default_copy_returned_emitted": "22.04.2026",
         "legal_force_emitted": "2026-05-21",
@@ -107996,7 +107996,7 @@
         "writ_watch_status": "needs_review",
         "writ_watch_reason": "decision_cancelled",
         "decision_date_vacated": "23.03.2026",
-        "writ_checked_at": "2026-11-06",
+        "writ_checked_at": "2026-11-09",
         "default_cancel_filed_emitted": "29.04.2026",
         "default_cancel_hearing_emitted": "10.08.2026",
         "default_cancel_outcome_emitted": "cancelled",
@@ -108147,7 +108147,7 @@
         "current_stage": "first_instance"
       },
       "long_wait": false,
-      "next_check_at": "2026-11-13"
+      "next_check_at": "2026-11-16"
     },
     "tumensky--tum.sudrf.ru|1|2-1232/2026|30.04.2026": {
       "created_at": "2026-10-07",
@@ -120567,6 +120567,7 @@
         "writ_checked_at": "2026-11-09",
         "default_copy_served_emitted": "17.08.2026",
         "default_copy_served_date": "17.08.2026",
+        "court_archived_at": "02.11.2026",
         "events": [
           {
             "date": "19.03.2026",
@@ -134665,7 +134666,7 @@
         "judicial_uid": "72RS0021-01-2026-003231-69",
         "delo_id": 1540005,
         "srv_num": 1,
-        "last_checked_at": "2026-11-06",
+        "last_checked_at": "2026-11-09",
         "resolved_emitted": false,
         "default_copy_returned_emitted": "29.07.2026",
         "legal_force_emitted": "2026-08-25",
@@ -134678,7 +134679,7 @@
         "act_decision_date": "09.07.2026",
         "writ_watch_status": "needs_review",
         "writ_watch_reason": "decision_cancelled",
-        "writ_checked_at": "2026-11-06",
+        "writ_checked_at": "2026-11-09",
         "decision_date_vacated": "09.07.2026",
         "default_cancel_filed_emitted": "20.07.2026",
         "default_cancel_hearing_emitted": "21.08.2026",
@@ -134811,7 +134812,7 @@
         "current_stage": "first_instance"
       },
       "long_wait": false,
-      "next_check_at": "2026-11-13",
+      "next_check_at": "2026-11-16",
       "attempt_count": 1,
       "attempt_day": "2026-11-05",
       "last_attempt_at": "2026-11-05T06:30:16"
@@ -151088,13 +151089,13 @@
         "judicial_uid": "72RS0021-01-2026-005030-07",
         "delo_id": 1540005,
         "srv_num": 1,
-        "last_checked_at": "2026-11-06",
-        "writ_checked_at": "2026-11-06",
+        "last_checked_at": "2026-11-09",
+        "writ_checked_at": "2026-11-09",
         "decision_date": "13.10.2026",
         "resolved_emitted": true,
-        "act_absent_checked_at": "2026-11-06",
+        "act_absent_checked_at": "2026-11-09",
         "fi_act_watch_baseline_version": 1,
-        "fi_act_checked_at": "2026-11-06",
+        "fi_act_checked_at": "2026-11-09",
         "writ_watch_status": "closed",
         "writ_watch_reason": "writ_not_required",
         "writ_source_review_reason": "fi_production_reopened",
@@ -157960,7 +157961,7 @@
     "1": {
       "stage": "first_instance",
       "keys": {
-        "first_instance": "first_instance|https://uvatsky--tum.sudrf.ru/modules.php?case_id=250206156&case_uid=dae77412-6dd4-455a-8b60-d67273df4348&delo_id=1540005&name=sud_delo&name_op=case&new=0&srv_num=1",
+        "first_instance": "first_instance|https://tumensky--tum.sudrf.ru/modules.php?case_id=250307232&case_uid=adb8dd7c-a651-42ff-95cc-488964ca3524&delo_id=1540005&name=sud_delo&name_op=case&new=0&srv_num=1",
         "cassation": "cassation|https://7kas.sudrf.ru/modules.php?case_id=15869014&case_uid=fa025237-662b-4d71-ac31-4bc49d846871&delo_id=2800001&name=sud_delo&name_op=case&new=2800001&srv_num=1",
         "appeal": "appeal|https://oblsud--tum.sudrf.ru/modules.php?case_id=11444909&case_uid=ffd00502-3847-4950-92bc-bc3d2ac191bf&delo_id=5&name=sud_delo&name_op=case&new=5&srv_num=1"
       }
