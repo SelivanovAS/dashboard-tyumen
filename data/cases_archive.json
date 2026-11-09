@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-09T06:38:21+05:00",
+  "updated_at": "2026-11-09T07:06:35+05:00",
   "cases": [
     {
       "id": "2-417/2025",
@@ -14808,228 +14808,6 @@
       "archived_at": "2026-09-29"
     },
     {
-      "id": "2-5867/2026",
-      "current_stage": "first_instance",
-      "plaintiff": "Иванцова Анастасия Ивановна",
-      "defendant": "ПАО Сбербанк, Сукачев Виктор Александрович",
-      "category": "Прочие исковые дела → прочие (прочие исковые дела)",
-      "bank_role": "Ответчик",
-      "initial_bank_role": "Ответчик",
-      "notes": "",
-      "first_instance": {
-        "case_number": "2-5867/2026",
-        "court": "Калининский районный суд г. Тюмени",
-        "court_domain": "kalininsky--tum.sudrf.ru",
-        "delo_id": 1540005,
-        "srv_num": 1,
-        "judge": "Кузминчук Юрий Игоревич",
-        "filing_date": "21.07.2026",
-        "status": "Решено",
-        "result": "Иск (заявление, жалоба) ОСТАВЛЕН БЕЗ РАССМОТРЕНИЯИСТЕЦ (не просивший о разбирательстве в его отсутствии) НЕ ЯВИЛСЯ В СУД ПО ВТОРИЧНОМУ ВЫЗОВУ",
-        "last_event": "Дело сдано в отдел судебного делопроизводства. 10:23. 22.09.2026",
-        "event_date": "22.09.2026",
-        "hearing_date": "09.09.2026",
-        "hearing_time": "15:30",
-        "link": "248378430|e24b8d6c-415e-43ac-8cc6-bc19535eeeac",
-        "act_published": true,
-        "act_date": "",
-        "act_text": "72RS0013-01-2026-006881-19 ОПРЕДЕЛЕНИЕ город Тюмень 09 сентября 2026 года Калининский районный суд города Тюмени в составе: председательствующего судьи Кузминчука Ю.И., при секретаре Мукминовой Э.И., рассмотрев в открытом судебном заседании гражданское дело № 2-5867/2026 по иску Иванцовой Анастасии Ивановны к Сукачеву Виктору Александровичу и ПАО «Сбербанк России» о признании незначительной доли в праве общей долевой собственности на жилое помещение, прекращении права собственности на долю в праве общей долевой собственности на жилое помещение, взыскании денежной компенсации за долю в праве общей долевой собственности на жилое помещение, возложении обязанности по исключению из созаемщиков по кредитному договору, у с т а н о в и л : Иванцова А.И. обратилась в суд с иском к Сукачеву В.А. и ПАО «Сбербанк России» о признании незначительной доли в праве общей долевой собственности на жилое помещение, прекращении права собственности на долю в праве общей долевой собственности на жилое помещение, взыскании денежной компенсации за долю в праве общей долевой собственности на жилое помещение, возложении обязанности по исключению из созаемщиков по кредитному договору Судебное заседание проводится в отсутствие истца Иванцовой А.И., ответчика Сукачева В.А., представителя ответчика ПАО «Сбербанк России», извещенных о времени и месте судебного разбирательства. Суд, изучив материалы дела, приходит к следующим выводам. В соответствии с абз. 8 ст. 222 ГПК РФ суд оставляет заявление без рассмотрения в случае, если истец, не просивший о разбирательстве дела в его отсутствие, не явился в суд по вторичному вызову, а ответчик не требует рассмотрения дела по существу. Как установлено судом, истец дважды – 28.08.2026 и 09.09.2026 вызывалась в суд, о чем она была извещена, однако в суд истец не явилась, о рассмотрении дела в ее отсутствие не просила. Учитывая вышеизложенное, поскольку истец не явилась в суд по вторичному вызову, а ответчики не требуют рассмотрения дела по существу, так как доказательств обратного суду не предоставлено, суд на основании абз. 8 ст. 222 ГПК РФ приходит к выводу об оставлении иска без рассмотрения. Руководствуясь ст.ст. 222-225 Гражданского процессуального кодекса Российской Федерации, суд о п р е д е л и л : Оставить без рассмотрения иск Иванцовой Анастасии Ивановны ( № ) к Сукачеву Виктору Александровичу ( № ) и ПАО «Сбербанк России» (ИНН: 7707083893) о признании незначительной доли в праве общей долевой собственности на жилое помещение, прекращении права собственности на долю в праве общей долевой собственности на жилое помещение, взыскании денежной компенсации за долю в праве общей долевой собственности на жилое помещение, возложении обязанности по исключению из созаемщиков по кредитному договору. Определение обжалованию не подлежит. Председательствующий судья Ю.И. Кузминчук опубликовано 21.07.2026 16:46, изменено 23.09.2026 11:41 function select_delo_id_new(d_i, c_t) { var delo_id; var case_type; var popupDivB = document.getElementById('divFSPopupBottom'); var popupDivT = document.getElementById('divFSPopupTop'); delo_id = d_i; case_type = c_t; if(popupDivB && popupDivT) { //alert(delo_id); var url; if(delo_id !== '0') { switch(delo_id) { case 1540006: switch(case_type) { case 1: url = '/modules.php?name=sud_delo&srv_num=' + 1 + '&name_op=sf&nc=1&delo_id=1540006'; break; } break; case 4: switch(case_type) { case 1: url = '/modules.php?name=sud_delo&srv_num=' + 1 + '&name_op=sf&nc=1&delo_id=4'; break; case 4: url = '/modules.php?name=sud_delo&srv_num=' + 1 + '&name_op=sf&nc=1&delo_id=4&new=4'; break; case 2450001: url = '/modules.php?name=sud_delo&srv_num=' + 1 + '&name_op=sf&nc=1&delo_id=4&new=2450001'; break; } break; case 2450001: switch(case_type) { case 1: url = '/modules.php?name=sud_delo&srv_num=' + 1 + '&name_op=sf&nc=1&delo_id=2450001'; break; } break; case 1540005: switch(case_type) { case 1: url = '/modules.php?name=sud_delo&srv_num=' + 1 + '&name_op=sf&nc=1&delo_id=1540005'; break; } break; case 5: switch(case_type) { case 1: url = '/modules.php?name=sud_delo&srv_num=' + 1 + '&name_op=sf&nc=1&delo_id=5'; break; case 5: url = '/modules.php?name=sud_delo&srv_num=' + 1 + '&name_op=sf&nc=1&delo_id=5&new=5'; break; case 2800001: url = '/modules.php?name=sud_delo&srv_num=' + 1 + '&name_op=sf&nc=1&delo_id=5&new=2800001'; break; } break; case 2800001: switch(case_type) { case 1: url = '/modules.php?name=sud_delo&srv_num=' + 1 + '&name_op=sf&nc=1&delo_id=2800001'; break; } break; case 41: switch(case_type) { case 1: url = '/modules.php?name=sud_delo&srv_num=' + 1 + '&name_op=sf&nc=1&delo_id=41'; break; } break; case 42: switch(case_type) { case 1: url = '/modules.php?name=sud_delo&srv_num=' + 1 + '&name_op=sf&nc=1&delo_id=42'; break; } break; case 43: switch(case_type) { case 1: url = '/modules.php?name=sud_delo&srv_num=' + 1 + '&name_op=sf&nc=1&delo_id=43'; break; } break; case 1500001: switch(case_type) { case 1: url = '/modules.php?name=sud_delo&srv_num=' + 1 + '&name_op=sf&nc=1&delo_id=1500001'; break; } break; case 1502001: switch(case_type) { case 1: url = '/modules.php?name=sud_delo&srv_num=' + 1 + '&name_op=sf&nc=1&delo_id=1502001'; break; } break; case 1513001: switch(case_type) { case 1: url = '/modules.php?name=sud_delo&srv_num=' + 1 + '&name_op=sf&nc=1&delo_id=1513001'; break; } break; case 2550001: switch(case_type) { case 1: url = '/modules.php?name=sud_delo&srv_num=' + 1 + '&name_op=sf&nc=1&delo_id=2550001'; break; } break; case 1610001: switch(case_type) { case 1: url = '/modules.php?name=sud_delo&srv_num=' + 1 + '&name_op=sf&nc=1&delo_id=1610001'; break; } break; case 1610002: switch(case_type) { case 1: url = '/modules.php?name=sud_delo&srv_num=' + 1 + '&name_op=sf&nc=1&delo_id=1610002'; break; } break; } loadXMLDoc1(url); } else { alert(\"Не выбран вид производства\"); document.getElementById('inst1').innerHTML = 'Для поиска по решениям необходимо выбрать вид производства'; if(document.getElementById('case_type1').options[document.getElementById('case_type1').selectedIndex].value === 0) document.getElementById('inst').style.display = 'block'; else document.getElementById('inst').style.display = 'none'; document.getElementById('inst2').style.display = 'block'; document.getElementById('search_content').style.display = 'none'; } hidePopupDiv(); } } function index_docs(n, m) { for(i = 1; i = 10) { s = s * 100 + a } else { s = s * 10 + a; } // Чтобы избежать переполнения - берём остаток по модулю от частичной суммы if (s > maxS) { s = s % modulus } } var result = s % modulus; return result; } function validateJuid(juid) { const minJuidLen = 2; var code = juid.replace(/\\W/g, ''); if(code.length ' + ' ' + placeholder + ' ' + input.outerHTML + ' ';*/ text = ' ' + input.outerHTML + ' Неверный формат ввода ' + ' '; input.outerHTML = text; }, setValueOfMask : function (e) { var value = e.target.value, placeholder = e.target.getAttribute('data-placeholder'); return \" \" + value + \" \" + placeholder.substr(value.length); }, // add event listeners activateMasking : function (inputs) { var i, l; for (i = 0, l = inputs.length; i = 0; matchesLetter = masking.maskedLetter.indexOf(placeholder[i]) >= 0; if ((matchesNumber && isInt) || (isCharsetPresent && matchesLetter && isLetter)) { newValue += strippedValue[j++]; } else if ((!isCharsetPresent && !isInt && matchesNumber) || (isCharsetPresent && ((matchesLetter && !isLetter) || (matchesNumber && !isInt)))) { //masking.errorOnKeyEntry(e); // write your own error handling function return newValue; } else { newValue += placeholder[i]; } // break if no characters left and the pattern is non-special character if (strippedValue[j] == undefined) { break; } } if (e.target.getAttribute('data-valid-example')) { return masking.validateProgress(e, newValue); } return newValue; }, validateProgress : function (e, value) { var validExample = e.target.getAttribute('data-valid-example'), pattern = new RegExp(e.target.getAttribute('pattern')), placeholder = e.target.getAttribute('data-placeholder'), l = value",
-        "events": [
-          {
-            "date": "21.07.2026",
-            "time": "10:34",
-            "text": "Регистрация иска (заявления, жалобы) в суде. 10:34. 21.07.2026",
-            "name": "Регистрация иска (заявления, жалобы) в суде",
-            "posted_at": "21.07.2026"
-          },
-          {
-            "date": "22.07.2026",
-            "time": "09:33",
-            "text": "Передача материалов судье. 09:33. 22.07.2026",
-            "name": "Передача материалов судье",
-            "posted_at": "22.07.2026"
-          },
-          {
-            "date": "23.07.2026",
-            "time": "18:11",
-            "text": "Решение вопроса о принятии иска (заявления, жалобы) к рассмотрению. 18:11. Иск (заявление, жалоба) принят к производству. 24.07.2026",
-            "name": "Решение вопроса о принятии иска (заявления, жалобы) к рассмотрению",
-            "result_event": "Иск (заявление, жалоба) принят к производству",
-            "posted_at": "24.07.2026"
-          },
-          {
-            "date": "23.07.2026",
-            "time": "18:12",
-            "text": "Вынесено определение о подготовке дела к судебному разбирательству. 18:12. 27.08.2026",
-            "name": "Вынесено определение о подготовке дела к судебному разбирательству",
-            "posted_at": "27.08.2026"
-          },
-          {
-            "date": "28.08.2026",
-            "time": "14:30",
-            "text": "Подготовка дела (собеседование). 14:30. Вынесено определение о назначении дела к судебному разбирательству. 27.08.2026",
-            "name": "Подготовка дела (собеседование)",
-            "result_event": "Вынесено определение о назначении дела к судебному разбирательству",
-            "posted_at": "27.08.2026"
-          },
-          {
-            "date": "28.08.2026",
-            "time": "14:40",
-            "text": "Вынесено определение о назначении дела к судебному разбирательству. 14:40. 28.08.2026",
-            "name": "Вынесено определение о назначении дела к судебному разбирательству",
-            "posted_at": "28.08.2026"
-          },
-          {
-            "date": "09.09.2026",
-            "time": "15:30",
-            "text": "Судебное заседание. 15:30. Иск (заявление, жалоба) оставлены без рассмотрения. ИСТЕЦ (не просивший о разбирательстве в его отсутствии) НЕ ЯВИЛСЯ В СУД ПО ВТОРИЧНОМУ ВЫЗОВУ. 28.08.2026",
-            "name": "Судебное заседание",
-            "result_event": "Иск (заявление, жалоба) оставлены без рассмотрения",
-            "ground": "ИСТЕЦ (не просивший о разбирательстве в его отсутствии) НЕ ЯВИЛСЯ В СУД ПО ВТОРИЧНОМУ ВЫЗОВУ",
-            "posted_at": "28.08.2026"
-          },
-          {
-            "date": "22.09.2026",
-            "time": "10:23",
-            "text": "Дело сдано в отдел судебного делопроизводства. 10:23. 22.09.2026",
-            "name": "Дело сдано в отдел судебного делопроизводства",
-            "posted_at": "22.09.2026"
-          }
-        ],
-        "judicial_uid": "72RS0013-01-2026-006881-19",
-        "last_checked_at": "2026-11-05",
-        "decision_date": "09.09.2026",
-        "resolved_emitted": true,
-        "act_analysis": {
-          "html": "<a href=\"https://kalininsky--tum.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=248378430&case_uid=e24b8d6c-415e-43ac-8cc6-bc19535eeeac&delo_id=1540005&new=0\"><b>2-5867/2026</b></a> Иванцова А.И. vs Сбербанк, Сукачев В.А. (прочие (прочие исковые дела)) | Калининский рай. суд г. Тюмени\n<b>21.07.2026</b> — 📥 иск зарегистрирован в суде\n<b>09.09.2026</b> — 📅 заседание назначено в 15:30\n⚖️ Итог: Иск (заявление, жалоба) ОСТАВЛЕН БЕЗ РАССМОТРЕНИЯИСТЕЦ (не просивший о разбирательстве в его отсутствии) НЕ ЯВИЛСЯ В СУД\n\n<a href=\"https://kalininsky--tum.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=248378430&case_uid=e24b8d6c-415e-43ac-8cc6-bc19535eeeac&delo_id=1540005&new=0\"><b>2-5867/2026</b></a> — Иванцова А.И. vs Сбербанк, Сукачев В.А.\n<b>Итог:</b> иск оставлен без рассмотрения 09.09.2026 (истец не явился в суд по вторичному вызову). <b>Для банка:</b> в пользу банка",
-          "source": "digest",
-          "act_date": "",
-          "generated_at": "2026-09-28T03:45:42",
-          "model": "openrouter:dots-studio/dots-3-note-preview:free"
-        }
-      },
-      "appeal": null,
-      "import": {
-        "operator": "Виктор",
-        "at": "2026-09-25T11:00:23",
-        "source": "dump",
-        "announced": true
-      },
-      "archived_at": "2026-11-09"
-    },
-    {
-      "id": "2-8942/2026",
-      "current_stage": "first_instance",
-      "plaintiff": "Мойсейчик Ирина Николаевна",
-      "defendant": "ПАО Сбербанк",
-      "category": "Отношения, связанные с защитой прав потребителей → О защите прав потребителей → - из договоров с финансово-кредитными учреждениями в сфере: → услуг кредитных организаций",
-      "bank_role": "Ответчик",
-      "initial_bank_role": "Ответчик",
-      "notes": "",
-      "first_instance": {
-        "case_number": "2-8942/2026",
-        "court": "Ленинский районный суд г. Тюмени",
-        "court_domain": "leninsky--tum.sudrf.ru",
-        "delo_id": 1540005,
-        "srv_num": 1,
-        "judge": "Добрынин Иван Николаевич",
-        "filing_date": "03.08.2026",
-        "status": "Решено",
-        "result": "Иск (заявление, жалоба) ОСТАВЛЕН БЕЗ РАССМОТРЕНИЯИСТЕЦ (не просивший о разбирательстве в его отсутствии) НЕ ЯВИЛСЯ В СУД ПО ВТОРИЧНОМУ ВЫЗОВУ",
-        "last_event": "Дело сдано в отдел судебного делопроизводства. 13:38. 10.09.2026",
-        "event_date": "10.09.2026",
-        "hearing_date": "09.09.2026",
-        "hearing_time": "10:15",
-        "link": "249019387|d7a4e335-7c15-4b4d-ad59-366339477c37",
-        "act_published": true,
-        "act_date": "",
-        "act_text": "УИД №72RS0014-01-2026-011278-64 Дело №2-8942/2026 О П Р Е Д Е Л Е Н И Е г. Тюмень 9 сентября 2026 года Ленинский районный суд г.Тюмени в составе: председательствующего судьи Добрынина И.Н., при ведении протокола секретарем Гаврилюк Е.А., рассмотрев в открытом судебном заседании гражданское дело по исковому заявлению ФИО1 к ПАО Сбербанк о признании кредитного договора и договора ипотеки незаключенным (недействительным), применении последствий сделки и взыскании компенсации морального вреда, УСТАНОВИЛ: Истец обратился в суд указанным иском к ответчику и просит признать незаключенным кредитный договор № от ДД.ММ.ГГГГ , заключенный между ПАО Сбербанк и ФИО4 , признать ничтожным кредитный договор № от ДД.ММ.ГГГГ , заключенный между ПАО Сбербанк и ФИО4 , признать ничтожным договор ипотеки № от ДД.ММ.ГГГГ , применить последствия недействительности (ничтожности) кредитного договора и признать отсутствующими обязательства ФИО4 перед ПАО Сбербанк, обязать ПАО Сбербанк направить в Бюро кредитный историй сведения об аннулировании записи о кредитном договоре № от ДД.ММ.ГГГГ , а также просит признать незаконными действия ПАО Сбербанк по взаимодействию с третьими лицами, взыскать с ПАО Сбербанк 50000 рублей в счет компенсации морального вреда. Требования мотивированы тем, что ДД.ММ.ГГГГ в результате целенаправленного психического давления на истца со стороны третьих лиц был заключен кредитный договор, заложено собственное имущество, а кредитный денежные средства переданы недобросовестным получателям. Полагает договор незаключенный, так как СМС подписание носило формальный характер и банк не обеспечил повышенного внимания к сделке, сама сделка совершена с пороком воли. Лица, участвующие в деле, в судебное заседание не явились, истец не явился дважды. Согласно материалам дела, истец, будучи извещенным, не явился в суд по вторичному вызову. Так, истец не явился на подготовку по делу и в судебное заседание, уважительности причин неявки суду не предоставил, а ответчик не требовал рассмотрения дела по существу. Кроме того, судом установлено, что истцом подано встречное исковое заявление с идентичными требованиями в рамках дела по иску ПАО Сбербанк к ФИО4 о взыскании задолженности по кредитному договору. При таких обстоятельствах, судья считает, что имеются основания для оставления заявления без рассмотрения. На основании изложенного, судья, руководствуясь ст.ст. 222, 224, 225 Гражданского процессуального кодекса Российской Федерации, ОПРЕДЕЛИЛ: Исковое заявление ФИО1 к ПАО Сбербанк о признании кредитного договора и договора ипотеки незаключенным (недействительным), применении последствий сделки и взыскании компенсации морального вреда, оставить без рассмотрения. Разъяснить, что по ходатайству истца или ответчика, суд отменяет свое определение об оставлении заявления без рассмотрения, если истец или ответчик предоставит доказательства, подтверждающие уважительность причин неявки в судебное заседание и невозможности сообщения о них суду. Председательствующий судья (подпись) &lt;данные изъяты&gt; &lt;данные изъяты&gt; &lt;данные изъяты&gt; &lt;данные изъяты&gt; &lt;данные изъяты&gt; &lt;данные изъяты&gt; &lt;данные изъяты&gt; &lt;данные изъяты&gt; опубликовано 04.08.2026 16:48, изменено 15.09.2026 02:09 function select_delo_id_new(d_i, c_t) { var delo_id; var case_type; var popupDivB = document.getElementById('divFSPopupBottom'); var popupDivT = document.getElementById('divFSPopupTop'); delo_id = d_i; case_type = c_t; if(popupDivB && popupDivT) { //alert(delo_id); var url; if(delo_id !== '0') { switch(delo_id) { case 1540006: switch(case_type) { case 1: url = '/modules.php?name=sud_delo&srv_num=' + 1 + '&name_op=sf&nc=1&delo_id=1540006'; break; } break; case 4: switch(case_type) { case 1: url = '/modules.php?name=sud_delo&srv_num=' + 1 + '&name_op=sf&nc=1&delo_id=4'; break; case 4: url = '/modules.php?name=sud_delo&srv_num=' + 1 + '&name_op=sf&nc=1&delo_id=4&new=4'; break; case 2450001: url = '/modules.php?name=sud_delo&srv_num=' + 1 + '&name_op=sf&nc=1&delo_id=4&new=2450001'; break; } break; case 2450001: switch(case_type) { case 1: url = '/modules.php?name=sud_delo&srv_num=' + 1 + '&name_op=sf&nc=1&delo_id=2450001'; break; } break; case 1540005: switch(case_type) { case 1: url = '/modules.php?name=sud_delo&srv_num=' + 1 + '&name_op=sf&nc=1&delo_id=1540005'; break; } break; case 5: switch(case_type) { case 1: url = '/modules.php?name=sud_delo&srv_num=' + 1 + '&name_op=sf&nc=1&delo_id=5'; break; case 5: url = '/modules.php?name=sud_delo&srv_num=' + 1 + '&name_op=sf&nc=1&delo_id=5&new=5'; break; case 2800001: url = '/modules.php?name=sud_delo&srv_num=' + 1 + '&name_op=sf&nc=1&delo_id=5&new=2800001'; break; } break; case 2800001: switch(case_type) { case 1: url = '/modules.php?name=sud_delo&srv_num=' + 1 + '&name_op=sf&nc=1&delo_id=2800001'; break; } break; case 41: switch(case_type) { case 1: url = '/modules.php?name=sud_delo&srv_num=' + 1 + '&name_op=sf&nc=1&delo_id=41'; break; } break; case 42: switch(case_type) { case 1: url = '/modules.php?name=sud_delo&srv_num=' + 1 + '&name_op=sf&nc=1&delo_id=42'; break; } break; case 43: switch(case_type) { case 1: url = '/modules.php?name=sud_delo&srv_num=' + 1 + '&name_op=sf&nc=1&delo_id=43'; break; } break; case 1500001: switch(case_type) { case 1: url = '/modules.php?name=sud_delo&srv_num=' + 1 + '&name_op=sf&nc=1&delo_id=1500001'; break; } break; case 1502001: switch(case_type) { case 1: url = '/modules.php?name=sud_delo&srv_num=' + 1 + '&name_op=sf&nc=1&delo_id=1502001'; break; } break; case 1513001: switch(case_type) { case 1: url = '/modules.php?name=sud_delo&srv_num=' + 1 + '&name_op=sf&nc=1&delo_id=1513001'; break; } break; case 2550001: switch(case_type) { case 1: url = '/modules.php?name=sud_delo&srv_num=' + 1 + '&name_op=sf&nc=1&delo_id=2550001'; break; } break; case 1610001: switch(case_type) { case 1: url = '/modules.php?name=sud_delo&srv_num=' + 1 + '&name_op=sf&nc=1&delo_id=1610001'; break; } break; case 1610002: switch(case_type) { case 1: url = '/modules.php?name=sud_delo&srv_num=' + 1 + '&name_op=sf&nc=1&delo_id=1610002'; break; } break; } loadXMLDoc1(url); } else { alert(\"Не выбран вид производства\"); document.getElementById('inst1').innerHTML = 'Для поиска по решениям необходимо выбрать вид производства'; if(document.getElementById('case_type1').options[document.getElementById('case_type1').selectedIndex].value === 0) document.getElementById('inst').style.display = 'block'; else document.getElementById('inst').style.display = 'none'; document.getElementById('inst2').style.display = 'block'; document.getElementById('search_content').style.display = 'none'; } hidePopupDiv(); } } function index_docs(n, m) { for(i = 1; i = 10) { s = s * 100 + a } else { s = s * 10 + a; } // Чтобы избежать переполнения - берём остаток по модулю от частичной суммы if (s > maxS) { s = s % modulus } } var result = s % modulus; return result; } function validateJuid(juid) { const minJuidLen = 2; var code = juid.replace(/\\W/g, ''); if(code.length ' + ' ' + placeholder + ' ' + input.outerHTML + ' ';*/ text = ' ' + input.outerHTML + ' Неверный формат ввода ' + ' '; input.outerHTML = text; }, setValueOfMask : function (e) { var value = e.target.value, placeholder = e.target.getAttribute('data-placeholder'); return \" \" + value + \" \" + placeholder.substr(value.length); }, // add event listeners activateMasking : function (inputs) { var i, l; for (i = 0, l = inputs.length; i = 0; matchesLetter = masking.maskedLetter.indexOf(placeholder[i]) >= 0; if ((matchesNumber && isInt) || (isCharsetPresent && matchesLetter && isLetter)) { newValue += strippedValue[j++]; } else if ((!isCharsetPresent && !isInt && matchesNumber) || (isCharsetPresent && ((matchesLetter && !isLetter) || (matchesNumber && !isInt)))) { //masking.errorOnKeyEntry(e); // write your own error handling function return newValue; } else { newValue += placeholder[i]; } // break if no characters left and the pattern is non-special character if (strippedValue[j] == undefined) { break; }",
-        "events": [
-          {
-            "date": "03.08.2026",
-            "time": "18:10",
-            "text": "Регистрация иска (заявления, жалобы) в суде. 18:10. 04.08.2026",
-            "name": "Регистрация иска (заявления, жалобы) в суде",
-            "posted_at": "04.08.2026"
-          },
-          {
-            "date": "04.08.2026",
-            "time": "08:15",
-            "text": "Передача материалов судье. 08:15. 04.08.2026",
-            "name": "Передача материалов судье",
-            "posted_at": "04.08.2026"
-          },
-          {
-            "date": "07.08.2026",
-            "time": "09:34",
-            "text": "Решение вопроса о принятии иска (заявления, жалобы) к рассмотрению. 09:34. Иск (заявление, жалоба) принят к производству. 13.08.2026",
-            "name": "Решение вопроса о принятии иска (заявления, жалобы) к рассмотрению",
-            "result_event": "Иск (заявление, жалоба) принят к производству",
-            "posted_at": "13.08.2026"
-          },
-          {
-            "date": "07.08.2026",
-            "time": "09:35",
-            "text": "Вынесено определение о подготовке дела к судебному разбирательству. 09:35. 13.08.2026",
-            "name": "Вынесено определение о подготовке дела к судебному разбирательству",
-            "posted_at": "13.08.2026"
-          },
-          {
-            "date": "03.09.2026",
-            "time": "14:15",
-            "text": "Подготовка дела (собеседование). 14:15. 1204. Вынесено определение о назначении дела к судебному разбирательству. 13.08.2026",
-            "name": "Подготовка дела (собеседование)",
-            "place": "1204",
-            "result_event": "Вынесено определение о назначении дела к судебному разбирательству",
-            "posted_at": "13.08.2026"
-          },
-          {
-            "date": "03.09.2026",
-            "time": "14:30",
-            "text": "Вынесено определение о назначении дела к судебному разбирательству. 14:30. 13.08.2026",
-            "name": "Вынесено определение о назначении дела к судебному разбирательству",
-            "posted_at": "13.08.2026"
-          },
-          {
-            "date": "09.09.2026",
-            "time": "10:15",
-            "text": "Судебное заседание. 10:15. 1204. Иск (заявление, жалоба) оставлены без рассмотрения. ИСТЕЦ (не просивший о разбирательстве в его отсутствии) НЕ ЯВИЛСЯ В СУД ПО ВТОРИЧНОМУ ВЫЗОВУ. 13.08.2026",
-            "name": "Судебное заседание",
-            "place": "1204",
-            "result_event": "Иск (заявление, жалоба) оставлены без рассмотрения",
-            "ground": "ИСТЕЦ (не просивший о разбирательстве в его отсутствии) НЕ ЯВИЛСЯ В СУД ПО ВТОРИЧНОМУ ВЫЗОВУ",
-            "posted_at": "13.08.2026"
-          },
-          {
-            "date": "10.09.2026",
-            "time": "13:38",
-            "text": "Дело сдано в отдел судебного делопроизводства. 13:38. 10.09.2026",
-            "name": "Дело сдано в отдел судебного делопроизводства",
-            "posted_at": "10.09.2026"
-          }
-        ],
-        "judicial_uid": "72RS0014-01-2026-011278-64",
-        "last_checked_at": "2026-11-05",
-        "decision_date": "09.09.2026",
-        "resolved_emitted": true,
-        "act_analysis": {
-          "html": "<a href=\"https://leninsky--tum.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=249019387&case_uid=d7a4e335-7c15-4b4d-ad59-366339477c37&delo_id=1540005&new=0\"><b>2-8942/2026</b></a> Мойсейчик И.Н. vs Сбербанк (услуг кредитных организаций) | Ленинский рай. суд г. Тюмени\n<b>03.08.2026</b> — 📥 иск зарегистрирован в суде\n<b>09.09.2026</b> — 📅 заседание назначено в 10:15\n⚖️ Итог: Иск (заявление, жалоба) ОСТАВЛЕН БЕЗ РАССМОТРЕНИЯИСТЕЦ (не просивший о разбирательстве в его отсутствии) НЕ ЯВИЛСЯ В СУД\n\n<a href=\"https://leninsky--tum.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=249019387&case_uid=d7a4e335-7c15-4b4d-ad59-366339477c37&delo_id=1540005&new=0\"><b>2-8942/2026</b></a> — Мойсейчик И.Н. vs Сбербанк\n<b>Итог:</b> иск оставлен без рассмотрения 09.09.2026 (истец не явился в суд по вторичному вызову). <b>Для банка:</b> в пользу банка",
-          "source": "digest",
-          "act_date": "",
-          "generated_at": "2026-09-24T03:45:36",
-          "model": "openrouter:nex-agi/nex-n2.5-mini:free"
-        }
-      },
-      "appeal": null,
-      "import": {
-        "operator": "Виктор",
-        "at": "2026-09-23T13:20:48",
-        "source": "dump",
-        "announced": true
-      },
-      "archived_at": "2026-11-09"
-    },
-    {
       "id": "2-1037/2026",
       "current_stage": "cassation_watch",
       "plaintiff": "Публичное акционерное общество Сбербанк",
@@ -15291,6 +15069,300 @@
           "episodes": [],
           "evidence_key": "eace3fe9e79feecbaca6"
         }
+      },
+      "archived_at": "2026-11-09"
+    },
+    {
+      "id": "4Г-23/2026",
+      "current_stage": "cassation",
+      "plaintiff": "ООО \"Гранит Плюс\"",
+      "defendant": "Храмова (Спирина) Анна Дмитриевна",
+      "category": "Прочие исковые дела →прочие (прочие исковые дела)",
+      "bank_role": "Третье лицо",
+      "notes": "Найдено автопоиском президиума (Президиум Тюменского областного суда)",
+      "discovered_via_cassation": true,
+      "first_instance": {
+        "case_number": "13-95/2025/10м",
+        "court": "",
+        "court_domain": "",
+        "srv_num": 1,
+        "judicial_uid": "72MS0010-01-2026-002450-62",
+        "magistrate": true,
+        "judge": "Седова Ольга Геннадьевна",
+        "filing_date": "",
+        "status": "Решено",
+        "result": "",
+        "last_event": "",
+        "event_date": "",
+        "hearing_date": "07.05.2026",
+        "hearing_time": "",
+        "link": "",
+        "act_published": false,
+        "act_date": "",
+        "act_text": "",
+        "events": [],
+        "decision_date": "07.05.2026"
+      },
+      "appeal": null,
+      "cassation": {
+        "case_number": "4Г-23/2026",
+        "cassation_number": "",
+        "court": "Президиум Тюменского областного суда",
+        "court_domain": "oblsud--tum.sudrf.ru",
+        "delo_id": 2800001,
+        "srv_num": 1,
+        "new": 2800001,
+        "timezone": "Asia/Yekaterinburg",
+        "judge": "",
+        "filing_date": "25.06.2026",
+        "fi_decision_date": "07.05.2026",
+        "act_kind": "Иные определения, вынесенные В ХОДЕ СУДЕБНОГО ПРОИЗВОДСТВА",
+        "category": "Прочие исковые дела →прочие (прочие исковые дела)",
+        "judicial_uid": "72MS0010-01-2026-002450-62",
+        "appellant": "ООО \"Гранит Плюс\"",
+        "appellant_is_bank": false,
+        "appellant_status": "ВЗЫСКАТЕЛЬ",
+        "review_result": "ОТКАЗ В ПЕРЕДАЧЕ КАССАЦИОННЫХ ЖАЛОБЫ, ПРЕДСТАВЛЕНИЯ ДЛЯ РАССМОТРЕНИЯ В СУДЕБНОМ ЗАСЕДАНИИ СУДА КАССАЦИОННОЙ ИНСТАНЦИИ",
+        "review_date": "22.07.2026",
+        "suspended_until": "",
+        "hearing_date": "",
+        "hearing_time": "",
+        "decision_date": "22.07.2026",
+        "result_text": "",
+        "result_for_appeal": "",
+        "act_published": false,
+        "act_date": "",
+        "act_text": "",
+        "outcome": "cassation_dismissed_no_transfer",
+        "remanded_to": "",
+        "events": [],
+        "link": "11563171|73f62038-0329-42de-bd40-0fdb29e3cab8",
+        "last_checked_at": "2026-11-09",
+        "discovered_via_cassation": true,
+        "act_absent_checked_at": "2026-11-09"
+      },
+      "initial_bank_role": "Третье лицо",
+      "archived_at": "2026-11-09"
+    },
+    {
+      "id": "2-5867/2026",
+      "current_stage": "first_instance",
+      "plaintiff": "Иванцова Анастасия Ивановна",
+      "defendant": "ПАО Сбербанк, Сукачев Виктор Александрович",
+      "category": "Прочие исковые дела → прочие (прочие исковые дела)",
+      "bank_role": "Ответчик",
+      "initial_bank_role": "Ответчик",
+      "notes": "",
+      "first_instance": {
+        "case_number": "2-5867/2026",
+        "court": "Калининский районный суд г. Тюмени",
+        "court_domain": "kalininsky--tum.sudrf.ru",
+        "delo_id": 1540005,
+        "srv_num": 1,
+        "judge": "Кузминчук Юрий Игоревич",
+        "filing_date": "21.07.2026",
+        "status": "Решено",
+        "result": "Иск (заявление, жалоба) ОСТАВЛЕН БЕЗ РАССМОТРЕНИЯИСТЕЦ (не просивший о разбирательстве в его отсутствии) НЕ ЯВИЛСЯ В СУД ПО ВТОРИЧНОМУ ВЫЗОВУ",
+        "last_event": "Дело сдано в отдел судебного делопроизводства. 10:23. 22.09.2026",
+        "event_date": "22.09.2026",
+        "hearing_date": "09.09.2026",
+        "hearing_time": "15:30",
+        "link": "248378430|e24b8d6c-415e-43ac-8cc6-bc19535eeeac",
+        "act_published": true,
+        "act_date": "",
+        "act_text": "72RS0013-01-2026-006881-19 ОПРЕДЕЛЕНИЕ город Тюмень 09 сентября 2026 года Калининский районный суд города Тюмени в составе: председательствующего судьи Кузминчука Ю.И., при секретаре Мукминовой Э.И., рассмотрев в открытом судебном заседании гражданское дело № 2-5867/2026 по иску Иванцовой Анастасии Ивановны к Сукачеву Виктору Александровичу и ПАО «Сбербанк России» о признании незначительной доли в праве общей долевой собственности на жилое помещение, прекращении права собственности на долю в праве общей долевой собственности на жилое помещение, взыскании денежной компенсации за долю в праве общей долевой собственности на жилое помещение, возложении обязанности по исключению из созаемщиков по кредитному договору, у с т а н о в и л : Иванцова А.И. обратилась в суд с иском к Сукачеву В.А. и ПАО «Сбербанк России» о признании незначительной доли в праве общей долевой собственности на жилое помещение, прекращении права собственности на долю в праве общей долевой собственности на жилое помещение, взыскании денежной компенсации за долю в праве общей долевой собственности на жилое помещение, возложении обязанности по исключению из созаемщиков по кредитному договору Судебное заседание проводится в отсутствие истца Иванцовой А.И., ответчика Сукачева В.А., представителя ответчика ПАО «Сбербанк России», извещенных о времени и месте судебного разбирательства. Суд, изучив материалы дела, приходит к следующим выводам. В соответствии с абз. 8 ст. 222 ГПК РФ суд оставляет заявление без рассмотрения в случае, если истец, не просивший о разбирательстве дела в его отсутствие, не явился в суд по вторичному вызову, а ответчик не требует рассмотрения дела по существу. Как установлено судом, истец дважды – 28.08.2026 и 09.09.2026 вызывалась в суд, о чем она была извещена, однако в суд истец не явилась, о рассмотрении дела в ее отсутствие не просила. Учитывая вышеизложенное, поскольку истец не явилась в суд по вторичному вызову, а ответчики не требуют рассмотрения дела по существу, так как доказательств обратного суду не предоставлено, суд на основании абз. 8 ст. 222 ГПК РФ приходит к выводу об оставлении иска без рассмотрения. Руководствуясь ст.ст. 222-225 Гражданского процессуального кодекса Российской Федерации, суд о п р е д е л и л : Оставить без рассмотрения иск Иванцовой Анастасии Ивановны ( № ) к Сукачеву Виктору Александровичу ( № ) и ПАО «Сбербанк России» (ИНН: 7707083893) о признании незначительной доли в праве общей долевой собственности на жилое помещение, прекращении права собственности на долю в праве общей долевой собственности на жилое помещение, взыскании денежной компенсации за долю в праве общей долевой собственности на жилое помещение, возложении обязанности по исключению из созаемщиков по кредитному договору. Определение обжалованию не подлежит. Председательствующий судья Ю.И. Кузминчук опубликовано 21.07.2026 16:46, изменено 23.09.2026 11:41 function select_delo_id_new(d_i, c_t) { var delo_id; var case_type; var popupDivB = document.getElementById('divFSPopupBottom'); var popupDivT = document.getElementById('divFSPopupTop'); delo_id = d_i; case_type = c_t; if(popupDivB && popupDivT) { //alert(delo_id); var url; if(delo_id !== '0') { switch(delo_id) { case 1540006: switch(case_type) { case 1: url = '/modules.php?name=sud_delo&srv_num=' + 1 + '&name_op=sf&nc=1&delo_id=1540006'; break; } break; case 4: switch(case_type) { case 1: url = '/modules.php?name=sud_delo&srv_num=' + 1 + '&name_op=sf&nc=1&delo_id=4'; break; case 4: url = '/modules.php?name=sud_delo&srv_num=' + 1 + '&name_op=sf&nc=1&delo_id=4&new=4'; break; case 2450001: url = '/modules.php?name=sud_delo&srv_num=' + 1 + '&name_op=sf&nc=1&delo_id=4&new=2450001'; break; } break; case 2450001: switch(case_type) { case 1: url = '/modules.php?name=sud_delo&srv_num=' + 1 + '&name_op=sf&nc=1&delo_id=2450001'; break; } break; case 1540005: switch(case_type) { case 1: url = '/modules.php?name=sud_delo&srv_num=' + 1 + '&name_op=sf&nc=1&delo_id=1540005'; break; } break; case 5: switch(case_type) { case 1: url = '/modules.php?name=sud_delo&srv_num=' + 1 + '&name_op=sf&nc=1&delo_id=5'; break; case 5: url = '/modules.php?name=sud_delo&srv_num=' + 1 + '&name_op=sf&nc=1&delo_id=5&new=5'; break; case 2800001: url = '/modules.php?name=sud_delo&srv_num=' + 1 + '&name_op=sf&nc=1&delo_id=5&new=2800001'; break; } break; case 2800001: switch(case_type) { case 1: url = '/modules.php?name=sud_delo&srv_num=' + 1 + '&name_op=sf&nc=1&delo_id=2800001'; break; } break; case 41: switch(case_type) { case 1: url = '/modules.php?name=sud_delo&srv_num=' + 1 + '&name_op=sf&nc=1&delo_id=41'; break; } break; case 42: switch(case_type) { case 1: url = '/modules.php?name=sud_delo&srv_num=' + 1 + '&name_op=sf&nc=1&delo_id=42'; break; } break; case 43: switch(case_type) { case 1: url = '/modules.php?name=sud_delo&srv_num=' + 1 + '&name_op=sf&nc=1&delo_id=43'; break; } break; case 1500001: switch(case_type) { case 1: url = '/modules.php?name=sud_delo&srv_num=' + 1 + '&name_op=sf&nc=1&delo_id=1500001'; break; } break; case 1502001: switch(case_type) { case 1: url = '/modules.php?name=sud_delo&srv_num=' + 1 + '&name_op=sf&nc=1&delo_id=1502001'; break; } break; case 1513001: switch(case_type) { case 1: url = '/modules.php?name=sud_delo&srv_num=' + 1 + '&name_op=sf&nc=1&delo_id=1513001'; break; } break; case 2550001: switch(case_type) { case 1: url = '/modules.php?name=sud_delo&srv_num=' + 1 + '&name_op=sf&nc=1&delo_id=2550001'; break; } break; case 1610001: switch(case_type) { case 1: url = '/modules.php?name=sud_delo&srv_num=' + 1 + '&name_op=sf&nc=1&delo_id=1610001'; break; } break; case 1610002: switch(case_type) { case 1: url = '/modules.php?name=sud_delo&srv_num=' + 1 + '&name_op=sf&nc=1&delo_id=1610002'; break; } break; } loadXMLDoc1(url); } else { alert(\"Не выбран вид производства\"); document.getElementById('inst1').innerHTML = 'Для поиска по решениям необходимо выбрать вид производства'; if(document.getElementById('case_type1').options[document.getElementById('case_type1').selectedIndex].value === 0) document.getElementById('inst').style.display = 'block'; else document.getElementById('inst').style.display = 'none'; document.getElementById('inst2').style.display = 'block'; document.getElementById('search_content').style.display = 'none'; } hidePopupDiv(); } } function index_docs(n, m) { for(i = 1; i = 10) { s = s * 100 + a } else { s = s * 10 + a; } // Чтобы избежать переполнения - берём остаток по модулю от частичной суммы if (s > maxS) { s = s % modulus } } var result = s % modulus; return result; } function validateJuid(juid) { const minJuidLen = 2; var code = juid.replace(/\\W/g, ''); if(code.length ' + ' ' + placeholder + ' ' + input.outerHTML + ' ';*/ text = ' ' + input.outerHTML + ' Неверный формат ввода ' + ' '; input.outerHTML = text; }, setValueOfMask : function (e) { var value = e.target.value, placeholder = e.target.getAttribute('data-placeholder'); return \" \" + value + \" \" + placeholder.substr(value.length); }, // add event listeners activateMasking : function (inputs) { var i, l; for (i = 0, l = inputs.length; i = 0; matchesLetter = masking.maskedLetter.indexOf(placeholder[i]) >= 0; if ((matchesNumber && isInt) || (isCharsetPresent && matchesLetter && isLetter)) { newValue += strippedValue[j++]; } else if ((!isCharsetPresent && !isInt && matchesNumber) || (isCharsetPresent && ((matchesLetter && !isLetter) || (matchesNumber && !isInt)))) { //masking.errorOnKeyEntry(e); // write your own error handling function return newValue; } else { newValue += placeholder[i]; } // break if no characters left and the pattern is non-special character if (strippedValue[j] == undefined) { break; } } if (e.target.getAttribute('data-valid-example')) { return masking.validateProgress(e, newValue); } return newValue; }, validateProgress : function (e, value) { var validExample = e.target.getAttribute('data-valid-example'), pattern = new RegExp(e.target.getAttribute('pattern')), placeholder = e.target.getAttribute('data-placeholder'), l = value",
+        "events": [
+          {
+            "date": "21.07.2026",
+            "time": "10:34",
+            "text": "Регистрация иска (заявления, жалобы) в суде. 10:34. 21.07.2026",
+            "name": "Регистрация иска (заявления, жалобы) в суде",
+            "posted_at": "21.07.2026"
+          },
+          {
+            "date": "22.07.2026",
+            "time": "09:33",
+            "text": "Передача материалов судье. 09:33. 22.07.2026",
+            "name": "Передача материалов судье",
+            "posted_at": "22.07.2026"
+          },
+          {
+            "date": "23.07.2026",
+            "time": "18:11",
+            "text": "Решение вопроса о принятии иска (заявления, жалобы) к рассмотрению. 18:11. Иск (заявление, жалоба) принят к производству. 24.07.2026",
+            "name": "Решение вопроса о принятии иска (заявления, жалобы) к рассмотрению",
+            "result_event": "Иск (заявление, жалоба) принят к производству",
+            "posted_at": "24.07.2026"
+          },
+          {
+            "date": "23.07.2026",
+            "time": "18:12",
+            "text": "Вынесено определение о подготовке дела к судебному разбирательству. 18:12. 27.08.2026",
+            "name": "Вынесено определение о подготовке дела к судебному разбирательству",
+            "posted_at": "27.08.2026"
+          },
+          {
+            "date": "28.08.2026",
+            "time": "14:30",
+            "text": "Подготовка дела (собеседование). 14:30. Вынесено определение о назначении дела к судебному разбирательству. 27.08.2026",
+            "name": "Подготовка дела (собеседование)",
+            "result_event": "Вынесено определение о назначении дела к судебному разбирательству",
+            "posted_at": "27.08.2026"
+          },
+          {
+            "date": "28.08.2026",
+            "time": "14:40",
+            "text": "Вынесено определение о назначении дела к судебному разбирательству. 14:40. 28.08.2026",
+            "name": "Вынесено определение о назначении дела к судебному разбирательству",
+            "posted_at": "28.08.2026"
+          },
+          {
+            "date": "09.09.2026",
+            "time": "15:30",
+            "text": "Судебное заседание. 15:30. Иск (заявление, жалоба) оставлены без рассмотрения. ИСТЕЦ (не просивший о разбирательстве в его отсутствии) НЕ ЯВИЛСЯ В СУД ПО ВТОРИЧНОМУ ВЫЗОВУ. 28.08.2026",
+            "name": "Судебное заседание",
+            "result_event": "Иск (заявление, жалоба) оставлены без рассмотрения",
+            "ground": "ИСТЕЦ (не просивший о разбирательстве в его отсутствии) НЕ ЯВИЛСЯ В СУД ПО ВТОРИЧНОМУ ВЫЗОВУ",
+            "posted_at": "28.08.2026"
+          },
+          {
+            "date": "22.09.2026",
+            "time": "10:23",
+            "text": "Дело сдано в отдел судебного делопроизводства. 10:23. 22.09.2026",
+            "name": "Дело сдано в отдел судебного делопроизводства",
+            "posted_at": "22.09.2026"
+          }
+        ],
+        "judicial_uid": "72RS0013-01-2026-006881-19",
+        "last_checked_at": "2026-11-05",
+        "decision_date": "09.09.2026",
+        "resolved_emitted": true,
+        "act_analysis": {
+          "html": "<a href=\"https://kalininsky--tum.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=248378430&case_uid=e24b8d6c-415e-43ac-8cc6-bc19535eeeac&delo_id=1540005&new=0\"><b>2-5867/2026</b></a> Иванцова А.И. vs Сбербанк, Сукачев В.А. (прочие (прочие исковые дела)) | Калининский рай. суд г. Тюмени\n<b>21.07.2026</b> — 📥 иск зарегистрирован в суде\n<b>09.09.2026</b> — 📅 заседание назначено в 15:30\n⚖️ Итог: Иск (заявление, жалоба) ОСТАВЛЕН БЕЗ РАССМОТРЕНИЯИСТЕЦ (не просивший о разбирательстве в его отсутствии) НЕ ЯВИЛСЯ В СУД\n\n<a href=\"https://kalininsky--tum.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=248378430&case_uid=e24b8d6c-415e-43ac-8cc6-bc19535eeeac&delo_id=1540005&new=0\"><b>2-5867/2026</b></a> — Иванцова А.И. vs Сбербанк, Сукачев В.А.\n<b>Итог:</b> иск оставлен без рассмотрения 09.09.2026 (истец не явился в суд по вторичному вызову). <b>Для банка:</b> в пользу банка",
+          "source": "digest",
+          "act_date": "",
+          "generated_at": "2026-09-28T03:45:42",
+          "model": "openrouter:dots-studio/dots-3-note-preview:free"
+        }
+      },
+      "appeal": null,
+      "import": {
+        "operator": "Виктор",
+        "at": "2026-09-25T11:00:23",
+        "source": "dump",
+        "announced": true
+      },
+      "archived_at": "2026-11-09"
+    },
+    {
+      "id": "2-8942/2026",
+      "current_stage": "first_instance",
+      "plaintiff": "Мойсейчик Ирина Николаевна",
+      "defendant": "ПАО Сбербанк",
+      "category": "Отношения, связанные с защитой прав потребителей → О защите прав потребителей → - из договоров с финансово-кредитными учреждениями в сфере: → услуг кредитных организаций",
+      "bank_role": "Ответчик",
+      "initial_bank_role": "Ответчик",
+      "notes": "",
+      "first_instance": {
+        "case_number": "2-8942/2026",
+        "court": "Ленинский районный суд г. Тюмени",
+        "court_domain": "leninsky--tum.sudrf.ru",
+        "delo_id": 1540005,
+        "srv_num": 1,
+        "judge": "Добрынин Иван Николаевич",
+        "filing_date": "03.08.2026",
+        "status": "Решено",
+        "result": "Иск (заявление, жалоба) ОСТАВЛЕН БЕЗ РАССМОТРЕНИЯИСТЕЦ (не просивший о разбирательстве в его отсутствии) НЕ ЯВИЛСЯ В СУД ПО ВТОРИЧНОМУ ВЫЗОВУ",
+        "last_event": "Дело сдано в отдел судебного делопроизводства. 13:38. 10.09.2026",
+        "event_date": "10.09.2026",
+        "hearing_date": "09.09.2026",
+        "hearing_time": "10:15",
+        "link": "249019387|d7a4e335-7c15-4b4d-ad59-366339477c37",
+        "act_published": true,
+        "act_date": "",
+        "act_text": "УИД №72RS0014-01-2026-011278-64 Дело №2-8942/2026 О П Р Е Д Е Л Е Н И Е г. Тюмень 9 сентября 2026 года Ленинский районный суд г.Тюмени в составе: председательствующего судьи Добрынина И.Н., при ведении протокола секретарем Гаврилюк Е.А., рассмотрев в открытом судебном заседании гражданское дело по исковому заявлению ФИО1 к ПАО Сбербанк о признании кредитного договора и договора ипотеки незаключенным (недействительным), применении последствий сделки и взыскании компенсации морального вреда, УСТАНОВИЛ: Истец обратился в суд указанным иском к ответчику и просит признать незаключенным кредитный договор № от ДД.ММ.ГГГГ , заключенный между ПАО Сбербанк и ФИО4 , признать ничтожным кредитный договор № от ДД.ММ.ГГГГ , заключенный между ПАО Сбербанк и ФИО4 , признать ничтожным договор ипотеки № от ДД.ММ.ГГГГ , применить последствия недействительности (ничтожности) кредитного договора и признать отсутствующими обязательства ФИО4 перед ПАО Сбербанк, обязать ПАО Сбербанк направить в Бюро кредитный историй сведения об аннулировании записи о кредитном договоре № от ДД.ММ.ГГГГ , а также просит признать незаконными действия ПАО Сбербанк по взаимодействию с третьими лицами, взыскать с ПАО Сбербанк 50000 рублей в счет компенсации морального вреда. Требования мотивированы тем, что ДД.ММ.ГГГГ в результате целенаправленного психического давления на истца со стороны третьих лиц был заключен кредитный договор, заложено собственное имущество, а кредитный денежные средства переданы недобросовестным получателям. Полагает договор незаключенный, так как СМС подписание носило формальный характер и банк не обеспечил повышенного внимания к сделке, сама сделка совершена с пороком воли. Лица, участвующие в деле, в судебное заседание не явились, истец не явился дважды. Согласно материалам дела, истец, будучи извещенным, не явился в суд по вторичному вызову. Так, истец не явился на подготовку по делу и в судебное заседание, уважительности причин неявки суду не предоставил, а ответчик не требовал рассмотрения дела по существу. Кроме того, судом установлено, что истцом подано встречное исковое заявление с идентичными требованиями в рамках дела по иску ПАО Сбербанк к ФИО4 о взыскании задолженности по кредитному договору. При таких обстоятельствах, судья считает, что имеются основания для оставления заявления без рассмотрения. На основании изложенного, судья, руководствуясь ст.ст. 222, 224, 225 Гражданского процессуального кодекса Российской Федерации, ОПРЕДЕЛИЛ: Исковое заявление ФИО1 к ПАО Сбербанк о признании кредитного договора и договора ипотеки незаключенным (недействительным), применении последствий сделки и взыскании компенсации морального вреда, оставить без рассмотрения. Разъяснить, что по ходатайству истца или ответчика, суд отменяет свое определение об оставлении заявления без рассмотрения, если истец или ответчик предоставит доказательства, подтверждающие уважительность причин неявки в судебное заседание и невозможности сообщения о них суду. Председательствующий судья (подпись) &lt;данные изъяты&gt; &lt;данные изъяты&gt; &lt;данные изъяты&gt; &lt;данные изъяты&gt; &lt;данные изъяты&gt; &lt;данные изъяты&gt; &lt;данные изъяты&gt; &lt;данные изъяты&gt; опубликовано 04.08.2026 16:48, изменено 15.09.2026 02:09 function select_delo_id_new(d_i, c_t) { var delo_id; var case_type; var popupDivB = document.getElementById('divFSPopupBottom'); var popupDivT = document.getElementById('divFSPopupTop'); delo_id = d_i; case_type = c_t; if(popupDivB && popupDivT) { //alert(delo_id); var url; if(delo_id !== '0') { switch(delo_id) { case 1540006: switch(case_type) { case 1: url = '/modules.php?name=sud_delo&srv_num=' + 1 + '&name_op=sf&nc=1&delo_id=1540006'; break; } break; case 4: switch(case_type) { case 1: url = '/modules.php?name=sud_delo&srv_num=' + 1 + '&name_op=sf&nc=1&delo_id=4'; break; case 4: url = '/modules.php?name=sud_delo&srv_num=' + 1 + '&name_op=sf&nc=1&delo_id=4&new=4'; break; case 2450001: url = '/modules.php?name=sud_delo&srv_num=' + 1 + '&name_op=sf&nc=1&delo_id=4&new=2450001'; break; } break; case 2450001: switch(case_type) { case 1: url = '/modules.php?name=sud_delo&srv_num=' + 1 + '&name_op=sf&nc=1&delo_id=2450001'; break; } break; case 1540005: switch(case_type) { case 1: url = '/modules.php?name=sud_delo&srv_num=' + 1 + '&name_op=sf&nc=1&delo_id=1540005'; break; } break; case 5: switch(case_type) { case 1: url = '/modules.php?name=sud_delo&srv_num=' + 1 + '&name_op=sf&nc=1&delo_id=5'; break; case 5: url = '/modules.php?name=sud_delo&srv_num=' + 1 + '&name_op=sf&nc=1&delo_id=5&new=5'; break; case 2800001: url = '/modules.php?name=sud_delo&srv_num=' + 1 + '&name_op=sf&nc=1&delo_id=5&new=2800001'; break; } break; case 2800001: switch(case_type) { case 1: url = '/modules.php?name=sud_delo&srv_num=' + 1 + '&name_op=sf&nc=1&delo_id=2800001'; break; } break; case 41: switch(case_type) { case 1: url = '/modules.php?name=sud_delo&srv_num=' + 1 + '&name_op=sf&nc=1&delo_id=41'; break; } break; case 42: switch(case_type) { case 1: url = '/modules.php?name=sud_delo&srv_num=' + 1 + '&name_op=sf&nc=1&delo_id=42'; break; } break; case 43: switch(case_type) { case 1: url = '/modules.php?name=sud_delo&srv_num=' + 1 + '&name_op=sf&nc=1&delo_id=43'; break; } break; case 1500001: switch(case_type) { case 1: url = '/modules.php?name=sud_delo&srv_num=' + 1 + '&name_op=sf&nc=1&delo_id=1500001'; break; } break; case 1502001: switch(case_type) { case 1: url = '/modules.php?name=sud_delo&srv_num=' + 1 + '&name_op=sf&nc=1&delo_id=1502001'; break; } break; case 1513001: switch(case_type) { case 1: url = '/modules.php?name=sud_delo&srv_num=' + 1 + '&name_op=sf&nc=1&delo_id=1513001'; break; } break; case 2550001: switch(case_type) { case 1: url = '/modules.php?name=sud_delo&srv_num=' + 1 + '&name_op=sf&nc=1&delo_id=2550001'; break; } break; case 1610001: switch(case_type) { case 1: url = '/modules.php?name=sud_delo&srv_num=' + 1 + '&name_op=sf&nc=1&delo_id=1610001'; break; } break; case 1610002: switch(case_type) { case 1: url = '/modules.php?name=sud_delo&srv_num=' + 1 + '&name_op=sf&nc=1&delo_id=1610002'; break; } break; } loadXMLDoc1(url); } else { alert(\"Не выбран вид производства\"); document.getElementById('inst1').innerHTML = 'Для поиска по решениям необходимо выбрать вид производства'; if(document.getElementById('case_type1').options[document.getElementById('case_type1').selectedIndex].value === 0) document.getElementById('inst').style.display = 'block'; else document.getElementById('inst').style.display = 'none'; document.getElementById('inst2').style.display = 'block'; document.getElementById('search_content').style.display = 'none'; } hidePopupDiv(); } } function index_docs(n, m) { for(i = 1; i = 10) { s = s * 100 + a } else { s = s * 10 + a; } // Чтобы избежать переполнения - берём остаток по модулю от частичной суммы if (s > maxS) { s = s % modulus } } var result = s % modulus; return result; } function validateJuid(juid) { const minJuidLen = 2; var code = juid.replace(/\\W/g, ''); if(code.length ' + ' ' + placeholder + ' ' + input.outerHTML + ' ';*/ text = ' ' + input.outerHTML + ' Неверный формат ввода ' + ' '; input.outerHTML = text; }, setValueOfMask : function (e) { var value = e.target.value, placeholder = e.target.getAttribute('data-placeholder'); return \" \" + value + \" \" + placeholder.substr(value.length); }, // add event listeners activateMasking : function (inputs) { var i, l; for (i = 0, l = inputs.length; i = 0; matchesLetter = masking.maskedLetter.indexOf(placeholder[i]) >= 0; if ((matchesNumber && isInt) || (isCharsetPresent && matchesLetter && isLetter)) { newValue += strippedValue[j++]; } else if ((!isCharsetPresent && !isInt && matchesNumber) || (isCharsetPresent && ((matchesLetter && !isLetter) || (matchesNumber && !isInt)))) { //masking.errorOnKeyEntry(e); // write your own error handling function return newValue; } else { newValue += placeholder[i]; } // break if no characters left and the pattern is non-special character if (strippedValue[j] == undefined) { break; }",
+        "events": [
+          {
+            "date": "03.08.2026",
+            "time": "18:10",
+            "text": "Регистрация иска (заявления, жалобы) в суде. 18:10. 04.08.2026",
+            "name": "Регистрация иска (заявления, жалобы) в суде",
+            "posted_at": "04.08.2026"
+          },
+          {
+            "date": "04.08.2026",
+            "time": "08:15",
+            "text": "Передача материалов судье. 08:15. 04.08.2026",
+            "name": "Передача материалов судье",
+            "posted_at": "04.08.2026"
+          },
+          {
+            "date": "07.08.2026",
+            "time": "09:34",
+            "text": "Решение вопроса о принятии иска (заявления, жалобы) к рассмотрению. 09:34. Иск (заявление, жалоба) принят к производству. 13.08.2026",
+            "name": "Решение вопроса о принятии иска (заявления, жалобы) к рассмотрению",
+            "result_event": "Иск (заявление, жалоба) принят к производству",
+            "posted_at": "13.08.2026"
+          },
+          {
+            "date": "07.08.2026",
+            "time": "09:35",
+            "text": "Вынесено определение о подготовке дела к судебному разбирательству. 09:35. 13.08.2026",
+            "name": "Вынесено определение о подготовке дела к судебному разбирательству",
+            "posted_at": "13.08.2026"
+          },
+          {
+            "date": "03.09.2026",
+            "time": "14:15",
+            "text": "Подготовка дела (собеседование). 14:15. 1204. Вынесено определение о назначении дела к судебному разбирательству. 13.08.2026",
+            "name": "Подготовка дела (собеседование)",
+            "place": "1204",
+            "result_event": "Вынесено определение о назначении дела к судебному разбирательству",
+            "posted_at": "13.08.2026"
+          },
+          {
+            "date": "03.09.2026",
+            "time": "14:30",
+            "text": "Вынесено определение о назначении дела к судебному разбирательству. 14:30. 13.08.2026",
+            "name": "Вынесено определение о назначении дела к судебному разбирательству",
+            "posted_at": "13.08.2026"
+          },
+          {
+            "date": "09.09.2026",
+            "time": "10:15",
+            "text": "Судебное заседание. 10:15. 1204. Иск (заявление, жалоба) оставлены без рассмотрения. ИСТЕЦ (не просивший о разбирательстве в его отсутствии) НЕ ЯВИЛСЯ В СУД ПО ВТОРИЧНОМУ ВЫЗОВУ. 13.08.2026",
+            "name": "Судебное заседание",
+            "place": "1204",
+            "result_event": "Иск (заявление, жалоба) оставлены без рассмотрения",
+            "ground": "ИСТЕЦ (не просивший о разбирательстве в его отсутствии) НЕ ЯВИЛСЯ В СУД ПО ВТОРИЧНОМУ ВЫЗОВУ",
+            "posted_at": "13.08.2026"
+          },
+          {
+            "date": "10.09.2026",
+            "time": "13:38",
+            "text": "Дело сдано в отдел судебного делопроизводства. 13:38. 10.09.2026",
+            "name": "Дело сдано в отдел судебного делопроизводства",
+            "posted_at": "10.09.2026"
+          }
+        ],
+        "judicial_uid": "72RS0014-01-2026-011278-64",
+        "last_checked_at": "2026-11-05",
+        "decision_date": "09.09.2026",
+        "resolved_emitted": true,
+        "act_analysis": {
+          "html": "<a href=\"https://leninsky--tum.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=249019387&case_uid=d7a4e335-7c15-4b4d-ad59-366339477c37&delo_id=1540005&new=0\"><b>2-8942/2026</b></a> Мойсейчик И.Н. vs Сбербанк (услуг кредитных организаций) | Ленинский рай. суд г. Тюмени\n<b>03.08.2026</b> — 📥 иск зарегистрирован в суде\n<b>09.09.2026</b> — 📅 заседание назначено в 10:15\n⚖️ Итог: Иск (заявление, жалоба) ОСТАВЛЕН БЕЗ РАССМОТРЕНИЯИСТЕЦ (не просивший о разбирательстве в его отсутствии) НЕ ЯВИЛСЯ В СУД\n\n<a href=\"https://leninsky--tum.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=249019387&case_uid=d7a4e335-7c15-4b4d-ad59-366339477c37&delo_id=1540005&new=0\"><b>2-8942/2026</b></a> — Мойсейчик И.Н. vs Сбербанк\n<b>Итог:</b> иск оставлен без рассмотрения 09.09.2026 (истец не явился в суд по вторичному вызову). <b>Для банка:</b> в пользу банка",
+          "source": "digest",
+          "act_date": "",
+          "generated_at": "2026-09-24T03:45:36",
+          "model": "openrouter:nex-agi/nex-n2.5-mini:free"
+        }
+      },
+      "appeal": null,
+      "import": {
+        "operator": "Виктор",
+        "at": "2026-09-23T13:20:48",
+        "source": "dump",
+        "announced": true
       },
       "archived_at": "2026-11-09"
     },
@@ -15815,7 +15887,7 @@
           }
         ],
         "judicial_uid": "72RS0025-01-2025-014259-28",
-        "last_checked_at": "2026-11-02",
+        "last_checked_at": "2026-11-09",
         "decision_date": "08.09.2026",
         "resolved_emitted": true,
         "act_analysis": {
@@ -15971,7 +16043,7 @@
           }
         ],
         "judicial_uid": "72RS0025-01-2025-014256-37",
-        "last_checked_at": "2026-11-02",
+        "last_checked_at": "2026-11-09",
         "decision_date": "08.09.2026",
         "resolved_emitted": true,
         "act_analysis": {
@@ -16135,7 +16207,7 @@
           }
         ],
         "judicial_uid": "72RS0025-01-2025-014164-22",
-        "last_checked_at": "2026-11-02",
+        "last_checked_at": "2026-11-09",
         "decision_date": "08.09.2026",
         "resolved_emitted": true,
         "act_analysis": {
@@ -16292,7 +16364,7 @@
           }
         ],
         "judicial_uid": "72RS0025-01-2025-014113-78",
-        "last_checked_at": "2026-11-02",
+        "last_checked_at": "2026-11-09",
         "decision_date": "08.09.2026",
         "resolved_emitted": true,
         "act_analysis": {
@@ -16449,7 +16521,7 @@
           }
         ],
         "judicial_uid": "72RS0025-01-2025-014329-12",
-        "last_checked_at": "2026-11-02",
+        "last_checked_at": "2026-11-09",
         "decision_date": "08.09.2026",
         "resolved_emitted": true,
         "act_analysis": {
@@ -16588,7 +16660,7 @@
           }
         ],
         "judicial_uid": "72RS0014-01-2026-002783-38",
-        "last_checked_at": "2026-11-02",
+        "last_checked_at": "2026-11-09",
         "decision_date": "14.07.2026",
         "resolved_emitted": true,
         "act_detected_at": "2026-11-02",
@@ -18556,12 +18628,12 @@
           }
         ],
         "judicial_uid": "72RS0025-01-2026-001910-37",
-        "last_checked_at": "2026-11-02",
+        "last_checked_at": "2026-11-09",
         "decision_date": "15.07.2026",
         "resolved_emitted": true,
-        "act_absent_checked_at": "2026-11-02",
+        "act_absent_checked_at": "2026-11-09",
         "fi_act_watch_baseline_version": 1,
-        "fi_act_checked_at": "2026-11-02",
+        "fi_act_checked_at": "2026-11-09",
         "motivirovka_emitted": true,
         "default_copy_served_emitted": "14.10.2026"
       },
@@ -20381,78 +20453,6 @@
         "announced": true
       },
       "archived_at": "2026-09-22"
-    },
-    {
-      "id": "4Г-23/2026",
-      "current_stage": "cassation",
-      "plaintiff": "ООО \"Гранит Плюс\"",
-      "defendant": "Храмова (Спирина) Анна Дмитриевна",
-      "category": "Прочие исковые дела →прочие (прочие исковые дела)",
-      "bank_role": "Третье лицо",
-      "notes": "Найдено автопоиском президиума (Президиум Тюменского областного суда)",
-      "discovered_via_cassation": true,
-      "first_instance": {
-        "case_number": "13-95/2025/10м",
-        "court": "",
-        "court_domain": "",
-        "srv_num": 1,
-        "judicial_uid": "72MS0010-01-2026-002450-62",
-        "magistrate": true,
-        "judge": "Седова Ольга Геннадьевна",
-        "filing_date": "",
-        "status": "Решено",
-        "result": "",
-        "last_event": "",
-        "event_date": "",
-        "hearing_date": "07.05.2026",
-        "hearing_time": "",
-        "link": "",
-        "act_published": false,
-        "act_date": "",
-        "act_text": "",
-        "events": [],
-        "decision_date": "07.05.2026"
-      },
-      "appeal": null,
-      "cassation": {
-        "case_number": "4Г-23/2026",
-        "cassation_number": "",
-        "court": "Президиум Тюменского областного суда",
-        "court_domain": "oblsud--tum.sudrf.ru",
-        "delo_id": 2800001,
-        "srv_num": 1,
-        "new": 2800001,
-        "timezone": "Asia/Yekaterinburg",
-        "judge": "",
-        "filing_date": "25.06.2026",
-        "fi_decision_date": "07.05.2026",
-        "act_kind": "Иные определения, вынесенные В ХОДЕ СУДЕБНОГО ПРОИЗВОДСТВА",
-        "category": "Прочие исковые дела →прочие (прочие исковые дела)",
-        "judicial_uid": "72MS0010-01-2026-002450-62",
-        "appellant": "ООО \"Гранит Плюс\"",
-        "appellant_is_bank": false,
-        "appellant_status": "ВЗЫСКАТЕЛЬ",
-        "review_result": "ОТКАЗ В ПЕРЕДАЧЕ КАССАЦИОННЫХ ЖАЛОБЫ, ПРЕДСТАВЛЕНИЯ ДЛЯ РАССМОТРЕНИЯ В СУДЕБНОМ ЗАСЕДАНИИ СУДА КАССАЦИОННОЙ ИНСТАНЦИИ",
-        "review_date": "22.07.2026",
-        "suspended_until": "",
-        "hearing_date": "",
-        "hearing_time": "",
-        "decision_date": "22.07.2026",
-        "result_text": "",
-        "result_for_appeal": "",
-        "act_published": false,
-        "act_date": "",
-        "act_text": "",
-        "outcome": "cassation_dismissed_no_transfer",
-        "remanded_to": "",
-        "events": [],
-        "link": "11563171|73f62038-0329-42de-bd40-0fdb29e3cab8",
-        "last_checked_at": "2026-11-09",
-        "discovered_via_cassation": true,
-        "act_absent_checked_at": "2026-11-09"
-      },
-      "initial_bank_role": "Третье лицо",
-      "archived_at": "2026-11-09"
     }
   ]
 }
