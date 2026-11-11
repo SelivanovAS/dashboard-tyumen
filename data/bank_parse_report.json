@@ -3,9 +3,9 @@
   "run_date": "2026-11-11",
   "smart_skip": true,
   "totals": {
-    "total": 616,
-    "parsed": 0,
-    "skip": 616,
+    "total": 617,
+    "parsed": 3,
+    "skip": 614,
     "failed": 0,
     "no_card": 0,
     "not_in_queue": 0,
@@ -1075,9 +1075,9 @@
       "last_checked_at": "2026-10-26"
     },
     {
-      "outcome": "skip",
-      "reason": "writ_weekly(2d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 2)",
+      "outcome": "parsed",
+      "reason": "",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -1090,7 +1090,7 @@
       "court": "Ленинский районный суд г. Тюмени",
       "court_domain": "leninsky--tum.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-11-09"
+      "last_checked_at": "2026-11-11"
     },
     {
       "outcome": "skip",
@@ -1579,9 +1579,9 @@
       "last_checked_at": "2026-10-16"
     },
     {
-      "outcome": "skip",
-      "reason": "writ_weekly(1d/7d)",
-      "reason_ru": "иск банка решён, ждём ИЛ/жалобу — опрос раз в 7 дн. (прошло 1)",
+      "outcome": "parsed",
+      "reason": "",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -1594,7 +1594,7 @@
       "court": "Центральный районный суд г. Тюмени",
       "court_domain": "centralny--tum.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-11-10"
+      "last_checked_at": "2026-11-11"
     },
     {
       "outcome": "skip",
@@ -11099,7 +11099,25 @@
       "court_domain": "centralny--tum.sudrf.ru",
       "case_status": "Решено",
       "last_checked_at": "2026-11-09"
+    },
+    {
+      "outcome": "parsed",
+      "reason": "",
+      "reason_ru": "",
+      "detail": "",
+      "degraded": false,
+      "force_parsed": false,
+      "events": [],
+      "changed": false,
+      "left_track": false,
+      "archived": false,
+      "key": "tumensky--tum.sudrf.ru|2-3863/2026",
+      "number": "2-3863/2026",
+      "court": "Тюменский районный суд",
+      "court_domain": "tumensky--tum.sudrf.ru",
+      "case_status": "Решено",
+      "last_checked_at": "2026-11-11"
     }
   ],
-  "updated_at": "2026-11-11T12:10:26+05:00"
+  "updated_at": "2026-11-11T16:11:28+05:00"
 }
