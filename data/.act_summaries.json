@@ -993,5 +993,37 @@
       "status": "ready"
     },
     "generated_at": "2026-11-09T03:45:32+00:00"
+  },
+  "649b83127a2dfcb1": {
+    "summary": "Суд оставил исковое заявление без рассмотрения, так как истец не явился на заседание по вторичному вызову, не просил разбирательства в отсутствие и не представил сведений об уважительных причинах неявки, а ответчик не требовал рассмотрения дела по существу. Основанием послужила норма абзаца 8 статьи 222 ГПК РФ.",
+    "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+    "attempts": [
+      {
+        "provider": "openrouter",
+        "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "status": "ready",
+        "context_limit": 1000000,
+        "input_token_upper_bound": 10343,
+        "output_reserve": 1024,
+        "token_estimate": "utf8_bytes_upper_bound"
+      }
+    ],
+    "fallback": false,
+    "stage": "first_instance",
+    "preparation": {
+      "version": "full-act-v1",
+      "source_hash": "7e87a11f508faad1e11c606231328567e76b01e2726f9eab8a4fe0834c034402",
+      "raw_chars": 2803,
+      "prepared_chars": 2803,
+      "source_url": "https://centralny--tum.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=247748372&case_uid=4e79874a-687a-4fb5-8dd8-f7e7f6985716&delo_id=1540005&new=0",
+      "court_domain": "centralny--tum.sudrf.ru",
+      "received_at": "2026-11-11T01:56:49+00:00",
+      "case_number": "2-7910/2026",
+      "stage": "first_instance",
+      "judicial_uid": "",
+      "identity_check": "matched_header",
+      "status": "ready"
+    },
+    "generated_at": "2026-11-11T03:45:37+00:00"
   }
 }
