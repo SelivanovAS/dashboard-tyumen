@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-11T08:40:44+05:00",
+  "updated_at": "2026-11-11T03:45:39+00:00",
   "cases": [
     {
       "id": "М-9853/2026",
@@ -11619,7 +11619,29 @@
         "act_received_at": "2026-11-11T01:56:49+00:00",
         "act_source_url": "https://centralny--tum.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=247748372&case_uid=4e79874a-687a-4fb5-8dd8-f7e7f6985716&delo_id=1540005&new=0",
         "act_decision_date": "03.11.2026",
-        "resolved_emitted": true
+        "resolved_emitted": true,
+        "act_analysis": {
+          "html": "<p><b>Почему:</b> Суд оставил исковое заявление без рассмотрения, так как истец не явился на заседание по вторичному вызову, не просил разбирательства в отсутствие и не представил сведений об уважительных причинах неявки, а ответчик не требовал рассмотрения дела по существу. Основанием послужила норма абзаца 8 статьи 222 ГПК РФ.</p>",
+          "source": "llm_summary",
+          "act_date": "03.11.2026",
+          "generated_at": "2026-11-11T03:45:34+00:00",
+          "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+          "source_hash": "7e87a11f508faad1e11c606231328567e76b01e2726f9eab8a4fe0834c034402",
+          "preparation": {
+            "version": "full-act-v1",
+            "source_hash": "7e87a11f508faad1e11c606231328567e76b01e2726f9eab8a4fe0834c034402",
+            "raw_chars": 2803,
+            "prepared_chars": 2803,
+            "source_url": "https://centralny--tum.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=247748372&case_uid=4e79874a-687a-4fb5-8dd8-f7e7f6985716&delo_id=1540005&new=0",
+            "court_domain": "centralny--tum.sudrf.ru",
+            "received_at": "2026-11-11T01:56:49+00:00",
+            "case_number": "2-7910/2026",
+            "stage": "first_instance",
+            "judicial_uid": "",
+            "identity_check": "matched_header",
+            "status": "ready"
+          }
+        }
       },
       "appeal": null,
       "import": {
