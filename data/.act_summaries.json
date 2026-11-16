@@ -1025,5 +1025,37 @@
       "status": "ready"
     },
     "generated_at": "2026-11-11T03:45:37+00:00"
+  },
+  "66e71ffb361a9c3c": {
+    "summary": "Апелляционный суд отменил взыскание процентов за пользование чужими средствами за период до вступления решения в силу, сославшись на п. 57 Постановления Пленума ВС РФ № 7: по обязательствам из причинения вреда проценты по ст. 395 ГК РФ начисляются только со дня вступления акта в законную силу при просрочке уплаты. В связи с уменьшением присужденной суммы штраф за несоблюдение требований потребителей снижен до 40 000 руб. (по 10 000 руб. каждому истцу) по ст. 333 ГК РФ с учетом досудебных мер ответчика и принципа соразмерности, а госпошлина пересчитана исходя от новой суммы взыскания.",
+    "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+    "attempts": [
+      {
+        "provider": "openrouter",
+        "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "status": "ready",
+        "context_limit": 1000000,
+        "input_token_upper_bound": 77582,
+        "output_reserve": 1024,
+        "token_estimate": "utf8_bytes_upper_bound"
+      }
+    ],
+    "fallback": false,
+    "stage": "appeal",
+    "preparation": {
+      "version": "full-act-v1",
+      "source_hash": "a48e6bbc6465fd0367da4219fffcc8826fec5c8a030f29b454b232d778705f3b",
+      "raw_chars": 40673,
+      "prepared_chars": 40673,
+      "source_url": "https://oblsud--tum.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=11654904&case_uid=c711328f-b0bc-4d82-ad63-edbb743142b8&delo_id=5&new=5",
+      "court_domain": "",
+      "received_at": "2026-11-16T01:45:26+00:00",
+      "case_number": "33-5613/2026",
+      "stage": "appeal",
+      "judicial_uid": "",
+      "identity_check": "matched_header",
+      "status": "ready"
+    },
+    "generated_at": "2026-11-16T03:45:29+00:00"
   }
 }
