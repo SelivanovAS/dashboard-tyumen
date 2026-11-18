@@ -1057,5 +1057,133 @@
       "status": "ready"
     },
     "generated_at": "2026-11-16T03:45:29+00:00"
+  },
+  "5a719856c551d2aa": {
+    "summary": "Суд признал денежные средства на счёте умершего выморочным имуществом и передал их в собственность РФ, так как наследники в установленный срок не обратились к нотариусу для принятия наследства, а завещания и иного имущества не было. Отсутствие действий по фактическому принятии наследства и неявка наследников к нотариусу подтвердили отсутствие лиц, имеющих право на наследование.",
+    "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+    "attempts": [
+      {
+        "provider": "openrouter",
+        "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "status": "ready",
+        "context_limit": 1000000,
+        "input_token_upper_bound": 38442,
+        "output_reserve": 1024,
+        "token_estimate": "utf8_bytes_upper_bound"
+      }
+    ],
+    "fallback": false,
+    "stage": "first_instance",
+    "preparation": {
+      "version": "full-act-v1",
+      "source_hash": "8bc7bd8a3287a5eebb2b2f655fff98904dce11bd0ffff841dfe4d8435c091cb0",
+      "raw_chars": 18044,
+      "prepared_chars": 18044,
+      "source_url": "https://centralny--tum.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=238086387&case_uid=d592dd1d-6730-4efc-b3a2-0d1c2a78da85&delo_id=1540005&new=0",
+      "court_domain": "centralny--tum.sudrf.ru",
+      "received_at": "2026-11-18T01:37:43+00:00",
+      "case_number": "2-4211/2026",
+      "stage": "first_instance",
+      "judicial_uid": "72RS0025-01-2026-001908-43",
+      "identity_check": "matched_uid",
+      "status": "ready"
+    },
+    "generated_at": "2026-11-18T03:45:31+00:00"
+  },
+  "8f46372efcb50304": {
+    "summary": "Суд признал иск законным, так как истец — единственная наследница по неотмененному завещанию, принявшая наследство в срок, а денежные средства на счетах в Сбербанке составляют наследственное имущество. Местом открытия наследства определено место нахождения имущества, поскольку наследодатель был снят с регистрационного учета, а иное место жительства не подтверждено.",
+    "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+    "attempts": [
+      {
+        "provider": "openrouter",
+        "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "status": "ready",
+        "context_limit": 1000000,
+        "input_token_upper_bound": 24573,
+        "output_reserve": 1024,
+        "token_estimate": "utf8_bytes_upper_bound"
+      }
+    ],
+    "fallback": false,
+    "stage": "first_instance",
+    "preparation": {
+      "version": "full-act-v1",
+      "source_hash": "720909ee4712dd63641aab3064521e795c41c3ad21bc26cc0beb6c6b8efe9549",
+      "raw_chars": 10637,
+      "prepared_chars": 10637,
+      "source_url": "https://centralny--tum.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=245945127&case_uid=5a545765-0da2-45da-a834-816e497f78f7&delo_id=1540005&new=0",
+      "court_domain": "centralny--tum.sudrf.ru",
+      "received_at": "2026-11-18T01:16:51+00:00",
+      "case_number": "2-6801/2026",
+      "stage": "first_instance",
+      "judicial_uid": "",
+      "identity_check": "matched_header",
+      "status": "ready"
+    },
+    "generated_at": "2026-11-18T03:45:37+00:00"
+  },
+  "a53715a817878a0f": {
+    "summary": "Суд признал недоказанным умысел страхователя на обман, так как страховщик не провел опрос о конкретных существенных обстоятельствах и не довел до сведения застрахованного перечень заболеваний, подлежащих сообщению. Применяя п. 2 ст. 944 ГК РФ, коллегия установила, что при отсутствии вопросов страховщика он не может требовать признания договора недействительным из-за несообщения этих обстоятельств.",
+    "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+    "attempts": [
+      {
+        "provider": "openrouter",
+        "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "status": "ready",
+        "context_limit": 1000000,
+        "input_token_upper_bound": 50648,
+        "output_reserve": 1024,
+        "token_estimate": "utf8_bytes_upper_bound"
+      }
+    ],
+    "fallback": false,
+    "stage": "appeal",
+    "preparation": {
+      "version": "full-act-v1",
+      "source_hash": "b76167f1da6e5b4edcefaf86482e37e507e6a6c5870a25ccb3cc5cb5315dddb6",
+      "raw_chars": 25090,
+      "prepared_chars": 25090,
+      "source_url": "https://oblsud--tum.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=11957649&case_uid=b47538bc-7cb9-4098-b5ff-fe569f530f24&delo_id=5&new=5",
+      "court_domain": "oblsud--tum.sudrf.ru",
+      "received_at": "2026-11-18T01:13:30+00:00",
+      "case_number": "33-7083/2026",
+      "stage": "appeal",
+      "judicial_uid": "",
+      "identity_check": "matched_header",
+      "status": "ready"
+    },
+    "generated_at": "2026-11-18T03:45:47+00:00"
+  },
+  "d9412df1bc871d0f": {
+    "summary": "Суд отказал в иске, так как установил отсутствие наследственного имущества у умершего заемщика: по ответам регистрирующих органов и банков недвижимость, транспорт, счета и иное имущество не выявлены. Наследники не вступили в наследство, поэтому взыскать долг с наследственной массы невозможно.",
+    "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+    "attempts": [
+      {
+        "provider": "openrouter",
+        "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "status": "ready",
+        "context_limit": 1000000,
+        "input_token_upper_bound": 18692,
+        "output_reserve": 1024,
+        "token_estimate": "utf8_bytes_upper_bound"
+      }
+    ],
+    "fallback": false,
+    "stage": "first_instance",
+    "preparation": {
+      "version": "full-act-v1",
+      "source_hash": "da6f4becadbd6a9b4707d5e6f89b2018d425198b229095f81f92cbea40560064",
+      "raw_chars": 7649,
+      "prepared_chars": 7649,
+      "source_url": "https://ishimskygor--tum.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=249593648&case_uid=ec32f858-0973-4752-bd3b-80895b21da8f&delo_id=1540005&new=0",
+      "court_domain": "ishimskygor--tum.sudrf.ru",
+      "received_at": "2026-11-18T01:36:31+00:00",
+      "case_number": "2-1106/2026",
+      "stage": "first_instance",
+      "judicial_uid": "72RS0025-01-2026-003502-14",
+      "identity_check": "matched_uid",
+      "status": "ready"
+    },
+    "generated_at": "2026-11-18T03:45:54+00:00"
   }
 }

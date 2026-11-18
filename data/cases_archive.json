@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-18T08:40:53+05:00",
+  "updated_at": "2026-11-18T08:46:33+05:00",
   "cases": [
     {
       "id": "2-417/2025",
@@ -19343,7 +19343,29 @@
         "act_notification_kind": "new_publication",
         "act_received_at": "2026-11-18T01:37:43+00:00",
         "act_source_url": "https://centralny--tum.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=238086387&case_uid=d592dd1d-6730-4efc-b3a2-0d1c2a78da85&delo_id=1540005&new=0",
-        "act_decision_date": "17.08.2026"
+        "act_decision_date": "17.08.2026",
+        "act_analysis": {
+          "html": "<p><b>Почему:</b> Суд признал денежные средства на счёте умершего выморочным имуществом и передал их в собственность РФ, так как наследники в установленный срок не обратились к нотариусу для принятия наследства, а завещания и иного имущества не было. Отсутствие действий по фактическому принятии наследства и неявка наследников к нотариусу подтвердили отсутствие лиц, имеющих право на наследование.</p>",
+          "source": "llm_summary",
+          "act_date": "17.08.2026",
+          "generated_at": "2026-11-18T03:45:27+00:00",
+          "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+          "source_hash": "8bc7bd8a3287a5eebb2b2f655fff98904dce11bd0ffff841dfe4d8435c091cb0",
+          "preparation": {
+            "version": "full-act-v1",
+            "source_hash": "8bc7bd8a3287a5eebb2b2f655fff98904dce11bd0ffff841dfe4d8435c091cb0",
+            "raw_chars": 18044,
+            "prepared_chars": 18044,
+            "source_url": "https://centralny--tum.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=238086387&case_uid=d592dd1d-6730-4efc-b3a2-0d1c2a78da85&delo_id=1540005&new=0",
+            "court_domain": "centralny--tum.sudrf.ru",
+            "received_at": "2026-11-18T01:37:43+00:00",
+            "case_number": "2-4211/2026",
+            "stage": "first_instance",
+            "judicial_uid": "72RS0025-01-2026-001908-43",
+            "identity_check": "matched_uid",
+            "status": "ready"
+          }
+        }
       },
       "appeal": null,
       "import": {

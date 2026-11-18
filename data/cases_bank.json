@@ -2,6 +2,7 @@
   "version": 1,
   "track": "plaintiff_light",
   "archived_count": 87,
+  "updated_at": "2026-11-18T08:46:34+05:00",
   "cases": [
     {
       "id": "М-4237/2026",
@@ -27338,7 +27339,29 @@
         "act_received_at": "2026-11-18T01:36:31+00:00",
         "act_source_url": "https://ishimskygor--tum.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=249593648&case_uid=ec32f858-0973-4752-bd3b-80895b21da8f&delo_id=1540005&new=0",
         "act_decision_date": "29.09.2026",
-        "court_archived_at": "12.11.2026"
+        "court_archived_at": "12.11.2026",
+        "act_analysis": {
+          "html": "<p><b>Почему:</b> Суд отказал в иске, так как установил отсутствие наследственного имущества у умершего заемщика: по ответам регистрирующих органов и банков недвижимость, транспорт, счета и иное имущество не выявлены. Наследники не вступили в наследство, поэтому взыскать долг с наследственной массы невозможно.</p>",
+          "source": "llm_summary",
+          "act_date": "29.09.2026",
+          "generated_at": "2026-11-18T03:45:52+00:00",
+          "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+          "source_hash": "da6f4becadbd6a9b4707d5e6f89b2018d425198b229095f81f92cbea40560064",
+          "preparation": {
+            "version": "full-act-v1",
+            "source_hash": "da6f4becadbd6a9b4707d5e6f89b2018d425198b229095f81f92cbea40560064",
+            "raw_chars": 7649,
+            "prepared_chars": 7649,
+            "source_url": "https://ishimskygor--tum.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=249593648&case_uid=ec32f858-0973-4752-bd3b-80895b21da8f&delo_id=1540005&new=0",
+            "court_domain": "ishimskygor--tum.sudrf.ru",
+            "received_at": "2026-11-18T01:36:31+00:00",
+            "case_number": "2-1106/2026",
+            "stage": "first_instance",
+            "judicial_uid": "72RS0025-01-2026-003502-14",
+            "identity_check": "matched_uid",
+            "status": "ready"
+          }
+        }
       },
       "appeal": null,
       "track": "plaintiff_light",
@@ -31054,6 +31077,5 @@
         "announced": true
       }
     }
-  ],
-  "updated_at": "2026-11-18T08:40:53+05:00"
+  ]
 }
