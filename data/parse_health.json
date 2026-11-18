@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated_at": "2026-11-18T07:51:05+05:00",
+ "updated_at": "2026-11-18T08:10:52+05:00",
  "sources": {
   "cassation:7kas:total": {
    "counts": [
@@ -100,24 +100,24 @@
   }
  },
  "last_run": {
-  "at": "2026-11-18T07:51:05",
+  "at": "2026-11-18T08:10:52",
   "alerts": [],
-  "requests_ok": 2,
+  "requests_ok": 0,
   "requests_failed": 0,
   "requests_retried": 0,
   "cards_breaker_skipped": 0,
   "cards_breaker_unrequested": 0,
   "cards_breaker_recovered": 0,
   "cards_blocked": 0,
-  "cards_read": 2,
-  "cards_planned": 4,
+  "cards_read": 0,
+  "cards_planned": 2,
   "cards_read_today": 272,
   "cards_planned_today": 274,
-  "daily_attempts": 3,
+  "daily_attempts": 4,
   "instances": {
    "first_instance": {
-    "read": 2,
-    "planned": 4,
+    "read": 0,
+    "planned": 2,
     "read_today": 218,
     "planned_today": 220
    },
@@ -134,12 +134,7 @@
     "planned_today": 11
    }
   },
-  "latency": {
-   "n": 2,
-   "p50": 0.6,
-   "p90": 8.5,
-   "max": 8.5
-  },
+  "latency": {},
   "failure_latency": {},
   "fail_kinds": {},
   "breaker": {
@@ -604,11 +599,11 @@
   "date": "2026-11-18",
   "region": "tyumen",
   "waiting": 167,
-  "due": 4,
-  "planned": 3,
-  "read": 1,
+  "due": 3,
+  "planned": 2,
+  "read": 0,
   "unread": 2,
-  "published": 1,
+  "published": 0,
   "backfilled": 0,
   "unplanned": 5,
   "needs_review": 4,
@@ -2036,12 +2031,6 @@
     "number": "2-64/2025",
     "next_check_at": "",
     "reason": "age_limit"
-   },
-   {
-    "key": "kalininsky--tum.sudrf.ru|1540005|1|2-7248/2026|2026-11-02",
-    "number": "2-7248/2026",
-    "next_check_at": "2026-11-18",
-    "reason": "checked"
    },
    {
     "key": "ishimskygor--tum.sudrf.ru|1540005|1|2-996/2026|2026-11-02",
@@ -4487,7 +4476,7 @@
    {
     "key": "kalininsky--tum.sudrf.ru|1|2-7248/2026|02.11.2026",
     "number": "2-7248/2026",
-    "next_check_at": "2026-11-24",
+    "next_check_at": "2026-11-25",
     "reason": "scheduled"
    },
    {
@@ -4743,17 +4732,9 @@
  "card_refresh": {
   "date": "2026-11-18",
   "region": "tyumen",
-  "planned": 3,
-  "read": 1,
+  "planned": 2,
+  "read": 0,
   "items": [
-   {
-    "key": "first_instance|https://kalininsky--tum.sudrf.ru/modules.php?case_id=252086101&case_uid=0ab10c5e-f170-4459-8264-29c324a238ab&delo_id=1540005&name=sud_delo&name_op=case&new=0&srv_num=1",
-    "stage": "first_instance",
-    "reasons": [
-     "text_waiting"
-    ],
-    "reason": "checked"
-   },
    {
     "key": "first_instance|https://kalininsky--tum.sudrf.ru/modules.php?case_id=246787291&case_uid=00f5d33a-9c33-42c0-aa89-4c3dfd364e3b&delo_id=1540005&name=sud_delo&name_op=case&new=0&srv_num=1",
     "stage": "first_instance",
@@ -4781,8 +4762,8 @@
     "read": 0
    },
    "first_instance": {
-    "planned": 3,
-    "read": 1
+    "planned": 2,
+    "read": 0
    }
   },
   "unread": 2
