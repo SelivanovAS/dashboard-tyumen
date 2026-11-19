@@ -4,9 +4,9 @@
   "smart_skip": true,
   "totals": {
     "total": 601,
-    "parsed": 18,
-    "skip": 581,
-    "failed": 2,
+    "parsed": 1,
+    "skip": 598,
+    "failed": 0,
     "no_card": 0,
     "not_in_queue": 0,
     "intake_new": 0
@@ -1076,7 +1076,7 @@
     },
     {
       "outcome": "skip",
-      "reason": "breaker",
+      "reason": "run_deadline",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
@@ -2047,9 +2047,9 @@
       "last_checked_at": "2026-11-13"
     },
     {
-      "outcome": "parsed",
-      "reason": "",
-      "reason_ru": "",
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -3037,17 +3037,14 @@
       "last_checked_at": "2026-10-28"
     },
     {
-      "outcome": "parsed",
-      "reason": "",
-      "reason_ru": "",
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
-      "events": [
-        "fi_resolved",
-        "fi_status_change"
-      ],
-      "changed": true,
+      "events": [],
+      "changed": false,
       "left_track": false,
       "archived": false,
       "key": "leninsky--tum.sudrf.ru|2-10412/2026",
@@ -3058,17 +3055,14 @@
       "last_checked_at": "2026-11-19"
     },
     {
-      "outcome": "parsed",
-      "reason": "",
-      "reason_ru": "",
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
-      "events": [
-        "fi_resolved",
-        "fi_status_change"
-      ],
-      "changed": true,
+      "events": [],
+      "changed": false,
       "left_track": false,
       "archived": false,
       "key": "leninsky--tum.sudrf.ru|2-10418/2026",
@@ -3079,17 +3073,14 @@
       "last_checked_at": "2026-11-19"
     },
     {
-      "outcome": "parsed",
-      "reason": "",
-      "reason_ru": "",
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
-      "events": [
-        "fi_resolved",
-        "fi_status_change"
-      ],
-      "changed": true,
+      "events": [],
+      "changed": false,
       "left_track": false,
       "archived": false,
       "key": "leninsky--tum.sudrf.ru|2-10596/2026",
@@ -3100,16 +3091,14 @@
       "last_checked_at": "2026-11-19"
     },
     {
-      "outcome": "parsed",
-      "reason": "",
-      "reason_ru": "",
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
-      "events": [
-        "fi_hearing_postponed"
-      ],
-      "changed": true,
+      "events": [],
+      "changed": false,
       "left_track": false,
       "archived": false,
       "key": "leninsky--tum.sudrf.ru|2-10353/2026",
@@ -3120,9 +3109,9 @@
       "last_checked_at": "2026-11-19"
     },
     {
-      "outcome": "parsed",
-      "reason": "",
-      "reason_ru": "",
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -3516,9 +3505,9 @@
       "last_checked_at": "2026-11-16"
     },
     {
-      "outcome": "parsed",
-      "reason": "",
-      "reason_ru": "",
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -3732,9 +3721,9 @@
       "last_checked_at": "2026-11-16"
     },
     {
-      "outcome": "parsed",
-      "reason": "",
-      "reason_ru": "",
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -3930,8 +3919,8 @@
       "last_checked_at": "2026-11-17"
     },
     {
-      "outcome": "skip",
-      "reason": "breaker",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
@@ -3945,7 +3934,7 @@
       "court": "Ленинский районный суд г. Тюмени",
       "court_domain": "leninsky--tum.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-11-18"
+      "last_checked_at": "2026-11-19"
     },
     {
       "outcome": "skip",
@@ -4146,9 +4135,9 @@
       "last_checked_at": "2026-11-16"
     },
     {
-      "outcome": "parsed",
-      "reason": "",
-      "reason_ru": "",
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -4596,9 +4585,9 @@
       "last_checked_at": "2026-11-16"
     },
     {
-      "outcome": "parsed",
-      "reason": "",
-      "reason_ru": "",
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -4920,9 +4909,9 @@
       "last_checked_at": "2026-11-17"
     },
     {
-      "outcome": "parsed",
-      "reason": "",
-      "reason_ru": "",
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -4938,9 +4927,9 @@
       "last_checked_at": "2026-11-19"
     },
     {
-      "outcome": "parsed",
-      "reason": "",
-      "reason_ru": "",
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -5191,7 +5180,7 @@
     },
     {
       "outcome": "skip",
-      "reason": "breaker",
+      "reason": "run_deadline",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
@@ -5226,16 +5215,14 @@
       "last_checked_at": "2026-11-17"
     },
     {
-      "outcome": "parsed",
-      "reason": "",
-      "reason_ru": "",
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
-      "events": [
-        "fi_hearing_new"
-      ],
-      "changed": true,
+      "events": [],
+      "changed": false,
       "left_track": false,
       "archived": false,
       "key": "leninsky--tum.sudrf.ru|2-10181/2026",
@@ -5624,16 +5611,14 @@
       "last_checked_at": "2026-11-13"
     },
     {
-      "outcome": "parsed",
-      "reason": "",
-      "reason_ru": "",
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
-      "events": [
-        "fi_hearing_recess"
-      ],
-      "changed": true,
+      "events": [],
+      "changed": false,
       "left_track": false,
       "archived": false,
       "key": "leninsky--tum.sudrf.ru|2-8913/2026",
@@ -5914,9 +5899,9 @@
       "last_checked_at": "2026-11-16"
     },
     {
-      "outcome": "parsed",
-      "reason": "",
-      "reason_ru": "",
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -6040,17 +6025,14 @@
       "last_checked_at": "2026-11-19"
     },
     {
-      "outcome": "parsed",
-      "reason": "",
-      "reason_ru": "",
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
-      "events": [
-        "fi_resolved",
-        "fi_status_change"
-      ],
-      "changed": true,
+      "events": [],
+      "changed": false,
       "left_track": false,
       "archived": false,
       "key": "leninsky--tum.sudrf.ru|2-8410/2026",
@@ -6080,7 +6062,7 @@
     },
     {
       "outcome": "skip",
-      "reason": "breaker",
+      "reason": "run_deadline",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
@@ -6529,14 +6511,14 @@
       "last_checked_at": "2026-11-16"
     },
     {
-      "outcome": "parsed",
-      "reason": "",
-      "reason_ru": "",
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
       "events": [],
-      "changed": true,
+      "changed": false,
       "left_track": false,
       "archived": false,
       "key": "leninsky--tum.sudrf.ru|2-9318/2026",
@@ -6565,9 +6547,9 @@
       "last_checked_at": "2026-11-18"
     },
     {
-      "outcome": "parsed",
-      "reason": "",
-      "reason_ru": "",
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -7268,7 +7250,7 @@
     },
     {
       "outcome": "skip",
-      "reason": "breaker",
+      "reason": "run_deadline",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
@@ -7285,9 +7267,9 @@
       "last_checked_at": "2026-11-18"
     },
     {
-      "outcome": "fetch_blocked",
+      "outcome": "unknown",
       "reason": "",
-      "reason_ru": "портал суда отдал заглушку/блокировку вместо карточки",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -7322,7 +7304,7 @@
     },
     {
       "outcome": "skip",
-      "reason": "breaker",
+      "reason": "run_deadline",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
@@ -7357,9 +7339,9 @@
       "last_checked_at": "2026-11-16"
     },
     {
-      "outcome": "fetch_blocked",
+      "outcome": "unknown",
       "reason": "",
-      "reason_ru": "портал суда отдал заглушку/блокировку вместо карточки",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -7394,7 +7376,7 @@
     },
     {
       "outcome": "skip",
-      "reason": "breaker",
+      "reason": "run_deadline",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
@@ -10849,5 +10831,5 @@
       "last_checked_at": "2026-11-16"
     }
   ],
-  "updated_at": "2026-11-19T08:21:56+05:00"
+  "updated_at": "2026-11-19T08:39:08+05:00"
 }
