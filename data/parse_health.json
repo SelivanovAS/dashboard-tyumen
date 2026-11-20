@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated_at": "2026-11-20T12:11:35+05:00",
+ "updated_at": "2026-11-20T16:11:10+05:00",
  "sources": {
   "cassation:7kas:total": {
    "counts": [
@@ -100,24 +100,24 @@
   }
  },
  "last_run": {
-  "at": "2026-11-20T12:11:35",
+  "at": "2026-11-20T16:11:10",
   "alerts": [],
-  "requests_ok": 5,
+  "requests_ok": 4,
   "requests_failed": 0,
   "requests_retried": 0,
   "cards_breaker_skipped": 25,
   "cards_breaker_unrequested": 25,
   "cards_breaker_recovered": 0,
   "cards_blocked": 4,
-  "cards_read": 1,
-  "cards_planned": 30,
+  "cards_read": 0,
+  "cards_planned": 29,
   "cards_read_today": 281,
   "cards_planned_today": 312,
-  "daily_attempts": 5,
+  "daily_attempts": 6,
   "instances": {
    "first_instance": {
-    "read": 1,
-    "planned": 30,
+    "read": 0,
+    "planned": 29,
     "read_today": 213,
     "planned_today": 244
    },
@@ -135,17 +135,17 @@
    }
   },
   "latency": {
-   "n": 5,
-   "p50": 9.6,
-   "p90": 24.6,
-   "max": 24.6
+   "n": 4,
+   "p50": 8.7,
+   "p90": 11.3,
+   "max": 11.3
   },
   "failure_latency": {
    "portal_placeholder": {
     "n": 4,
-    "p50": 7.9,
-    "p90": 24.6,
-    "max": 24.6
+    "p50": 8.7,
+    "p90": 11.3,
+    "max": 11.3
    }
   },
   "fail_kinds": {
@@ -194,7 +194,7 @@
      "deferred_remaining": 26,
      "deferred_recovered": 0,
      "cooldown_seconds": 180.0,
-     "next_probe_in_seconds": 144.7
+     "next_probe_in_seconds": 153.7
     }
    ]
   },
