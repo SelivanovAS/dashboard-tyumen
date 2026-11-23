@@ -1185,5 +1185,133 @@
       "status": "ready"
     },
     "generated_at": "2026-11-18T03:45:54+00:00"
+  },
+  "e5704536001671c9": {
+    "summary": "Суд установил, что наследственное дело заведено, но никто не обращался с заявлением о принятии наследства, поэтому денежные средства на счете умершего признаются выморочным имуществом, переходящим в собственность РФ по закону. Отсутствие наследников и факт непринятия наследства подтверждены нотариальным ответом и свидетельством о смерти, а списание средств банком допускается только по судебному акту.",
+    "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+    "attempts": [
+      {
+        "provider": "openrouter",
+        "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "status": "ready",
+        "context_limit": 1000000,
+        "input_token_upper_bound": 23331,
+        "output_reserve": 1024,
+        "token_estimate": "utf8_bytes_upper_bound"
+      }
+    ],
+    "fallback": false,
+    "stage": "first_instance",
+    "preparation": {
+      "version": "full-act-v1",
+      "source_hash": "5b7021866967ccf91e258d587f8c39e14182aa352218a335fdd3035272c74f46",
+      "raw_chars": 9922,
+      "prepared_chars": 9922,
+      "source_url": "https://centralny--tum.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=247212995&case_uid=ad71f621-8ec0-4bb9-8f3d-d6b51db948bc&delo_id=1540005&new=0",
+      "court_domain": "centralny--tum.sudrf.ru",
+      "received_at": "2026-11-23T01:32:28+00:00",
+      "case_number": "2-7521/2026",
+      "stage": "first_instance",
+      "judicial_uid": "72RS0025-01-2026-007878-78",
+      "identity_check": "matched_uid",
+      "status": "ready"
+    },
+    "generated_at": "2026-11-23T03:45:19+00:00"
+  },
+  "005f88c6219d32e8": {
+    "summary": "Суд установил, что после смерти Букина Н.Г. наследственное дело заведено, но никто не обращался с заявлением о принятии наследства, поэтому денежные средства на счете в Сбербанке признаются выморочным имуществом, переходящим в собственность РФ по закону. Отсутствие наследников и неприятие наследства подтверждены ответом нотариуса, а списание средств банком допускается только по решению суда, что удовлетворяет требования прокурора.",
+    "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+    "attempts": [
+      {
+        "provider": "openrouter",
+        "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "status": "ready",
+        "context_limit": 1000000,
+        "input_token_upper_bound": 23325,
+        "output_reserve": 1024,
+        "token_estimate": "utf8_bytes_upper_bound"
+      }
+    ],
+    "fallback": false,
+    "stage": "first_instance",
+    "preparation": {
+      "version": "full-act-v1",
+      "source_hash": "2dc4465f5dfed5e0add904ddc42f257ffc8053bbab346addc304cdf4ece5b954",
+      "raw_chars": 9913,
+      "prepared_chars": 9913,
+      "source_url": "https://centralny--tum.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=247212681&case_uid=ba635122-3dcf-4514-bf61-e9edf8543460&delo_id=1540005&new=0",
+      "court_domain": "centralny--tum.sudrf.ru",
+      "received_at": "2026-11-23T01:32:37+00:00",
+      "case_number": "2-7510/2026",
+      "stage": "first_instance",
+      "judicial_uid": "72RS0025-01-2026-007842-89",
+      "identity_check": "matched_uid",
+      "status": "ready"
+    },
+    "generated_at": "2026-11-23T03:45:25+00:00"
+  },
+  "4ad3d2123dec5ee8": {
+    "summary": "Суд установил, что после смерти Шадриной В.Н. наследственное дело не заводилось, а наследники по закону и завещанию отсутствуют, поэтому денежные средства на счетах в Сбербанке и Совкомбанке признаются выморочным имуществом, переходящим в собственность РФ по ст. 1151 ГК РФ. Отсутствие возражений от МТУ Росимущества и банков, а также подтверждение нотариальной палатой факта неведения наследственного дела подтвердили обоснованность требований прокурора о перечислении средств в федеральный бюджет.",
+    "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+    "attempts": [
+      {
+        "provider": "openrouter",
+        "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "status": "ready",
+        "context_limit": 1000000,
+        "input_token_upper_bound": 24766,
+        "output_reserve": 1024,
+        "token_estimate": "utf8_bytes_upper_bound"
+      }
+    ],
+    "fallback": false,
+    "stage": "first_instance",
+    "preparation": {
+      "version": "full-act-v1",
+      "source_hash": "84d9c92b03b85d82def71665a6991d43217509acdce6a8af3d0507fdd771b64e",
+      "raw_chars": 10755,
+      "prepared_chars": 10755,
+      "source_url": "https://centralny--tum.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=247748465&case_uid=776a12a5-9f94-48ba-b867-d7ee4c548c93&delo_id=1540005&new=0",
+      "court_domain": "centralny--tum.sudrf.ru",
+      "received_at": "2026-11-23T01:33:14+00:00",
+      "case_number": "2-7616/2026",
+      "stage": "first_instance",
+      "judicial_uid": "72RS0025-01-2026-008327-89",
+      "identity_check": "matched_uid",
+      "status": "ready"
+    },
+    "generated_at": "2026-11-23T03:45:32+00:00"
+  },
+  "618be3b6bde92a0e": {
+    "summary": "Суд установил, что после смерти вкладчика Чеботарёва М.А. наследственное дело заведено, но никто не обращался с заявлением о принятии наследства, поэтому денежные средства на счёте в Сбербанке признаются выморочным имуществом, переходящим в собственность РФ по закону. На основании ст. 854 ГК РФ и позиции банка списание средств со счёта клиента в пользу бюджета допускается только по судебному акту, что обосновывает обязывание Сбербанка перечислить деньги в федеральный бюджет.",
+    "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+    "attempts": [
+      {
+        "provider": "openrouter",
+        "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "status": "ready",
+        "context_limit": 1000000,
+        "input_token_upper_bound": 24599,
+        "output_reserve": 1024,
+        "token_estimate": "utf8_bytes_upper_bound"
+      }
+    ],
+    "fallback": false,
+    "stage": "first_instance",
+    "preparation": {
+      "version": "full-act-v1",
+      "source_hash": "b8e33772e1f93c2687ea0f3655955159b26ea7bda1f65bab40e892eb47033396",
+      "raw_chars": 10602,
+      "prepared_chars": 10602,
+      "source_url": "https://centralny--tum.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=247213002&case_uid=f54e2a8f-948b-4c83-ad69-85fdc461113c&delo_id=1540005&new=0",
+      "court_domain": "centralny--tum.sudrf.ru",
+      "received_at": "2026-11-23T01:33:22+00:00",
+      "case_number": "2-7394/2026",
+      "stage": "first_instance",
+      "judicial_uid": "72RS0025-01-2026-007879-75",
+      "identity_check": "matched_uid",
+      "status": "ready"
+    },
+    "generated_at": "2026-11-23T03:45:41+00:00"
   }
 }
