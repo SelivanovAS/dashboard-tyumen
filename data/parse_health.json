@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated_at": "2026-11-23T08:22:26+05:00",
+ "updated_at": "2026-11-23T12:17:53+05:00",
  "sources": {
   "cassation:7kas:total": {
    "counts": [
@@ -100,25 +100,25 @@
   }
  },
  "last_run": {
-  "at": "2026-11-23T08:22:26",
+  "at": "2026-11-23T12:17:53",
   "alerts": [],
-  "requests_ok": 4,
+  "requests_ok": 32,
   "requests_failed": 0,
   "requests_retried": 0,
-  "cards_breaker_skipped": 41,
-  "cards_breaker_unrequested": 29,
+  "cards_breaker_skipped": 13,
+  "cards_breaker_unrequested": 1,
   "cards_breaker_recovered": 0,
-  "cards_blocked": 4,
-  "cards_read": 0,
+  "cards_blocked": 2,
+  "cards_read": 30,
   "cards_planned": 45,
-  "cards_read_today": 282,
+  "cards_read_today": 312,
   "cards_planned_today": 328,
-  "daily_attempts": 3,
+  "daily_attempts": 4,
   "instances": {
    "first_instance": {
-    "read": 0,
+    "read": 30,
     "planned": 45,
-    "read_today": 236,
+    "read_today": 266,
     "planned_today": 282
    },
    "appeal": {
@@ -135,53 +135,38 @@
    }
   },
   "latency": {
-   "n": 4,
-   "p50": 3.1,
-   "p90": 12.4,
-   "max": 12.4
+   "n": 32,
+   "p50": 10.1,
+   "p90": 13.9,
+   "max": 17.7
   },
   "failure_latency": {
    "portal_placeholder": {
-    "n": 4,
-    "p50": 3.1,
-    "p90": 12.4,
-    "max": 12.4
+    "n": 2,
+    "p50": 4.6,
+    "p90": 8.3,
+    "max": 8.3
    }
   },
   "fail_kinds": {
-   "portal_placeholder": 4,
+   "portal_placeholder": 2,
    "breaker": 12
   },
   "breaker": {
    "mode": "time",
-   "opened_hosts": 2,
-   "open_hosts": 2,
+   "opened_hosts": 1,
+   "open_hosts": 1,
    "recovered_hosts": 0,
-   "deferred_total": 31,
-   "deferred_remaining": 31,
+   "deferred_total": 2,
+   "deferred_remaining": 2,
    "deferred_recovered": 0,
    "probes": 0,
    "probe_successes": 0,
    "probe_failures": 0,
    "by_kind": {
-    "portal_placeholder": 2
+    "portal_placeholder": 1
    },
    "hosts": [
-    {
-     "host": "centralny--tum.sudrf.ru",
-     "state": "open",
-     "kind": "portal_placeholder",
-     "family": "portal_outage",
-     "reason": "вместо карточки пришла заглушка портала",
-     "preopened": false,
-     "skipped": 22,
-     "probes": 0,
-     "deferred_total": 23,
-     "deferred_remaining": 23,
-     "deferred_recovered": 0,
-     "cooldown_seconds": 180.0,
-     "next_probe_in_seconds": 89.3
-    },
     {
      "host": "leninsky--tum.sudrf.ru",
      "state": "open",
@@ -189,22 +174,22 @@
      "family": "portal_outage",
      "reason": "вместо карточки пришла заглушка портала",
      "preopened": false,
-     "skipped": 19,
+     "skipped": 13,
      "probes": 0,
-     "deferred_total": 8,
-     "deferred_remaining": 8,
+     "deferred_total": 2,
+     "deferred_remaining": 2,
      "deferred_recovered": 0,
      "cooldown_seconds": 180.0,
-     "next_probe_in_seconds": 110.0
+     "next_probe_in_seconds": 126.1
     }
    ]
   },
-  "courts_unavailable": 2,
-  "courts_with_unrequested": 2,
+  "courts_unavailable": 1,
+  "courts_with_unrequested": 1,
   "courts_outage": 0,
-  "cards_unreachable": 29,
-  "cards_unread_other": 16,
-  "run_deadline_seconds": 3300.0,
+  "cards_unreachable": 1,
+  "cards_unread_other": 14,
+  "run_deadline_seconds": 1500.0,
   "run_deadline_reached": false
  },
  "act_publication_watch": {
@@ -700,7 +685,7 @@
  "fi_act_publication_watch": {
   "date": "2026-11-23",
   "region": "tyumen",
-  "waiting": 177,
+  "waiting": 180,
   "due": 13,
   "planned": 12,
   "read": 0,
@@ -1637,12 +1622,6 @@
     "reason": "age_limit"
    },
    {
-    "key": "centralny--tum.sudrf.ru|1540005|1|2-4263/2026|2026-07-15",
-    "number": "2-4263/2026",
-    "next_check_at": "2026-12-02",
-    "reason": "scheduled"
-   },
-   {
     "key": "leninsky--tum.sudrf.ru|1540005|1|2-3130/2026|2026-06-23",
     "number": "2-3130/2026",
     "next_check_at": "2026-12-10",
@@ -2283,13 +2262,37 @@
     "number": "2-4941/2026",
     "next_check_at": "2026-11-24",
     "reason": "scheduled"
+   },
+   {
+    "key": "centralny--tum.sudrf.ru|1540005|1|2-7326/2026|2026-11-19",
+    "number": "2-7326/2026",
+    "next_check_at": "2026-11-24",
+    "reason": "scheduled"
+   },
+   {
+    "key": "centralny--tum.sudrf.ru|1540005|1|2-7993/2026|2026-11-16",
+    "number": "2-7993/2026",
+    "next_check_at": "2026-11-24",
+    "reason": "scheduled"
+   },
+   {
+    "key": "centralny--tum.sudrf.ru|1540005|1|2-7940/2026|2026-11-10",
+    "number": "2-7940/2026",
+    "next_check_at": "2026-11-24",
+    "reason": "scheduled"
+   },
+   {
+    "key": "leninsky--tum.sudrf.ru|1540005|1|2-10060/2026|2026-11-17",
+    "number": "2-10060/2026",
+    "next_check_at": "2026-11-24",
+    "reason": "scheduled"
    }
   ]
  },
  "writ_watch": {
   "date": "2026-11-23",
   "region": "tyumen",
-  "waiting": 397,
+  "waiting": 402,
   "due": 2,
   "planned": 0,
   "read": 0,
@@ -2454,7 +2457,7 @@
    {
     "key": "centralny--tum.sudrf.ru|1|2-1158/2026 (2-9721/2025;)|10.02.2026",
     "number": "2-1158/2026 (2-9721/2025;)",
-    "next_check_at": "2026-12-16",
+    "next_check_at": "2026-12-23",
     "reason": "scheduled"
    },
    {
@@ -3054,7 +3057,7 @@
    {
     "key": "centralny--tum.sudrf.ru|1|2-3276/2026|15.05.2026",
     "number": "2-3276/2026",
-    "next_check_at": "2026-12-16",
+    "next_check_at": "2026-12-23",
     "reason": "scheduled"
    },
    {
@@ -3066,7 +3069,7 @@
    {
     "key": "centralny--tum.sudrf.ru|1|2-3679/2026|25.05.2026",
     "number": "2-3679/2026",
-    "next_check_at": "2026-12-16",
+    "next_check_at": "2026-12-23",
     "reason": "scheduled"
    },
    {
@@ -3150,7 +3153,7 @@
    {
     "key": "centralny--tum.sudrf.ru|1|2-5478/2026|25.05.2026",
     "number": "2-5478/2026",
-    "next_check_at": "2026-12-16",
+    "next_check_at": "2026-12-23",
     "reason": "scheduled"
    },
    {
@@ -4212,7 +4215,7 @@
    {
     "key": "centralny--tum.sudrf.ru|1|2-10065/2025|24.11.2025",
     "number": "2-10065/2025",
-    "next_check_at": "2026-12-16",
+    "next_check_at": "2026-12-23",
     "reason": "scheduled"
    },
    {
@@ -4230,7 +4233,7 @@
    {
     "key": "centralny--tum.sudrf.ru|1|2-1912/2026 (2-11032/2025;)|03.02.2026",
     "number": "2-1912/2026 (2-11032/2025;)",
-    "next_check_at": "2026-12-16",
+    "next_check_at": "2026-12-23",
     "reason": "scheduled"
    },
    {
@@ -4790,6 +4793,36 @@
     "number": "2-4941/2026",
     "next_check_at": "2026-11-30",
     "reason": "scheduled"
+   },
+   {
+    "key": "centralny--tum.sudrf.ru|1|2-7326/2026|19.11.2026",
+    "number": "2-7326/2026",
+    "next_check_at": "2026-11-30",
+    "reason": "scheduled"
+   },
+   {
+    "key": "centralny--tum.sudrf.ru|1|2-7993/2026|16.11.2026",
+    "number": "2-7993/2026",
+    "next_check_at": "2026-11-30",
+    "reason": "scheduled"
+   },
+   {
+    "key": "centralny--tum.sudrf.ru|1|2-7940/2026|10.11.2026",
+    "number": "2-7940/2026",
+    "next_check_at": "2026-11-30",
+    "reason": "scheduled"
+   },
+   {
+    "key": "leninsky--tum.sudrf.ru|1|2-10060/2026|17.11.2026",
+    "number": "2-10060/2026",
+    "next_check_at": "2026-11-30",
+    "reason": "scheduled"
+   },
+   {
+    "key": "leninsky--tum.sudrf.ru|1|2-10480/2026|",
+    "number": "2-10480/2026",
+    "next_check_at": "2026-11-30",
+    "reason": "scheduled"
    }
   ]
  },
@@ -4981,7 +5014,7 @@
  "parsing_backlog": {
   "date": "2026-11-23",
   "region": "tyumen",
-  "cards_unread": 45,
+  "cards_unread": 15,
   "fi_without_card": 31,
   "candidates_pending": 0,
   "acts_unread": 12,
