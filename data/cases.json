@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-24T12:18:28+05:00",
+  "updated_at": "2026-11-24T16:12:20+05:00",
   "cases": [
     {
       "id": "33-8151/2026",
@@ -64201,7 +64201,7 @@
         "judicial_uid": "72RS0013-01-2026-002258-17",
         "delo_id": 1540005,
         "srv_num": 1,
-        "last_checked_at": "2026-11-17",
+        "last_checked_at": "2026-11-24",
         "resolved_emitted": true,
         "decision_date": "19.05.2026",
         "legal_force_emitted": "2026-07-16",
@@ -64212,10 +64212,10 @@
         "motivirovka_date": "29.05.2026",
         "writ_watch_status": "waiting",
         "writ_watch_reason": "awaiting_writ",
-        "writ_checked_at": "2026-11-17",
-        "act_absent_checked_at": "2026-11-17",
+        "writ_checked_at": "2026-11-24",
+        "act_absent_checked_at": "2026-11-24",
         "fi_act_watch_baseline_version": 1,
-        "fi_act_checked_at": "2026-11-17",
+        "fi_act_checked_at": "2026-11-24",
         "events": [
           {
             "date": "13.03.2026",
@@ -119050,7 +119050,7 @@
         "judicial_uid": "72RS0013-01-2026-002258-17",
         "delo_id": 1540005,
         "srv_num": 1,
-        "last_checked_at": "2026-11-17",
+        "last_checked_at": "2026-11-24",
         "resolved_emitted": true,
         "decision_date": "19.05.2026",
         "legal_force_emitted": "2026-07-16",
@@ -119061,10 +119061,10 @@
         "motivirovka_date": "29.05.2026",
         "writ_watch_status": "waiting",
         "writ_watch_reason": "awaiting_writ",
-        "writ_checked_at": "2026-11-17",
-        "act_absent_checked_at": "2026-11-17",
+        "writ_checked_at": "2026-11-24",
+        "act_absent_checked_at": "2026-11-24",
         "fi_act_watch_baseline_version": 1,
-        "fi_act_checked_at": "2026-11-17",
+        "fi_act_checked_at": "2026-11-24",
         "events": [
           {
             "date": "13.03.2026",
@@ -119149,7 +119149,7 @@
         "current_stage": "first_instance"
       },
       "long_wait": true,
-      "next_check_at": "2026-12-17",
+      "next_check_at": "2026-12-24",
       "attempt_count": 1,
       "attempt_day": "2026-11-03",
       "last_attempt_at": "2026-11-03T06:55:26"
@@ -170089,7 +170089,7 @@
     }
   ],
   "pending_retry_context": {
-    "saved_at": "2026-11-24T12:18:28",
+    "saved_at": "2026-11-24T16:12:19",
     "new_cases": [],
     "changes": [],
     "cases": [
@@ -171504,13 +171504,52 @@
     ],
     "fi_new_cases": [],
     "stage_transitions": [],
-    "fi_changes": [],
+    "fi_changes": [
+      {
+        "case": "2-5096/2026",
+        "court": "Калининский районный суд г. Тюмени",
+        "plaintiff": "ПАО Сбербанк",
+        "defendant": "Сысоева Наталья Викторовна",
+        "bank_role": "Истец",
+        "category": "Прочие исковые дела → прочие (прочие исковые дела)",
+        "type": [
+          "fi_hearing_new"
+        ],
+        "details": {
+          "link": "246557419|82823b22-5d59-4fa3-b239-fab0e8657bde",
+          "court_domain": "kalininsky--tum.sudrf.ru",
+          "hearing_date": "11.01.2027",
+          "hearing_time": "14:00",
+          "hearing_type": "заседание"
+        },
+        "track": "plaintiff_light"
+      },
+      {
+        "case": "2-6776/2026",
+        "court": "Калининский районный суд г. Тюмени",
+        "plaintiff": "ПАО Сбербанк в лице филиала - Западно-Сибирское отделение № 8647",
+        "defendant": "Аллахвердиев Сахман Мадат оглы",
+        "bank_role": "Истец",
+        "category": "Споры, связанные с имущественными правами → Иски о взыскании сумм по договору займа, кредитному договору",
+        "type": [
+          "fi_hearing_new"
+        ],
+        "details": {
+          "link": "250721660|62efdc94-49b1-4223-98ff-9ef96a69bdd7",
+          "court_domain": "kalininsky--tum.sudrf.ru",
+          "hearing_date": "22.12.2026",
+          "hearing_time": "12:00",
+          "hearing_type": "заседание"
+        },
+        "track": "plaintiff_light"
+      }
+    ],
     "total_active_appeal": 38,
     "total_active_fi": 35,
     "total_active_cassation": 19,
     "total_active_bank": 204,
     "cass_changes": [],
     "cass_discovered": [],
-    "issue_key": "retry:2026-11-24T12:18:28"
+    "issue_key": "retry:2026-11-24T16:12:19"
   }
 }
