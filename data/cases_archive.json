@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-24T08:31:18+05:00",
+  "updated_at": "2026-11-24T08:46:11+05:00",
   "cases": [
     {
       "id": "2-417/2025",
@@ -20699,7 +20699,29 @@
         "act_notification_kind": "new_publication",
         "act_received_at": "2026-11-24T02:30:19+00:00",
         "act_source_url": "https://centralny--tum.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=238086257&case_uid=807a27b2-d098-4bbc-a604-8cf2240e0901&delo_id=1540005&new=0",
-        "act_decision_date": "17.08.2026"
+        "act_decision_date": "17.08.2026",
+        "act_analysis": {
+          "html": "<p><b>Почему:</b> Суд признал денежные средства на счете умершей Слынько Л.С. выморочным имуществом и передал их в собственность РФ, так как наследники в установленный законом срок не обращались к нотариусу с заявлениями о принятии или отказе от наследства, а иные действия, свидетельствующие о фактическом принятии имущества, не совершали. Отсутствие завещания и иного имущества у наследодателя подтвердило основания для перехода вклада в федеральную собственность по ст. 1151 ГК РФ без акта принятия наследства.</p>",
+          "source": "llm_summary",
+          "act_date": "17.08.2026",
+          "generated_at": "2026-11-24T03:45:37+00:00",
+          "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+          "source_hash": "7c9183b56e7c21a7cbd003140f91d0bacf3547b938dc5fe5dc2d289c58ade38c",
+          "preparation": {
+            "version": "full-act-v1",
+            "source_hash": "7c9183b56e7c21a7cbd003140f91d0bacf3547b938dc5fe5dc2d289c58ade38c",
+            "raw_chars": 18083,
+            "prepared_chars": 18083,
+            "source_url": "https://centralny--tum.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=238086257&case_uid=807a27b2-d098-4bbc-a604-8cf2240e0901&delo_id=1540005&new=0",
+            "court_domain": "centralny--tum.sudrf.ru",
+            "received_at": "2026-11-24T02:30:19+00:00",
+            "case_number": "2-4213/2026",
+            "stage": "first_instance",
+            "judicial_uid": "72RS0025-01-2026-001907-46",
+            "identity_check": "matched_uid",
+            "status": "ready"
+          }
+        }
       },
       "appeal": null,
       "import": {
@@ -21301,7 +21323,29 @@
         "act_notification_kind": "new_publication",
         "act_received_at": "2026-11-23T07:16:41+00:00",
         "act_source_url": "https://centralny--tum.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=238086497&case_uid=5b55cad0-b1cf-4525-bcb9-d37d0ed8b57e&delo_id=1540005&new=0",
-        "act_decision_date": "15.07.2026"
+        "act_decision_date": "15.07.2026",
+        "act_analysis": {
+          "html": "<p><b>Почему:</b> Суд признал денежные средства на счете умершей выморочным имуществом, так как наследники в установленный законом срок не вступили в наследство и не совершили действий, свидетельствующих о его фактическом принятии, что подтверждено справкой нотариуса об отсутствии обращений. В силу пункта 2 статьи 1151 ГК РФ и пункта 50 Постановления Пленума ВС РФ № 9 такое имущество со дня открытия наследства переходит в собственность Российской Федерации без акта принятия, что стало основанием для удовлетворения иска прокурора.</p>",
+          "source": "llm_summary",
+          "act_date": "15.07.2026",
+          "generated_at": "2026-11-24T03:45:25+00:00",
+          "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+          "source_hash": "1e751ba325fe60905f0153e4ae0290cb87f15c5a15d6d0839b55da5acad2f38d",
+          "preparation": {
+            "version": "full-act-v1",
+            "source_hash": "1e751ba325fe60905f0153e4ae0290cb87f15c5a15d6d0839b55da5acad2f38d",
+            "raw_chars": 18039,
+            "prepared_chars": 18039,
+            "source_url": "https://centralny--tum.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=238086497&case_uid=5b55cad0-b1cf-4525-bcb9-d37d0ed8b57e&delo_id=1540005&new=0",
+            "court_domain": "centralny--tum.sudrf.ru",
+            "received_at": "2026-11-23T07:16:41+00:00",
+            "case_number": "2-4263/2026",
+            "stage": "first_instance",
+            "judicial_uid": "72RS0025-01-2026-001910-37",
+            "identity_check": "matched_uid",
+            "status": "ready"
+          }
+        }
       },
       "appeal": null,
       "import": {
