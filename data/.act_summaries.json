@@ -1377,5 +1377,46 @@
       "status": "ready"
     },
     "generated_at": "2026-11-24T03:45:43+00:00"
+  },
+  "1f8ada3bc1133210": {
+    "summary": "Суд отказал в отмене решения финансового уполномоченного, установив, что пакет услуг «Домклик Плюс» с обязательной ежегодной платой фактически представляет собой взимание вознаграждения за согласование банком сниженной процентной ставки, что является его обязанностью и не создаёт для заёмщика отдельного имущественного блага. Условие о повышении ставки при отказе от пакета подтверждает, что плата за «Свою ставку Плюс» является скрытой дополнительной комиссией за кредит, установленной в твёрдой сумме, что противоречит ст. 819 ГК РФ и ст. 5 Закона № 353-ФЗ.",
+    "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+    "attempts": [
+      {
+        "provider": "openrouter",
+        "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "status": "answer_too_long",
+        "context_limit": 1000000,
+        "input_token_upper_bound": 55169,
+        "output_reserve": 1024,
+        "token_estimate": "utf8_bytes_upper_bound"
+      },
+      {
+        "provider": "openrouter",
+        "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "status": "ready",
+        "context_limit": 1000000,
+        "input_token_upper_bound": 55169,
+        "output_reserve": 1024,
+        "token_estimate": "utf8_bytes_upper_bound"
+      }
+    ],
+    "fallback": false,
+    "stage": "first_instance",
+    "preparation": {
+      "version": "full-act-v1",
+      "source_hash": "563eb9494a33a74952b3e7fac509cf424333e4a9ecdb6c69bd72e9ce78c6e27b",
+      "raw_chars": 27313,
+      "prepared_chars": 27313,
+      "source_url": "https://leninsky--tum.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=248391788&case_uid=c56a97a6-30a2-43c3-a06b-25071828fe53&delo_id=1540005&new=0",
+      "court_domain": "leninsky--tum.sudrf.ru",
+      "received_at": "2026-11-27T03:02:01+00:00",
+      "case_number": "2-8168/2026",
+      "stage": "first_instance",
+      "judicial_uid": "",
+      "identity_check": "matched_header",
+      "status": "ready"
+    },
+    "generated_at": "2026-11-27T03:45:28+00:00"
   }
 }
