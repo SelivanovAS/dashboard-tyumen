@@ -4,9 +4,9 @@
   "smart_skip": true,
   "totals": {
     "total": 576,
-    "parsed": 1,
-    "skip": 564,
-    "failed": 11,
+    "parsed": 8,
+    "skip": 565,
+    "failed": 3,
     "no_card": 0,
     "not_in_queue": 0,
     "intake_new": 0
@@ -2677,14 +2677,16 @@
       "last_checked_at": "2026-11-26"
     },
     {
-      "outcome": "fetch_http",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "HTTP-ошибка при загрузке карточки",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
-      "events": [],
-      "changed": false,
+      "events": [
+        "fi_hearing_new"
+      ],
+      "changed": true,
       "left_track": false,
       "archived": false,
       "key": "kalininsky--tum.sudrf.ru|2-7045/2026",
@@ -2692,7 +2694,7 @@
       "court": "Калининский районный суд г. Тюмени",
       "court_domain": "kalininsky--tum.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-08"
+      "last_checked_at": "2026-11-27"
     },
     {
       "outcome": "skip",
@@ -3613,9 +3615,9 @@
       "last_checked_at": "2026-11-23"
     },
     {
-      "outcome": "fetch_http",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "HTTP-ошибка при загрузке карточки",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -3628,7 +3630,7 @@
       "court": "Ленинский районный суд г. Тюмени",
       "court_domain": "leninsky--tum.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-11-26"
+      "last_checked_at": "2026-11-27"
     },
     {
       "outcome": "skip",
@@ -5413,9 +5415,9 @@
       "last_checked_at": "2026-11-27"
     },
     {
-      "outcome": "fetch_http",
+      "outcome": "fetch_blocked",
       "reason": "",
-      "reason_ru": "HTTP-ошибка при загрузке карточки",
+      "reason_ru": "портал суда отдал заглушку/блокировку вместо карточки",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -7735,14 +7737,16 @@
       "last_checked_at": "2026-10-30"
     },
     {
-      "outcome": "fetch_http",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "HTTP-ошибка при загрузке карточки",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
-      "events": [],
-      "changed": false,
+      "events": [
+        "fi_hearing_postponed"
+      ],
+      "changed": true,
       "left_track": false,
       "archived": false,
       "key": "tobolskygor--tum.sudrf.ru|2-1572/2026",
@@ -7750,7 +7754,7 @@
       "court": "Тобольский городской суд",
       "court_domain": "tobolskygor--tum.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-11-26"
+      "last_checked_at": "2026-11-27"
     },
     {
       "outcome": "skip",
@@ -7951,9 +7955,9 @@
       "last_checked_at": "2026-11-26"
     },
     {
-      "outcome": "fetch_http",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "HTTP-ошибка при загрузке карточки",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -7966,7 +7970,7 @@
       "court": "Тюменский районный суд",
       "court_domain": "tumensky--tum.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-11-26"
+      "last_checked_at": "2026-11-27"
     },
     {
       "outcome": "skip",
@@ -8221,9 +8225,9 @@
       "last_checked_at": "2026-10-20"
     },
     {
-      "outcome": "fetch_http",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "HTTP-ошибка при загрузке карточки",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -8236,7 +8240,7 @@
       "court": "Тюменский районный суд",
       "court_domain": "tumensky--tum.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-11-26"
+      "last_checked_at": "2026-11-27"
     },
     {
       "outcome": "skip",
@@ -8545,9 +8549,9 @@
       "last_checked_at": "2026-11-27"
     },
     {
-      "outcome": "parsed",
-      "reason": "",
-      "reason_ru": "",
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -8689,9 +8693,9 @@
       "last_checked_at": "2026-11-24"
     },
     {
-      "outcome": "court_breaker",
+      "outcome": "fetch_http",
       "reason": "",
-      "reason_ru": "суд снят с обхода предохранителем — карточки не читаются (заглушка/код/сеть), дело перечитается следующим прогоном",
+      "reason_ru": "HTTP-ошибка при загрузке карточки",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -8887,9 +8891,9 @@
       "last_checked_at": "2026-11-27"
     },
     {
-      "outcome": "fetch_http",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "HTTP-ошибка при загрузке карточки",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -8902,7 +8906,7 @@
       "court": "Ялуторовский районный суд",
       "court_domain": "yalutorovsky--tum.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-11-26"
+      "last_checked_at": "2026-11-27"
     },
     {
       "outcome": "skip",
@@ -8959,40 +8963,46 @@
       "last_checked_at": "2026-11-24"
     },
     {
-      "outcome": "court_breaker",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "суд снят с обхода предохранителем — карточки не читаются (заглушка/код/сеть), дело перечитается следующим прогоном",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
-      "events": [],
-      "changed": false,
+      "events": [
+        "fi_resolved",
+        "fi_status_change"
+      ],
+      "changed": true,
       "left_track": false,
       "archived": false,
       "key": "kalininsky--tum.sudrf.ru|2-6794/2026",
       "number": "2-6794/2026",
       "court": "Калининский районный суд г. Тюмени",
       "court_domain": "kalininsky--tum.sudrf.ru",
-      "case_status": "В производстве",
-      "last_checked_at": "2026-11-26"
+      "case_status": "Решено",
+      "last_checked_at": "2026-11-27"
     },
     {
-      "outcome": "court_breaker",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "суд снят с обхода предохранителем — карточки не читаются (заглушка/код/сеть), дело перечитается следующим прогоном",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
-      "events": [],
-      "changed": false,
+      "events": [
+        "fi_resolved",
+        "fi_status_change"
+      ],
+      "changed": true,
       "left_track": false,
       "archived": false,
       "key": "kalininsky--tum.sudrf.ru|2-6987/2026",
       "number": "2-6987/2026",
       "court": "Калининский районный суд г. Тюмени",
       "court_domain": "kalininsky--tum.sudrf.ru",
-      "case_status": "В производстве",
-      "last_checked_at": "2026-11-26"
+      "case_status": "Решено",
+      "last_checked_at": "2026-11-27"
     },
     {
       "outcome": "skip",
@@ -10381,5 +10391,5 @@
       "last_checked_at": "2026-11-23"
     }
   ],
-  "updated_at": "2026-11-27T12:17:38+05:00"
+  "updated_at": "2026-11-27T16:14:10+05:00"
 }
